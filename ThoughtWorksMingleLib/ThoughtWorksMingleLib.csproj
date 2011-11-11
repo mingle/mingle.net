@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{85CFE559-DFB3-4CC0-BBA3-4E5B5A9634B5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ThoughtWorksMingleLib</RootNamespace>
+    <AssemblyName>ThoughtWorksMingleLib</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\build\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>..\build\ThoughtWorksMingleLib.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\build\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>..\build\ThoughtWorksMingleLib.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>sgKey.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="IMingleProject.cs" />
+    <Compile Include="IMingleServer.cs" />
+    <Compile Include="IMingleXmlObject.cs" />
+    <Compile Include="IMingleXmlObjectCollection.cs" />
+    <Compile Include="Mingle.cs" />
+    <Compile Include="MingleCard.cs" />
+    <Compile Include="MingleCardCollection.cs" />
+    <Compile Include="MingleCardProperty.cs" />
+    <Compile Include="MingleCardPropertyCollection.cs" />
+    <Compile Include="MingleCardType.cs" />
+    <Compile Include="MingleCardTypeCollection.cs" />
+    <Compile Include="MingleEventsCategory.cs" />
+    <Compile Include="MingleEventsChange.cs" />
+    <Compile Include="MingleEventsElementNillableValue.cs" />
+    <Compile Include="MingleEventsEntryContent.cs" />
+    <Compile Include="MingleEventsFeed.cs" />
+    <Compile Include="MingleEventsFeedEntry.cs" />
+    <Compile Include="MingleEventsLink.cs" />
+    <Compile Include="MingleEventsPropertyDefinition.cs" />
+    <Compile Include="MissingMingleConnectionInformationException.cs" />
+    <Compile Include="MingleFavorite.cs" />
+    <Compile Include="MingleFavoriteCollection.cs" />
+    <Compile Include="MingleFilter.cs" />
+    <Compile Include="MingleMurmur.cs" />
+    <Compile Include="MingleNotRunningException.cs" />
+    <Compile Include="MingleProject.cs" />
+    <Compile Include="MingleProjectMemberCollection.cs" />
+    <Compile Include="MinglePropertyDefinition.cs" />
+    <Compile Include="MinglePropertyDefinitionCollection.cs" />
+    <Compile Include="MinglePropertyValue.cs" />
+    <Compile Include="MingleResult.cs" />
+    <Compile Include="MingleServer.cs" />
+    <Compile Include="MingleProjectMember.cs" />
+    <Compile Include="MingleTransition.cs" />
+    <Compile Include="MingleTransitionCollection.cs" />
+    <Compile Include="MingleUnauthorizedException.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="PropertyDefinitionSet.cs" />
+    <Compile Include="XElementWrapper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="sgKey.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ThoughtWorksCoreLib\ThoughtWorksCoreLib.csproj">
+      <Project>{CCAB46BA-7559-4630-845C-8BFA38AEC2F0}</Project>
+      <Name>ThoughtWorksCoreLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

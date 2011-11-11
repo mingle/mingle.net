@@ -1,0 +1,18 @@
+# ignore these files
+*.user
+*.suo
+*.docstates
+*.g.i.cs
+*.g.cs
+*.baml
+*.tlog
+*.lref
+*.cache
+obj/
+TestResults/
+*Re[sS]harper*.*
+_Re[sS]harper*/
+*Doc.xml
+vendor/ironruby
+.bundle
+build

@@ -1,0 +1,45 @@
+require 'rspec/core/rake_task'
+
+apisln = 'StudiosApi.sln'
+cfg = ENV["CONFIG"]
+dotnet = ENV["DOTNETPATH"]
+vspath = ENV["VSPATH"]
+tfsTestContainer = './TfsSynchronizer/build/tests/TestSynchronizer.dll'
+tfsTestSettings = './TfsSynchronizer/Local.testsettings'
+
+task :build => [:clean, :compile, :spec]
+
+task :compile do
+	puts "Building '#{apisln}' using '#{cfg}' configuration."
+	sh "#{dotnet}msbuild.exe /t:Rebuild /p:configuration=#{cfg} #{apisln}"
+end
+
+task :clean do
+	clean 'build'
+	sh "#{dotnet}msbuild.exe /t:Clean /p:configuration=#{cfg} #{apisln}"
+end
+
+task :quick_compile do
+	puts "Building '#{apisln}' using '#{cfg}' configuration."
+	sh "#{dotnet}msbuild.exe /p:configuration=#{cfg} #{apisln}"
+end
+
+task :compilenoconfig do
+	puts "Building '#{apisln}'."
+	sh "#{dotnet}msbuild.exe /t:Rebuild #{apisln}"
+end
+
+RSpec::Core::RakeTask.new(:spec) do |t|
+  t.skip_bundler = true
+end
+
+task :install do
+	clean '.bundle'
+	mkdir 'vendor' unless File.exists? 'vendor'
+	sh 'bundle install --path vendor'
+end
+
+def clean path
+	rm_r path if File.exists? path
+end
+

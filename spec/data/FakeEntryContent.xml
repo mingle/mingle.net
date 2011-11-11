@@ -1,0 +1,79 @@
+﻿<content type="application/vnd.mingle+xml">
+  <changes xmlns="http://www.thoughtworks-studios.com/ns/mingle">
+    <change type="card-creation"/>
+    <change type="card-type-change">
+      <old_value nil="true"></old_value>
+      <new_value>
+        <card_type url="http://frodo:8080/api/v2/projects/test/card_types/42.xml">
+          <name>Task</name>
+        </card_type>
+      </new_value>
+    </change>
+    <change type="name-change">
+      <old_value nil="true"></old_value>
+      <new_value>54: Create UI</new_value>
+    </change>
+    <change type="property-change">
+      <property_definition url="http://frodo:8080/api/v2/projects/test/property_definitions/265.xml">
+        <name>Hours Remaining</name>
+        <position nil="true"></position>
+        <data_type>numeric</data_type>
+        <is_numeric type="boolean">true</is_numeric>
+      </property_definition>
+      <old_value nil="true"></old_value>
+      <new_value>1</new_value>
+    </change>
+    <change type="property-change">
+      <property_definition url="http://frodo:8080/api/v2/projects/test/property_definitions/253.xml">
+        <name>Task Status</name>
+        <position nil="true"></position>
+        <data_type>string</data_type>
+        <is_numeric type="boolean">false</is_numeric>
+      </property_definition>
+      <old_value nil="true"></old_value>
+      <new_value>New</new_value>
+    </change>
+    <change type="property-change">
+      <property_definition url="http://frodo:8080/api/v2/projects/test/property_definitions/247.xml">
+        <name>Sprint</name>
+        <position type="integer">2</position>
+        <data_type>card</data_type>
+        <is_numeric type="boolean">false</is_numeric>
+      </property_definition>
+      <old_value nil="true"></old_value>
+      <new_value>
+        <card url="http://frodo:8080/api/v2/projects/test/cards/3.xml">
+          <number type="integer">3</number>
+        </card>
+      </new_value>
+    </change>
+    <change type="property-change">
+      <property_definition url="http://frodo:8080/api/v2/projects/test/property_definitions/246.xml">
+        <name>Release</name>
+        <position type="integer">1</position>
+        <data_type>card</data_type>
+        <is_numeric type="boolean">false</is_numeric>
+      </property_definition>
+      <old_value nil="true"></old_value>
+      <new_value>
+        <card url="http://frodo:8080/api/v2/projects/test/cards/1.xml">
+          <number type="integer">1</number>
+        </card>
+      </new_value>
+    </change>
+    <change type="property-change">
+      <property_definition url="http://frodo:8080/api/v2/projects/test/property_definitions/245.xml">
+        <name>Story</name>
+        <position type="integer">3</position>
+        <data_type>card</data_type>
+        <is_numeric type="boolean">false</is_numeric>
+      </property_definition>
+      <old_value nil="true"></old_value>
+      <new_value>
+        <card url="http://frodo:8080/api/v2/projects/test/cards/54.xml">
+          <number type="integer">54</number>
+        </card>
+      </new_value>
+    </change>
+  </changes>
+</content>

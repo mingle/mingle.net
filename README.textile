@@ -1,0 +1,41 @@
+h1. .NET Client Library for Mingle's RESTful API
+
+h2. Overview
+
+This library provides a call-level API for .NET wrapping Mingle's RESTful API. It's useful when constructing rich clients for Mingle or using Mingle.
+
+h2. Dependencies
+
+h3. Required
+
+If you are building inside Visual Studio 2010 then you have all the required dependencies.
+
+* "Microsoft .NET 4.0 Framework Client Profile":http://www.microsoft.com/download/en/details.aspx?id=24872 is the minimum run-time framework.
+* MSBuild
+* MSTest
+
+h3. Optional
+
+* "Sandcastle Help File Builder":http://shfb.codeplex.com/ for building help.
+
+h3. Bundled in Tools Folder
+
+* IronRuby 1.0 (required for running the tests and included with the source code)
+* Microsoft Dynamic Language Runtime - DLR (required for running the tests and included with the source code)
+
+h2. Documentation
+
+You can find documentation for the in the Help folder. "A chm formatted file for the help viewer is here":https://github.com/ThoughtWorksStudios/Mingle.NET/blob/master/Help/TW.NET.chm.
+Documentation is built using "Sandcastle Help File Builder":http://shfb.codeplex.com/.
+
+h2. Building Mingle.NET
+
+You can build and test Mingle.NET from the command line using the build.bat batch file. Build.bat drives the build setting environment variables (buildvars.bat) and compilation/test (rakefile). Everything required to run a command-line build and test is included with the source. 
+* Open a command line window, navigate to the directory where you placed the source and run "build".
+
+h2. Tests
+
+Tests for Mingle.NET are written in Ruby using the rspec gem. To run them from the command line:
+
+* Run buildvars.bat to establish the environment. You may need to adjust the settingsin buildvars.bat depending on the locations of .NET 4.0, msbuild and mstest on you computer.
+* "rake spec"

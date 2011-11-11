@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThoughtWorksCoreLib", "ThoughtWorksCoreLib\ThoughtWorksCoreLib.csproj", "{CCAB46BA-7559-4630-845C-8BFA38AEC2F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThoughtWorksMingleLib", "ThoughtWorksMingleLib\ThoughtWorksMingleLib.csproj", "{85CFE559-DFB3-4CC0-BBA3-4E5B5A9634B5}"
+EndProject
+Project("{B373B46A-B089-44D7-96CA-CD150D098BC8}") = "spec", "spec\spec.rbproj", "{0F95F348-C913-4AFA-90E9-0BB982DD3BA1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{87997511-32A2-423D-81DC-AD462D091794}"
+	ProjectSection(SolutionItems) = preProject
+		build.bat = build.bat
+		buildvars.bat = buildvars.bat
+		documentation.shfbproj = documentation.shfbproj
+		Gemfile = Gemfile
+		Gemfile.lock = Gemfile.lock
+		Local.testsettings = Local.testsettings
+		rakefile = rakefile
+		StudiosApi.vsmdi = StudiosApi.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{717ED1AA-F180-40D3-8A10-DD9AD6579D7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestMingleLib", "TestMingleLib\TestMingleLib.csproj", "{65FF4BCC-BBB4-49C5-847F-F620DB8442B1}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = StudiosApi.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCAB46BA-7559-4630-845C-8BFA38AEC2F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCAB46BA-7559-4630-845C-8BFA38AEC2F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCAB46BA-7559-4630-845C-8BFA38AEC2F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCAB46BA-7559-4630-845C-8BFA38AEC2F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85CFE559-DFB3-4CC0-BBA3-4E5B5A9634B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85CFE559-DFB3-4CC0-BBA3-4E5B5A9634B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85CFE559-DFB3-4CC0-BBA3-4E5B5A9634B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85CFE559-DFB3-4CC0-BBA3-4E5B5A9634B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F95F348-C913-4AFA-90E9-0BB982DD3BA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F95F348-C913-4AFA-90E9-0BB982DD3BA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65FF4BCC-BBB4-49C5-847F-F620DB8442B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65FF4BCC-BBB4-49C5-847F-F620DB8442B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65FF4BCC-BBB4-49C5-847F-F620DB8442B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65FF4BCC-BBB4-49C5-847F-F620DB8442B1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

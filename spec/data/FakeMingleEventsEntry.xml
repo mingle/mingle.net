@@ -1,0 +1,23 @@
+﻿<entry>
+  <id>http://frodo:8080/projects/test/events/index/1971</id>
+  <title>Task #79 45: Write tests changed</title>
+  <updated>2011-09-20T21:15:40Z</updated>
+  <author>
+    <name>Mark Richter</name>
+    <uri>http://frodo:8080/api/v2/users/1.xml</uri>
+  </author>
+  <link href="http://frodo:8080/api/v2/projects/test/cards/79.xml" rel="http://www.thoughtworks-studios.com/ns/mingle#event-source" type="application/vnd.mingle+xml" title="Task #79"/>
+  <link href="http://frodo:8080/projects/test/cards/79" rel="http://www.thoughtworks-studios.com/ns/mingle#event-source" type="text/html" title="Task #79"/>
+  <link href="http://frodo:8080/api/v2/projects/test/cards/79.xml?version=3" rel="http://www.thoughtworks-studios.com/ns/mingle#version" type="application/vnd.mingle+xml" title="Task #79 (v3)"/>
+  <link href="http://frodo:8080/projects/test/cards/79?version=3" rel="http://www.thoughtworks-studios.com/ns/mingle#version" type="text/html" title="Task #79 (v3)"/>
+  <category term="description-change" scheme="http://www.thoughtworks-studios.com/ns/mingle#categories"/>
+  <category term="card" scheme="http://www.thoughtworks-studios.com/ns/mingle#categories"/>
+  <content type="application/vnd.mingle+xml">
+    <changes xmlns="http://www.thoughtworks-studios.com/ns/mingle">
+      <change type="description-change">
+      </change>
+    </changes>
+  </content>
+</entry>
+
+

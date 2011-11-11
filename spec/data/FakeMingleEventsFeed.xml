@@ -1,0 +1,884 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:mingle="http://www.thoughtworks-studios.com/ns/mingle">
+  <title>Mingle Events: test</title>
+  <id>http://frodo:8080/api/v2/projects/test/feeds/events.xml</id>
+  <link href="http://frodo:8080/api/v2/projects/test/feeds/events.xml" rel="current"/>
+  <link href="http://frodo:8080/api/v2/projects/test/feeds/events.xml" rel="self"/>
+  <link href="http://frodo:8080/api/v2/projects/test/feeds/events.xml?page=3" rel="next"/>
+  <updated>2011-09-20T21:15:40Z</updated>
+  <entry>
+    <id>http://frodo:8080/projects/test/events/index/1971</id>
+    <title>Task #79 45: Write tests changed</title>
+    <updated>2011-09-20T21:15:40Z</updated>
+    <author>
+      <name>Mark Richter</name>
+      <uri>http://frodo:8080/api/v2/users/1.xml</uri>
+    </author>
+    <link href="http://frodo:8080/api/v2/projects/test/cards/79.xml" rel="http://www.thoughtworks-studios.com/ns/mingle#event-source" type="application/vnd.mingle+xml" title="Task #79"/>
+    <link href="http://frodo:8080/projects/test/cards/79" rel="http://www.thoughtworks-studios.com/ns/mingle#event-source" type="text/html" title="Task #79"/>
+    <link href="http://frodo:8080/api/v2/projects/test/cards/79.xml?version=3" rel="http://www.thoughtworks-studios.com/ns/mingle#version" type="application/vnd.mingle+xml" title="Task #79 (v3)"/>
+    <link href="http://frodo:8080/projects/test/cards/79?version=3" rel="http://www.thoughtworks-studios.com/ns/mingle#version" type="text/html" title="Task #79 (v3)"/>
+    <category term="card" scheme="http://www.thoughtworks-studios.com/ns/mingle#categories"/>
+    <category term="description-change" scheme="http://www.thoughtworks-studios.com/ns/mingle#categories"/>
+    <content type="application/vnd.mingle+xml">
+      <changes xmlns="http://www.thoughtworks-studios.com/ns/mingle">
+        <change type="description-change">
+        </change>
+      </changes>
+    </content>
+  </entry>
+  <entry>
+    <id>http://frodo:8080/projects/test/events/index/1970</id>
+    <title>Task #79 45: Write tests changed</title>
+    <updated>2011-09-20T21:10:12Z</updated>
+    <author>
+      <name>Mark Richter</name>
+      <uri>http://frodo:8080/api/v2/users/1.xml</uri>
+    </author>
+    <link href="http://frodo:8080/api/v2/projects/test/cards/79.xml" rel="http://www.thoughtworks-studios.com/ns/mingle#event-source" type="application/vnd.mingle+xml" title="Task #79"/>
+    <link href="http://frodo:8080/projects/test/cards/79" rel="http://www.thoughtworks-studios.com/ns/mingle#event-source" type="text/html" title="Task #79"/>
+    <link href="http://frodo:8080/api/v2/projects/test/cards/79.xml?version=2" rel="http://www.thoughtworks-studios.com/ns/mingle#version" type="application/vnd.mingle+xml" title="Task #79 (v2)"/>
+    <link href="http://frodo:8080/projects/test/cards/79?version=2" rel="http://www.thoughtworks-studios.com/ns/mingle#version" type="text/html" title="Task #79 (v2)"/>
+    <category term="card" scheme="http://www.thoughtworks-studios.com/ns/mingle#categories"/>
+    <category term="property-change" scheme="http://www.thoughtworks-studios.com/ns/mingle#categories"/>
+    <content type="application/vnd.mingle+xml">
+      <changes xmlns="http://www.thoughtworks-studios.com/ns/mingle">
+        <change type="property-change">
+          <property_definition url="http://frodo:8080/api/v2/projects/test/property_definitions/377.xml">
+            <name>Tfs Work Item</name>
+            <position nil="true"></position>
+            <data_type>numeric</data_type>
+            <is_numeric type="boolean">true</is_numeric>
+          </property_definition>
+          <old_value nil="true"></old_value>
+          <new_value>36</new_value>
+        </change>
+      </changes>
+    </content>
+  </entry>
+  <entry>
+    <id>http://frodo:8080/projects/test/events/index/1969</id>
+    <title>Property definition changed</title>
+    <updated>2011-09-20T19:12:41Z</updated>
+    <author>
+      <name>Mark Richter</name>
+      <uri>http://frodo:8080/api/v2/users/1.xml</uri>
+    </author>
+    <link href="http://frodo:8080/api/v2/projects/test/property_definitions/377.xml" rel="http://www.thoughtworks-studios.com/ns/mingle#event-source" type="application/vnd.mingle+xml"/>
+    <link href="http://frodo:8080/projects/test/property_definitions/377" rel="http://www.thoughtworks-studios.com/ns/mingle#event-source" type="text/html"/>
+    <category term="feed-correction" scheme="http://www.thoughtworks-studios.com/ns/mingle#categories"/>
+    <category term="property-change" scheme="http://www.thoughtworks-studios.com/ns/mingle#categories"/>
+    <content type="application/vnd.mingle+xml">
+      <changes xmlns="http://www.thoughtworks-studios.com/ns/mingle">
+        <change type="property-rename">
+          <property_definition url="http://frodo:8080/api/v2/projects/test/property_definitions/377.xml"/>
+          <old_value>TfsWorkItemNumber</old_value>
+          <new_value>Tfs Work Item</new_value>
+        </change>
+      </changes>
+    </content>
+  </entry>
+  <entry>
+    <id>http://frodo:8080/projects/test/events/index/1783</id>
+    <title>Page How to use this template created</title>
+    <updated>2011-08-12T17:59:41Z</updated>
+    <author>
+      <name>Mark Richter</name>
+      <uri>http://frodo:8080/api/v2/users/1.xml</uri>
+    </author>
+    <link href="http://frodo:8080/api/v2/projects/test/wiki/How_to_use_this_template.xml" rel="http://www.thoughtworks-studios.com/ns/mingle#event-source" type="application/vnd.mingle+xml" title="How to use this template"/>
+    <link href="http://frodo:8080/projects/test/wiki/How%20to%20use%20this%20template" rel="http://www.thoughtworks-studios.com/ns/mingle#event-source" type="text/html" title="How to use this template"/>
+    <link href="http://frodo:8080/api/v2/projects/test/wiki/How_to_use_this_template.xml?version=1" rel="http://www.thoughtworks-studios.com/ns/mingle#version" type="application/vnd.mingle+xml" title="How to use this template (v1)"/>
+    <link href="http://frodo:8080/projects/test/wiki/How%20to%20use%20this%20template?version=1" rel="http://www.thoughtworks-studios.com/ns/mingle#version" type="text/html" title="How to use this template (v1)"/>
+    <category term="page" scheme="http://www.thoughtworks-studios.com/ns/mingle#categories"/>
+    <category term="page-creation" scheme="http://www.thoughtworks-studios.com/ns/mingle#categories"/>
+    <category term="description-change" scheme="http://www.thoughtworks-studios.com/ns/mingle#categories"/>
+    <category term="name-change" scheme="http://www.thoughtworks-studios.com/ns/mingle#categories"/>
+    <content type="application/vnd.mingle+xml">
+      <changes xmlns="http://www.thoughtworks-studios.com/ns/mingle">
+        <change type="page-creation"/>
+        <change type="description-change">
+        </change>
+        <change type="name-change">
+          <old_value nil="true"></old_value>
+          <new_value>How to use this template</new_value>
+        </change>
+      </changes>
+    </content>
+  </entry>
+  <entry>
+    <id>http://frodo:8080/projects/test/events/index/1782</id>
+    <title>Sprint #4 Sprint 2 created</title>
+    <updated>2011-08-12T17:59:41Z</updated>
+    <author>
+      <name>Mark Richter</name>
+      <uri>http://frodo:8080/api/v2/users/1.xml</uri>
+    </author>
+    <link href="http://frodo:8080/api/v2/projects/test/cards/4.xml" rel="http://www.thoughtworks-studios.com/ns/mingle#event-source" type="application/vnd.mingle+xml" title="Sprint #4"/>
+    <link href="http://frodo:8080/projects/test/cards/4" rel="http://www.thoughtworks-studios.com/ns/mingle#event-source" type="text/html" title="Sprint #4"/>
+    <link href="http://frodo:8080/api/v2/projects/test/cards/4.xml?version=1" rel="http://www.thoughtworks-studios.com/ns/mingle#version" type="application/vnd.mingle+xml" title="Sprint #4 (v1)"/>
+    <link href="http://frodo:8080/projects/test/cards/4?version=1" rel="http://www.thoughtworks-studios.com/ns/mingle#version" type="text/html" title="Sprint #4 (v1)"/>
+    <category term="card" scheme="http://www.thoughtworks-studios.com/ns/mingle#categories"/>
+    <category term="card-creation" scheme="http://www.thoughtworks-studios.com/ns/mingle#categories"/>
+    <category term="card-type-change" scheme="http://www.thoughtworks-studios.com/ns/mingle#categories"/>
+    <category term="description-change" scheme="http://www.thoughtworks-studios.com/ns/mingle#categories"/>
+    <category term="name-change" scheme="http://www.thoughtworks-studios.com/ns/mingle#categories"/>
+    <category term="property-change" scheme="http://www.thoughtworks-studios.com/ns/mingle#categories"/>
+    <content type="application/vnd.mingle+xml">
+      <changes xmlns="http://www.thoughtworks-studios.com/ns/mingle">
+        <change type="card-creation"/>
+        <change type="card-type-change">
+          <old_value nil="true"></old_value>
+          <new_value>
+            <card_type url="http://frodo:8080/api/v2/projects/test/card_types/43.xml">
+              <name>Sprint</name>
+            </card_type>
+          </new_value>
+        </change>
+        <change type="description-change">
+        </change>
+        <change type="name-change">
+          <old_value nil="true"></old_value>
+          <new_value>Sprint 2</new_value>
+        </change>
+        <change type="property-change">
+          <property_definition url="http://frodo:8080/api/v2/projects/test/property_definitions/267.xml">
+            <name>End Date</name>
+            <position nil="true"></position>
+            <data_type>date</data_type>
+            <is_numeric type="boolean">false</is_numeric>
+          </property_definition>
+          <old_value nil="true"></old_value>
+          <new_value type="date">2011-02-25</new_value>
+        </change>
+        <change type="property-change">
+          <property_definition url="http://frodo:8080/api/v2/projects/test/property_definitions/266.xml">
+            <name>Start Date</name>
+            <position nil="true"></position>
+            <data_type>date</data_type>
+            <is_numeric type="boolean">false</is_numeric>
+          </property_definition>
+          <old_value nil="true"></old_value>
+          <new_value type="date">2011-02-14</new_value>
+        </change>
+        <change type="property-change">
+          <property_definition url="http://frodo:8080/api/v2/projects/test/property_definitions/246.xml">
+            <name>Release</name>
+            <position type="integer">1</position>
+            <data_type>card</data_type>
+            <is_numeric type="boolean">false</is_numeric>
+          </property_definition>
+          <old_value nil="true"></old_value>
+          <new_value>
+            <card url="http://frodo:8080/api/v2/projects/test/cards/1.xml">
+              <number type="integer">1</number>
+            </card>
+          </new_value>
+        </change>
+      </changes>
+    </content>
+  </entry>
+  <entry>
+    <id>http://frodo:8080/projects/test/events/index/1781</id>
+    <title>Sprint #3 Sprint 1 created</title>
+    <updated>2011-08-12T17:59:41Z</updated>
+    <author>
+      <name>Mark Richter</name>
+      <uri>http://frodo:8080/api/v2/users/1.xml</uri>
+    </author>
+    <link href="http://frodo:8080/api/v2/projects/test/cards/3.xml" rel="http://www.thoughtworks-studios.com/ns/mingle#event-source" type="application/vnd.mingle+xml" title="Sprint #3"/>
+    <link href="http://frodo:8080/projects/test/cards/3" rel="http://www.thoughtworks-studios.com/ns/mingle#event-source" type="text/html" title="Sprint #3"/>
+    <link href="http://frodo:8080/api/v2/projects/test/cards/3.xml?version=1" rel="http://www.thoughtworks-studios.com/ns/mingle#version" type="application/vnd.mingle+xml" title="Sprint #3 (v1)"/>
+    <link href="http://frodo:8080/projects/test/cards/3?version=1" rel="http://www.thoughtworks-studios.com/ns/mingle#version" type="text/html" title="Sprint #3 (v1)"/>
+    <category term="card" scheme="http://www.thoughtworks-studios.com/ns/mingle#categories"/>
+    <category term="card-creation" scheme="http://www.thoughtworks-studios.com/ns/mingle#categories"/>
+    <category term="card-type-change" scheme="http://www.thoughtworks-studios.com/ns/mingle#categories"/>
+    <category term="description-change" scheme="http://www.thoughtworks-studios.com/ns/mingle#categories"/>
+    <category term="name-change" scheme="http://www.thoughtworks-studios.com/ns/mingle#categories"/>
+    <category term="property-change" scheme="http://www.thoughtworks-studios.com/ns/mingle#categories"/>
+    <content type="application/vnd.mingle+xml">
+      <changes xmlns="http://www.thoughtworks-studios.com/ns/mingle">
+        <change type="card-creation"/>
+        <change type="card-type-change">
+          <old_value nil="true"></old_value>
+          <new_value>
+            <card_type url="http://frodo:8080/api/v2/projects/test/card_types/43.xml">
+              <name>Sprint</name>
+            </card_type>
+          </new_value>
+        </change>
+        <change type="description-change">
+        </change>
+        <change type="name-change">
+          <old_value nil="true"></old_value>
+          <new_value>Sprint 1</new_value>
+        </change>
+        <change type="property-change">
+          <property_definition url="http://frodo:8080/api/v2/projects/test/property_definitions/267.xml">
+            <name>End Date</name>
+            <position nil="true"></position>
+            <data_type>date</data_type>
+            <is_numeric type="boolean">false</is_numeric>
+          </property_definition>
+          <old_value nil="true"></old_value>
+          <new_value type="date">2011-02-11</new_value>
+        </change>
+        <change type="property-change">
+          <property_definition url="http://frodo:8080/api/v2/projects/test/property_definitions/266.xml">
+            <name>Start Date</name>
+            <position nil="true"></position>
+            <data_type>date</data_type>
+            <is_numeric type="boolean">false</is_numeric>
+          </property_definition>
+          <old_value nil="true"></old_value>
+          <new_value type="date">2011-01-31</new_value>
+        </change>
+        <change type="property-change">
+          <property_definition url="http://frodo:8080/api/v2/projects/test/property_definitions/246.xml">
+            <name>Release</name>
+            <position type="integer">1</position>
+            <data_type>card</data_type>
+            <is_numeric type="boolean">false</is_numeric>
+          </property_definition>
+          <old_value nil="true"></old_value>
+          <new_value>
+            <card url="http://frodo:8080/api/v2/projects/test/cards/1.xml">
+              <number type="integer">1</number>
+            </card>
+          </new_value>
+        </change>
+      </changes>
+    </content>
+  </entry>
+  <entry>
+    <id>http://frodo:8080/projects/test/events/index/1780</id>
+    <title>Page Overview Page created</title>
+    <updated>2011-08-12T17:59:41Z</updated>
+    <author>
+      <name>Mark Richter</name>
+      <uri>http://frodo:8080/api/v2/users/1.xml</uri>
+    </author>
+    <link href="http://frodo:8080/api/v2/projects/test/wiki/Overview_Page.xml" rel="http://www.thoughtworks-studios.com/ns/mingle#event-source" type="application/vnd.mingle+xml" title="Overview Page"/>
+    <link href="http://frodo:8080/projects/test/wiki/Overview%20Page" rel="http://www.thoughtworks-studios.com/ns/mingle#event-source" type="text/html" title="Overview Page"/>
+    <link href="http://frodo:8080/api/v2/projects/test/wiki/Overview_Page.xml?version=1" rel="http://www.thoughtworks-studios.com/ns/mingle#version" type="application/vnd.mingle+xml" title="Overview Page (v1)"/>
+    <link href="http://frodo:8080/projects/test/wiki/Overview%20Page?version=1" rel="http://www.thoughtworks-studios.com/ns/mingle#version" type="text/html" title="Overview Page (v1)"/>
+    <category term="page" scheme="http://www.thoughtworks-studios.com/ns/mingle#categories"/>
+    <category term="page-creation" scheme="http://www.thoughtworks-studios.com/ns/mingle#categories"/>
+    <category term="description-change" scheme="http://www.thoughtworks-studios.com/ns/mingle#categories"/>
+    <category term="name-change" scheme="http://www.thoughtworks-studios.com/ns/mingle#categories"/>
+    <content type="application/vnd.mingle+xml">
+      <changes xmlns="http://www.thoughtworks-studios.com/ns/mingle">
+        <change type="page-creation"/>
+        <change type="description-change">
+        </change>
+        <change type="name-change">
+          <old_value nil="true"></old_value>
+          <new_value>Overview Page</new_value>
+        </change>
+      </changes>
+    </content>
+  </entry>
+  <entry>
+    <id>http://frodo:8080/projects/test/events/index/1779</id>
+    <title>Feature #12 Social Network created</title>
+    <updated>2011-08-12T17:59:41Z</updated>
+    <author>
+      <name>Mark Richter</name>
+      <uri>http://frodo:8080/api/v2/users/1.xml</uri>
+    </author>
+    <link href="http://frodo:8080/api/v2/projects/test/cards/12.xml" rel="http://www.thoughtworks-studios.com/ns/mingle#event-source" type="application/vnd.mingle+xml" title="Feature #12"/>
+    <link href="http://frodo:8080/projects/test/cards/12" rel="http://www.thoughtworks-studios.com/ns/mingle#event-source" type="text/html" title="Feature #12"/>
+    <link href="http://frodo:8080/api/v2/projects/test/cards/12.xml?version=1" rel="http://www.thoughtworks-studios.com/ns/mingle#version" type="application/vnd.mingle+xml" title="Feature #12 (v1)"/>
+    <link href="http://frodo:8080/projects/test/cards/12?version=1" rel="http://www.thoughtworks-studios.com/ns/mingle#version" type="text/html" title="Feature #12 (v1)"/>
+    <category term="card" scheme="http://www.thoughtworks-studios.com/ns/mingle#categories"/>
+    <category term="card-creation" scheme="http://www.thoughtworks-studios.com/ns/mingle#categories"/>
+    <category term="card-type-change" scheme="http://www.thoughtworks-studios.com/ns/mingle#categories"/>
+    <category term="name-change" scheme="http://www.thoughtworks-studios.com/ns/mingle#categories"/>
+    <category term="property-change" scheme="http://www.thoughtworks-studios.com/ns/mingle#categories"/>
+    <content type="application/vnd.mingle+xml">
+      <changes xmlns="http://www.thoughtworks-studios.com/ns/mingle">
+        <change type="card-creation"/>
+        <change type="card-type-change">
+          <old_value nil="true"></old_value>
+          <new_value>
+            <card_type url="http://frodo:8080/api/v2/projects/test/card_types/45.xml">
+              <name>Feature</name>
+            </card_type>
+          </new_value>
+        </change>
+        <change type="name-change">
+          <old_value nil="true"></old_value>
+          <new_value>Social Network</new_value>
+        </change>
+        <change type="property-change">
+          <property_definition url="http://frodo:8080/api/v2/projects/test/property_definitions/280.xml">
+            <name>Percent Complete - Feature</name>
+            <position nil="true"></position>
+            <data_type>numeric</data_type>
+            <is_numeric type="boolean">true</is_numeric>
+          </property_definition>
+          <old_value nil="true"></old_value>
+          <new_value>0.50</new_value>
+        </change>
+        <change type="property-change">
+          <property_definition url="http://frodo:8080/api/v2/projects/test/property_definitions/254.xml">
+            <name>Epic Story</name>
+            <position type="integer">1</position>
+            <data_type>card</data_type>
+            <is_numeric type="boolean">false</is_numeric>
+          </property_definition>
+          <old_value nil="true"></old_value>
+          <new_value>
+            <card url="http://frodo:8080/api/v2/projects/test/cards/15.xml">
+              <number type="integer">15</number>
+            </card>
+          </new_value>
+        </change>
+      </changes>
+    </content>
+  </entry>
+  <entry>
+    <id>http://frodo:8080/projects/test/events/index/1778</id>
+    <title>Epic Story #15 Maintain my personal network created</title>
+    <updated>2011-08-12T17:59:41Z</updated>
+    <author>
+      <name>Mark Richter</name>
+      <uri>http://frodo:8080/api/v2/users/1.xml</uri>
+    </author>
+    <link href="http://frodo:8080/api/v2/projects/test/cards/15.xml" rel="http://www.thoughtworks-studios.com/ns/mingle#event-source" type="application/vnd.mingle+xml" title="Epic Story #15"/>
+    <link href="http://frodo:8080/projects/test/cards/15" rel="http://www.thoughtworks-studios.com/ns/mingle#event-source" type="text/html" title="Epic Story #15"/>
+    <link href="http://frodo:8080/api/v2/projects/test/cards/15.xml?version=1" rel="http://www.thoughtworks-studios.com/ns/mingle#version" type="application/vnd.mingle+xml" title="Epic Story #15 (v1)"/>
+    <link href="http://frodo:8080/projects/test/cards/15?version=1" rel="http://www.thoughtworks-studios.com/ns/mingle#version" type="text/html" title="Epic Story #15 (v1)"/>
+    <category term="card" scheme="http://www.thoughtworks-studios.com/ns/mingle#categories"/>
+    <category term="card-creation" scheme="http://www.thoughtworks-studios.com/ns/mingle#categories"/>
+    <category term="card-type-change" scheme="http://www.thoughtworks-studios.com/ns/mingle#categories"/>
+    <category term="name-change" scheme="http://www.thoughtworks-studios.com/ns/mingle#categories"/>
+    <category term="property-change" scheme="http://www.thoughtworks-studios.com/ns/mingle#categories"/>
+    <content type="application/vnd.mingle+xml">
+      <changes xmlns="http://www.thoughtworks-studios.com/ns/mingle">
+        <change type="card-creation"/>
+        <change type="card-type-change">
+          <old_value nil="true"></old_value>
+          <new_value>
+            <card_type url="http://frodo:8080/api/v2/projects/test/card_types/46.xml">
+              <name>Epic Story</name>
+            </card_type>
+          </new_value>
+        </change>
+        <change type="name-change">
+          <old_value nil="true"></old_value>
+          <new_value>Maintain my personal network</new_value>
+        </change>
+        <change type="property-change">
+          <property_definition url="http://frodo:8080/api/v2/projects/test/property_definitions/281.xml">
+            <name>Percent Complete</name>
+            <position nil="true"></position>
+            <data_type>numeric</data_type>
+            <is_numeric type="boolean">true</is_numeric>
+          </property_definition>
+          <old_value nil="true"></old_value>
+          <new_value>0.22</new_value>
+        </change>
+      </changes>
+    </content>
+  </entry>
+  <entry>
+    <id>http://frodo:8080/projects/test/events/index/1777</id>
+    <title>Story #58 Create Website Profile created</title>
+    <updated>2011-08-12T17:59:41Z</updated>
+    <author>
+      <name>Mark Richter</name>
+      <uri>http://frodo:8080/api/v2/users/1.xml</uri>
+    </author>
+    <link href="http://frodo:8080/api/v2/projects/test/cards/58.xml" rel="http://www.thoughtworks-studios.com/ns/mingle#event-source" type="application/vnd.mingle+xml" title="Story #58"/>
+    <link href="http://frodo:8080/projects/test/cards/58" rel="http://www.thoughtworks-studios.com/ns/mingle#event-source" type="text/html" title="Story #58"/>
+    <link href="http://frodo:8080/api/v2/projects/test/cards/58.xml?version=1" rel="http://www.thoughtworks-studios.com/ns/mingle#version" type="application/vnd.mingle+xml" title="Story #58 (v1)"/>
+    <link href="http://frodo:8080/projects/test/cards/58?version=1" rel="http://www.thoughtworks-studios.com/ns/mingle#version" type="text/html" title="Story #58 (v1)"/>
+    <category term="card" scheme="http://www.thoughtworks-studios.com/ns/mingle#categories"/>
+    <category term="card-creation" scheme="http://www.thoughtworks-studios.com/ns/mingle#categories"/>
+    <category term="card-type-change" scheme="http://www.thoughtworks-studios.com/ns/mingle#categories"/>
+    <category term="description-change" scheme="http://www.thoughtworks-studios.com/ns/mingle#categories"/>
+    <category term="name-change" scheme="http://www.thoughtworks-studios.com/ns/mingle#categories"/>
+    <category term="property-change" scheme="http://www.thoughtworks-studios.com/ns/mingle#categories"/>
+    <content type="application/vnd.mingle+xml">
+      <changes xmlns="http://www.thoughtworks-studios.com/ns/mingle">
+        <change type="card-creation"/>
+        <change type="card-type-change">
+          <old_value nil="true"></old_value>
+          <new_value>
+            <card_type url="http://frodo:8080/api/v2/projects/test/card_types/40.xml">
+              <name>Story</name>
+            </card_type>
+          </new_value>
+        </change>
+        <change type="description-change">
+        </change>
+        <change type="name-change">
+          <old_value nil="true"></old_value>
+          <new_value>Create Website Profile</new_value>
+        </change>
+        <change type="property-change">
+          <property_definition url="http://frodo:8080/api/v2/projects/test/property_definitions/275.xml">
+            <name>Sprint Completed</name>
+            <position nil="true"></position>
+            <data_type>card</data_type>
+            <is_numeric type="boolean">false</is_numeric>
+          </property_definition>
+          <old_value nil="true"></old_value>
+          <new_value>
+            <card url="http://frodo:8080/api/v2/projects/test/cards/3.xml">
+              <number type="integer">3</number>
+            </card>
+          </new_value>
+        </change>
+        <change type="property-change">
+          <property_definition url="http://frodo:8080/api/v2/projects/test/property_definitions/268.xml">
+            <name>Date Analysis Started</name>
+            <position nil="true"></position>
+            <data_type>date</data_type>
+            <is_numeric type="boolean">false</is_numeric>
+          </property_definition>
+          <old_value nil="true"></old_value>
+          <new_value type="date">2011-01-13</new_value>
+        </change>
+        <change type="property-change">
+          <property_definition url="http://frodo:8080/api/v2/projects/test/property_definitions/259.xml">
+            <name>Date Testing Ended</name>
+            <position nil="true"></position>
+            <data_type>date</data_type>
+            <is_numeric type="boolean">false</is_numeric>
+          </property_definition>
+          <old_value nil="true"></old_value>
+          <new_value type="date">2011-01-21</new_value>
+        </change>
+        <change type="property-change">
+          <property_definition url="http://frodo:8080/api/v2/projects/test/property_definitions/258.xml">
+            <name>Date Testing Started</name>
+            <position nil="true"></position>
+            <data_type>date</data_type>
+            <is_numeric type="boolean">false</is_numeric>
+          </property_definition>
+          <old_value nil="true"></old_value>
+          <new_value type="date">2011-01-13</new_value>
+        </change>
+        <change type="property-change">
+          <property_definition url="http://frodo:8080/api/v2/projects/test/property_definitions/255.xml">
+            <name>Feature</name>
+            <position type="integer">2</position>
+            <data_type>card</data_type>
+            <is_numeric type="boolean">false</is_numeric>
+          </property_definition>
+          <old_value nil="true"></old_value>
+          <new_value>
+            <card url="http://frodo:8080/api/v2/projects/test/cards/12.xml">
+              <number type="integer">12</number>
+            </card>
+          </new_value>
+        </change>
+        <change type="property-change">
+          <property_definition url="http://frodo:8080/api/v2/projects/test/property_definitions/254.xml">
+            <name>Epic Story</name>
+            <position type="integer">1</position>
+            <data_type>card</data_type>
+            <is_numeric type="boolean">false</is_numeric>
+          </property_definition>
+          <old_value nil="true"></old_value>
+          <new_value>
+            <card url="http://frodo:8080/api/v2/projects/test/cards/15.xml">
+              <number type="integer">15</number>
+            </card>
+          </new_value>
+        </change>
+        <change type="property-change">
+          <property_definition url="http://frodo:8080/api/v2/projects/test/property_definitions/252.xml">
+            <name>Story Points</name>
+            <position nil="true"></position>
+            <data_type>numeric</data_type>
+            <is_numeric type="boolean">true</is_numeric>
+          </property_definition>
+          <old_value nil="true"></old_value>
+          <new_value>2</new_value>
+        </change>
+        <change type="property-change">
+          <property_definition url="http://frodo:8080/api/v2/projects/test/property_definitions/251.xml">
+            <name>Date Analysis Ended</name>
+            <position nil="true"></position>
+            <data_type>date</data_type>
+            <is_numeric type="boolean">false</is_numeric>
+          </property_definition>
+          <old_value nil="true"></old_value>
+          <new_value type="date">2011-01-13</new_value>
+        </change>
+        <change type="property-change">
+          <property_definition url="http://frodo:8080/api/v2/projects/test/property_definitions/250.xml">
+            <name>Date Accepted</name>
+            <position nil="true"></position>
+            <data_type>date</data_type>
+            <is_numeric type="boolean">false</is_numeric>
+          </property_definition>
+          <old_value nil="true"></old_value>
+          <new_value type="date">2011-01-21</new_value>
+        </change>
+        <change type="property-change">
+          <property_definition url="http://frodo:8080/api/v2/projects/test/property_definitions/249.xml">
+            <name>Date Created</name>
+            <position nil="true"></position>
+            <data_type>date</data_type>
+            <is_numeric type="boolean">false</is_numeric>
+          </property_definition>
+          <old_value nil="true"></old_value>
+          <new_value type="date">2011-01-12</new_value>
+        </change>
+        <change type="property-change">
+          <property_definition url="http://frodo:8080/api/v2/projects/test/property_definitions/247.xml">
+            <name>Sprint</name>
+            <position type="integer">2</position>
+            <data_type>card</data_type>
+            <is_numeric type="boolean">false</is_numeric>
+          </property_definition>
+          <old_value nil="true"></old_value>
+          <new_value>
+            <card url="http://frodo:8080/api/v2/projects/test/cards/3.xml">
+              <number type="integer">3</number>
+            </card>
+          </new_value>
+        </change>
+        <change type="property-change">
+          <property_definition url="http://frodo:8080/api/v2/projects/test/property_definitions/246.xml">
+            <name>Release</name>
+            <position type="integer">1</position>
+            <data_type>card</data_type>
+            <is_numeric type="boolean">false</is_numeric>
+          </property_definition>
+          <old_value nil="true"></old_value>
+          <new_value>
+            <card url="http://frodo:8080/api/v2/projects/test/cards/1.xml">
+              <number type="integer">1</number>
+            </card>
+          </new_value>
+        </change>
+        <change type="property-change">
+          <property_definition url="http://frodo:8080/api/v2/projects/test/property_definitions/244.xml">
+            <name>Date Development Ended</name>
+            <position nil="true"></position>
+            <data_type>date</data_type>
+            <is_numeric type="boolean">false</is_numeric>
+          </property_definition>
+          <old_value nil="true"></old_value>
+          <new_value type="date">2011-01-13</new_value>
+        </change>
+        <change type="property-change">
+          <property_definition url="http://frodo:8080/api/v2/projects/test/property_definitions/243.xml">
+            <name>Date Development Started</name>
+            <position nil="true"></position>
+            <data_type>date</data_type>
+            <is_numeric type="boolean">false</is_numeric>
+          </property_definition>
+          <old_value nil="true"></old_value>
+          <new_value type="date">2011-01-13</new_value>
+        </change>
+        <change type="property-change">
+          <property_definition url="http://frodo:8080/api/v2/projects/test/property_definitions/242.xml">
+            <name>Status</name>
+            <position nil="true"></position>
+            <data_type>string</data_type>
+            <is_numeric type="boolean">false</is_numeric>
+          </property_definition>
+          <old_value nil="true"></old_value>
+          <new_value>Accepted</new_value>
+        </change>
+      </changes>
+    </content>
+  </entry>
+  <entry>
+    <id>http://frodo:8080/projects/test/events/index/1776</id>
+    <title>Task #78 45: Add Logic created</title>
+    <updated>2011-08-12T17:59:41Z</updated>
+    <author>
+      <name>Mark Richter</name>
+      <uri>http://frodo:8080/api/v2/users/1.xml</uri>
+    </author>
+    <link href="http://frodo:8080/api/v2/projects/test/cards/78.xml" rel="http://www.thoughtworks-studios.com/ns/mingle#event-source" type="application/vnd.mingle+xml" title="Task #78"/>
+    <link href="http://frodo:8080/projects/test/cards/78" rel="http://www.thoughtworks-studios.com/ns/mingle#event-source" type="text/html" title="Task #78"/>
+    <link href="http://frodo:8080/api/v2/projects/test/cards/78.xml?version=1" rel="http://www.thoughtworks-studios.com/ns/mingle#version" type="application/vnd.mingle+xml" title="Task #78 (v1)"/>
+    <link href="http://frodo:8080/projects/test/cards/78?version=1" rel="http://www.thoughtworks-studios.com/ns/mingle#version" type="text/html" title="Task #78 (v1)"/>
+    <category term="card" scheme="http://www.thoughtworks-studios.com/ns/mingle#categories"/>
+    <category term="card-creation" scheme="http://www.thoughtworks-studios.com/ns/mingle#categories"/>
+    <category term="card-type-change" scheme="http://www.thoughtworks-studios.com/ns/mingle#categories"/>
+    <category term="name-change" scheme="http://www.thoughtworks-studios.com/ns/mingle#categories"/>
+    <category term="property-change" scheme="http://www.thoughtworks-studios.com/ns/mingle#categories"/>
+    <content type="application/vnd.mingle+xml">
+      <changes xmlns="http://www.thoughtworks-studios.com/ns/mingle">
+        <change type="card-creation"/>
+        <change type="card-type-change">
+          <old_value nil="true"></old_value>
+          <new_value>
+            <card_type url="http://frodo:8080/api/v2/projects/test/card_types/42.xml">
+              <name>Task</name>
+            </card_type>
+          </new_value>
+        </change>
+        <change type="name-change">
+          <old_value nil="true"></old_value>
+          <new_value>45: Add Logic</new_value>
+        </change>
+        <change type="property-change">
+          <property_definition url="http://frodo:8080/api/v2/projects/test/property_definitions/265.xml">
+            <name>Hours Remaining</name>
+            <position nil="true"></position>
+            <data_type>numeric</data_type>
+            <is_numeric type="boolean">true</is_numeric>
+          </property_definition>
+          <old_value nil="true"></old_value>
+          <new_value>1</new_value>
+        </change>
+        <change type="property-change">
+          <property_definition url="http://frodo:8080/api/v2/projects/test/property_definitions/253.xml">
+            <name>Task Status</name>
+            <position nil="true"></position>
+            <data_type>string</data_type>
+            <is_numeric type="boolean">false</is_numeric>
+          </property_definition>
+          <old_value nil="true"></old_value>
+          <new_value>New</new_value>
+        </change>
+        <change type="property-change">
+          <property_definition url="http://frodo:8080/api/v2/projects/test/property_definitions/247.xml">
+            <name>Sprint</name>
+            <position type="integer">2</position>
+            <data_type>card</data_type>
+            <is_numeric type="boolean">false</is_numeric>
+          </property_definition>
+          <old_value nil="true"></old_value>
+          <new_value>
+            <card url="http://frodo:8080/api/v2/projects/test/cards/3.xml">
+              <number type="integer">3</number>
+            </card>
+          </new_value>
+        </change>
+        <change type="property-change">
+          <property_definition url="http://frodo:8080/api/v2/projects/test/property_definitions/246.xml">
+            <name>Release</name>
+            <position type="integer">1</position>
+            <data_type>card</data_type>
+            <is_numeric type="boolean">false</is_numeric>
+          </property_definition>
+          <old_value nil="true"></old_value>
+          <new_value>
+            <card url="http://frodo:8080/api/v2/projects/test/cards/1.xml">
+              <number type="integer">1</number>
+            </card>
+          </new_value>
+        </change>
+        <change type="property-change">
+          <property_definition url="http://frodo:8080/api/v2/projects/test/property_definitions/245.xml">
+            <name>Story</name>
+            <position type="integer">3</position>
+            <data_type>card</data_type>
+            <is_numeric type="boolean">false</is_numeric>
+          </property_definition>
+          <old_value nil="true"></old_value>
+          <new_value>
+            <card url="http://frodo:8080/api/v2/projects/test/cards/45.xml">
+              <number type="integer">45</number>
+            </card>
+          </new_value>
+        </change>
+      </changes>
+    </content>
+  </entry>
+  <entry>
+    <id>http://frodo:8080/projects/test/events/index/1775</id>
+    <title>Task #75 46: Add Logic created</title>
+    <updated>2011-08-12T17:59:41Z</updated>
+    <author>
+      <name>Mark Richter</name>
+      <uri>http://frodo:8080/api/v2/users/1.xml</uri>
+    </author>
+    <link href="http://frodo:8080/api/v2/projects/test/cards/75.xml" rel="http://www.thoughtworks-studios.com/ns/mingle#event-source" type="application/vnd.mingle+xml" title="Task #75"/>
+    <link href="http://frodo:8080/projects/test/cards/75" rel="http://www.thoughtworks-studios.com/ns/mingle#event-source" type="text/html" title="Task #75"/>
+    <link href="http://frodo:8080/api/v2/projects/test/cards/75.xml?version=1" rel="http://www.thoughtworks-studios.com/ns/mingle#version" type="application/vnd.mingle+xml" title="Task #75 (v1)"/>
+    <link href="http://frodo:8080/projects/test/cards/75?version=1" rel="http://www.thoughtworks-studios.com/ns/mingle#version" type="text/html" title="Task #75 (v1)"/>
+    <category term="card" scheme="http://www.thoughtworks-studios.com/ns/mingle#categories"/>
+    <category term="card-creation" scheme="http://www.thoughtworks-studios.com/ns/mingle#categories"/>
+    <category term="card-type-change" scheme="http://www.thoughtworks-studios.com/ns/mingle#categories"/>
+    <category term="name-change" scheme="http://www.thoughtworks-studios.com/ns/mingle#categories"/>
+    <category term="property-change" scheme="http://www.thoughtworks-studios.com/ns/mingle#categories"/>
+    <content type="application/vnd.mingle+xml">
+      <changes xmlns="http://www.thoughtworks-studios.com/ns/mingle">
+        <change type="card-creation"/>
+        <change type="card-type-change">
+          <old_value nil="true"></old_value>
+          <new_value>
+            <card_type url="http://frodo:8080/api/v2/projects/test/card_types/42.xml">
+              <name>Task</name>
+            </card_type>
+          </new_value>
+        </change>
+        <change type="name-change">
+          <old_value nil="true"></old_value>
+          <new_value>46: Add Logic</new_value>
+        </change>
+        <change type="property-change">
+          <property_definition url="http://frodo:8080/api/v2/projects/test/property_definitions/265.xml">
+            <name>Hours Remaining</name>
+            <position nil="true"></position>
+            <data_type>numeric</data_type>
+            <is_numeric type="boolean">true</is_numeric>
+          </property_definition>
+          <old_value nil="true"></old_value>
+          <new_value>0.5</new_value>
+        </change>
+        <change type="property-change">
+          <property_definition url="http://frodo:8080/api/v2/projects/test/property_definitions/253.xml">
+            <name>Task Status</name>
+            <position nil="true"></position>
+            <data_type>string</data_type>
+            <is_numeric type="boolean">false</is_numeric>
+          </property_definition>
+          <old_value nil="true"></old_value>
+          <new_value>New</new_value>
+        </change>
+        <change type="property-change">
+          <property_definition url="http://frodo:8080/api/v2/projects/test/property_definitions/247.xml">
+            <name>Sprint</name>
+            <position type="integer">2</position>
+            <data_type>card</data_type>
+            <is_numeric type="boolean">false</is_numeric>
+          </property_definition>
+          <old_value nil="true"></old_value>
+          <new_value>
+            <card url="http://frodo:8080/api/v2/projects/test/cards/3.xml">
+              <number type="integer">3</number>
+            </card>
+          </new_value>
+        </change>
+        <change type="property-change">
+          <property_definition url="http://frodo:8080/api/v2/projects/test/property_definitions/246.xml">
+            <name>Release</name>
+            <position type="integer">1</position>
+            <data_type>card</data_type>
+            <is_numeric type="boolean">false</is_numeric>
+          </property_definition>
+          <old_value nil="true"></old_value>
+          <new_value>
+            <card url="http://frodo:8080/api/v2/projects/test/cards/1.xml">
+              <number type="integer">1</number>
+            </card>
+          </new_value>
+        </change>
+        <change type="property-change">
+          <property_definition url="http://frodo:8080/api/v2/projects/test/property_definitions/245.xml">
+            <name>Story</name>
+            <position type="integer">3</position>
+            <data_type>card</data_type>
+            <is_numeric type="boolean">false</is_numeric>
+          </property_definition>
+          <old_value nil="true"></old_value>
+          <new_value>
+            <card url="http://frodo:8080/api/v2/projects/test/cards/46.xml">
+              <number type="integer">46</number>
+            </card>
+          </new_value>
+        </change>
+      </changes>
+    </content>
+  </entry>
+  <entry>
+    <id>http://frodo:8080/projects/test/events/index/1774</id>
+    <title>Task #68 54: Create UI created</title>
+    <updated>2011-08-12T17:59:41Z</updated>
+    <author>
+      <name>Mark Richter</name>
+      <uri>http://frodo:8080/api/v2/users/1.xml</uri>
+    </author>
+    <link href="http://frodo:8080/api/v2/projects/test/cards/68.xml" rel="http://www.thoughtworks-studios.com/ns/mingle#event-source" type="application/vnd.mingle+xml" title="Task #68"/>
+    <link href="http://frodo:8080/projects/test/cards/68" rel="http://www.thoughtworks-studios.com/ns/mingle#event-source" type="text/html" title="Task #68"/>
+    <link href="http://frodo:8080/api/v2/projects/test/cards/68.xml?version=1" rel="http://www.thoughtworks-studios.com/ns/mingle#version" type="application/vnd.mingle+xml" title="Task #68 (v1)"/>
+    <link href="http://frodo:8080/projects/test/cards/68?version=1" rel="http://www.thoughtworks-studios.com/ns/mingle#version" type="text/html" title="Task #68 (v1)"/>
+    <category term="card" scheme="http://www.thoughtworks-studios.com/ns/mingle#categories"/>
+    <category term="card-creation" scheme="http://www.thoughtworks-studios.com/ns/mingle#categories"/>
+    <category term="card-type-change" scheme="http://www.thoughtworks-studios.com/ns/mingle#categories"/>
+    <category term="name-change" scheme="http://www.thoughtworks-studios.com/ns/mingle#categories"/>
+    <category term="property-change" scheme="http://www.thoughtworks-studios.com/ns/mingle#categories"/>
+    <content type="application/vnd.mingle+xml">
+      <changes xmlns="http://www.thoughtworks-studios.com/ns/mingle">
+        <change type="card-creation"/>
+        <change type="card-type-change">
+          <old_value nil="true"></old_value>
+          <new_value>
+            <card_type url="http://frodo:8080/api/v2/projects/test/card_types/42.xml">
+              <name>Task</name>
+            </card_type>
+          </new_value>
+        </change>
+        <change type="name-change">
+          <old_value nil="true"></old_value>
+          <new_value>54: Create UI</new_value>
+        </change>
+        <change type="property-change">
+          <property_definition url="http://frodo:8080/api/v2/projects/test/property_definitions/265.xml">
+            <name>Hours Remaining</name>
+            <position nil="true"></position>
+            <data_type>numeric</data_type>
+            <is_numeric type="boolean">true</is_numeric>
+          </property_definition>
+          <old_value nil="true"></old_value>
+          <new_value>1</new_value>
+        </change>
+        <change type="property-change">
+          <property_definition url="http://frodo:8080/api/v2/projects/test/property_definitions/253.xml">
+            <name>Task Status</name>
+            <position nil="true"></position>
+            <data_type>string</data_type>
+            <is_numeric type="boolean">false</is_numeric>
+          </property_definition>
+          <old_value nil="true"></old_value>
+          <new_value>New</new_value>
+        </change>
+        <change type="property-change">
+          <property_definition url="http://frodo:8080/api/v2/projects/test/property_definitions/247.xml">
+            <name>Sprint</name>
+            <position type="integer">2</position>
+            <data_type>card</data_type>
+            <is_numeric type="boolean">false</is_numeric>
+          </property_definition>
+          <old_value nil="true"></old_value>
+          <new_value>
+            <card url="http://frodo:8080/api/v2/projects/test/cards/3.xml">
+              <number type="integer">3</number>
+            </card>
+          </new_value>
+        </change>
+        <change type="property-change">
+          <property_definition url="http://frodo:8080/api/v2/projects/test/property_definitions/246.xml">
+            <name>Release</name>
+            <position type="integer">1</position>
+            <data_type>card</data_type>
+            <is_numeric type="boolean">false</is_numeric>
+          </property_definition>
+          <old_value nil="true"></old_value>
+          <new_value>
+            <card url="http://frodo:8080/api/v2/projects/test/cards/1.xml">
+              <number type="integer">1</number>
+            </card>
+          </new_value>
+        </change>
+        <change type="property-change">
+          <property_definition url="http://frodo:8080/api/v2/projects/test/property_definitions/245.xml">
+            <name>Story</name>
+            <position type="integer">3</position>
+            <data_type>card</data_type>
+            <is_numeric type="boolean">false</is_numeric>
+          </property_definition>
+          <old_value nil="true"></old_value>
+          <new_value>
+            <card url="http://frodo:8080/api/v2/projects/test/cards/54.xml">
+              <number type="integer">54</number>
+            </card>
+          </new_value>
+        </change>
+      </changes>
+    </content>
+  </entry>
+</feed>
