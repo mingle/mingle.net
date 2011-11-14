@@ -50,5 +50,12 @@ namespace ThoughtWorksMingleLib
         /// </summary>
         /// <returns></returns>
         SortedList<string, string> GetProjectList();
+
+        /// <summary>
+        /// Returns a MingleProject
+        /// </summary>
+        /// <param name="projectId"></param>
+        /// <returns></returns>
+        MingleProject GetProject(string projectId);
     }
 }
