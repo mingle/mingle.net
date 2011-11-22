@@ -6,6 +6,7 @@ using System.Collections;
 using System.Diagnostics;
 using System.Globalization;
 using System.IO;
+using System.Net;
 using ThoughtWorksCoreLib.Properties;
 
 namespace ThoughtWorksCoreLib
@@ -104,6 +105,16 @@ namespace ThoughtWorksCoreLib
 				string.Format(string.Format("{0} {1}.{2}: {3}", Convert.ToString(DateTime.Now),
 											new StackTrace().GetFrame(1).GetMethod().ReflectedType.FullName, methodName,
 											e.Message)));
+
+         switch (e.GetType().Name)
+         {
+             case "WebException":
+   			 Log.WriteLine(
+				string.Format(string.Format("{0} {1}.{2}: {3}", Convert.ToString(DateTime.Now),
+											new StackTrace().GetFrame(1).GetMethod().ReflectedType.FullName, methodName,
+											((WebException)e).Status)));
+             break;
+         }
 
 			foreach (DictionaryEntry kvp in e.Data)
 				Log.WriteLine(
