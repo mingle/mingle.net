@@ -114,9 +114,9 @@ namespace ThoughtWorksMingleLib
         /// <param name="url"></param>
         /// <param name="data"></param>
         /// <returns>URL of the card from the Location header</returns>
-        public string Post(string project, string url, IEnumerable<string> data)
+        public string Post(string project, string url, IEnumerable<string> data, bool absoluteUrl)
         {
-            var qurl = FullyQualifiedMingleUrl(project, url);
+            var qurl = absoluteUrl ? url : FullyQualifiedMingleUrl(project, url);
             var web = new AuthenticatingWeb(_login, GetStringFromSecureString(_password));
             return web.Post(qurl, data).Body;
         }

@@ -70,6 +70,10 @@ get '/api/v2/projects/test/card_types.xml' do
     fake_cardtypes
 end
 
+post '/api/v2/projects/test/transition_executions/87.xml' do
+    fake_transition
+end
+
 def run_fake_mingle
    Sinatra::Application.fork! :host => 'localhost', :port => 9123 
 end

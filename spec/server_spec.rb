@@ -54,7 +54,7 @@ describe 'mingle server' do
         param.Add("card[name]=this is a test")   
         param.Add("card[card_type_name]=story")
         @mingle = MingleServer.new("http://localhost:9123","mingleuser", @securePassword)
-        response = @mingle.Post("test", "/cards.xml", param)
+        response = @mingle.Post("test", "/cards.xml", param, false)
         response.should == 'test'
     end
     
