@@ -313,7 +313,7 @@ namespace ThoughtWorksMingleLib
 
             try
             {
-                var response = XElement.Parse(_project.Mingle.Post(ProjectId, "/cards.xml", PostData));
+                var response = XElement.Parse(_project.Mingle.Post(ProjectId, "/cards.xml", PostData, true));
                 return Convert.ToInt32(response.Element("number").Value);
             }
             catch (Exception ex)
@@ -331,7 +331,7 @@ namespace ThoughtWorksMingleLib
             // POST
             try
             {
-                _project.Mingle.Post(ProjectId, Url, PostData);
+                _project.Mingle.Post(ProjectId, Url, PostData, false);
                 PostData.Clear();
             }
             catch (Exception ex)

@@ -4,6 +4,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Net;
@@ -113,29 +114,44 @@ namespace ThoughtWorksCoreLib
         /// Performns a POST and returns HttpWebResponse
         /// </summary>
         /// <param name="url"></param>
-        /// <returns></returns>
-        public IResponse Post(string url)
-        {
-            return Put(url, new List<string> {});
-        }
-
-        /// <summary>
-        /// Performns a POST and returns HttpWebResponse
-        /// </summary>
-        /// <param name="url"></param>
         /// <param name="data"></param>
         /// <returns></returns>
         public IResponse Post(string url, IEnumerable<string> data)
         {
+            var me = new StackFrame().GetMethod().Name;
             var request = (HttpWebRequest)WebRequest.Create(url);
             _authenticate(request);
             request.Method = "post";
             request = PackPostData(request, data);
 
-            using (var response = (HttpWebResponse)request.GetResponse())
+            try
             {
-                var body = new StreamReader(response.GetResponseStream()).ReadToEnd();
-                return new Response(body);
+                using (var response = (HttpWebResponse)request.GetResponse())
+                {
+                    var body = new StreamReader(response.GetResponseStream()).ReadToEnd();
+                    return new Response(body);
+                }
+
+            }
+            catch (WebException ex)
+            {
+                TraceLog.Exception(me, ex);
+                throw;
+            }
+            catch (ProtocolViolationException ex)
+            {
+                TraceLog.Exception(me, ex);
+                throw;
+            }
+            catch (InvalidOperationException ex)
+            {
+                TraceLog.Exception(me, ex);
+                throw;
+            }
+            catch (NotSupportedException ex)
+            {
+                TraceLog.Exception(me, ex);
+                throw;
             }
         }
 
@@ -151,6 +167,7 @@ namespace ThoughtWorksCoreLib
 
         private HttpWebRequest PackPostData(HttpWebRequest request, IEnumerable<string> data)
         {
+            var me = new StackFrame().GetMethod().Name;
             var postData = new StringBuilder();
 
             request.ContentType = "application/x-www-form-urlencoded";
@@ -160,10 +177,39 @@ namespace ThoughtWorksCoreLib
 
             var encodedBytes = Encoding.UTF8.GetBytes(postData.Remove(postData.Length - 1, 1).ToString());
 
-            // Write the encoded data to the request.
-            using (var stream = request.GetRequestStream())
+            try
             {
-                stream.Write(encodedBytes, 0, encodedBytes.Length);
+                // Write the encoded data to the request.
+                using (var stream = request.GetRequestStream())
+                {
+                    stream.Write(encodedBytes, 0, encodedBytes.Length);
+                }
+
+            }
+            catch (WebException ex)
+            {
+                TraceLog.Exception(me, ex);
+                throw;
+            }
+            catch (ObjectDisposedException ex)
+            {
+                TraceLog.Exception(me, ex);
+                throw;
+            }
+            catch (ProtocolViolationException ex)
+            {
+                TraceLog.Exception(me, ex);
+                throw;
+            }
+            catch (InvalidOperationException ex)
+            {
+                TraceLog.Exception(me, ex);
+                throw;
+            }
+            catch (NotSupportedException ex)
+            {
+                TraceLog.Exception(me, ex);
+                throw;
             }
 
             return request;
@@ -238,16 +284,6 @@ namespace ThoughtWorksCoreLib
         /// Performns a POST and returns HttpWebResponse
         /// </summary>
         /// <param name="url"></param>
-        /// <returns></returns>
-        public IResponse Post(string url)
-        {
-            return _authenticated.Post(url);
-        }
-
-        /// <summary>
-        /// Performns a POST and returns HttpWebResponse
-        /// </summary>
-        /// <param name="url"></param>
         /// <param name="data"></param>
         /// <returns></returns>
         public IResponse Post(string url, IEnumerable<string> data)
@@ -311,18 +347,13 @@ namespace ThoughtWorksCoreLib
         /// <param name="data"></param>
         /// <returns></returns>
         IResponse Put(string url, IEnumerable<string> data );
-        /// <summary>
-        /// Performs a POST and returns HttpWebresponse
-        /// </summary>
-        /// <param name="url"></param>
-        /// <returns></returns>
-        IResponse Post(string url);
 
         /// <summary>
         /// Performs a POST and returns HttpWebresponse
         /// </summary>
         /// <param name="url"></param>
         /// <param name="data"></param>
+        /// <param name="absoluteUrl">Indicates whether the url is a complete url or relative to the project.</param>
         /// <returns></returns>
         IResponse Post(string url, IEnumerable<string> data);
         /// <summary>

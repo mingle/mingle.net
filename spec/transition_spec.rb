@@ -46,4 +46,13 @@ describe 'transition tests' do
     it 'should get the will set card properties property' do
         @tset["Start Fix"].WillSetCardProperties.count.should == 2 
     end
+    
+    it 'should update a transition on a card' do
+        mingle = MingleServer.new("http://localhost:9123","mingleuser","secret")
+        data = System::Collections::ObjectModel::Collection[System::String].new
+        data.Add("transition_execution[card]=74")
+        response = mingle.Post("","http://localhost:9123/api/v2/projects/test/transition_executions/87.xml",data, true)
+        xdoc = System::Xml::Linq::XElement.parse(response)
+        xdoc.element(System::String.new("status")).value.should == "completed"
+    end
 end
