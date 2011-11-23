@@ -98,16 +98,7 @@ namespace ThoughtWorksCoreLib
         /// <returns></returns>
         public IResponse Put(string url, IEnumerable<string> data)
         {
-            var request = (HttpWebRequest) WebRequest.Create(url);
-            _authenticate(request);
-            request.Method = "put";
-            request = PackPostData(request, data);
-
-            using (var response = (HttpWebResponse)request.GetResponse())
-            {
-                var body = new StreamReader(response.GetResponseStream()).ReadToEnd();
-                return new Response(body);
-            }
+            return GetResponse("PUT", url, data);
         }
 
         /// <summary>
@@ -118,76 +109,55 @@ namespace ThoughtWorksCoreLib
         /// <returns></returns>
         public IResponse Post(string url, IEnumerable<string> data)
         {
+            return GetResponse("POST", url, data);
+        }
+
+        private IResponse GetResponse(string method, string url, IEnumerable<string> data)
+        {
             var me = new StackFrame().GetMethod().Name;
+            var postData = new StringBuilder();
             var request = (HttpWebRequest)WebRequest.Create(url);
-            _authenticate(request);
-            request.Method = "post";
-            request = PackPostData(request, data);
+            request.Method = method;
+            request.ContentType = "application/x-www-form-urlencoded";
 
             try
             {
+                // Add parameter form data if any
+                if (data != null)
+                {    
+                    data.ToList().ForEach(s => postData.Append(s + "&"));
+                    postData.Remove(postData.Length - 1, 1);
+                    var encodedBytes = Encoding.UTF8.GetBytes(postData.ToString());
+
+                    // Write the encoded data to the request.
+                    using (var stream = request.GetRequestStream())
+                    {
+                        stream.Write(encodedBytes, 0, encodedBytes.Length);
+                    }
+                }
+
+                TraceLog.WriteLine(me, "Post Data:" + postData);
+
+                _authenticate(request);
+
                 using (var response = (HttpWebResponse)request.GetResponse())
                 {
                     var body = new StreamReader(response.GetResponseStream()).ReadToEnd();
                     return new Response(body);
                 }
-
             }
+
             catch (WebException ex)
             {
-                TraceLog.Exception(me, ex);
-                throw;
-            }
-            catch (ProtocolViolationException ex)
-            {
-                TraceLog.Exception(me, ex);
-                throw;
-            }
-            catch (InvalidOperationException ex)
-            {
-                TraceLog.Exception(me, ex);
-                throw;
-            }
-            catch (NotSupportedException ex)
-            {
-                TraceLog.Exception(me, ex);
-                throw;
-            }
-        }
-
-        /// <summary>
-        /// Performns a DELETE and returns HttpWebResponse
-        /// </summary>
-        /// <param name="url"></param>
-        /// <returns></returns>
-        public IResponse Delete(string url)
-        {
-            throw new NotImplementedException();
-        }
-
-        private HttpWebRequest PackPostData(HttpWebRequest request, IEnumerable<string> data)
-        {
-            var me = new StackFrame().GetMethod().Name;
-            var postData = new StringBuilder();
-
-            request.ContentType = "application/x-www-form-urlencoded";
-
-            // Add parameter form data if any
-            if (data != null) data.ToList().ForEach(s => postData.Append(s + "&"));
-
-            var encodedBytes = Encoding.UTF8.GetBytes(postData.Remove(postData.Length - 1, 1).ToString());
-
-            try
-            {
-                // Write the encoded data to the request.
-                using (var stream = request.GetRequestStream())
+                if (ex.Response != null)
                 {
-                    stream.Write(encodedBytes, 0, encodedBytes.Length);
+                    var body = new StreamReader(ex.Response.GetResponseStream()).ReadToEnd();
+                    TraceLog.Exception(me, ex);
+                    TraceLog.WriteLine(me, "Response = " + body);
+                    if (body.Contains("<errors>"))
+                        return new Response(body);
                 }
-
-            }
-            catch (WebException ex)
-            {
+                
                 TraceLog.Exception(me, ex);
                 throw;
             }
@@ -212,8 +182,19 @@ namespace ThoughtWorksCoreLib
                 throw;
             }
 
-            return request;
         }
+
+        /// <summary>
+        /// Performns a DELETE and returns HttpWebResponse
+        /// </summary>
+        /// <param name="url"></param>
+        /// <returns></returns>
+        public IResponse Delete(string url)
+        {
+            throw new NotImplementedException();
+        }
+
+
         class Response : IResponse
         {
             /// <summary>
@@ -353,7 +334,6 @@ namespace ThoughtWorksCoreLib
         /// </summary>
         /// <param name="url"></param>
         /// <param name="data"></param>
-        /// <param name="absoluteUrl">Indicates whether the url is a complete url or relative to the project.</param>
         /// <returns></returns>
         IResponse Post(string url, IEnumerable<string> data);
         /// <summary>
