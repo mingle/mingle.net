@@ -71,7 +71,7 @@ namespace ThoughtWorksMingleLib
 
         private string Get(string url)
         {
-            return GetResponseBody(null, url, null);
+            return GetResponseBody("get", null, url, null, false);
         }
 
         /// <summary>
@@ -82,7 +82,7 @@ namespace ThoughtWorksMingleLib
         /// <returns></returns>
         public string Get(string project, string url)
         {
-            return GetResponseBody(project, url, null);
+            return GetResponseBody("get", project, url, null, false);
         }
 
         /// <summary>
@@ -94,7 +94,7 @@ namespace ThoughtWorksMingleLib
         /// <returns></returns>
         public string Get(string project, string url, IEnumerable<string> data)
         {
-            return GetResponseBody(project, url, data);
+            return GetResponseBody("get", project, url, data, false);
         }
 
         /// <summary>
@@ -121,9 +121,7 @@ namespace ThoughtWorksMingleLib
         /// <returns>URL of the card from the Location header</returns>
         public string Post(string project, string url, IEnumerable<string> data, bool absoluteUrl)
         {
-            var qurl = absoluteUrl ? url : FullyQualifiedMingleUrl(project, url);
-            var web = new AuthenticatingWeb(_login, GetStringFromSecureString(_password));
-            return web.Post(qurl, data).Body;
+            return GetResponseBody("post", project, url, data, absoluteUrl);
         }
         #endregion
 
@@ -214,36 +212,49 @@ namespace ThoughtWorksMingleLib
         /// <summary>
         /// Returns the body of a web response from Mingle
         /// </summary>
+        /// <param name="method"></param>
         /// <param name="project"></param>
         /// <param name="urlSegment"></param>
         /// <param name="data"></param>
+        /// <param name="absoluteUrl"></param>
         /// <returns></returns>
         /// <exception cref="MingleWebException">Thrown when .NET returns a WebException. 
         /// Packages the WebException as the InnerException and the contents of the error 
         /// in the response body as the exception message.
         /// </exception>
-        private string GetResponseBody(string project, string urlSegment, IEnumerable<string> data)
+        private string GetResponseBody(string method, string project, string urlSegment, IEnumerable<string> data, bool absoluteUrl)
         {
             var web = new AuthenticatingWeb(_login, GetStringFromSecureString(_password));
-            var qurl = FullyQualifiedMingleUrl(project, urlSegment);
-            string body;
+            var qurl = absoluteUrl ? urlSegment : FullyQualifiedMingleUrl(project, urlSegment);
+            var body = string.Empty;
+
             try
             {
-                body = web.Get(qurl, data).Body;
+                switch (method.ToLower())
+                {
+                    case "get":
+                        body = web.Get(qurl, data).Body;
+                        break;
+
+                    case "put":
+                        body = web.Put(qurl, data).Body;
+                        break;
+
+                    case "post":
+                        body = web.Post(qurl, data).Body;
+                        break;
+                }
             }
+
             catch (Exception ex)
             {
-                switch (ex.GetType().Name)
+                if (ex.Message.Contains("(422)") && ex.GetType().Name.CompareTo("WebException") == 0)
                 {
-                    case "WebException":
-                        var e = ex as WebException;
-                        var r = new StreamReader(e.Response.GetResponseStream()).ReadToEnd();
-                        var message = XElement.Parse(r).Element("error").Value;
-                        throw new MingleWebException(message, e);
-
-                    default:
-                        throw;
+                    var message = XElement.Parse(new StreamReader((ex as WebException).Response.GetResponseStream()).ReadToEnd()).Element("error").Value;
+                    throw new MingleWebException(message, ex);
                 }
+
+                throw new MingleWebException(ex.Message, ex);
             }
             return body;
         }

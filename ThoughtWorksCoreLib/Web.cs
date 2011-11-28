@@ -159,36 +159,7 @@ namespace ThoughtWorksCoreLib
                 }
             }
 
-            catch (WebException ex)
-            {
-                if (ex.Response != null)
-                {
-                    var body = new StreamReader(ex.Response.GetResponseStream()).ReadToEnd();
-                    TraceLog.Exception(me, ex);
-                    TraceLog.WriteLine(me, "Response = " + body);
-                    if (body.Contains("<errors>"))
-                        return new Response(body);
-                }
-                
-                TraceLog.Exception(me, ex);
-                throw;
-            }
-            catch (ObjectDisposedException ex)
-            {
-                TraceLog.Exception(me, ex);
-                throw;
-            }
-            catch (ProtocolViolationException ex)
-            {
-                TraceLog.Exception(me, ex);
-                throw;
-            }
-            catch (InvalidOperationException ex)
-            {
-                TraceLog.Exception(me, ex);
-                throw;
-            }
-            catch (NotSupportedException ex)
+            catch (Exception ex)
             {
                 TraceLog.Exception(me, ex);
                 throw;

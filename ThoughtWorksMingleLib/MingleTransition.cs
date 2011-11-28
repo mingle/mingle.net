@@ -176,7 +176,7 @@ namespace ThoughtWorksMingleLib
 
             try
             {
-                Project.Mingle.Post(Project.ProjectId, Url, postData, false);
+                Project.Mingle.Post(Project.ProjectId, Url, postData, true);
             }
             catch (Exception ex)
             {
