@@ -71,7 +71,7 @@ namespace ThoughtWorksMingleLib
 
         private string Get(string url)
         {
-            return GetBody(null, url, null);
+            return GetResponseBody(null, url, null);
         }
 
         /// <summary>
@@ -82,7 +82,7 @@ namespace ThoughtWorksMingleLib
         /// <returns></returns>
         public string Get(string project, string url)
         {
-            return GetBody(project, url, null);
+            return GetResponseBody(project, url, null);
         }
 
         /// <summary>
@@ -94,7 +94,7 @@ namespace ThoughtWorksMingleLib
         /// <returns></returns>
         public string Get(string project, string url, IEnumerable<string> data)
         {
-            return GetBody(project, url, data);
+            return GetResponseBody(project, url, data);
         }
 
         /// <summary>
@@ -222,7 +222,7 @@ namespace ThoughtWorksMingleLib
         /// Packages the WebException as the InnerException and the contents of the error 
         /// in the response body as the exception message.
         /// </exception>
-        private string GetBody(string project, string urlSegment, IEnumerable<string> data)
+        private string GetResponseBody(string project, string urlSegment, IEnumerable<string> data)
         {
             var web = new AuthenticatingWeb(_login, GetStringFromSecureString(_password));
             var qurl = FullyQualifiedMingleUrl(project, urlSegment);
