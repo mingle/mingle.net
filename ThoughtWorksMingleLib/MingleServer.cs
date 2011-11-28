@@ -16,6 +16,7 @@
 
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Net;
 using System.Net.Security;
@@ -70,8 +71,7 @@ namespace ThoughtWorksMingleLib
 
         private string Get(string url)
         {
-            var web = new AuthenticatingWeb(_login, GetStringFromSecureString(_password));
-            return web.Get(url).Body;
+            return GetBody(null, url, null);
         }
 
         /// <summary>
@@ -82,9 +82,7 @@ namespace ThoughtWorksMingleLib
         /// <returns></returns>
         public string Get(string project, string url)
         {
-            var qurl = FullyQualifiedMingleUrl(project, url);
-            var web = new AuthenticatingWeb(_login, GetStringFromSecureString(_password));
-            return web.Get(qurl).Body;
+            return GetBody(project, url, null);
         }
 
         /// <summary>
@@ -96,9 +94,7 @@ namespace ThoughtWorksMingleLib
         /// <returns></returns>
         public string Get(string project, string url, IEnumerable<string> data)
         {
-            var qurl = FullyQualifiedMingleUrl(project, url);
-            var web = new AuthenticatingWeb(_login, GetStringFromSecureString(_password));
-            return web.Get(qurl, data).Body;
+            return GetBody(project, url, data);
         }
 
         /// <summary>
@@ -216,18 +212,55 @@ namespace ThoughtWorksMingleLib
         #region Utilities
 
         /// <summary>
+        /// Returns the body of a web response from Mingle
+        /// </summary>
+        /// <param name="project"></param>
+        /// <param name="urlSegment"></param>
+        /// <param name="data"></param>
+        /// <returns></returns>
+        /// <exception cref="MingleWebException">Thrown when .NET returns a WebException. 
+        /// Packages the WebException as the InnerException and the contents of the error 
+        /// in the response body as the exception message.
+        /// </exception>
+        private string GetBody(string project, string urlSegment, IEnumerable<string> data)
+        {
+            var web = new AuthenticatingWeb(_login, GetStringFromSecureString(_password));
+            var qurl = FullyQualifiedMingleUrl(project, urlSegment);
+            string body;
+            try
+            {
+                body = web.Get(qurl, data).Body;
+            }
+            catch (Exception ex)
+            {
+                switch (ex.GetType().Name)
+                {
+                    case "WebException":
+                        var e = ex as WebException;
+                        var r = new StreamReader(e.Response.GetResponseStream()).ReadToEnd();
+                        var message = XElement.Parse(r).Element("error").Value;
+                        throw new MingleWebException(message, e);
+
+                    default:
+                        throw;
+                }
+            }
+            return body;
+        }
+
+        /// <summary>
         /// Adds "/api/v2" to the front of a URL segment
         /// </summary>
         /// <param name="project">Mingle project id (not name)</param>
-        /// <param name="segment">URL segment string</param>
+        /// <param name="urlSegment">URL segment string</param>
         /// <returns></returns>
-        private string FullyQualifiedMingleUrl(string project, string segment)
+        private string FullyQualifiedMingleUrl(string project, string urlSegment)
         {
-
+            if (string.IsNullOrEmpty(project)) return urlSegment;
             return string.Format("{0}/api/v2/projects{1}{2}", 
                                             _host, 
                                             NormalizeUrlSegment(project), 
-                                            NormalizeUrlSegment(segment));
+                                            NormalizeUrlSegment(urlSegment));
         }
 
         /// <summary>
@@ -285,6 +318,22 @@ namespace ThoughtWorksMingleLib
             }
         }
         #endregion
+
+    }
+
+    internal class MingleWebException : WebException
+    {
+        public MingleWebException ()
+        {
+        }
+
+        public MingleWebException(string message) :base(message)
+        {
+        }
+
+        public MingleWebException(string message, Exception inner):base(message, inner)
+        {
+        }
 
     }
 }
