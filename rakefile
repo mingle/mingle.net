@@ -43,3 +43,7 @@ def clean path
 	rm_r path if File.exists? path
 end
 
+task :deploy do
+	sh "deploy.bat"
+end
+
