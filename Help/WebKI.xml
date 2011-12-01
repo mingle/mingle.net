@@ -12,7 +12,7 @@
   </HelpKINode>
   <HelpKINode Title="AuthenticatingWeb.AuthenticatingWeb constructor" Url="html/M_ThoughtWorksCoreLib_AuthenticatingWeb__ctor.htm" />
   <HelpKINode Title="AuthenticatingWeb.Delete method" Url="html/M_ThoughtWorksCoreLib_AuthenticatingWeb_Delete.htm" />
-  <HelpKINode Title="AuthenticatingWeb.Get method" Url="html/M_ThoughtWorksCoreLib_AuthenticatingWeb_Get.htm" />
+  <HelpKINode Title="AuthenticatingWeb.Get method" Url="html/Overload_ThoughtWorksCoreLib_AuthenticatingWeb_Get.htm" />
   <HelpKINode Title="AuthenticatingWeb.Post method" Url="html/M_ThoughtWorksCoreLib_AuthenticatingWeb_Post.htm" />
   <HelpKINode Title="AuthenticatingWeb.Put method" Url="html/M_ThoughtWorksCoreLib_AuthenticatingWeb_Put.htm" />
   <HelpKINode Title="AuthorName property" Url="html/P_ThoughtWorksMingleLib_MingleEventsFeedEntry_AuthorName.htm" />
@@ -111,13 +111,14 @@
   <HelpKINode Title="FeedbackTypeFeature property" Url="html/P_ThoughtWorksCoreLib_Resources_FeedbackTypeFeature.htm" />
   <HelpKINode Title="FilePath property" Url="html/P_ThoughtWorksCoreLib_TraceLog_FilePath.htm" />
   <HelpKINode Title="FilterFormatString property" Url="html/P_ThoughtWorksMingleLib_MingleFilter_FilterFormatString.htm" />
-  <HelpKINode Title="Get method" Url="html/M_ThoughtWorksCoreLib_AuthenticatingWeb_Get.htm" />
   <HelpKINode Title="Get method" Url="html/M_ThoughtWorksCoreLib_IWebApi_Get.htm" />
-  <HelpKINode Title="Get method" Url="html/M_ThoughtWorksCoreLib_IWeb_Get.htm" />
   <HelpKINode Title="Get method" Url="html/M_ThoughtWorksCoreLib_WebApi_Get.htm" />
-  <HelpKINode Title="Get method" Url="html/M_ThoughtWorksCoreLib_Web_Get.htm" />
+  <HelpKINode Title="Get method" Url="html/Overload_ThoughtWorksCoreLib_AuthenticatingWeb_Get.htm" />
+  <HelpKINode Title="Get method" Url="html/Overload_ThoughtWorksCoreLib_IWeb_Get.htm" />
+  <HelpKINode Title="Get method" Url="html/Overload_ThoughtWorksCoreLib_Web_Get.htm" />
   <HelpKINode Title="Get method" Url="html/Overload_ThoughtWorksMingleLib_IMingleServer_Get.htm" />
   <HelpKINode Title="Get method" Url="html/Overload_ThoughtWorksMingleLib_MingleServer_Get.htm" />
+  <HelpKINode Title="GetCard method" Url="html/M_ThoughtWorksMingleLib_MingleProject_GetCard.htm" />
   <HelpKINode Title="GetCards method" Url="html/M_ThoughtWorksMingleLib_IMingleProject_GetCards.htm" />
   <HelpKINode Title="GetCards method" Url="html/M_ThoughtWorksMingleLib_MingleFavorite_GetCards.htm" />
   <HelpKINode Title="GetCards method" Url="html/Overload_ThoughtWorksMingleLib_MingleProject_GetCards.htm" />
@@ -135,6 +136,7 @@
   <HelpKINode Title="GetIndirectCardsByTypeName method" Url="html/M_ThoughtWorksMingleLib_IMingleProject_GetIndirectCardsByTypeName.htm" />
   <HelpKINode Title="GetIndirectCardsByTypeName method" Url="html/M_ThoughtWorksMingleLib_MingleProject_GetIndirectCardsByTypeName.htm" />
   <HelpKINode Title="GetMurmurs method" Url="html/M_ThoughtWorksMingleLib_Mingle_GetMurmurs.htm" />
+  <HelpKINode Title="GetProject method" Url="html/M_ThoughtWorksMingleLib_IMingleServer_GetProject.htm" />
   <HelpKINode Title="GetProject method" Url="html/M_ThoughtWorksMingleLib_MingleServer_GetProject.htm" />
   <HelpKINode Title="GetProjectList method" Url="html/M_ThoughtWorksMingleLib_IMingleServer_GetProjectList.htm" />
   <HelpKINode Title="GetProjectList method" Url="html/M_ThoughtWorksMingleLib_MingleServer_GetProjectList.htm" />
@@ -185,10 +187,10 @@
     <HelpKINode Title="methods" Url="html/Methods_T_ThoughtWorksMingleLib_IMingleServer.htm" />
   </HelpKINode>
   <HelpKINode Title="IMingleServer.Get method" Url="html/Overload_ThoughtWorksMingleLib_IMingleServer_Get.htm" />
+  <HelpKINode Title="IMingleServer.GetProject method" Url="html/M_ThoughtWorksMingleLib_IMingleServer_GetProject.htm" />
   <HelpKINode Title="IMingleServer.GetProjectList method" Url="html/M_ThoughtWorksMingleLib_IMingleServer_GetProjectList.htm" />
-  <HelpKINode Title="IMingleServer.Post method" Url="html/Overload_ThoughtWorksMingleLib_IMingleServer_Post.htm" />
+  <HelpKINode Title="IMingleServer.Post method" Url="html/M_ThoughtWorksMingleLib_IMingleServer_Post.htm" />
   <HelpKINode Title="IMingleServer.Put method" Url="html/M_ThoughtWorksMingleLib_IMingleServer_Put.htm" />
-  <HelpKINode Title="IMingleServer.SetConnectionInfo method" Url="html/Overload_ThoughtWorksMingleLib_IMingleServer_SetConnectionInfo.htm" />
   <HelpKINode Title="IMingleXmlObject interface" Url="html/T_ThoughtWorksMingleLib_IMingleXmlObject.htm" />
   <HelpKINode Title="IMingleXmlObject interface">
     <HelpKINode Title="about IMingleXmlObject interface" Url="html/T_ThoughtWorksMingleLib_IMingleXmlObject.htm" />
@@ -225,7 +227,7 @@
     <HelpKINode Title="methods" Url="html/Methods_T_ThoughtWorksCoreLib_IWeb.htm" />
   </HelpKINode>
   <HelpKINode Title="IWeb.Delete method" Url="html/M_ThoughtWorksCoreLib_IWeb_Delete.htm" />
-  <HelpKINode Title="IWeb.Get method" Url="html/M_ThoughtWorksCoreLib_IWeb_Get.htm" />
+  <HelpKINode Title="IWeb.Get method" Url="html/Overload_ThoughtWorksCoreLib_IWeb_Get.htm" />
   <HelpKINode Title="IWeb.Post method" Url="html/M_ThoughtWorksCoreLib_IWeb_Post.htm" />
   <HelpKINode Title="IWeb.Put method" Url="html/M_ThoughtWorksCoreLib_IWeb_Put.htm" />
   <HelpKINode Title="IWebApi interface" Url="html/T_ThoughtWorksCoreLib_IWebApi.htm" />
@@ -527,6 +529,7 @@
   <HelpKINode Title="MingleProject.ClearCardSetPropertyValues method" Url="html/M_ThoughtWorksMingleLib_MingleProject_ClearCardSetPropertyValues.htm" />
   <HelpKINode Title="MingleProject.ExecMql method" Url="html/M_ThoughtWorksMingleLib_MingleProject_ExecMql.htm" />
   <HelpKINode Title="MingleProject.Favorites property" Url="html/P_ThoughtWorksMingleLib_MingleProject_Favorites.htm" />
+  <HelpKINode Title="MingleProject.GetCard method" Url="html/M_ThoughtWorksMingleLib_MingleProject_GetCard.htm" />
   <HelpKINode Title="MingleProject.GetCards method" Url="html/Overload_ThoughtWorksMingleLib_MingleProject_GetCards.htm" />
   <HelpKINode Title="MingleProject.GetCardType method" Url="html/M_ThoughtWorksMingleLib_MingleProject_GetCardType.htm" />
   <HelpKINode Title="MingleProject.GetCardTypes method" Url="html/M_ThoughtWorksMingleLib_MingleProject_GetCardTypes.htm" />
@@ -652,9 +655,8 @@
   <HelpKINode Title="MingleServer.GetProjectList method" Url="html/M_ThoughtWorksMingleLib_MingleServer_GetProjectList.htm" />
   <HelpKINode Title="MingleServer.GetSecureStringFromString method" Url="html/M_ThoughtWorksMingleLib_MingleServer_GetSecureStringFromString.htm" />
   <HelpKINode Title="MingleServer.MingleServer constructor" Url="html/Overload_ThoughtWorksMingleLib_MingleServer__ctor.htm" />
-  <HelpKINode Title="MingleServer.Post method" Url="html/Overload_ThoughtWorksMingleLib_MingleServer_Post.htm" />
+  <HelpKINode Title="MingleServer.Post method" Url="html/M_ThoughtWorksMingleLib_MingleServer_Post.htm" />
   <HelpKINode Title="MingleServer.Put method" Url="html/M_ThoughtWorksMingleLib_MingleServer_Put.htm" />
-  <HelpKINode Title="MingleServer.SetConnectionInfo method" Url="html/Overload_ThoughtWorksMingleLib_MingleServer_SetConnectionInfo.htm" />
   <HelpKINode Title="MingleTeamMembersLoadingError property" Url="html/P_ThoughtWorksCoreLib_Resources_MingleTeamMembersLoadingError.htm" />
   <HelpKINode Title="MingleTransition class" Url="html/T_ThoughtWorksMingleLib_MingleTransition.htm" />
   <HelpKINode Title="MingleTransition class">
@@ -736,8 +738,8 @@
   <HelpKINode Title="Post method" Url="html/M_ThoughtWorksCoreLib_AuthenticatingWeb_Post.htm" />
   <HelpKINode Title="Post method" Url="html/M_ThoughtWorksCoreLib_IWeb_Post.htm" />
   <HelpKINode Title="Post method" Url="html/M_ThoughtWorksCoreLib_Web_Post.htm" />
-  <HelpKINode Title="Post method" Url="html/Overload_ThoughtWorksMingleLib_IMingleServer_Post.htm" />
-  <HelpKINode Title="Post method" Url="html/Overload_ThoughtWorksMingleLib_MingleServer_Post.htm" />
+  <HelpKINode Title="Post method" Url="html/M_ThoughtWorksMingleLib_IMingleServer_Post.htm" />
+  <HelpKINode Title="Post method" Url="html/M_ThoughtWorksMingleLib_MingleServer_Post.htm" />
   <HelpKINode Title="PostData property" Url="html/P_ThoughtWorksMingleLib_MingleCard_PostData.htm" />
   <HelpKINode Title="ProductDetails property" Url="html/P_ThoughtWorksCoreLib_Resources_ProductDetails.htm" />
   <HelpKINode Title="ProductId property" Url="html/P_ThoughtWorksCoreLib_Resources_ProductId.htm" />
@@ -907,8 +909,6 @@
   <HelpKINode Title="RunMacro method" Url="html/M_ThoughtWorksMingleLib_IMingleProject_RunMacro.htm" />
   <HelpKINode Title="RunMacro method" Url="html/M_ThoughtWorksMingleLib_MingleProject_RunMacro.htm" />
   <HelpKINode Title="Scheme property" Url="html/P_ThoughtWorksMingleLib_MingleEventsCategory_Scheme.htm" />
-  <HelpKINode Title="SetConnectionInfo method" Url="html/Overload_ThoughtWorksMingleLib_IMingleServer_SetConnectionInfo.htm" />
-  <HelpKINode Title="SetConnectionInfo method" Url="html/Overload_ThoughtWorksMingleLib_MingleServer_SetConnectionInfo.htm" />
   <HelpKINode Title="Settings field" Url="html/F_ThoughtWorksCoreLib_ViewIdentifiers_Settings.htm" />
   <HelpKINode Title="SettingsDataIsDirty property" Url="html/P_ThoughtWorksCoreLib_Resources_SettingsDataIsDirty.htm" />
   <HelpKINode Title="Slash property" Url="html/P_ThoughtWorksCoreLib_Resources_Slash.htm" />
@@ -1038,7 +1038,7 @@
     <HelpKINode Title="methods" Url="html/Methods_T_ThoughtWorksCoreLib_Web.htm" />
   </HelpKINode>
   <HelpKINode Title="Web.Delete method" Url="html/M_ThoughtWorksCoreLib_Web_Delete.htm" />
-  <HelpKINode Title="Web.Get method" Url="html/M_ThoughtWorksCoreLib_Web_Get.htm" />
+  <HelpKINode Title="Web.Get method" Url="html/Overload_ThoughtWorksCoreLib_Web_Get.htm" />
   <HelpKINode Title="Web.Post method" Url="html/M_ThoughtWorksCoreLib_Web_Post.htm" />
   <HelpKINode Title="Web.Put method" Url="html/M_ThoughtWorksCoreLib_Web_Put.htm" />
   <HelpKINode Title="Web.Web constructor" Url="html/Overload_ThoughtWorksCoreLib_Web__ctor.htm" />

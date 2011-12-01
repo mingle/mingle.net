@@ -27,7 +27,7 @@
     <FrameworkVersion>4.0.30319</FrameworkVersion>
     <HelpFileFormat>HtmlHelp1, MSHelpViewer, Website</HelpFileFormat>
     <HelpTitle>ThoughtWorks Studios API for .NET</HelpTitle>
-    <CopyrightText>Copyright 2010,2011 ThuoghtWorks Studios</CopyrightText>
+    <CopyrightText>Copyright 2010,2011 ThuoghtWorks Inc.</CopyrightText>
     <HeaderText>ThoughtWorks Studios API for .NET</HeaderText>
     <FooterText>
     </FooterText>
@@ -48,7 +48,7 @@
       <Filter entryType="Namespace" fullName="ThoughtWorks.VisualStudio.View.SettingsView" isExposed="False" />
       <Filter entryType="Namespace" fullName="ThoughtWorks.VisualStudio.View.TransitionCommentView" isExposed="False" />
     </ApiFilter>
-    <HelpFileVersion>0.8.9.1</HelpFileVersion>
+    <HelpFileVersion>1.0.1</HelpFileVersion>
     <IncludeFavorites>True</IncludeFavorites>
     <RootNamespaceContainer>True</RootNamespaceContainer>
     <PresentationStyle>hana</PresentationStyle>
@@ -66,6 +66,7 @@
     <WorkingPath>
     </WorkingPath>
     <SelfBranded>False</SelfBranded>
+    <MSHelpViewerSdkLinkType>Msdn</MSHelpViewerSdkLinkType>
   </PropertyGroup>
   <!-- There are no properties for these groups.  AnyCPU needs to appear in
        order for Visual Studio to perform the build.  The others are optional

@@ -1,38 +1,44 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <HelpTOC>
 
-  <HelpTOCNode Id="5c2593af-55e4-49ee-a679-13df3e50ba17" Title="Namespaces" Url="html/R_Project.htm">
-    <HelpTOCNode Id="25c3fc46-0dea-4798-a607-f3ac9cd726ec" Title="ThoughtWorksCoreLib Namespace" Url="html/N_ThoughtWorksCoreLib.htm">
-      <HelpTOCNode Id="7aa84930-49d3-49d2-a45d-4ea76fe637b2" Title="AuthenticatingWeb Class" Url="html/T_ThoughtWorksCoreLib_AuthenticatingWeb.htm">
+  <HelpTOCNode Id="6402a83f-68b8-4342-9a06-be00b68c61bc" Title="Namespaces" Url="html/R_Project.htm">
+    <HelpTOCNode Id="af62a44f-1b3b-4d33-bfd9-f07e608541b9" Title="ThoughtWorksCoreLib Namespace" Url="html/N_ThoughtWorksCoreLib.htm">
+      <HelpTOCNode Id="e9fa57ab-8492-4de6-97e2-62003c865f16" Title="AuthenticatingWeb Class" Url="html/T_ThoughtWorksCoreLib_AuthenticatingWeb.htm">
         <HelpTOCNode Title="AuthenticatingWeb Constructor " Url="html/M_ThoughtWorksCoreLib_AuthenticatingWeb__ctor.htm" />
-        <HelpTOCNode Id="0e5c850b-81e8-49e3-ae08-005d158f120b" Title="AuthenticatingWeb Methods " Url="html/Methods_T_ThoughtWorksCoreLib_AuthenticatingWeb.htm">
+        <HelpTOCNode Id="0de1cf22-8daa-497a-98b9-f599e1d719d9" Title="AuthenticatingWeb Methods " Url="html/Methods_T_ThoughtWorksCoreLib_AuthenticatingWeb.htm">
           <HelpTOCNode Title="Delete Method " Url="html/M_ThoughtWorksCoreLib_AuthenticatingWeb_Delete.htm" />
-          <HelpTOCNode Title="Get Method " Url="html/M_ThoughtWorksCoreLib_AuthenticatingWeb_Get.htm" />
+          <HelpTOCNode Id="3a52252b-0cbc-41f4-8d06-d82a0cd370d4" Title="Get Method " Url="html/Overload_ThoughtWorksCoreLib_AuthenticatingWeb_Get.htm">
+            <HelpTOCNode Title="Get Method (String)" Url="html/M_ThoughtWorksCoreLib_AuthenticatingWeb_Get.htm" />
+            <HelpTOCNode Title="Get Method (String, IEnumerable)" Url="html/M_ThoughtWorksCoreLib_AuthenticatingWeb_Get_1.htm" />
+          </HelpTOCNode>
           <HelpTOCNode Title="Post Method " Url="html/M_ThoughtWorksCoreLib_AuthenticatingWeb_Post.htm" />
           <HelpTOCNode Title="Put Method " Url="html/M_ThoughtWorksCoreLib_AuthenticatingWeb_Put.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="8d01bc62-e36a-4dc0-bb48-916abfc64da2" Title="IResponse Interface" Url="html/T_ThoughtWorksCoreLib_IResponse.htm">
-        <HelpTOCNode Id="573b5319-97a5-445e-aa62-91888925e056" Title="IResponse Properties " Url="html/Properties_T_ThoughtWorksCoreLib_IResponse.htm">
+      <HelpTOCNode Id="c6badf40-6abb-405f-9d0e-974b18323477" Title="IResponse Interface" Url="html/T_ThoughtWorksCoreLib_IResponse.htm">
+        <HelpTOCNode Id="af319a51-f6b4-4a5d-871b-0fa5ab1ef510" Title="IResponse Properties " Url="html/Properties_T_ThoughtWorksCoreLib_IResponse.htm">
           <HelpTOCNode Title="Body Property " Url="html/P_ThoughtWorksCoreLib_IResponse_Body.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="6921890f-61c8-4618-b806-766186d9a205" Title="IWeb Interface" Url="html/T_ThoughtWorksCoreLib_IWeb.htm">
-        <HelpTOCNode Id="3d84672d-f430-41db-be1a-0dda65e3c6d4" Title="IWeb Methods " Url="html/Methods_T_ThoughtWorksCoreLib_IWeb.htm">
+      <HelpTOCNode Id="e8a1b89e-1cc7-41a5-8fed-5f86425e8f17" Title="IWeb Interface" Url="html/T_ThoughtWorksCoreLib_IWeb.htm">
+        <HelpTOCNode Id="39d3740a-53cb-4c93-94bd-e8bc005b9247" Title="IWeb Methods " Url="html/Methods_T_ThoughtWorksCoreLib_IWeb.htm">
           <HelpTOCNode Title="Delete Method " Url="html/M_ThoughtWorksCoreLib_IWeb_Delete.htm" />
-          <HelpTOCNode Title="Get Method " Url="html/M_ThoughtWorksCoreLib_IWeb_Get.htm" />
+          <HelpTOCNode Id="994f31c6-9b93-4b38-bf42-cd900e90c4e5" Title="Get Method " Url="html/Overload_ThoughtWorksCoreLib_IWeb_Get.htm">
+            <HelpTOCNode Title="Get Method (String)" Url="html/M_ThoughtWorksCoreLib_IWeb_Get.htm" />
+            <HelpTOCNode Title="Get Method (String, IEnumerable)" Url="html/M_ThoughtWorksCoreLib_IWeb_Get_1.htm" />
+          </HelpTOCNode>
           <HelpTOCNode Title="Post Method " Url="html/M_ThoughtWorksCoreLib_IWeb_Post.htm" />
           <HelpTOCNode Title="Put Method " Url="html/M_ThoughtWorksCoreLib_IWeb_Put.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="a8755f37-4570-46cc-a0d2-ff7d46d787d0" Title="IWebApi Interface" Url="html/T_ThoughtWorksCoreLib_IWebApi.htm">
-        <HelpTOCNode Id="b1a6b39e-8e4e-4ff4-83df-f12623d33fe2" Title="IWebApi Methods " Url="html/Methods_T_ThoughtWorksCoreLib_IWebApi.htm">
+      <HelpTOCNode Id="9fa81ed7-b9d6-4b57-9c9a-54a8d0ce1090" Title="IWebApi Interface" Url="html/T_ThoughtWorksCoreLib_IWebApi.htm">
+        <HelpTOCNode Id="c9ed741d-83d4-458d-bf46-b39f1c34e011" Title="IWebApi Methods " Url="html/Methods_T_ThoughtWorksCoreLib_IWebApi.htm">
           <HelpTOCNode Title="Get Method " Url="html/M_ThoughtWorksCoreLib_IWebApi_Get.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="13c60ef0-404f-4ef3-a7fa-af25a6cae1c6" Title="Resources Class" Url="html/T_ThoughtWorksCoreLib_Resources.htm">
+      <HelpTOCNode Id="23ed5f0a-65c5-4e80-99b6-a230aed84ea7" Title="Resources Class" Url="html/T_ThoughtWorksCoreLib_Resources.htm">
         <HelpTOCNode Title="Resources Methods " Url="html/Methods_T_ThoughtWorksCoreLib_Resources.htm" />
-        <HelpTOCNode Id="c7713e17-b98d-4fdc-9a52-cb7b7a681693" Title="Resources Properties " Url="html/Properties_T_ThoughtWorksCoreLib_Resources.htm">
+        <HelpTOCNode Id="e5038116-d5fb-4452-911b-957e9869a37a" Title="Resources Properties " Url="html/Properties_T_ThoughtWorksCoreLib_Resources.htm">
           <HelpTOCNode Title="At Property " Url="html/P_ThoughtWorksCoreLib_Resources_At.htm" />
           <HelpTOCNode Title="BuildNotification Property " Url="html/P_ThoughtWorksCoreLib_Resources_BuildNotification.htm" />
           <HelpTOCNode Title="CancelLabel Property " Url="html/P_ThoughtWorksCoreLib_Resources_CancelLabel.htm" />
@@ -133,20 +139,20 @@
           <HelpTOCNode Title="ViewNotUsableFromVisualStudio Property " Url="html/P_ThoughtWorksCoreLib_Resources_ViewNotUsableFromVisualStudio.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="a7bbf046-97c1-4bb1-aec6-657ae9127cda" Title="TraceLog Class" Url="html/T_ThoughtWorksCoreLib_TraceLog.htm">
-        <HelpTOCNode Id="3a46a921-b298-4cca-a615-a07e1230a1d2" Title="TraceLog Methods " Url="html/Methods_T_ThoughtWorksCoreLib_TraceLog.htm">
+      <HelpTOCNode Id="0759c00b-2d39-4e4a-a8f2-aa0a081dd4b8" Title="TraceLog Class" Url="html/T_ThoughtWorksCoreLib_TraceLog.htm">
+        <HelpTOCNode Id="534517dc-8708-450a-bd1c-8364349f30e5" Title="TraceLog Methods " Url="html/Methods_T_ThoughtWorksCoreLib_TraceLog.htm">
           <HelpTOCNode Title="Exception Method " Url="html/M_ThoughtWorksCoreLib_TraceLog_Exception.htm" />
           <HelpTOCNode Title="Initialize Method " Url="html/M_ThoughtWorksCoreLib_TraceLog_Initialize.htm" />
           <HelpTOCNode Title="WriteLine Method " Url="html/M_ThoughtWorksCoreLib_TraceLog_WriteLine.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="38426cf1-c1ed-42b5-a9c7-a98427075954" Title="TraceLog Properties " Url="html/Properties_T_ThoughtWorksCoreLib_TraceLog.htm">
+        <HelpTOCNode Id="3f425600-181a-416f-aa8d-c3862d8fb057" Title="TraceLog Properties " Url="html/Properties_T_ThoughtWorksCoreLib_TraceLog.htm">
           <HelpTOCNode Title="FilePath Property " Url="html/P_ThoughtWorksCoreLib_TraceLog_FilePath.htm" />
           <HelpTOCNode Title="TraceEntryAndExit Property " Url="html/P_ThoughtWorksCoreLib_TraceLog_TraceEntryAndExit.htm" />
           <HelpTOCNode Title="Tracing Property " Url="html/P_ThoughtWorksCoreLib_TraceLog_Tracing.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="7c10999b-afdd-4d48-9650-4e1ec14f2920" Title="ViewIdentifiers Class" Url="html/T_ThoughtWorksCoreLib_ViewIdentifiers.htm">
-        <HelpTOCNode Id="ed9ee973-74e6-4ff2-b2ee-2aa3df38e6d4" Title="ViewIdentifiers Fields" Url="html/Fields_T_ThoughtWorksCoreLib_ViewIdentifiers.htm">
+      <HelpTOCNode Id="8d468077-6947-45a5-bece-1c03b1a2e267" Title="ViewIdentifiers Class" Url="html/T_ThoughtWorksCoreLib_ViewIdentifiers.htm">
+        <HelpTOCNode Id="a6e0ed2b-cd10-40b7-8698-ddf51bbd3801" Title="ViewIdentifiers Fields" Url="html/Fields_T_ThoughtWorksCoreLib_ViewIdentifiers.htm">
           <HelpTOCNode Title="Card Field" Url="html/F_ThoughtWorksCoreLib_ViewIdentifiers_Card.htm" />
           <HelpTOCNode Title="CardSet Field" Url="html/F_ThoughtWorksCoreLib_ViewIdentifiers_CardSet.htm" />
           <HelpTOCNode Title="CardSetFiltered Field" Url="html/F_ThoughtWorksCoreLib_ViewIdentifiers_CardSetFiltered.htm" />
@@ -156,28 +162,32 @@
         </HelpTOCNode>
         <HelpTOCNode Title="ViewIdentifiers Methods " Url="html/Methods_T_ThoughtWorksCoreLib_ViewIdentifiers.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="0d6dfecb-072e-402c-a55a-a9c3bac1a6fb" Title="Web Class" Url="html/T_ThoughtWorksCoreLib_Web.htm">
-        <HelpTOCNode Id="3d202dc6-b6b5-475b-9e57-fce14911d9d3" Title="Web Constructor " Url="html/Overload_ThoughtWorksCoreLib_Web__ctor.htm">
+      <HelpTOCNode Id="d473e6b0-4f49-4f3f-85f3-ef351ed402d6" Title="Web Class" Url="html/T_ThoughtWorksCoreLib_Web.htm">
+        <HelpTOCNode Id="04fa9ced-6b0b-480e-85aa-7814a269e73f" Title="Web Constructor " Url="html/Overload_ThoughtWorksCoreLib_Web__ctor.htm">
           <HelpTOCNode Title="Web Constructor " Url="html/M_ThoughtWorksCoreLib_Web__ctor.htm" />
           <HelpTOCNode Title="Web Constructor (Action)" Url="html/M_ThoughtWorksCoreLib_Web__ctor_1.htm" />
+          <HelpTOCNode Title="Web Constructor (Action, Action)" Url="html/M_ThoughtWorksCoreLib_Web__ctor_2.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="84d76d2c-ac5a-44c4-aceb-d06f21364d20" Title="Web Methods " Url="html/Methods_T_ThoughtWorksCoreLib_Web.htm">
+        <HelpTOCNode Id="cd022692-1ac6-4000-8e8d-52434e2a41e0" Title="Web Methods " Url="html/Methods_T_ThoughtWorksCoreLib_Web.htm">
           <HelpTOCNode Title="Delete Method " Url="html/M_ThoughtWorksCoreLib_Web_Delete.htm" />
-          <HelpTOCNode Title="Get Method " Url="html/M_ThoughtWorksCoreLib_Web_Get.htm" />
+          <HelpTOCNode Id="114f52a7-45cf-4ed8-8cde-3e6bc2bc5e35" Title="Get Method " Url="html/Overload_ThoughtWorksCoreLib_Web_Get.htm">
+            <HelpTOCNode Title="Get Method (String)" Url="html/M_ThoughtWorksCoreLib_Web_Get.htm" />
+            <HelpTOCNode Title="Get Method (String, IEnumerable)" Url="html/M_ThoughtWorksCoreLib_Web_Get_1.htm" />
+          </HelpTOCNode>
           <HelpTOCNode Title="Post Method " Url="html/M_ThoughtWorksCoreLib_Web_Post.htm" />
           <HelpTOCNode Title="Put Method " Url="html/M_ThoughtWorksCoreLib_Web_Put.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="db85343f-69b8-4dde-96db-2b490fb5afa7" Title="WebApi Class" Url="html/T_ThoughtWorksCoreLib_WebApi.htm">
+      <HelpTOCNode Id="3f6dff0d-b0d2-490b-a116-45af7114efab" Title="WebApi Class" Url="html/T_ThoughtWorksCoreLib_WebApi.htm">
         <HelpTOCNode Title="WebApi Constructor " Url="html/M_ThoughtWorksCoreLib_WebApi__ctor.htm" />
-        <HelpTOCNode Id="9bc47bb9-6058-485c-a6a4-8b98615fcfc3" Title="WebApi Methods " Url="html/Methods_T_ThoughtWorksCoreLib_WebApi.htm">
+        <HelpTOCNode Id="9cf82374-6331-4a5d-802b-4b2a05249434" Title="WebApi Methods " Url="html/Methods_T_ThoughtWorksCoreLib_WebApi.htm">
           <HelpTOCNode Title="Get Method " Url="html/M_ThoughtWorksCoreLib_WebApi_Get.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="0697d314-39ed-417a-a18c-ac76aaf6d96f" Title="ThoughtWorksMingleLib Namespace" Url="html/N_ThoughtWorksMingleLib.htm">
-      <HelpTOCNode Id="e95e5d24-80e3-4eba-a27a-0bbf9d6a20fc" Title="IMingleProject Interface" Url="html/T_ThoughtWorksMingleLib_IMingleProject.htm">
-        <HelpTOCNode Id="133beb81-fa7c-492c-8851-abbfb649a3ef" Title="IMingleProject Methods " Url="html/Methods_T_ThoughtWorksMingleLib_IMingleProject.htm">
+    <HelpTOCNode Id="50c59f53-543b-49a9-b5a1-c205ff343637" Title="ThoughtWorksMingleLib Namespace" Url="html/N_ThoughtWorksMingleLib.htm">
+      <HelpTOCNode Id="f07c2ba9-e9fe-40f3-9347-3b9fbba99317" Title="IMingleProject Interface" Url="html/T_ThoughtWorksMingleLib_IMingleProject.htm">
+        <HelpTOCNode Id="e9604a58-480a-41e7-8802-b99e143b1809" Title="IMingleProject Methods " Url="html/Methods_T_ThoughtWorksMingleLib_IMingleProject.htm">
           <HelpTOCNode Title="ExecMql Method " Url="html/M_ThoughtWorksMingleLib_IMingleProject_ExecMql.htm" />
           <HelpTOCNode Title="GetCards Method " Url="html/M_ThoughtWorksMingleLib_IMingleProject_GetCards.htm" />
           <HelpTOCNode Title="GetCardType Method " Url="html/M_ThoughtWorksMingleLib_IMingleProject_GetCardType.htm" />
@@ -193,56 +203,50 @@
           <HelpTOCNode Title="RunMacro Method " Url="html/M_ThoughtWorksMingleLib_IMingleProject_RunMacro.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="7fc38f66-d9ba-4da4-8940-961e62ceeb1e" Title="IMingleServer Interface" Url="html/T_ThoughtWorksMingleLib_IMingleServer.htm">
-        <HelpTOCNode Id="6b0f30a7-325a-43dc-8938-c21bdeae754b" Title="IMingleServer Methods " Url="html/Methods_T_ThoughtWorksMingleLib_IMingleServer.htm">
-          <HelpTOCNode Id="da5469a3-a6d0-42df-aa89-743c0c2c50b6" Title="Get Method " Url="html/Overload_ThoughtWorksMingleLib_IMingleServer_Get.htm">
+      <HelpTOCNode Id="c3c06129-deed-44dd-ab2b-ca59be76fadb" Title="IMingleServer Interface" Url="html/T_ThoughtWorksMingleLib_IMingleServer.htm">
+        <HelpTOCNode Id="1b216d3b-1de1-4817-b304-a3141fb2ef74" Title="IMingleServer Methods " Url="html/Methods_T_ThoughtWorksMingleLib_IMingleServer.htm">
+          <HelpTOCNode Id="c91a0b59-6b49-4ef4-92c7-0e0a6422899e" Title="Get Method " Url="html/Overload_ThoughtWorksMingleLib_IMingleServer_Get.htm">
             <HelpTOCNode Title="Get Method (String, String)" Url="html/M_ThoughtWorksMingleLib_IMingleServer_Get.htm" />
-            <HelpTOCNode Title="Get Method (String, String, Collection)" Url="html/M_ThoughtWorksMingleLib_IMingleServer_Get_1.htm" />
+            <HelpTOCNode Title="Get Method (String, String, IEnumerable)" Url="html/M_ThoughtWorksMingleLib_IMingleServer_Get_1.htm" />
           </HelpTOCNode>
+          <HelpTOCNode Title="GetProject Method " Url="html/M_ThoughtWorksMingleLib_IMingleServer_GetProject.htm" />
           <HelpTOCNode Title="GetProjectList Method " Url="html/M_ThoughtWorksMingleLib_IMingleServer_GetProjectList.htm" />
-          <HelpTOCNode Id="d452a1ae-70d9-4a2a-878e-7e9e8b1ac7c1" Title="Post Method " Url="html/Overload_ThoughtWorksMingleLib_IMingleServer_Post.htm">
-            <HelpTOCNode Title="Post Method (String, Collection)" Url="html/M_ThoughtWorksMingleLib_IMingleServer_Post.htm" />
-            <HelpTOCNode Title="Post Method (String, String, Collection)" Url="html/M_ThoughtWorksMingleLib_IMingleServer_Post_1.htm" />
-          </HelpTOCNode>
+          <HelpTOCNode Title="Post Method " Url="html/M_ThoughtWorksMingleLib_IMingleServer_Post.htm" />
           <HelpTOCNode Title="Put Method " Url="html/M_ThoughtWorksMingleLib_IMingleServer_Put.htm" />
-          <HelpTOCNode Id="730aa515-1102-4b0e-953f-0ca700c72c90" Title="SetConnectionInfo Method " Url="html/Overload_ThoughtWorksMingleLib_IMingleServer_SetConnectionInfo.htm">
-            <HelpTOCNode Title="SetConnectionInfo Method (String, String, SecureString, Exception)" Url="html/M_ThoughtWorksMingleLib_IMingleServer_SetConnectionInfo.htm" />
-            <HelpTOCNode Title="SetConnectionInfo Method (String, String, String, Exception)" Url="html/M_ThoughtWorksMingleLib_IMingleServer_SetConnectionInfo_1.htm" />
-          </HelpTOCNode>
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="1d9e1910-6f8a-4937-a069-b4b7b34ef5b1" Title="IMingleXmlObject Interface" Url="html/T_ThoughtWorksMingleLib_IMingleXmlObject.htm">
-        <HelpTOCNode Id="05cb809d-00c2-4c5d-8bf2-7f0aab0b285f" Title="IMingleXmlObject Methods " Url="html/Methods_T_ThoughtWorksMingleLib_IMingleXmlObject.htm">
+      <HelpTOCNode Id="1143386a-9285-4a65-8b90-ddd8b0eb8d2e" Title="IMingleXmlObject Interface" Url="html/T_ThoughtWorksMingleLib_IMingleXmlObject.htm">
+        <HelpTOCNode Id="a9bef59c-72bb-4bb4-afa0-37e8a4fe7c3a" Title="IMingleXmlObject Methods " Url="html/Methods_T_ThoughtWorksMingleLib_IMingleXmlObject.htm">
           <HelpTOCNode Title="Update Method " Url="html/M_ThoughtWorksMingleLib_IMingleXmlObject_Update.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="0ee362dc-2847-4a24-abba-5ef9f659d59c" Title="IMingleXmlObjectCollection Interface" Url="html/T_ThoughtWorksMingleLib_IMingleXmlObjectCollection.htm">
-        <HelpTOCNode Id="5b5171e2-b6cf-4715-93a4-bbb6431e1422" Title="IMingleXmlObjectCollection Methods " Url="html/Methods_T_ThoughtWorksMingleLib_IMingleXmlObjectCollection.htm">
+      <HelpTOCNode Id="4806b6bd-bd49-418f-9c92-8d6db4ab79b7" Title="IMingleXmlObjectCollection Interface" Url="html/T_ThoughtWorksMingleLib_IMingleXmlObjectCollection.htm">
+        <HelpTOCNode Id="7dc0ff0c-d5a7-40b1-aaf8-2f7e62802ee1" Title="IMingleXmlObjectCollection Methods " Url="html/Methods_T_ThoughtWorksMingleLib_IMingleXmlObjectCollection.htm">
           <HelpTOCNode Title="Parse Method " Url="html/M_ThoughtWorksMingleLib_IMingleXmlObjectCollection_Parse.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="8653b51a-a5f1-4881-a499-4b8c84bc77dc" Title="IMingleXmlObjectCollection Properties " Url="html/Properties_T_ThoughtWorksMingleLib_IMingleXmlObjectCollection.htm">
+        <HelpTOCNode Id="437b4a1f-5d59-4429-8cee-0a8fbea31260" Title="IMingleXmlObjectCollection Properties " Url="html/Properties_T_ThoughtWorksMingleLib_IMingleXmlObjectCollection.htm">
           <HelpTOCNode Title="ProjectId Property " Url="html/P_ThoughtWorksMingleLib_IMingleXmlObjectCollection_ProjectId.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="341ffcdb-779e-4883-add3-648ecd4a99fd" Title="Mingle Class" Url="html/T_ThoughtWorksMingleLib_Mingle.htm">
+      <HelpTOCNode Id="26872649-7ba3-445f-bee2-0242fea787da" Title="Mingle Class" Url="html/T_ThoughtWorksMingleLib_Mingle.htm">
         <HelpTOCNode Title="Mingle Constructor " Url="html/M_ThoughtWorksMingleLib_Mingle__ctor.htm" />
-        <HelpTOCNode Id="cb34a609-2514-4a71-a0e2-09f882514bb6" Title="Mingle Methods " Url="html/Methods_T_ThoughtWorksMingleLib_Mingle.htm">
+        <HelpTOCNode Id="d8d0bd3b-a0ab-4eb4-926c-b332023ec345" Title="Mingle Methods " Url="html/Methods_T_ThoughtWorksMingleLib_Mingle.htm">
           <HelpTOCNode Title="GetMurmurs Method " Url="html/M_ThoughtWorksMingleLib_Mingle_GetMurmurs.htm" />
           <HelpTOCNode Title="GetResults Method " Url="html/M_ThoughtWorksMingleLib_Mingle_GetResults.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="a6633819-7c0a-4eea-baf8-a104fffcdb1d" Title="MingleCard Class" Url="html/T_ThoughtWorksMingleLib_MingleCard.htm">
-        <HelpTOCNode Id="9833d07d-e339-4dfb-9356-a38129e55b5b" Title="MingleCard Constructor " Url="html/Overload_ThoughtWorksMingleLib_MingleCard__ctor.htm">
+      <HelpTOCNode Id="3a9617af-37dd-4347-842c-ca264eee89c8" Title="MingleCard Class" Url="html/T_ThoughtWorksMingleLib_MingleCard.htm">
+        <HelpTOCNode Id="bd062cae-9f1d-4f93-ae52-f1cd56e22f29" Title="MingleCard Constructor " Url="html/Overload_ThoughtWorksMingleLib_MingleCard__ctor.htm">
           <HelpTOCNode Title="MingleCard Constructor " Url="html/M_ThoughtWorksMingleLib_MingleCard__ctor.htm" />
           <HelpTOCNode Title="MingleCard Constructor (String, MingleProject)" Url="html/M_ThoughtWorksMingleLib_MingleCard__ctor_1.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="8a1cfc86-8d35-463b-b769-7204698c5061" Title="MingleCard Methods " Url="html/Methods_T_ThoughtWorksMingleLib_MingleCard.htm">
+        <HelpTOCNode Id="aaaa2ee6-494e-4e99-b17b-ba11f639c4a9" Title="MingleCard Methods " Url="html/Methods_T_ThoughtWorksMingleLib_MingleCard.htm">
           <HelpTOCNode Title="AddCardAttributeFilterToPostData Method " Url="html/M_ThoughtWorksMingleLib_MingleCard_AddCardAttributeFilterToPostData.htm" />
           <HelpTOCNode Title="AddPropertyFilterToPostData Method " Url="html/M_ThoughtWorksMingleLib_MingleCard_AddPropertyFilterToPostData.htm" />
           <HelpTOCNode Title="Create Method " Url="html/M_ThoughtWorksMingleLib_MingleCard_Create.htm" />
           <HelpTOCNode Title="Update Method " Url="html/M_ThoughtWorksMingleLib_MingleCard_Update.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="74f94509-5e6c-4d1a-8068-76f4fd6c58c4" Title="MingleCard Properties " Url="html/Properties_T_ThoughtWorksMingleLib_MingleCard.htm">
+        <HelpTOCNode Id="41cb6007-d656-4081-a479-92003809ef35" Title="MingleCard Properties " Url="html/Properties_T_ThoughtWorksMingleLib_MingleCard.htm">
           <HelpTOCNode Title="CardProperties Property " Url="html/P_ThoughtWorksMingleLib_MingleCard_CardProperties.htm" />
           <HelpTOCNode Title="CardTypeUrl Property " Url="html/P_ThoughtWorksMingleLib_MingleCard_CardTypeUrl.htm" />
           <HelpTOCNode Title="CreatedByLogin Property " Url="html/P_ThoughtWorksMingleLib_MingleCard_CreatedByLogin.htm" />
@@ -269,28 +273,28 @@
           <HelpTOCNode Title="Version Property " Url="html/P_ThoughtWorksMingleLib_MingleCard_Version.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="ad77afda-3176-480e-9062-8299fd479b90" Title="MingleCardCollection Class" Url="html/T_ThoughtWorksMingleLib_MingleCardCollection.htm">
+      <HelpTOCNode Id="30b53e32-ecce-411f-b3af-d40c2cd74ad9" Title="MingleCardCollection Class" Url="html/T_ThoughtWorksMingleLib_MingleCardCollection.htm">
         <HelpTOCNode Title="MingleCardCollection Constructor " Url="html/M_ThoughtWorksMingleLib_MingleCardCollection__ctor.htm" />
-        <HelpTOCNode Id="fa2cd987-2643-481d-9fc2-c4c178e367d8" Title="MingleCardCollection Methods " Url="html/Methods_T_ThoughtWorksMingleLib_MingleCardCollection.htm">
-          <HelpTOCNode Id="43977a51-42a0-4559-b7c8-e68da0084095" Title="Parse Method " Url="html/Overload_ThoughtWorksMingleLib_MingleCardCollection_Parse.htm">
+        <HelpTOCNode Id="38100b0f-d6e5-40fb-919b-ef118813c2ab" Title="MingleCardCollection Methods " Url="html/Methods_T_ThoughtWorksMingleLib_MingleCardCollection.htm">
+          <HelpTOCNode Id="bdbc0eb7-dad7-41c0-930f-a86266c027d7" Title="Parse Method " Url="html/Overload_ThoughtWorksMingleLib_MingleCardCollection_Parse.htm">
             <HelpTOCNode Title="Parse Method " Url="html/M_ThoughtWorksMingleLib_MingleCardCollection_Parse.htm" />
             <HelpTOCNode Title="Parse Method (Collection)" Url="html/M_ThoughtWorksMingleLib_MingleCardCollection_Parse_1.htm" />
             <HelpTOCNode Title="Parse Method (Int32)" Url="html/M_ThoughtWorksMingleLib_MingleCardCollection_Parse_2.htm" />
           </HelpTOCNode>
         </HelpTOCNode>
-        <HelpTOCNode Id="8206b140-0159-461a-a2b2-daba296d68b0" Title="MingleCardCollection Properties " Url="html/Properties_T_ThoughtWorksMingleLib_MingleCardCollection.htm">
+        <HelpTOCNode Id="6e2596cc-b6b9-41c3-bbb6-fc9c05e20807" Title="MingleCardCollection Properties " Url="html/Properties_T_ThoughtWorksMingleLib_MingleCardCollection.htm">
           <HelpTOCNode Title="Project Property " Url="html/P_ThoughtWorksMingleLib_MingleCardCollection_Project.htm" />
           <HelpTOCNode Title="ProjectId Property " Url="html/P_ThoughtWorksMingleLib_MingleCardCollection_ProjectId.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="MingleCardCollection Events" Url="html/Events_T_ThoughtWorksMingleLib_MingleCardCollection.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="65d66d83-9cd0-48db-b06d-287d71db9929" Title="MingleCardProperty Class" Url="html/T_ThoughtWorksMingleLib_MingleCardProperty.htm">
-        <HelpTOCNode Id="b3cdb1f1-80fc-41ab-a405-27162ff35a5e" Title="MingleCardProperty Constructor " Url="html/Overload_ThoughtWorksMingleLib_MingleCardProperty__ctor.htm">
+      <HelpTOCNode Id="3f1d55d8-c9e3-4419-a2a6-c4621f3783fa" Title="MingleCardProperty Class" Url="html/T_ThoughtWorksMingleLib_MingleCardProperty.htm">
+        <HelpTOCNode Id="10233db6-0c5a-4c67-93ff-85ecffca52c3" Title="MingleCardProperty Constructor " Url="html/Overload_ThoughtWorksMingleLib_MingleCardProperty__ctor.htm">
           <HelpTOCNode Title="MingleCardProperty Constructor (String)" Url="html/M_ThoughtWorksMingleLib_MingleCardProperty__ctor.htm" />
           <HelpTOCNode Title="MingleCardProperty Constructor (String, MingleProject)" Url="html/M_ThoughtWorksMingleLib_MingleCardProperty__ctor_1.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="MingleCardProperty Methods " Url="html/Methods_T_ThoughtWorksMingleLib_MingleCardProperty.htm" />
-        <HelpTOCNode Id="fd166e60-bbcb-41c3-bbcc-72d7021d8965" Title="MingleCardProperty Properties " Url="html/Properties_T_ThoughtWorksMingleLib_MingleCardProperty.htm">
+        <HelpTOCNode Id="a8f0d328-b108-42d7-8074-e0a70240e62d" Title="MingleCardProperty Properties " Url="html/Properties_T_ThoughtWorksMingleLib_MingleCardProperty.htm">
           <HelpTOCNode Title="Name Property " Url="html/P_ThoughtWorksMingleLib_MingleCardProperty_Name.htm" />
           <HelpTOCNode Title="PropertyDefinition Property " Url="html/P_ThoughtWorksMingleLib_MingleCardProperty_PropertyDefinition.htm" />
           <HelpTOCNode Title="RawData Property " Url="html/P_ThoughtWorksMingleLib_MingleCardProperty_RawData.htm" />
@@ -298,20 +302,20 @@
           <HelpTOCNode Title="ValueUrl Property " Url="html/P_ThoughtWorksMingleLib_MingleCardProperty_ValueUrl.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="bdc1d704-4745-457b-b00a-8e7934f5517e" Title="MingleCardPropertyCollection Class" Url="html/T_ThoughtWorksMingleLib_MingleCardPropertyCollection.htm">
+      <HelpTOCNode Id="221a2470-f6e8-48c3-91c3-bf1670e8d74b" Title="MingleCardPropertyCollection Class" Url="html/T_ThoughtWorksMingleLib_MingleCardPropertyCollection.htm">
         <HelpTOCNode Title="MingleCardPropertyCollection Constructor " Url="html/M_ThoughtWorksMingleLib_MingleCardPropertyCollection__ctor.htm" />
-        <HelpTOCNode Id="e07d64d8-6384-4c19-b8f1-49ee21540c81" Title="MingleCardPropertyCollection Methods " Url="html/Methods_T_ThoughtWorksMingleLib_MingleCardPropertyCollection.htm">
+        <HelpTOCNode Id="84fca791-c2b5-49a8-9753-5c7fb199a7ce" Title="MingleCardPropertyCollection Methods " Url="html/Methods_T_ThoughtWorksMingleLib_MingleCardPropertyCollection.htm">
           <HelpTOCNode Title="Parse Method " Url="html/M_ThoughtWorksMingleLib_MingleCardPropertyCollection_Parse.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="aba81be0-8b3d-4f3c-97d8-6fbbf98b6aa9" Title="MingleCardPropertyCollection Properties " Url="html/Properties_T_ThoughtWorksMingleLib_MingleCardPropertyCollection.htm">
+        <HelpTOCNode Id="41da621a-c013-4c5e-8486-87becae38973" Title="MingleCardPropertyCollection Properties " Url="html/Properties_T_ThoughtWorksMingleLib_MingleCardPropertyCollection.htm">
           <HelpTOCNode Title="Project Property " Url="html/P_ThoughtWorksMingleLib_MingleCardPropertyCollection_Project.htm" />
           <HelpTOCNode Title="ProjectId Property " Url="html/P_ThoughtWorksMingleLib_MingleCardPropertyCollection_ProjectId.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="86aefad8-535f-4610-a488-e0fcb9d55306" Title="MingleCardType Class" Url="html/T_ThoughtWorksMingleLib_MingleCardType.htm">
+      <HelpTOCNode Id="3bab5d56-39a0-46c4-ad12-3facaaaec638" Title="MingleCardType Class" Url="html/T_ThoughtWorksMingleLib_MingleCardType.htm">
         <HelpTOCNode Title="MingleCardType Constructor " Url="html/M_ThoughtWorksMingleLib_MingleCardType__ctor.htm" />
         <HelpTOCNode Title="MingleCardType Methods " Url="html/Methods_T_ThoughtWorksMingleLib_MingleCardType.htm" />
-        <HelpTOCNode Id="54f169f4-adc5-46de-a125-8706186e1af5" Title="MingleCardType Properties " Url="html/Properties_T_ThoughtWorksMingleLib_MingleCardType.htm">
+        <HelpTOCNode Id="974f1289-523d-4ca9-9fe7-eed52f883172" Title="MingleCardType Properties " Url="html/Properties_T_ThoughtWorksMingleLib_MingleCardType.htm">
           <HelpTOCNode Title="Color Property " Url="html/P_ThoughtWorksMingleLib_MingleCardType_Color.htm" />
           <HelpTOCNode Title="Id Property " Url="html/P_ThoughtWorksMingleLib_MingleCardType_Id.htm" />
           <HelpTOCNode Title="Name Property " Url="html/P_ThoughtWorksMingleLib_MingleCardType_Name.htm" />
@@ -320,34 +324,34 @@
           <HelpTOCNode Title="RawData Property " Url="html/P_ThoughtWorksMingleLib_MingleCardType_RawData.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="ab2311cd-0398-407d-ac52-3be9f345b583" Title="MingleCardTypeCollection Class" Url="html/T_ThoughtWorksMingleLib_MingleCardTypeCollection.htm">
+      <HelpTOCNode Id="ef8828ec-50c4-4f7a-9aec-0e0f55214338" Title="MingleCardTypeCollection Class" Url="html/T_ThoughtWorksMingleLib_MingleCardTypeCollection.htm">
         <HelpTOCNode Title="MingleCardTypeCollection Constructor " Url="html/M_ThoughtWorksMingleLib_MingleCardTypeCollection__ctor.htm" />
-        <HelpTOCNode Id="41c2bcbe-42bc-44b6-b7e4-888de350a3ea" Title="MingleCardTypeCollection Methods " Url="html/Methods_T_ThoughtWorksMingleLib_MingleCardTypeCollection.htm">
+        <HelpTOCNode Id="96371fc8-b95b-4cec-9a9b-51b74e672292" Title="MingleCardTypeCollection Methods " Url="html/Methods_T_ThoughtWorksMingleLib_MingleCardTypeCollection.htm">
           <HelpTOCNode Title="Parse Method " Url="html/M_ThoughtWorksMingleLib_MingleCardTypeCollection_Parse.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="e814e195-b7e9-4ddc-a1f6-a12c3dff23aa" Title="MingleCardTypeCollection Properties " Url="html/Properties_T_ThoughtWorksMingleLib_MingleCardTypeCollection.htm">
+        <HelpTOCNode Id="a5b8aad8-6b70-4367-a181-d282f3fd3a82" Title="MingleCardTypeCollection Properties " Url="html/Properties_T_ThoughtWorksMingleLib_MingleCardTypeCollection.htm">
           <HelpTOCNode Title="Project Property " Url="html/P_ThoughtWorksMingleLib_MingleCardTypeCollection_Project.htm" />
           <HelpTOCNode Title="ProjectId Property " Url="html/P_ThoughtWorksMingleLib_MingleCardTypeCollection_ProjectId.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="1c9b2f71-b152-415d-bbf2-cfda85d0c5f0" Title="MingleEventsCategory Class" Url="html/T_ThoughtWorksMingleLib_MingleEventsCategory.htm">
-        <HelpTOCNode Id="81bcbf13-384a-44ed-9785-221778049f2f" Title="MingleEventsCategory Constructor " Url="html/Overload_ThoughtWorksMingleLib_MingleEventsCategory__ctor.htm">
+      <HelpTOCNode Id="36ce4e4c-4af8-4115-96e5-99fef51e5f10" Title="MingleEventsCategory Class" Url="html/T_ThoughtWorksMingleLib_MingleEventsCategory.htm">
+        <HelpTOCNode Id="7446f3be-f619-49f2-b1ef-44633f7ce3cb" Title="MingleEventsCategory Constructor " Url="html/Overload_ThoughtWorksMingleLib_MingleEventsCategory__ctor.htm">
           <HelpTOCNode Title="MingleEventsCategory Constructor (String)" Url="html/M_ThoughtWorksMingleLib_MingleEventsCategory__ctor.htm" />
           <HelpTOCNode Title="MingleEventsCategory Constructor (XElement)" Url="html/M_ThoughtWorksMingleLib_MingleEventsCategory__ctor_1.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="MingleEventsCategory Methods " Url="html/Methods_T_ThoughtWorksMingleLib_MingleEventsCategory.htm" />
-        <HelpTOCNode Id="d1f67c83-8c4d-4ee6-9d2b-58e8906540f4" Title="MingleEventsCategory Properties " Url="html/Properties_T_ThoughtWorksMingleLib_MingleEventsCategory.htm">
+        <HelpTOCNode Id="d6f0f997-feb7-41b8-8514-043ff24c691d" Title="MingleEventsCategory Properties " Url="html/Properties_T_ThoughtWorksMingleLib_MingleEventsCategory.htm">
           <HelpTOCNode Title="Scheme Property " Url="html/P_ThoughtWorksMingleLib_MingleEventsCategory_Scheme.htm" />
           <HelpTOCNode Title="Term Property " Url="html/P_ThoughtWorksMingleLib_MingleEventsCategory_Term.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="c7cb9d8e-5180-43f5-bf83-b7c1bf7d1fcc" Title="MingleEventsChange Class" Url="html/T_ThoughtWorksMingleLib_MingleEventsChange.htm">
-        <HelpTOCNode Id="e959e7f6-9f95-4e7a-a3d2-0e6313ade4b6" Title="MingleEventsChange Constructor " Url="html/Overload_ThoughtWorksMingleLib_MingleEventsChange__ctor.htm">
+      <HelpTOCNode Id="dcb54c34-7f15-4d96-b8fe-03a9263a08be" Title="MingleEventsChange Class" Url="html/T_ThoughtWorksMingleLib_MingleEventsChange.htm">
+        <HelpTOCNode Id="4da43356-3967-4bb5-9d78-de89ebe08e55" Title="MingleEventsChange Constructor " Url="html/Overload_ThoughtWorksMingleLib_MingleEventsChange__ctor.htm">
           <HelpTOCNode Title="MingleEventsChange Constructor (String)" Url="html/M_ThoughtWorksMingleLib_MingleEventsChange__ctor.htm" />
           <HelpTOCNode Title="MingleEventsChange Constructor (XElement)" Url="html/M_ThoughtWorksMingleLib_MingleEventsChange__ctor_1.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="MingleEventsChange Methods " Url="html/Methods_T_ThoughtWorksMingleLib_MingleEventsChange.htm" />
-        <HelpTOCNode Id="0ceb9eab-8411-4a6e-9e15-167cf8ed7e50" Title="MingleEventsChange Properties " Url="html/Properties_T_ThoughtWorksMingleLib_MingleEventsChange.htm">
+        <HelpTOCNode Id="95bcf067-c12e-4d5b-840b-1a0ec1ec7d2b" Title="MingleEventsChange Properties " Url="html/Properties_T_ThoughtWorksMingleLib_MingleEventsChange.htm">
           <HelpTOCNode Title="NewValue Property " Url="html/P_ThoughtWorksMingleLib_MingleEventsChange_NewValue.htm" />
           <HelpTOCNode Title="OldValue Property " Url="html/P_ThoughtWorksMingleLib_MingleEventsChange_OldValue.htm" />
           <HelpTOCNode Title="PropertyDefinition Property " Url="html/P_ThoughtWorksMingleLib_MingleEventsChange_PropertyDefinition.htm" />
@@ -356,33 +360,33 @@
           <HelpTOCNode Title="TypeFieldName Property " Url="html/P_ThoughtWorksMingleLib_MingleEventsChange_TypeFieldName.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="f28247f2-1880-452b-b009-1c8e76429378" Title="MingleEventsElementNillableValue Class" Url="html/T_ThoughtWorksMingleLib_MingleEventsElementNillableValue.htm">
-        <HelpTOCNode Id="45166911-7a4c-47d8-b73f-14d1a54c728b" Title="MingleEventsElementNillableValue Constructor " Url="html/Overload_ThoughtWorksMingleLib_MingleEventsElementNillableValue__ctor.htm">
+      <HelpTOCNode Id="8f3a03e5-9939-4762-850f-375d992437e5" Title="MingleEventsElementNillableValue Class" Url="html/T_ThoughtWorksMingleLib_MingleEventsElementNillableValue.htm">
+        <HelpTOCNode Id="25a7c380-cdcb-448a-adb2-6483acbd1da8" Title="MingleEventsElementNillableValue Constructor " Url="html/Overload_ThoughtWorksMingleLib_MingleEventsElementNillableValue__ctor.htm">
           <HelpTOCNode Title="MingleEventsElementNillableValue Constructor (String)" Url="html/M_ThoughtWorksMingleLib_MingleEventsElementNillableValue__ctor.htm" />
           <HelpTOCNode Title="MingleEventsElementNillableValue Constructor (XElement)" Url="html/M_ThoughtWorksMingleLib_MingleEventsElementNillableValue__ctor_1.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="MingleEventsElementNillableValue Methods " Url="html/Methods_T_ThoughtWorksMingleLib_MingleEventsElementNillableValue.htm" />
-        <HelpTOCNode Id="dc9e7715-23db-4c2d-9c6b-7141ec23c4af" Title="MingleEventsElementNillableValue Properties " Url="html/Properties_T_ThoughtWorksMingleLib_MingleEventsElementNillableValue.htm">
+        <HelpTOCNode Id="fb2573ef-4884-4846-b7c3-d07e20f69e98" Title="MingleEventsElementNillableValue Properties " Url="html/Properties_T_ThoughtWorksMingleLib_MingleEventsElementNillableValue.htm">
           <HelpTOCNode Title="Value Property " Url="html/P_ThoughtWorksMingleLib_MingleEventsElementNillableValue_Value.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="5df97f85-7c1c-4cbe-9b0b-a885c7b3d133" Title="MingleEventsEntryContent Class" Url="html/T_ThoughtWorksMingleLib_MingleEventsEntryContent.htm">
-        <HelpTOCNode Id="cbf6d180-8785-4e0b-8e64-718ca59d5fce" Title="MingleEventsEntryContent Constructor " Url="html/Overload_ThoughtWorksMingleLib_MingleEventsEntryContent__ctor.htm">
+      <HelpTOCNode Id="fdbe8af3-129e-485d-bc1a-d7d3f2f602fb" Title="MingleEventsEntryContent Class" Url="html/T_ThoughtWorksMingleLib_MingleEventsEntryContent.htm">
+        <HelpTOCNode Id="9b0bef69-2420-4800-98e8-a022cda40b7c" Title="MingleEventsEntryContent Constructor " Url="html/Overload_ThoughtWorksMingleLib_MingleEventsEntryContent__ctor.htm">
           <HelpTOCNode Title="MingleEventsEntryContent Constructor (String)" Url="html/M_ThoughtWorksMingleLib_MingleEventsEntryContent__ctor.htm" />
           <HelpTOCNode Title="MingleEventsEntryContent Constructor (XElement)" Url="html/M_ThoughtWorksMingleLib_MingleEventsEntryContent__ctor_1.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="MingleEventsEntryContent Methods " Url="html/Methods_T_ThoughtWorksMingleLib_MingleEventsEntryContent.htm" />
-        <HelpTOCNode Id="00e4873f-8222-4fb4-815b-d083576eea06" Title="MingleEventsEntryContent Properties " Url="html/Properties_T_ThoughtWorksMingleLib_MingleEventsEntryContent.htm">
+        <HelpTOCNode Id="7352a386-cc20-4e86-8e2f-b5d0ae9ea0f9" Title="MingleEventsEntryContent Properties " Url="html/Properties_T_ThoughtWorksMingleLib_MingleEventsEntryContent.htm">
           <HelpTOCNode Title="Changes Property " Url="html/P_ThoughtWorksMingleLib_MingleEventsEntryContent_Changes.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="7d72d177-ee9e-42e9-a8b2-a41b9515836f" Title="MingleEventsFeed Class" Url="html/T_ThoughtWorksMingleLib_MingleEventsFeed.htm">
-        <HelpTOCNode Id="1d3d0dcc-b09e-4a12-8419-b66cd9b0c8aa" Title="MingleEventsFeed Constructor " Url="html/Overload_ThoughtWorksMingleLib_MingleEventsFeed__ctor.htm">
+      <HelpTOCNode Id="2814d067-1c89-45d7-acf9-a972b1d78d35" Title="MingleEventsFeed Class" Url="html/T_ThoughtWorksMingleLib_MingleEventsFeed.htm">
+        <HelpTOCNode Id="88f95ac2-90e7-477e-9717-104ab216b5ea" Title="MingleEventsFeed Constructor " Url="html/Overload_ThoughtWorksMingleLib_MingleEventsFeed__ctor.htm">
           <HelpTOCNode Title="MingleEventsFeed Constructor (String)" Url="html/M_ThoughtWorksMingleLib_MingleEventsFeed__ctor.htm" />
           <HelpTOCNode Title="MingleEventsFeed Constructor (XElement)" Url="html/M_ThoughtWorksMingleLib_MingleEventsFeed__ctor_1.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="MingleEventsFeed Methods " Url="html/Methods_T_ThoughtWorksMingleLib_MingleEventsFeed.htm" />
-        <HelpTOCNode Id="422f1306-7289-4a80-b63b-5d29bd978131" Title="MingleEventsFeed Properties " Url="html/Properties_T_ThoughtWorksMingleLib_MingleEventsFeed.htm">
+        <HelpTOCNode Id="25f163d2-42f9-4c28-adb6-cf5be6017a08" Title="MingleEventsFeed Properties " Url="html/Properties_T_ThoughtWorksMingleLib_MingleEventsFeed.htm">
           <HelpTOCNode Title="Entries Property " Url="html/P_ThoughtWorksMingleLib_MingleEventsFeed_Entries.htm" />
           <HelpTOCNode Title="Id Property " Url="html/P_ThoughtWorksMingleLib_MingleEventsFeed_Id.htm" />
           <HelpTOCNode Title="Links Property " Url="html/P_ThoughtWorksMingleLib_MingleEventsFeed_Links.htm" />
@@ -390,15 +394,15 @@
           <HelpTOCNode Title="Updated Property " Url="html/P_ThoughtWorksMingleLib_MingleEventsFeed_Updated.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="6a939600-02ea-48c7-b6c5-f0d888cda727" Title="MingleEventsFeedEntry Class" Url="html/T_ThoughtWorksMingleLib_MingleEventsFeedEntry.htm">
-        <HelpTOCNode Id="6dcaac71-9214-4320-be8c-8a7fe027bacd" Title="MingleEventsFeedEntry Constructor " Url="html/Overload_ThoughtWorksMingleLib_MingleEventsFeedEntry__ctor.htm">
+      <HelpTOCNode Id="cb5c0aea-5b14-474c-972c-188665fa5549" Title="MingleEventsFeedEntry Class" Url="html/T_ThoughtWorksMingleLib_MingleEventsFeedEntry.htm">
+        <HelpTOCNode Id="2c173d42-6660-43a2-b661-cd39c3804e34" Title="MingleEventsFeedEntry Constructor " Url="html/Overload_ThoughtWorksMingleLib_MingleEventsFeedEntry__ctor.htm">
           <HelpTOCNode Title="MingleEventsFeedEntry Constructor (String)" Url="html/M_ThoughtWorksMingleLib_MingleEventsFeedEntry__ctor.htm" />
           <HelpTOCNode Title="MingleEventsFeedEntry Constructor (XElement)" Url="html/M_ThoughtWorksMingleLib_MingleEventsFeedEntry__ctor_1.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="1e6ce6b1-d310-4a66-812e-02c4def909f0" Title="MingleEventsFeedEntry Methods " Url="html/Methods_T_ThoughtWorksMingleLib_MingleEventsFeedEntry.htm">
+        <HelpTOCNode Id="29e14133-cb63-440f-8545-ad1b7a869a3f" Title="MingleEventsFeedEntry Methods " Url="html/Methods_T_ThoughtWorksMingleLib_MingleEventsFeedEntry.htm">
           <HelpTOCNode Title="GetCardUrlPathForApi Method " Url="html/M_ThoughtWorksMingleLib_MingleEventsFeedEntry_GetCardUrlPathForApi.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="127eed33-2821-44b5-883e-546e4865e01a" Title="MingleEventsFeedEntry Properties " Url="html/Properties_T_ThoughtWorksMingleLib_MingleEventsFeedEntry.htm">
+        <HelpTOCNode Id="49d7995f-1472-4153-8468-928d14366371" Title="MingleEventsFeedEntry Properties " Url="html/Properties_T_ThoughtWorksMingleLib_MingleEventsFeedEntry.htm">
           <HelpTOCNode Title="AuthorName Property " Url="html/P_ThoughtWorksMingleLib_MingleEventsFeedEntry_AuthorName.htm" />
           <HelpTOCNode Title="AuthorUri Property " Url="html/P_ThoughtWorksMingleLib_MingleEventsFeedEntry_AuthorUri.htm" />
           <HelpTOCNode Title="CardNumber Property " Url="html/P_ThoughtWorksMingleLib_MingleEventsFeedEntry_CardNumber.htm" />
@@ -410,26 +414,26 @@
           <HelpTOCNode Title="Updated Property " Url="html/P_ThoughtWorksMingleLib_MingleEventsFeedEntry_Updated.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="15ae7258-82c1-4d69-91f5-35542bdffcef" Title="MingleEventsLink Class" Url="html/T_ThoughtWorksMingleLib_MingleEventsLink.htm">
-        <HelpTOCNode Id="ff6eb11e-56b7-4a81-90bd-ad282ad6eaa3" Title="MingleEventsLink Constructor " Url="html/Overload_ThoughtWorksMingleLib_MingleEventsLink__ctor.htm">
+      <HelpTOCNode Id="3e651464-e903-4b5f-9054-31d7703386e2" Title="MingleEventsLink Class" Url="html/T_ThoughtWorksMingleLib_MingleEventsLink.htm">
+        <HelpTOCNode Id="abc75bc6-fab7-41ab-9738-4c27632e7572" Title="MingleEventsLink Constructor " Url="html/Overload_ThoughtWorksMingleLib_MingleEventsLink__ctor.htm">
           <HelpTOCNode Title="MingleEventsLink Constructor (String)" Url="html/M_ThoughtWorksMingleLib_MingleEventsLink__ctor.htm" />
           <HelpTOCNode Title="MingleEventsLink Constructor (XElement)" Url="html/M_ThoughtWorksMingleLib_MingleEventsLink__ctor_1.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="MingleEventsLink Methods " Url="html/Methods_T_ThoughtWorksMingleLib_MingleEventsLink.htm" />
-        <HelpTOCNode Id="5016438d-8ea9-4004-8cf1-4a428a6f1efb" Title="MingleEventsLink Properties " Url="html/Properties_T_ThoughtWorksMingleLib_MingleEventsLink.htm">
+        <HelpTOCNode Id="5fdb2ab8-cfb4-44da-9537-074545253ce0" Title="MingleEventsLink Properties " Url="html/Properties_T_ThoughtWorksMingleLib_MingleEventsLink.htm">
           <HelpTOCNode Title="Href Property " Url="html/P_ThoughtWorksMingleLib_MingleEventsLink_Href.htm" />
           <HelpTOCNode Title="Rel Property " Url="html/P_ThoughtWorksMingleLib_MingleEventsLink_Rel.htm" />
           <HelpTOCNode Title="Title Property " Url="html/P_ThoughtWorksMingleLib_MingleEventsLink_Title.htm" />
           <HelpTOCNode Title="Type Property " Url="html/P_ThoughtWorksMingleLib_MingleEventsLink_Type.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="5f284a81-3352-4fcc-af93-de4c069dba75" Title="MingleEventsPropertyDefinition Class" Url="html/T_ThoughtWorksMingleLib_MingleEventsPropertyDefinition.htm">
-        <HelpTOCNode Id="6eabee07-1573-46d4-9b61-6bd9fe3d749c" Title="MingleEventsPropertyDefinition Constructor " Url="html/Overload_ThoughtWorksMingleLib_MingleEventsPropertyDefinition__ctor.htm">
+      <HelpTOCNode Id="e0172b62-727e-4c60-9357-f29e324793ec" Title="MingleEventsPropertyDefinition Class" Url="html/T_ThoughtWorksMingleLib_MingleEventsPropertyDefinition.htm">
+        <HelpTOCNode Id="2e601ac0-a39f-4d8e-bf3a-55c2037dcd94" Title="MingleEventsPropertyDefinition Constructor " Url="html/Overload_ThoughtWorksMingleLib_MingleEventsPropertyDefinition__ctor.htm">
           <HelpTOCNode Title="MingleEventsPropertyDefinition Constructor (String)" Url="html/M_ThoughtWorksMingleLib_MingleEventsPropertyDefinition__ctor.htm" />
           <HelpTOCNode Title="MingleEventsPropertyDefinition Constructor (XElement)" Url="html/M_ThoughtWorksMingleLib_MingleEventsPropertyDefinition__ctor_1.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="MingleEventsPropertyDefinition Methods " Url="html/Methods_T_ThoughtWorksMingleLib_MingleEventsPropertyDefinition.htm" />
-        <HelpTOCNode Id="b7e30021-d2d4-44da-981d-62bd6d6ffcc2" Title="MingleEventsPropertyDefinition Properties " Url="html/Properties_T_ThoughtWorksMingleLib_MingleEventsPropertyDefinition.htm">
+        <HelpTOCNode Id="d528c91a-0dc3-4703-a5ed-6ffdd80d4d20" Title="MingleEventsPropertyDefinition Properties " Url="html/Properties_T_ThoughtWorksMingleLib_MingleEventsPropertyDefinition.htm">
           <HelpTOCNode Title="DataType Property " Url="html/P_ThoughtWorksMingleLib_MingleEventsPropertyDefinition_DataType.htm" />
           <HelpTOCNode Title="IsNumeric Property " Url="html/P_ThoughtWorksMingleLib_MingleEventsPropertyDefinition_IsNumeric.htm" />
           <HelpTOCNode Title="Name Property " Url="html/P_ThoughtWorksMingleLib_MingleEventsPropertyDefinition_Name.htm" />
@@ -437,15 +441,15 @@
           <HelpTOCNode Title="Url Property " Url="html/P_ThoughtWorksMingleLib_MingleEventsPropertyDefinition_Url.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="d2ea54a4-7fc5-4c03-94cd-eac6a5e405f1" Title="MingleFavorite Class" Url="html/T_ThoughtWorksMingleLib_MingleFavorite.htm">
-        <HelpTOCNode Id="9cdf90c9-4908-4058-a1c1-6c78fcc8b50e" Title="MingleFavorite Constructor " Url="html/Overload_ThoughtWorksMingleLib_MingleFavorite__ctor.htm">
+      <HelpTOCNode Id="412cdf23-b19b-4423-a555-47c918998a83" Title="MingleFavorite Class" Url="html/T_ThoughtWorksMingleLib_MingleFavorite.htm">
+        <HelpTOCNode Id="cdadc0d7-bc88-4ace-8ec0-8fbf81176c30" Title="MingleFavorite Constructor " Url="html/Overload_ThoughtWorksMingleLib_MingleFavorite__ctor.htm">
           <HelpTOCNode Title="MingleFavorite Constructor (XElement)" Url="html/M_ThoughtWorksMingleLib_MingleFavorite__ctor_1.htm" />
           <HelpTOCNode Title="MingleFavorite Constructor (String, MingleProject)" Url="html/M_ThoughtWorksMingleLib_MingleFavorite__ctor.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="2d06573f-41a8-48f7-b6e8-330cad94f06f" Title="MingleFavorite Methods " Url="html/Methods_T_ThoughtWorksMingleLib_MingleFavorite.htm">
+        <HelpTOCNode Id="d8af3636-6d39-41c7-8a6a-8eed6461b286" Title="MingleFavorite Methods " Url="html/Methods_T_ThoughtWorksMingleLib_MingleFavorite.htm">
           <HelpTOCNode Title="GetCards Method " Url="html/M_ThoughtWorksMingleLib_MingleFavorite_GetCards.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="d4144ce1-903d-49c1-979b-c01b89df5928" Title="MingleFavorite Properties " Url="html/Properties_T_ThoughtWorksMingleLib_MingleFavorite.htm">
+        <HelpTOCNode Id="3c984387-b4c8-4e24-b0ed-fb79911e3494" Title="MingleFavorite Properties " Url="html/Properties_T_ThoughtWorksMingleLib_MingleFavorite.htm">
           <HelpTOCNode Title="FavoritedType Property " Url="html/P_ThoughtWorksMingleLib_MingleFavorite_FavoritedType.htm" />
           <HelpTOCNode Title="Id Property " Url="html/P_ThoughtWorksMingleLib_MingleFavorite_Id.htm" />
           <HelpTOCNode Title="Name Property " Url="html/P_ThoughtWorksMingleLib_MingleFavorite_Name.htm" />
@@ -456,26 +460,26 @@
           <HelpTOCNode Title="TabView Property " Url="html/P_ThoughtWorksMingleLib_MingleFavorite_TabView.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="8451f831-0c17-416b-8b67-a2aa181ae0a7" Title="MingleFavoriteCollection Class" Url="html/T_ThoughtWorksMingleLib_MingleFavoriteCollection.htm">
+      <HelpTOCNode Id="c6ed6a9c-fc01-4e3e-8756-e9799feb8aae" Title="MingleFavoriteCollection Class" Url="html/T_ThoughtWorksMingleLib_MingleFavoriteCollection.htm">
         <HelpTOCNode Title="MingleFavoriteCollection Constructor " Url="html/M_ThoughtWorksMingleLib_MingleFavoriteCollection__ctor.htm" />
-        <HelpTOCNode Id="b6808ef3-77ec-4dbd-9414-1b5952bf3eef" Title="MingleFavoriteCollection Methods " Url="html/Methods_T_ThoughtWorksMingleLib_MingleFavoriteCollection.htm">
-          <HelpTOCNode Id="938e2960-905c-41dd-9c2d-55ee7220c6fb" Title="Parse Method " Url="html/Overload_ThoughtWorksMingleLib_MingleFavoriteCollection_Parse.htm">
+        <HelpTOCNode Id="b95f6cc2-dba2-4ec3-8ab0-09a503ca7da4" Title="MingleFavoriteCollection Methods " Url="html/Methods_T_ThoughtWorksMingleLib_MingleFavoriteCollection.htm">
+          <HelpTOCNode Id="54f72a9c-b7a8-49df-9157-757ba03adff5" Title="Parse Method " Url="html/Overload_ThoughtWorksMingleLib_MingleFavoriteCollection_Parse.htm">
             <HelpTOCNode Title="Parse Method " Url="html/M_ThoughtWorksMingleLib_MingleFavoriteCollection_Parse.htm" />
             <HelpTOCNode Title="Parse Method (String)" Url="html/M_ThoughtWorksMingleLib_MingleFavoriteCollection_Parse_1.htm" />
           </HelpTOCNode>
         </HelpTOCNode>
-        <HelpTOCNode Id="4eacde7f-e0f2-4b6b-ae68-870de88fba20" Title="MingleFavoriteCollection Properties " Url="html/Properties_T_ThoughtWorksMingleLib_MingleFavoriteCollection.htm">
+        <HelpTOCNode Id="d6c33361-11e1-4a8b-adea-838a7f6748e7" Title="MingleFavoriteCollection Properties " Url="html/Properties_T_ThoughtWorksMingleLib_MingleFavoriteCollection.htm">
           <HelpTOCNode Title="Project Property " Url="html/P_ThoughtWorksMingleLib_MingleFavoriteCollection_Project.htm" />
           <HelpTOCNode Title="ProjectId Property " Url="html/P_ThoughtWorksMingleLib_MingleFavoriteCollection_ProjectId.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="33434909-7e94-4a70-be29-63c1e1eb4a1a" Title="MingleFilter Class" Url="html/T_ThoughtWorksMingleLib_MingleFilter.htm">
-        <HelpTOCNode Id="a44c4b17-7ed0-4259-946b-12bdcde4016f" Title="MingleFilter Constructor " Url="html/Overload_ThoughtWorksMingleLib_MingleFilter__ctor.htm">
+      <HelpTOCNode Id="6abf8aff-fe4d-4e9b-be32-dad227317511" Title="MingleFilter Class" Url="html/T_ThoughtWorksMingleLib_MingleFilter.htm">
+        <HelpTOCNode Id="40c08d7c-5f05-4bbc-9fd6-57d1547db5c2" Title="MingleFilter Constructor " Url="html/Overload_ThoughtWorksMingleLib_MingleFilter__ctor.htm">
           <HelpTOCNode Title="MingleFilter Constructor " Url="html/M_ThoughtWorksMingleLib_MingleFilter__ctor.htm" />
           <HelpTOCNode Title="MingleFilter Constructor (String, String, String)" Url="html/M_ThoughtWorksMingleLib_MingleFilter__ctor_1.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="MingleFilter Methods " Url="html/Methods_T_ThoughtWorksMingleLib_MingleFilter.htm" />
-        <HelpTOCNode Id="6df3bd65-6413-40e0-97d2-fb1edc9800aa" Title="MingleFilter Properties " Url="html/Properties_T_ThoughtWorksMingleLib_MingleFilter.htm">
+        <HelpTOCNode Id="4af7fb85-dc5e-4af0-bd77-c3ca3329da81" Title="MingleFilter Properties " Url="html/Properties_T_ThoughtWorksMingleLib_MingleFilter.htm">
           <HelpTOCNode Title="CardDataString Property " Url="html/P_ThoughtWorksMingleLib_MingleFilter_CardDataString.htm" />
           <HelpTOCNode Title="CardPropertyNameString Property " Url="html/P_ThoughtWorksMingleLib_MingleFilter_CardPropertyNameString.htm" />
           <HelpTOCNode Title="CardPropertyValueString Property " Url="html/P_ThoughtWorksMingleLib_MingleFilter_CardPropertyValueString.htm" />
@@ -488,16 +492,16 @@
           <HelpTOCNode Title="Value Property " Url="html/P_ThoughtWorksMingleLib_MingleFilter_Value.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="7b36ebb5-f4d9-4fdd-a91a-8aa7c75a3812" Title="MingleMurmur Class" Url="html/T_ThoughtWorksMingleLib_MingleMurmur.htm">
+      <HelpTOCNode Id="5e32ffdc-b890-425c-b100-c7bb089c2555" Title="MingleMurmur Class" Url="html/T_ThoughtWorksMingleLib_MingleMurmur.htm">
         <HelpTOCNode Title="MingleMurmur Constructor " Url="html/M_ThoughtWorksMingleLib_MingleMurmur__ctor.htm" />
         <HelpTOCNode Title="MingleMurmur Methods " Url="html/Methods_T_ThoughtWorksMingleLib_MingleMurmur.htm" />
-        <HelpTOCNode Id="f4de53f5-2f3b-4d14-83e8-479423227dcd" Title="MingleMurmur Properties " Url="html/Properties_T_ThoughtWorksMingleLib_MingleMurmur.htm">
+        <HelpTOCNode Id="043dca3f-a87c-4241-adee-d41a5805a5bc" Title="MingleMurmur Properties " Url="html/Properties_T_ThoughtWorksMingleLib_MingleMurmur.htm">
           <HelpTOCNode Title="AuthorName Property " Url="html/P_ThoughtWorksMingleLib_MingleMurmur_AuthorName.htm" />
           <HelpTOCNode Title="Body Property " Url="html/P_ThoughtWorksMingleLib_MingleMurmur_Body.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="a54ae853-21e0-42bc-805e-5f18bdbfef10" Title="MingleNotRunningException Class" Url="html/T_ThoughtWorksMingleLib_MingleNotRunningException.htm">
-        <HelpTOCNode Id="ea9969d7-fb5f-4f13-8b8a-da4b9d31c814" Title="MingleNotRunningException Constructor " Url="html/Overload_ThoughtWorksMingleLib_MingleNotRunningException__ctor.htm">
+      <HelpTOCNode Id="51b915ac-0212-4fa7-807b-aaa13915175b" Title="MingleNotRunningException Class" Url="html/T_ThoughtWorksMingleLib_MingleNotRunningException.htm">
+        <HelpTOCNode Id="d6085de8-62cc-4bcb-abbb-2f0e68cb093f" Title="MingleNotRunningException Constructor " Url="html/Overload_ThoughtWorksMingleLib_MingleNotRunningException__ctor.htm">
           <HelpTOCNode Title="MingleNotRunningException Constructor " Url="html/M_ThoughtWorksMingleLib_MingleNotRunningException__ctor.htm" />
           <HelpTOCNode Title="MingleNotRunningException Constructor (String)" Url="html/M_ThoughtWorksMingleLib_MingleNotRunningException__ctor_2.htm" />
           <HelpTOCNode Title="MingleNotRunningException Constructor (SerializationInfo, StreamingContext)" Url="html/M_ThoughtWorksMingleLib_MingleNotRunningException__ctor_1.htm" />
@@ -506,12 +510,13 @@
         <HelpTOCNode Title="MingleNotRunningException Methods " Url="html/Methods_T_ThoughtWorksMingleLib_MingleNotRunningException.htm" />
         <HelpTOCNode Title="MingleNotRunningException Properties " Url="html/Properties_T_ThoughtWorksMingleLib_MingleNotRunningException.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="4a2f6562-2cb5-4ff6-adae-9a24a18e0522" Title="MingleProject Class" Url="html/T_ThoughtWorksMingleLib_MingleProject.htm">
+      <HelpTOCNode Id="5795c56c-a821-430e-8fee-65526dcb7515" Title="MingleProject Class" Url="html/T_ThoughtWorksMingleLib_MingleProject.htm">
         <HelpTOCNode Title="MingleProject Constructor " Url="html/M_ThoughtWorksMingleLib_MingleProject__ctor.htm" />
-        <HelpTOCNode Id="01ecba97-b3c5-46c8-96ab-770b215c52c6" Title="MingleProject Methods " Url="html/Methods_T_ThoughtWorksMingleLib_MingleProject.htm">
+        <HelpTOCNode Id="5546b42d-9086-41c7-a65e-7c99552452ba" Title="MingleProject Methods " Url="html/Methods_T_ThoughtWorksMingleLib_MingleProject.htm">
           <HelpTOCNode Title="ClearCardSetPropertyValues Method " Url="html/M_ThoughtWorksMingleLib_MingleProject_ClearCardSetPropertyValues.htm" />
           <HelpTOCNode Title="ExecMql Method " Url="html/M_ThoughtWorksMingleLib_MingleProject_ExecMql.htm" />
-          <HelpTOCNode Id="9b37daa1-2aef-4bca-848b-d720587b3f5a" Title="GetCards Method " Url="html/Overload_ThoughtWorksMingleLib_MingleProject_GetCards.htm">
+          <HelpTOCNode Title="GetCard Method " Url="html/M_ThoughtWorksMingleLib_MingleProject_GetCard.htm" />
+          <HelpTOCNode Id="65cea912-d1f2-4e21-9202-c1bafacfa6a5" Title="GetCards Method " Url="html/Overload_ThoughtWorksMingleLib_MingleProject_GetCards.htm">
             <HelpTOCNode Title="GetCards Method " Url="html/M_ThoughtWorksMingleLib_MingleProject_GetCards.htm" />
             <HelpTOCNode Title="GetCards Method (Collection)" Url="html/M_ThoughtWorksMingleLib_MingleProject_GetCards_1.htm" />
           </HelpTOCNode>
@@ -519,7 +524,7 @@
           <HelpTOCNode Title="GetCardTypes Method " Url="html/M_ThoughtWorksMingleLib_MingleProject_GetCardTypes.htm" />
           <HelpTOCNode Title="GetCardValuedProperties Method " Url="html/M_ThoughtWorksMingleLib_MingleProject_GetCardValuedProperties.htm" />
           <HelpTOCNode Title="GetFavorites Method " Url="html/M_ThoughtWorksMingleLib_MingleProject_GetFavorites.htm" />
-          <HelpTOCNode Id="630eeaaf-adc7-4d04-8aba-dc522ccdd2d2" Title="GetIndirectCardsByNumber Method " Url="html/Overload_ThoughtWorksMingleLib_MingleProject_GetIndirectCardsByNumber.htm">
+          <HelpTOCNode Id="cde5aabc-0dcd-484f-acfe-c2fe11aeda72" Title="GetIndirectCardsByNumber Method " Url="html/Overload_ThoughtWorksMingleLib_MingleProject_GetIndirectCardsByNumber.htm">
             <HelpTOCNode Title="GetIndirectCardsByNumber Method (String)" Url="html/M_ThoughtWorksMingleLib_MingleProject_GetIndirectCardsByNumber.htm" />
             <HelpTOCNode Title="GetIndirectCardsByNumber Method (String, Boolean)" Url="html/M_ThoughtWorksMingleLib_MingleProject_GetIndirectCardsByNumber_1.htm" />
           </HelpTOCNode>
@@ -530,7 +535,7 @@
           <HelpTOCNode Title="GetView Method " Url="html/M_ThoughtWorksMingleLib_MingleProject_GetView.htm" />
           <HelpTOCNode Title="RunMacro Method " Url="html/M_ThoughtWorksMingleLib_MingleProject_RunMacro.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="f6ecfa88-f38d-43d3-a48d-c5d7ba7d09bf" Title="MingleProject Properties " Url="html/Properties_T_ThoughtWorksMingleLib_MingleProject.htm">
+        <HelpTOCNode Id="f365a0fe-93fb-4da3-ba2b-e838a98e0a94" Title="MingleProject Properties " Url="html/Properties_T_ThoughtWorksMingleLib_MingleProject.htm">
           <HelpTOCNode Title="CardTypes Property " Url="html/P_ThoughtWorksMingleLib_MingleProject_CardTypes.htm" />
           <HelpTOCNode Title="Favorites Property " Url="html/P_ThoughtWorksMingleLib_MingleProject_Favorites.htm" />
           <HelpTOCNode Title="Mingle Property " Url="html/P_ThoughtWorksMingleLib_MingleProject_Mingle.htm" />
@@ -541,10 +546,10 @@
           <HelpTOCNode Title="Url Property " Url="html/P_ThoughtWorksMingleLib_MingleProject_Url.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="d3692596-ac70-4771-87cf-addd7db5f180" Title="MingleProjectMember Class" Url="html/T_ThoughtWorksMingleLib_MingleProjectMember.htm">
+      <HelpTOCNode Id="63aba2f1-f1d3-4a5f-83e4-ab2ca5724f9f" Title="MingleProjectMember Class" Url="html/T_ThoughtWorksMingleLib_MingleProjectMember.htm">
         <HelpTOCNode Title="MingleProjectMember Constructor " Url="html/M_ThoughtWorksMingleLib_MingleProjectMember__ctor.htm" />
         <HelpTOCNode Title="MingleProjectMember Methods " Url="html/Methods_T_ThoughtWorksMingleLib_MingleProjectMember.htm" />
-        <HelpTOCNode Id="b8353b81-5d54-42eb-ae13-8acba0b2e36a" Title="MingleProjectMember Properties " Url="html/Properties_T_ThoughtWorksMingleLib_MingleProjectMember.htm">
+        <HelpTOCNode Id="2488a30d-afba-435a-8a62-47f5b4c05892" Title="MingleProjectMember Properties " Url="html/Properties_T_ThoughtWorksMingleLib_MingleProjectMember.htm">
           <HelpTOCNode Title="MemberId Property " Url="html/P_ThoughtWorksMingleLib_MingleProjectMember_MemberId.htm" />
           <HelpTOCNode Title="ProjectAdmin Property " Url="html/P_ThoughtWorksMingleLib_MingleProjectMember_ProjectAdmin.htm" />
           <HelpTOCNode Title="ProjectId Property " Url="html/P_ThoughtWorksMingleLib_MingleProjectMember_ProjectId.htm" />
@@ -560,23 +565,23 @@
           <HelpTOCNode Title="UserName Property " Url="html/P_ThoughtWorksMingleLib_MingleProjectMember_UserName.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="7c279369-c108-4023-9318-6e4f14d4cd29" Title="MingleProjectMemberCollection Class" Url="html/T_ThoughtWorksMingleLib_MingleProjectMemberCollection.htm">
+      <HelpTOCNode Id="ffc2fd37-caff-4c00-986d-be7c3b99f333" Title="MingleProjectMemberCollection Class" Url="html/T_ThoughtWorksMingleLib_MingleProjectMemberCollection.htm">
         <HelpTOCNode Title="MingleProjectMemberCollection Constructor " Url="html/M_ThoughtWorksMingleLib_MingleProjectMemberCollection__ctor.htm" />
-        <HelpTOCNode Id="3be5c375-eff0-40c7-8368-5f5c769a62fd" Title="MingleProjectMemberCollection Methods " Url="html/Methods_T_ThoughtWorksMingleLib_MingleProjectMemberCollection.htm">
-          <HelpTOCNode Id="b80d828c-8e55-4a91-8d94-860051d75d19" Title="Parse Method " Url="html/Overload_ThoughtWorksMingleLib_MingleProjectMemberCollection_Parse.htm">
+        <HelpTOCNode Id="64e138f9-4b40-41cc-ab50-039bd7c352b2" Title="MingleProjectMemberCollection Methods " Url="html/Methods_T_ThoughtWorksMingleLib_MingleProjectMemberCollection.htm">
+          <HelpTOCNode Id="92f55a5e-2279-4f71-9659-02a74eb565b6" Title="Parse Method " Url="html/Overload_ThoughtWorksMingleLib_MingleProjectMemberCollection_Parse.htm">
             <HelpTOCNode Title="Parse Method " Url="html/M_ThoughtWorksMingleLib_MingleProjectMemberCollection_Parse.htm" />
             <HelpTOCNode Title="Parse Method (String)" Url="html/M_ThoughtWorksMingleLib_MingleProjectMemberCollection_Parse_1.htm" />
           </HelpTOCNode>
         </HelpTOCNode>
-        <HelpTOCNode Id="c71dd210-cec3-4e67-95d5-2d7223d00a52" Title="MingleProjectMemberCollection Properties " Url="html/Properties_T_ThoughtWorksMingleLib_MingleProjectMemberCollection.htm">
+        <HelpTOCNode Id="b802f157-805c-4d23-9f68-9357c2fb8c4f" Title="MingleProjectMemberCollection Properties " Url="html/Properties_T_ThoughtWorksMingleLib_MingleProjectMemberCollection.htm">
           <HelpTOCNode Title="Project Property " Url="html/P_ThoughtWorksMingleLib_MingleProjectMemberCollection_Project.htm" />
           <HelpTOCNode Title="ProjectId Property " Url="html/P_ThoughtWorksMingleLib_MingleProjectMemberCollection_ProjectId.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="e093dc85-012c-4c82-b260-0a032d1312a1" Title="MinglePropertyDefinition Class" Url="html/T_ThoughtWorksMingleLib_MinglePropertyDefinition.htm">
+      <HelpTOCNode Id="4b7affad-2d6d-4f26-8b0d-601bec6805bc" Title="MinglePropertyDefinition Class" Url="html/T_ThoughtWorksMingleLib_MinglePropertyDefinition.htm">
         <HelpTOCNode Title="MinglePropertyDefinition Constructor " Url="html/M_ThoughtWorksMingleLib_MinglePropertyDefinition__ctor.htm" />
         <HelpTOCNode Title="MinglePropertyDefinition Methods " Url="html/Methods_T_ThoughtWorksMingleLib_MinglePropertyDefinition.htm" />
-        <HelpTOCNode Id="adadf405-f698-4741-b3fc-3c764f7d2d9c" Title="MinglePropertyDefinition Properties " Url="html/Properties_T_ThoughtWorksMingleLib_MinglePropertyDefinition.htm">
+        <HelpTOCNode Id="7b824cc7-ea54-4794-bf9b-14b2d248eb2f" Title="MinglePropertyDefinition Properties " Url="html/Properties_T_ThoughtWorksMingleLib_MinglePropertyDefinition.htm">
           <HelpTOCNode Title="CardTypes Property " Url="html/P_ThoughtWorksMingleLib_MinglePropertyDefinition_CardTypes.htm" />
           <HelpTOCNode Title="CardUrl Property " Url="html/P_ThoughtWorksMingleLib_MinglePropertyDefinition_CardUrl.htm" />
           <HelpTOCNode Title="ColumnName Property " Url="html/P_ThoughtWorksMingleLib_MinglePropertyDefinition_ColumnName.htm" />
@@ -600,64 +605,57 @@
           <HelpTOCNode Title="Restricted Property " Url="html/P_ThoughtWorksMingleLib_MinglePropertyDefinition_Restricted.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="417785b5-caa1-459a-a6f2-3f801835328d" Title="MinglePropertyDefinitionCollection Class" Url="html/T_ThoughtWorksMingleLib_MinglePropertyDefinitionCollection.htm">
+      <HelpTOCNode Id="731a1709-3577-4c80-9032-b607720bab25" Title="MinglePropertyDefinitionCollection Class" Url="html/T_ThoughtWorksMingleLib_MinglePropertyDefinitionCollection.htm">
         <HelpTOCNode Title="MinglePropertyDefinitionCollection Constructor " Url="html/M_ThoughtWorksMingleLib_MinglePropertyDefinitionCollection__ctor.htm" />
-        <HelpTOCNode Id="c24b1772-d43d-43bc-ae23-af0867fcd0a0" Title="MinglePropertyDefinitionCollection Methods " Url="html/Methods_T_ThoughtWorksMingleLib_MinglePropertyDefinitionCollection.htm">
+        <HelpTOCNode Id="e0f7baa6-ffa1-46ed-9c4f-be6d6dba87a2" Title="MinglePropertyDefinitionCollection Methods " Url="html/Methods_T_ThoughtWorksMingleLib_MinglePropertyDefinitionCollection.htm">
           <HelpTOCNode Title="Parse Method " Url="html/M_ThoughtWorksMingleLib_MinglePropertyDefinitionCollection_Parse.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="533e6c2e-791d-4bfa-9a71-f82515c8d02f" Title="MinglePropertyDefinitionCollection Properties " Url="html/Properties_T_ThoughtWorksMingleLib_MinglePropertyDefinitionCollection.htm">
+        <HelpTOCNode Id="8cf9af03-d86d-45b2-9349-fbec0dbaa4c4" Title="MinglePropertyDefinitionCollection Properties " Url="html/Properties_T_ThoughtWorksMingleLib_MinglePropertyDefinitionCollection.htm">
           <HelpTOCNode Title="Project Property " Url="html/P_ThoughtWorksMingleLib_MinglePropertyDefinitionCollection_Project.htm" />
           <HelpTOCNode Title="ProjectId Property " Url="html/P_ThoughtWorksMingleLib_MinglePropertyDefinitionCollection_ProjectId.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="8a88e5db-5510-47d7-a665-1464ef8566e8" Title="MinglePropertyValue Class" Url="html/T_ThoughtWorksMingleLib_MinglePropertyValue.htm">
+      <HelpTOCNode Id="3d394d60-5902-4d0e-92ab-5ebcc6c4d689" Title="MinglePropertyValue Class" Url="html/T_ThoughtWorksMingleLib_MinglePropertyValue.htm">
         <HelpTOCNode Title="MinglePropertyValue Constructor " Url="html/M_ThoughtWorksMingleLib_MinglePropertyValue__ctor.htm" />
-        <HelpTOCNode Id="f0066980-17ae-415a-9c77-b9f8c7489ef9" Title="MinglePropertyValue Methods " Url="html/Methods_T_ThoughtWorksMingleLib_MinglePropertyValue.htm">
+        <HelpTOCNode Id="32f6569e-fb46-4626-b248-4ab8d8e98481" Title="MinglePropertyValue Methods " Url="html/Methods_T_ThoughtWorksMingleLib_MinglePropertyValue.htm">
           <HelpTOCNode Title="Parse Method " Url="html/M_ThoughtWorksMingleLib_MinglePropertyValue_Parse.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="17d6d3fc-769d-4e76-811d-24a4b6ddeed0" Title="MinglePropertyValue Properties " Url="html/Properties_T_ThoughtWorksMingleLib_MinglePropertyValue.htm">
+        <HelpTOCNode Id="b222a44e-2810-4341-a4d2-2fd345a86200" Title="MinglePropertyValue Properties " Url="html/Properties_T_ThoughtWorksMingleLib_MinglePropertyValue.htm">
           <HelpTOCNode Title="Color Property " Url="html/P_ThoughtWorksMingleLib_MinglePropertyValue_Color.htm" />
           <HelpTOCNode Title="Id Property " Url="html/P_ThoughtWorksMingleLib_MinglePropertyValue_Id.htm" />
           <HelpTOCNode Title="Position Property " Url="html/P_ThoughtWorksMingleLib_MinglePropertyValue_Position.htm" />
           <HelpTOCNode Title="Value Property " Url="html/P_ThoughtWorksMingleLib_MinglePropertyValue_Value.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="b40677fc-6e03-48aa-82cb-250761783557" Title="MingleResult Class" Url="html/T_ThoughtWorksMingleLib_MingleResult.htm">
+      <HelpTOCNode Id="9adad297-3133-4c37-b977-cc2ec97868ff" Title="MingleResult Class" Url="html/T_ThoughtWorksMingleLib_MingleResult.htm">
         <HelpTOCNode Title="MingleResult Constructor " Url="html/M_ThoughtWorksMingleLib_MingleResult__ctor.htm" />
-        <HelpTOCNode Id="6876517b-2e0b-44ba-b56e-9521f8fd8d2d" Title="MingleResult Methods " Url="html/Methods_T_ThoughtWorksMingleLib_MingleResult.htm">
+        <HelpTOCNode Id="51d04f5d-31b2-44ad-94fd-d6e005d38f5e" Title="MingleResult Methods " Url="html/Methods_T_ThoughtWorksMingleLib_MingleResult.htm">
           <HelpTOCNode Title="TryGetMember Method " Url="html/M_ThoughtWorksMingleLib_MingleResult_TryGetMember.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="3303951c-72fe-4f33-9252-8b8bd6df564b" Title="MingleServer Class" Url="html/T_ThoughtWorksMingleLib_MingleServer.htm">
-        <HelpTOCNode Id="04f645a4-da78-4c48-b132-a4596cbb7110" Title="MingleServer Constructor " Url="html/Overload_ThoughtWorksMingleLib_MingleServer__ctor.htm">
+      <HelpTOCNode Id="690523eb-1439-4f26-bf8f-6a2b3059bb28" Title="MingleServer Class" Url="html/T_ThoughtWorksMingleLib_MingleServer.htm">
+        <HelpTOCNode Id="4331e76e-013f-4bca-a87b-7cb5d288c032" Title="MingleServer Constructor " Url="html/Overload_ThoughtWorksMingleLib_MingleServer__ctor.htm">
           <HelpTOCNode Title="MingleServer Constructor (String, String, SecureString)" Url="html/M_ThoughtWorksMingleLib_MingleServer__ctor.htm" />
           <HelpTOCNode Title="MingleServer Constructor (String, String, String)" Url="html/M_ThoughtWorksMingleLib_MingleServer__ctor_1.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="a797318c-e5e8-4926-96bd-23a95b315c7c" Title="MingleServer Methods " Url="html/Methods_T_ThoughtWorksMingleLib_MingleServer.htm">
-          <HelpTOCNode Id="9c2df51e-39d5-4bac-ad03-d0f9c4fce1e7" Title="Get Method " Url="html/Overload_ThoughtWorksMingleLib_MingleServer_Get.htm">
+        <HelpTOCNode Id="408e1ffb-14e4-4fb8-afad-e7e91858ebfe" Title="MingleServer Methods " Url="html/Methods_T_ThoughtWorksMingleLib_MingleServer.htm">
+          <HelpTOCNode Id="c0dffb92-fc61-43b5-9c15-dc85abff21ed" Title="Get Method " Url="html/Overload_ThoughtWorksMingleLib_MingleServer_Get.htm">
             <HelpTOCNode Title="Get Method (String, String)" Url="html/M_ThoughtWorksMingleLib_MingleServer_Get.htm" />
-            <HelpTOCNode Title="Get Method (String, String, Collection)" Url="html/M_ThoughtWorksMingleLib_MingleServer_Get_1.htm" />
+            <HelpTOCNode Title="Get Method (String, String, IEnumerable)" Url="html/M_ThoughtWorksMingleLib_MingleServer_Get_1.htm" />
           </HelpTOCNode>
           <HelpTOCNode Title="GetProject Method " Url="html/M_ThoughtWorksMingleLib_MingleServer_GetProject.htm" />
           <HelpTOCNode Title="GetProjectList Method " Url="html/M_ThoughtWorksMingleLib_MingleServer_GetProjectList.htm" />
           <HelpTOCNode Title="GetSecureStringFromString Method " Url="html/M_ThoughtWorksMingleLib_MingleServer_GetSecureStringFromString.htm" />
-          <HelpTOCNode Id="d016fe0b-c7f9-4637-add5-72441488876c" Title="Post Method " Url="html/Overload_ThoughtWorksMingleLib_MingleServer_Post.htm">
-            <HelpTOCNode Title="Post Method (String, Collection)" Url="html/M_ThoughtWorksMingleLib_MingleServer_Post.htm" />
-            <HelpTOCNode Title="Post Method (String, String, Collection)" Url="html/M_ThoughtWorksMingleLib_MingleServer_Post_1.htm" />
-          </HelpTOCNode>
+          <HelpTOCNode Title="Post Method " Url="html/M_ThoughtWorksMingleLib_MingleServer_Post.htm" />
           <HelpTOCNode Title="Put Method " Url="html/M_ThoughtWorksMingleLib_MingleServer_Put.htm" />
-          <HelpTOCNode Id="b2a7f7f0-c410-44c8-85c8-9d68b9990cd2" Title="SetConnectionInfo Method " Url="html/Overload_ThoughtWorksMingleLib_MingleServer_SetConnectionInfo.htm">
-            <HelpTOCNode Title="SetConnectionInfo Method (String, String, SecureString, Exception)" Url="html/M_ThoughtWorksMingleLib_MingleServer_SetConnectionInfo.htm" />
-            <HelpTOCNode Title="SetConnectionInfo Method (String, String, String, Exception)" Url="html/M_ThoughtWorksMingleLib_MingleServer_SetConnectionInfo_1.htm" />
-          </HelpTOCNode>
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="0a51edb3-8b86-4a54-8c4a-9b3f89343a29" Title="MingleTransition Class" Url="html/T_ThoughtWorksMingleLib_MingleTransition.htm">
+      <HelpTOCNode Id="48f0245a-8f63-4239-a4db-4f8b20af7d1c" Title="MingleTransition Class" Url="html/T_ThoughtWorksMingleLib_MingleTransition.htm">
         <HelpTOCNode Title="MingleTransition Constructor " Url="html/M_ThoughtWorksMingleLib_MingleTransition__ctor.htm" />
-        <HelpTOCNode Id="dc1a0d07-9c9c-404b-be88-8b181f0241f7" Title="MingleTransition Methods " Url="html/Methods_T_ThoughtWorksMingleLib_MingleTransition.htm">
+        <HelpTOCNode Id="eb8c0796-f44d-4ef0-92d2-227600c5dc27" Title="MingleTransition Methods " Url="html/Methods_T_ThoughtWorksMingleLib_MingleTransition.htm">
           <HelpTOCNode Title="Update Method " Url="html/M_ThoughtWorksMingleLib_MingleTransition_Update.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="29d84ca4-713b-4e5e-a3b0-2951ba50948f" Title="MingleTransition Properties " Url="html/Properties_T_ThoughtWorksMingleLib_MingleTransition.htm">
+        <HelpTOCNode Id="ef34a279-c73f-4c93-b341-4784110183b2" Title="MingleTransition Properties " Url="html/Properties_T_ThoughtWorksMingleLib_MingleTransition.htm">
           <HelpTOCNode Title="CardTypeName Property " Url="html/P_ThoughtWorksMingleLib_MingleTransition_CardTypeName.htm" />
           <HelpTOCNode Title="CardTypeUrl Property " Url="html/P_ThoughtWorksMingleLib_MingleTransition_CardTypeUrl.htm" />
           <HelpTOCNode Title="Id Property " Url="html/P_ThoughtWorksMingleLib_MingleTransition_Id.htm" />
@@ -672,21 +670,21 @@
           <HelpTOCNode Title="WillSetCardProperties Property " Url="html/P_ThoughtWorksMingleLib_MingleTransition_WillSetCardProperties.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="d913e73d-a426-47a5-a610-d1e277e2134c" Title="MingleTransitionCollection Class" Url="html/T_ThoughtWorksMingleLib_MingleTransitionCollection.htm">
+      <HelpTOCNode Id="a90bcfee-2339-46a2-80b6-eb01469e6fca" Title="MingleTransitionCollection Class" Url="html/T_ThoughtWorksMingleLib_MingleTransitionCollection.htm">
         <HelpTOCNode Title="MingleTransitionCollection Constructor " Url="html/M_ThoughtWorksMingleLib_MingleTransitionCollection__ctor.htm" />
-        <HelpTOCNode Id="877a5ebf-2e1c-4569-9487-848b1ff59a60" Title="MingleTransitionCollection Methods " Url="html/Methods_T_ThoughtWorksMingleLib_MingleTransitionCollection.htm">
-          <HelpTOCNode Id="18d7817b-0162-4ad0-abf7-08131f8ad967" Title="Parse Method " Url="html/Overload_ThoughtWorksMingleLib_MingleTransitionCollection_Parse.htm">
+        <HelpTOCNode Id="0cb5d5eb-f48b-44b4-a117-45392df8b994" Title="MingleTransitionCollection Methods " Url="html/Methods_T_ThoughtWorksMingleLib_MingleTransitionCollection.htm">
+          <HelpTOCNode Id="77db458a-bc26-4681-9aa2-ab927cbe05d2" Title="Parse Method " Url="html/Overload_ThoughtWorksMingleLib_MingleTransitionCollection_Parse.htm">
             <HelpTOCNode Title="Parse Method " Url="html/M_ThoughtWorksMingleLib_MingleTransitionCollection_Parse.htm" />
             <HelpTOCNode Title="Parse Method (Int32)" Url="html/M_ThoughtWorksMingleLib_MingleTransitionCollection_Parse_1.htm" />
           </HelpTOCNode>
         </HelpTOCNode>
-        <HelpTOCNode Id="5a4e0e4e-79d1-43a8-a8e6-12f627bfb6e2" Title="MingleTransitionCollection Properties " Url="html/Properties_T_ThoughtWorksMingleLib_MingleTransitionCollection.htm">
+        <HelpTOCNode Id="cb7d3dbb-5c69-4570-92da-567b4e376f30" Title="MingleTransitionCollection Properties " Url="html/Properties_T_ThoughtWorksMingleLib_MingleTransitionCollection.htm">
           <HelpTOCNode Title="CardNumber Property " Url="html/P_ThoughtWorksMingleLib_MingleTransitionCollection_CardNumber.htm" />
           <HelpTOCNode Title="Project Property " Url="html/P_ThoughtWorksMingleLib_MingleTransitionCollection_Project.htm" />
           <HelpTOCNode Title="ProjectId Property " Url="html/P_ThoughtWorksMingleLib_MingleTransitionCollection_ProjectId.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="e6b5d2ef-c738-43c3-8b3b-7031beb898cf" Title="XElementWrapper Class" Url="html/T_ThoughtWorksMingleLib_XElementWrapper.htm">
+      <HelpTOCNode Id="856a679d-c807-447a-97ba-fe2c93a5922b" Title="XElementWrapper Class" Url="html/T_ThoughtWorksMingleLib_XElementWrapper.htm">
         <HelpTOCNode Title="XElementWrapper Methods " Url="html/Methods_T_ThoughtWorksMingleLib_XElementWrapper.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
