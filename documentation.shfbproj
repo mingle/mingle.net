@@ -48,7 +48,7 @@
       <Filter entryType="Namespace" fullName="ThoughtWorks.VisualStudio.View.SettingsView" isExposed="False" />
       <Filter entryType="Namespace" fullName="ThoughtWorks.VisualStudio.View.TransitionCommentView" isExposed="False" />
     </ApiFilter>
-    <HelpFileVersion>1.0.1</HelpFileVersion>
+    <HelpFileVersion>1.0.1.0</HelpFileVersion>
     <IncludeFavorites>True</IncludeFavorites>
     <RootNamespaceContainer>True</RootNamespaceContainer>
     <PresentationStyle>hana</PresentationStyle>
