@@ -62,4 +62,8 @@ describe 'mingle_project' do
         sprints.count.should == 25
     end
     
+    it 'gets a specific card by number' do
+        @project.get_card(117).type.should == "Task"
+    end
+    
 end

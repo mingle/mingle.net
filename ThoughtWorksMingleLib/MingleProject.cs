@@ -503,5 +503,16 @@ namespace ThoughtWorksMingleLib
         {
             throw new NotImplementedException();
         }
+
+        /// <summary>
+        /// Returns a card given a card number from this project
+        /// </summary>
+        /// <param name="number"></param>
+        /// <returns></returns>
+        public MingleCard GetCard(int number)
+        {
+            var url = string.Format("cards/{0}.xml", number);
+            return new MingleCard(Mingle.Get(ProjectId, url), this);
+        }
     }
 }

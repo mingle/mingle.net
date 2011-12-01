@@ -9,6 +9,7 @@
 *.lref
 *.cache
 obj/
+Tests/bin/
 TestResults/
 *Re[sS]harper*.*
 _Re[sS]harper*/
