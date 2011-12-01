@@ -136,9 +136,12 @@ namespace ThoughtWorksCoreLib
             {
                 // Add parameter form data if any
                 if (data != null)
-                {    
-                    data.ToList().ForEach(s => postData.Append(s + "&"));
-                    postData.Remove(postData.Length - 1, 1);
+                {
+                    if (data.Count() > 0)
+                    {
+                        data.ToList().ForEach(s => postData.Append(s + "&"));
+                        postData.Remove(postData.Length - 1, 1);
+                    }
                     var encodedBytes = Encoding.UTF8.GetBytes(postData.ToString());
 
                     // Write the encoded data to the request.
