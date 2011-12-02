@@ -186,8 +186,10 @@ namespace ThoughtWorksCoreLib
             throw new NotImplementedException();
         }
 
-
-        class Response : IResponse
+        /// <summary>
+        /// Web response with body and headers only
+        /// </summary>
+        public class Response : IResponse
         {
             /// <summary>
             /// Sets the response body
@@ -204,6 +206,9 @@ namespace ThoughtWorksCoreLib
             /// </summary>
             public String Body { get; private set; }
 
+            /// <summary>
+            /// Returns the response headers
+            /// </summary>
             public NameValueCollection Headers { get; private set; } 
         }
     }
