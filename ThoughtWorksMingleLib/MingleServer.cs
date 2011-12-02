@@ -106,7 +106,7 @@ namespace ThoughtWorksMingleLib
         /// <returns>URL of the card from the Location header</returns>
         public string Put(string project, string url, IEnumerable<string> data)
         {
-            var qurl = FullyQualifiedMingleUrl(project, url);
+            var qurl = FullyQualifiedMingleUrl(project, url, false);
             var web = new AuthenticatingWeb(_login, GetStringFromSecureString(_password));
             return web.Put(qurl, data).Body;
         }
@@ -186,7 +186,7 @@ namespace ThoughtWorksMingleLib
         /// <returns></returns>
         public SortedList<string, string> GetProjectList()
         {
-            var url = string.Format("{0}/api/v2/projects.xml", _host);
+            var url = "/projects.xml";
             var query =
                 from p in XElement.Parse(Get(url)).Descendants("project")
                 let name = p.Element("name").Value
@@ -225,7 +225,7 @@ namespace ThoughtWorksMingleLib
         private string GetResponseBody(string method, string project, string urlSegment, IEnumerable<string> data, bool absoluteUrl)
         {
             var web = new AuthenticatingWeb(_login, GetStringFromSecureString(_password));
-            var qurl = absoluteUrl ? urlSegment : FullyQualifiedMingleUrl(project, urlSegment);
+            var qurl = FullyQualifiedMingleUrl(project, urlSegment, absoluteUrl);
             var body = string.Empty;
 
             try
@@ -264,11 +264,17 @@ namespace ThoughtWorksMingleLib
         /// </summary>
         /// <param name="project">Mingle project id (not name)</param>
         /// <param name="urlSegment">URL segment string</param>
+        /// <param name="absoluteUrl"></param>
         /// <returns></returns>
-        private string FullyQualifiedMingleUrl(string project, string urlSegment)
+        private string FullyQualifiedMingleUrl(string project, string urlSegment, bool absoluteUrl)
         {
-            if (string.IsNullOrEmpty(project)) return urlSegment;
-            return string.Format("{0}/api/v2/projects{1}{2}", 
+            if (null == urlSegment) throw new ArgumentNullException("urlSegment");
+
+            if (absoluteUrl) return urlSegment;
+
+            project = null == project ? string.Empty : "projects/" + project;
+
+            return string.Format("{0}/api/v2{1}{2}", 
                                             _host, 
                                             NormalizeUrlSegment(project), 
                                             NormalizeUrlSegment(urlSegment));
@@ -281,7 +287,7 @@ namespace ThoughtWorksMingleLib
         /// <returns></returns>
         private static object NormalizeUrlSegment(string url)
         {
-            return url.StartsWith("/") ? url : "/" + url;
+            return url.StartsWith("/") || string.IsNullOrWhiteSpace(url) ? url.Trim() : "/" + url.Trim();
         } 
 
         /// <summary>
