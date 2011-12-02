@@ -15,6 +15,7 @@
 //
 
 using System.Collections.Generic;
+using ThoughtWorksCoreLib;
 
 namespace ThoughtWorksMingleLib
 {
@@ -46,7 +47,7 @@ namespace ThoughtWorksMingleLib
         /// <param name="project"></param>
         /// <param name="url"></param>
         /// <param name="data"></param>
-        string Put(string project, string url, IEnumerable<string> data );
+        IResponse Put(string project, string url, IEnumerable<string> data );
 
         /// <summary>
         /// Performs a POST operation on the Mingle API with associated POST data
@@ -54,7 +55,7 @@ namespace ThoughtWorksMingleLib
         /// <param name="project"></param>
         /// <param name="url"></param>
         /// <param name="postData"></param>
-        string Post(string project, string url, IEnumerable<string> postData);
+        IResponse Post(string project, string url, IEnumerable<string> postData);
 
         /// <summary>
         /// Returns a Sorted list of project names and identifiers

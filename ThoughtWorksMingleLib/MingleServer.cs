@@ -16,6 +16,7 @@
 
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Net;
@@ -71,7 +72,7 @@ namespace ThoughtWorksMingleLib
 
         private string Get(string url)
         {
-            return GetResponseBody("get", null, url, null);
+            return GetResponse("get", null, url, null).Body;
         }
 
         /// <summary>
@@ -82,7 +83,7 @@ namespace ThoughtWorksMingleLib
         /// <returns></returns>
         public string Get(string project, string url)
         {
-            return GetResponseBody("get", project, url, null);
+            return GetResponse("get", project, url, null).Body;
         }
 
         /// <summary>
@@ -94,21 +95,21 @@ namespace ThoughtWorksMingleLib
         /// <returns></returns>
         public string Get(string project, string url, IEnumerable<string> data)
         {
-            return GetResponseBody("get", project, url, data);
+            return GetResponse("get", project, url, data).Body;
         }
 
         /// <summary>
-        /// Performs a PUT on the Mingle url with optional post data and returns HttpWebResponse
+        /// Performs a PUT on the Mingle url with optional post data and returns IResponse
         /// </summary>
         /// <param name="project"></param>
         /// <param name="url"></param>
         /// <param name="data"></param>
         /// <returns>URL of the card from the Location header</returns>
-        public string Put(string project, string url, IEnumerable<string> data)
+        public IResponse Put(string project, string url, IEnumerable<string> data)
         {
             var qurl = FullyQualifiedMingleUrl(project, url);
             var web = new AuthenticatingWeb(_login, GetStringFromSecureString(_password));
-            return web.Put(qurl, data).Body;
+            return web.Put(qurl, data);
         }
 
         /// <summary>
@@ -118,9 +119,9 @@ namespace ThoughtWorksMingleLib
         /// <param name="url"></param>
         /// <param name="data"></param>
         /// <returns>URL of the card from the Location header</returns>
-        public string Post(string project, string url, IEnumerable<string> data)
+        public IResponse Post(string project, string url, IEnumerable<string> data)
         {
-            return GetResponseBody("post", project, url, data);
+            return GetResponse("post", project, url, data);
         }
         #endregion
 
@@ -220,27 +221,24 @@ namespace ThoughtWorksMingleLib
         /// Packages the WebException as the InnerException and the contents of the error 
         /// in the response body as the exception message.
         /// </exception>
-        private string GetResponseBody(string method, string project, string urlSegment, IEnumerable<string> data)
+        private IResponse GetResponse(string method, string project, string urlSegment, IEnumerable<string> data)
         {
+            var me = new StackFrame().GetMethod().Name;
             var web = new AuthenticatingWeb(_login, GetStringFromSecureString(_password));
             var qurl = FullyQualifiedMingleUrl(project, urlSegment);
-            var body = string.Empty;
 
             try
             {
                 switch (method.ToLower())
                 {
                     case "get":
-                        body = web.Get(qurl, data).Body;
-                        break;
+                        return web.Get(qurl, data);
 
                     case "put":
-                        body = web.Put(qurl, data).Body;
-                        break;
+                        return web.Put(qurl, data);
 
                     case "post":
-                        body = web.Post(qurl, data).Body;
-                        break;
+                        return web.Post(qurl, data);
                 }
             }
 
@@ -254,7 +252,10 @@ namespace ThoughtWorksMingleLib
 
                 throw new MingleWebException(ex.Message, ex);
             }
-            return body;
+
+            var msg = "MingleServer.GetResponse was called with an invalid method parameter value: " + method;
+            TraceLog.WriteLine(me, msg);
+            throw new MingleWebException(msg);
         }
 
         /// <summary>

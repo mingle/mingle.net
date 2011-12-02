@@ -52,7 +52,7 @@ describe 'transition tests' do
         data = System::Collections::ObjectModel::Collection[System::String].new
         data.Add("transition_execution[card]=74")
         response = mingle.Post("test","/transition_executions/87.xml",data)
-        xdoc = System::Xml::Linq::XElement.parse(response)
+        xdoc = System::Xml::Linq::XElement.parse(response.body)
         xdoc.element(System::String.new("error")).value.should == "Finish Task is not applicable to Card #74."
     end
 end

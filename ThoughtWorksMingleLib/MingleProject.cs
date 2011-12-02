@@ -20,6 +20,7 @@ using System.Collections.ObjectModel;
 using System.Diagnostics;
 using System.Globalization;
 using System.Linq;
+using System.Text;
 using System.Xml.Linq;
 using ThoughtWorksCoreLib;
 
@@ -513,6 +514,25 @@ namespace ThoughtWorksMingleLib
         {
             var url = string.Format("cards/{0}.xml", number);
             return new MingleCard(Mingle.Get(ProjectId, url), this);
+        }
+
+        /// <summary>
+        /// Creates a new card
+        /// </summary>
+        /// <param name="type"></param>
+        /// <param name="name"></param>
+        /// <exception cref="NotImplementedException"></exception>
+        public MingleCard CreateCard(string type, string name)
+        {
+            var data = new Collection<string>();
+            data.Add(string.Format("card[card_type_name]={0}", type));
+            data.Add(string.Format("card[name]={0}", name));
+            var response = Mingle.Post(ProjectId, "/cards.xml", data);
+            var segments = new Uri(response.Headers["Location"]).Segments;
+            var sb = new StringBuilder(segments[segments.Count() - 2]);
+            sb.Append(segments[segments.Count() - 1]);
+            var card = Mingle.Get(ProjectId, sb.ToString());
+            return new MingleCard(card, this);
         }
     }
 }

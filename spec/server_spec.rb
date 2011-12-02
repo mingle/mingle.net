@@ -55,7 +55,7 @@ describe 'mingle server' do
         param.Add("card[card_type_name]=story")
         @mingle = MingleServer.new("http://localhost:9123","mingleuser", @securePassword)
         response = @mingle.Post("test", "/cards.xml", param)
-        response.should == 'test'
+        response.body.should == 'test'
     end
     
     it 'updates a card' do
@@ -63,7 +63,7 @@ describe 'mingle server' do
         param.Add("card[name]=this is a test xxx")   
         @mingle = MingleServer.new("http://localhost:9123","mingleuser", @securePassword)
         response = @mingle.Put("test", "/cards/82.xml", param)
-        response.slice(0,19).should == '<cards type="array"'
+        response.body.slice(0,19).should == '<cards type="array"'
     end
 
     def list_projects

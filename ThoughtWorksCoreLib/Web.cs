@@ -16,6 +16,7 @@
 
 using System;
 using System.Collections.Generic;
+using System.Collections.Specialized;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
@@ -34,6 +35,10 @@ namespace ThoughtWorksCoreLib
         /// Response body
         /// </summary>
         String Body { get; }
+        /// <summary>
+        /// Response headers
+        /// </summary>
+        NameValueCollection Headers { get; }
     }
 
     /// <summary>
@@ -98,7 +103,7 @@ namespace ThoughtWorksCoreLib
             using (var response = (HttpWebResponse)request.GetResponse())
             {
                 var body = new StreamReader(response.GetResponseStream()).ReadToEnd();
-                return new Response(body);
+                return new Response(response.Headers, body);
             }
         }
 
@@ -159,7 +164,7 @@ namespace ThoughtWorksCoreLib
                 using (var response = (HttpWebResponse)request.GetResponse())
                 {
                     var body = new StreamReader(response.GetResponseStream()).ReadToEnd();
-                    return new Response(body);
+                    return new Response(response.Headers, body);
                 }
             }
 
@@ -187,12 +192,19 @@ namespace ThoughtWorksCoreLib
             /// <summary>
             /// Sets the response body
             /// </summary>
+            /// <param name="headers"></param>
             /// <param name="body"></param>
-            public Response(string body) { Body = body; }
+            public Response(NameValueCollection headers, string body)
+            {
+                Body = body; 
+                Headers = headers;
+            }
             /// <summary>
             /// Returns the response body
             /// </summary>
             public String Body { get; private set; }
+
+            public NameValueCollection Headers { get; private set; } 
         }
     }
 

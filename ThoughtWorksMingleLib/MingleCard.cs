@@ -306,40 +306,13 @@ namespace ThoughtWorksMingleLib
         }
 
         /// <summary>
-        /// Commits this Card to Mingle
-        /// </summary>
-        /// <returns>
-        /// The card number
-        /// </returns>
-        public int Create(string cardType)
-        {
-            if (string.IsNullOrEmpty(cardType))
-                throw new ArgumentException(
-                    String.Format("The card_type_name passed to Card.Create is not valid.\r\n\n{0}", cardType));
-
-            AddCardAttributeFilterToPostData("name", Resources.NewCardDefaultName);
-            AddCardAttributeFilterToPostData("card_type_name", cardType);
-
-            try
-            {
-                RawData = XElement.Parse(_project.Mingle.Post(ProjectId, "/cards.xml", PostData));
-                return Number;
-            }
-            catch (Exception ex)
-            {
-                TraceLog.Exception(new StackFrame().GetMethod().Name, ex);
-                throw;
-            }
-        }
-
-        /// <summary>
         /// Updates the persisted instance of this Card with properties associated with this object
         /// </summary>
         public void Update()
         {
             try
             {
-                RawData = XElement.Parse(_project.Mingle.Put(ProjectId, Url, PostData));
+                RawData = XElement.Parse(_project.Mingle.Put(ProjectId, Url, PostData).Body);
                 PostData.Clear();
             }
             catch (Exception ex)

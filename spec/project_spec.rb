@@ -66,4 +66,10 @@ describe 'mingle_project' do
         @project.get_card(117).type.should == "Task"
     end
     
+    it 'creates a card' do
+        proj = MingleServer.new("http://localhost:8080","mingleuser","secret").GetProject("test")
+        card = proj.create_card("story", "This is a new card")
+        card.type.should == "Story" 
+    end
+    
 end
