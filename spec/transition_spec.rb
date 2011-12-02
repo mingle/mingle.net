@@ -51,7 +51,7 @@ describe 'transition tests' do
         mingle = MingleServer.new("http://localhost:9123","mingleuser","secret")
         data = System::Collections::ObjectModel::Collection[System::String].new
         data.Add("transition_execution[card]=74")
-        response = mingle.Post("","http://localhost:9123/api/v2/projects/test/transition_executions/87.xml",data, true)
+        response = mingle.Post("test","/transition_executions/87.xml",data)
         xdoc = System::Xml::Linq::XElement.parse(response)
         xdoc.element(System::String.new("error")).value.should == "Finish Task is not applicable to Card #74."
     end

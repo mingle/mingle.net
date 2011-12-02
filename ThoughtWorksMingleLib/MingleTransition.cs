@@ -176,7 +176,9 @@ namespace ThoughtWorksMingleLib
 
             try
             {
-                Project.Mingle.Post(Project.ProjectId, Url, postData, true);
+                var uri = new Uri(Url);
+                var u = uri.Segments[uri.Segments.Count() - 1];
+                Project.Mingle.Post(Project.ProjectId, u, postData);
             }
             catch (Exception ex)
             {

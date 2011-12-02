@@ -54,8 +54,7 @@ namespace ThoughtWorksMingleLib
         /// <param name="project"></param>
         /// <param name="url"></param>
         /// <param name="postData"></param>
-        /// <param name="absoluteUrl"></param>
-        string Post(string project, string url, IEnumerable<string> postData, bool absoluteUrl);
+        string Post(string project, string url, IEnumerable<string> postData);
 
         /// <summary>
         /// Returns a Sorted list of project names and identifiers

@@ -71,7 +71,7 @@ namespace ThoughtWorksMingleLib
 
         private string Get(string url)
         {
-            return GetResponseBody("get", null, url, null, false);
+            return GetResponseBody("get", null, url, null);
         }
 
         /// <summary>
@@ -82,7 +82,7 @@ namespace ThoughtWorksMingleLib
         /// <returns></returns>
         public string Get(string project, string url)
         {
-            return GetResponseBody("get", project, url, null, false);
+            return GetResponseBody("get", project, url, null);
         }
 
         /// <summary>
@@ -94,7 +94,7 @@ namespace ThoughtWorksMingleLib
         /// <returns></returns>
         public string Get(string project, string url, IEnumerable<string> data)
         {
-            return GetResponseBody("get", project, url, data, false);
+            return GetResponseBody("get", project, url, data);
         }
 
         /// <summary>
@@ -106,7 +106,7 @@ namespace ThoughtWorksMingleLib
         /// <returns>URL of the card from the Location header</returns>
         public string Put(string project, string url, IEnumerable<string> data)
         {
-            var qurl = FullyQualifiedMingleUrl(project, url, false);
+            var qurl = FullyQualifiedMingleUrl(project, url);
             var web = new AuthenticatingWeb(_login, GetStringFromSecureString(_password));
             return web.Put(qurl, data).Body;
         }
@@ -119,9 +119,9 @@ namespace ThoughtWorksMingleLib
         /// <param name="data"></param>
         /// <param name="absoluteUrl"></param>
         /// <returns>URL of the card from the Location header</returns>
-        public string Post(string project, string url, IEnumerable<string> data, bool absoluteUrl)
+        public string Post(string project, string url, IEnumerable<string> data)
         {
-            return GetResponseBody("post", project, url, data, absoluteUrl);
+            return GetResponseBody("post", project, url, data);
         }
         #endregion
 
@@ -222,10 +222,10 @@ namespace ThoughtWorksMingleLib
         /// Packages the WebException as the InnerException and the contents of the error 
         /// in the response body as the exception message.
         /// </exception>
-        private string GetResponseBody(string method, string project, string urlSegment, IEnumerable<string> data, bool absoluteUrl)
+        private string GetResponseBody(string method, string project, string urlSegment, IEnumerable<string> data)
         {
             var web = new AuthenticatingWeb(_login, GetStringFromSecureString(_password));
-            var qurl = FullyQualifiedMingleUrl(project, urlSegment, absoluteUrl);
+            var qurl = FullyQualifiedMingleUrl(project, urlSegment);
             var body = string.Empty;
 
             try
@@ -266,11 +266,9 @@ namespace ThoughtWorksMingleLib
         /// <param name="urlSegment">URL segment string</param>
         /// <param name="absoluteUrl"></param>
         /// <returns></returns>
-        private string FullyQualifiedMingleUrl(string project, string urlSegment, bool absoluteUrl)
+        private string FullyQualifiedMingleUrl(string project, string urlSegment)
         {
             if (null == urlSegment) throw new ArgumentNullException("urlSegment");
-
-            if (absoluteUrl) return urlSegment;
 
             project = null == project ? string.Empty : "projects/" + project;
 
