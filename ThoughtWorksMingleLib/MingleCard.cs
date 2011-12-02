@@ -57,8 +57,7 @@ namespace ThoughtWorksMingleLib
         /// </summary>
         public string Url
         {
-            get { return string.Format("/api/v2/projects/{0}/cards/{1}.xml",
-                _project.ProjectId, Number); }
+            get { return string.Format("/cards/{0}.xml", Number); }
         }
         /// <summary>
         /// Card description
@@ -323,8 +322,8 @@ namespace ThoughtWorksMingleLib
 
             try
             {
-                var response = XElement.Parse(_project.Mingle.Post(ProjectId, "/cards.xml", PostData));
-                return Convert.ToInt32(response.Element("number").Value);
+                RawData = XElement.Parse(_project.Mingle.Post(ProjectId, "/cards.xml", PostData));
+                return Number;
             }
             catch (Exception ex)
             {
@@ -338,10 +337,9 @@ namespace ThoughtWorksMingleLib
         /// </summary>
         public void Update()
         {
-            // POST
             try
             {
-                _project.Mingle.Post(ProjectId, Url, PostData);
+                RawData = XElement.Parse(_project.Mingle.Put(ProjectId, Url, PostData));
                 PostData.Clear();
             }
             catch (Exception ex)

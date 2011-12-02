@@ -117,7 +117,6 @@ namespace ThoughtWorksMingleLib
         /// <param name="project"></param>
         /// <param name="url"></param>
         /// <param name="data"></param>
-        /// <param name="absoluteUrl"></param>
         /// <returns>URL of the card from the Location header</returns>
         public string Post(string project, string url, IEnumerable<string> data)
         {
@@ -216,7 +215,6 @@ namespace ThoughtWorksMingleLib
         /// <param name="project"></param>
         /// <param name="urlSegment"></param>
         /// <param name="data"></param>
-        /// <param name="absoluteUrl"></param>
         /// <returns></returns>
         /// <exception cref="MingleWebException">Thrown when .NET returns a WebException. 
         /// Packages the WebException as the InnerException and the contents of the error 
@@ -264,7 +262,6 @@ namespace ThoughtWorksMingleLib
         /// </summary>
         /// <param name="project">Mingle project id (not name)</param>
         /// <param name="urlSegment">URL segment string</param>
-        /// <param name="absoluteUrl"></param>
         /// <returns></returns>
         private string FullyQualifiedMingleUrl(string project, string urlSegment)
         {

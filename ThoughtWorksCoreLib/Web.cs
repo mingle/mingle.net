@@ -137,17 +137,18 @@ namespace ThoughtWorksCoreLib
                 // Add parameter form data if any
                 if (data != null)
                 {
-                    if (data.Count() > 0)
+                    var d = data.ToList();
+                    if (d.Count() > 0)
                     {
-                        data.ToList().ForEach(s => postData.Append(s + "&"));
+                        d.ForEach(s => postData.Append(s + "&"));
                         postData.Remove(postData.Length - 1, 1);
-                    }
-                    var encodedBytes = Encoding.UTF8.GetBytes(postData.ToString());
+                        var encodedBytes = Encoding.UTF8.GetBytes(postData.ToString());
 
-                    // Write the encoded data to the request.
-                    using (var stream = request.GetRequestStream())
-                    {
-                        stream.Write(encodedBytes, 0, encodedBytes.Length);
+                        // Write the encoded data to the request.
+                        using (var stream = request.GetRequestStream())
+                        {
+                            stream.Write(encodedBytes, 0, encodedBytes.Length);
+                        }
                     }
                 }
 
