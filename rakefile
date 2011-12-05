@@ -12,7 +12,7 @@ task :build => [:clean, :compile, :spec]
 task :compile do
 	puts "Building '#{apisln}' using '#{cfg}' configuration."
 #	sh "#{dotnet}msbuild.exe /t:Rebuild /p:configuration=#{cfg} #{apisln}"
-	sh "devenv #{apisln} /Rebuild #{cfg}"
+	sh "devenv #{apisln} /Rebuild #{cfg}" 
 end
 
 task :clean do
