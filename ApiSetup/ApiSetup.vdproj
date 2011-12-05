@@ -216,7 +216,7 @@
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:ThoughtWorksCoreLib, Version=1.0.0.27941, Culture=neutral, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:ThoughtWorksCoreLib, Version=1.0.0.28023, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
                     "_9B51C66378BB6671C01CE5A31F313F10"
@@ -482,20 +482,6 @@
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
             "Target" = "8:_9614D3C396B148A98F0A14369C1C491E"
-            "Folder" = "8:_DA7C0128EC24493C9855492D094B0B07"
-            "WorkingFolder" = "8:_66D53509FA034837B5228FCC0FE1D18A"
-            "Icon" = "8:"
-            "Feature" = "8:"
-            }
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_7DF4A4AF467A47FFB73F7C6BD35386E5"
-            {
-            "Name" = "8:Launch Help Library Manager"
-            "Arguments" = "8:"
-            "Description" = "8:Launches the Help Library Manager so you can integrate the API documentation."
-            "ShowCmd" = "3:1"
-            "IconIndex" = "3:0"
-            "Transitive" = "11:FALSE"
-            "Target" = "8:"
             "Folder" = "8:_DA7C0128EC24493C9855492D094B0B07"
             "WorkingFolder" = "8:_66D53509FA034837B5228FCC0FE1D18A"
             "Icon" = "8:"
