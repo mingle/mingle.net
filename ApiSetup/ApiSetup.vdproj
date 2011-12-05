@@ -289,9 +289,14 @@
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:ThoughtWorksCoreLib, Version=1.0.0.25088, Culture=neutral, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:ThoughtWorksCoreLib, Version=1.0.0.25984, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
+                    "_E844ED65446D051A379F5E7C72A7FEEA"
+                    {
+                    "Name" = "8:ThoughtWorksCoreLib.dll"
+                    "Attributes" = "3:512"
+                    }
                 }
             "SourcePath" = "8:ThoughtWorksCoreLib.dll"
             "TargetName" = "8:"
@@ -401,7 +406,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Mingle .NET Client API"
         "ProductCode" = "8:{77ABA257-4520-416D-8CDD-AD21F4B4808F}"
-        "PackageCode" = "8:{16008535-2762-4D9C-B5B0-E5B1B5BD4C35}"
+        "PackageCode" = "8:{8A3F3EB6-E5F0-4625-B29A-4DD7C62A541D}"
         "UpgradeCode" = "8:{9DE53018-F568-4C80-8E9E-291444B1A018}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -409,10 +414,10 @@
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
         "ProductVersion" = "8:1.0.0"
-        "Manufacturer" = "8:Default Company Name"
+        "Manufacturer" = "8:ThoughtWorksStudios"
         "ARPHELPTELEPHONE" = "8:"
-        "ARPHELPLINK" = "8:"
-        "Title" = "8:ApiSetup"
+        "ARPHELPLINK" = "8:http://www.markr.com"
+        "Title" = "8:Mingle .NET Client API Setup"
         "Subject" = "8:"
         "ARPCONTACT" = "8:ThoughtWorks, Inc."
         "Keywords" = "8:"
