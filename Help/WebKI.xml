@@ -19,6 +19,7 @@
   <HelpKINode Title="AuthorName property" Url="html/P_ThoughtWorksMingleLib_MingleMurmur_AuthorName.htm" />
   <HelpKINode Title="AuthorUri property" Url="html/P_ThoughtWorksMingleLib_MingleEventsFeedEntry_AuthorUri.htm" />
   <HelpKINode Title="Body property" Url="html/P_ThoughtWorksCoreLib_IResponse_Body.htm" />
+  <HelpKINode Title="Body property" Url="html/P_ThoughtWorksCoreLib_Web_Response_Body.htm" />
   <HelpKINode Title="Body property" Url="html/P_ThoughtWorksMingleLib_MingleMurmur_Body.htm" />
   <HelpKINode Title="BuildNotification property" Url="html/P_ThoughtWorksCoreLib_Resources_BuildNotification.htm" />
   <HelpKINode Title="CancelLabel property" Url="html/P_ThoughtWorksCoreLib_Resources_CancelLabel.htm" />
@@ -75,7 +76,7 @@
   <HelpKINode Title="ColumnName property" Url="html/P_ThoughtWorksMingleLib_MinglePropertyDefinition_ColumnName.htm" />
   <HelpKINode Title="Condition property" Url="html/P_ThoughtWorksMingleLib_MingleFilter_Condition.htm" />
   <HelpKINode Title="Content property" Url="html/P_ThoughtWorksMingleLib_MingleEventsFeedEntry_Content.htm" />
-  <HelpKINode Title="Create method" Url="html/M_ThoughtWorksMingleLib_MingleCard_Create.htm" />
+  <HelpKINode Title="CreateCard method" Url="html/M_ThoughtWorksMingleLib_MingleProject_CreateCard.htm" />
   <HelpKINode Title="CreatedByLogin property" Url="html/P_ThoughtWorksMingleLib_MingleCard_CreatedByLogin.htm" />
   <HelpKINode Title="CreatedByName property" Url="html/P_ThoughtWorksMingleLib_MingleCard_CreatedByName.htm" />
   <HelpKINode Title="CreatedByUrl property" Url="html/P_ThoughtWorksMingleLib_MingleCard_CreatedByUrl.htm" />
@@ -151,6 +152,8 @@
   <HelpKINode Title="GetView method" Url="html/M_ThoughtWorksMingleLib_IMingleProject_GetView.htm" />
   <HelpKINode Title="GetView method" Url="html/M_ThoughtWorksMingleLib_MingleProject_GetView.htm" />
   <HelpKINode Title="GoPipelinePropertiesCaption property" Url="html/P_ThoughtWorksCoreLib_Resources_GoPipelinePropertiesCaption.htm" />
+  <HelpKINode Title="Headers property" Url="html/P_ThoughtWorksCoreLib_IResponse_Headers.htm" />
+  <HelpKINode Title="Headers property" Url="html/P_ThoughtWorksCoreLib_Web_Response_Headers.htm" />
   <HelpKINode Title="Hidden property" Url="html/P_ThoughtWorksMingleLib_MinglePropertyDefinition_Hidden.htm" />
   <HelpKINode Title="HostnameIsEmpty property" Url="html/P_ThoughtWorksCoreLib_Resources_HostnameIsEmpty.htm" />
   <HelpKINode Title="Href property" Url="html/P_ThoughtWorksMingleLib_MingleEventsLink_Href.htm" />
@@ -213,6 +216,7 @@
     <HelpKINode Title="properties" Url="html/Properties_T_ThoughtWorksCoreLib_IResponse.htm" />
   </HelpKINode>
   <HelpKINode Title="IResponse.Body property" Url="html/P_ThoughtWorksCoreLib_IResponse_Body.htm" />
+  <HelpKINode Title="IResponse.Headers property" Url="html/P_ThoughtWorksCoreLib_IResponse_Headers.htm" />
   <HelpKINode Title="IsCardValued property" Url="html/P_ThoughtWorksMingleLib_MinglePropertyDefinition_IsCardValued.htm" />
   <HelpKINode Title="IsFormula property" Url="html/P_ThoughtWorksMingleLib_MinglePropertyDefinition_IsFormula.htm" />
   <HelpKINode Title="IsNumeric property" Url="html/P_ThoughtWorksMingleLib_MingleEventsPropertyDefinition_IsNumeric.htm" />
@@ -263,7 +267,6 @@
   <HelpKINode Title="MingleCard.AddPropertyFilterToPostData method" Url="html/M_ThoughtWorksMingleLib_MingleCard_AddPropertyFilterToPostData.htm" />
   <HelpKINode Title="MingleCard.CardProperties property" Url="html/P_ThoughtWorksMingleLib_MingleCard_CardProperties.htm" />
   <HelpKINode Title="MingleCard.CardTypeUrl property" Url="html/P_ThoughtWorksMingleLib_MingleCard_CardTypeUrl.htm" />
-  <HelpKINode Title="MingleCard.Create method" Url="html/M_ThoughtWorksMingleLib_MingleCard_Create.htm" />
   <HelpKINode Title="MingleCard.CreatedByLogin property" Url="html/P_ThoughtWorksMingleLib_MingleCard_CreatedByLogin.htm" />
   <HelpKINode Title="MingleCard.CreatedByName property" Url="html/P_ThoughtWorksMingleLib_MingleCard_CreatedByName.htm" />
   <HelpKINode Title="MingleCard.CreatedByUrl property" Url="html/P_ThoughtWorksMingleLib_MingleCard_CreatedByUrl.htm" />
@@ -527,6 +530,7 @@
   </HelpKINode>
   <HelpKINode Title="MingleProject.CardTypes property" Url="html/P_ThoughtWorksMingleLib_MingleProject_CardTypes.htm" />
   <HelpKINode Title="MingleProject.ClearCardSetPropertyValues method" Url="html/M_ThoughtWorksMingleLib_MingleProject_ClearCardSetPropertyValues.htm" />
+  <HelpKINode Title="MingleProject.CreateCard method" Url="html/M_ThoughtWorksMingleLib_MingleProject_CreateCard.htm" />
   <HelpKINode Title="MingleProject.ExecMql method" Url="html/M_ThoughtWorksMingleLib_MingleProject_ExecMql.htm" />
   <HelpKINode Title="MingleProject.Favorites property" Url="html/P_ThoughtWorksMingleLib_MingleProject_Favorites.htm" />
   <HelpKINode Title="MingleProject.GetCard method" Url="html/M_ThoughtWorksMingleLib_MingleProject_GetCard.htm" />
@@ -926,6 +930,7 @@
   <HelpKINode Title="ThoughtWorksCoreLib.TraceLog class" Url="html/T_ThoughtWorksCoreLib_TraceLog.htm" />
   <HelpKINode Title="ThoughtWorksCoreLib.ViewIdentifiers class" Url="html/T_ThoughtWorksCoreLib_ViewIdentifiers.htm" />
   <HelpKINode Title="ThoughtWorksCoreLib.Web class" Url="html/T_ThoughtWorksCoreLib_Web.htm" />
+  <HelpKINode Title="ThoughtWorksCoreLib.Web.Response class" Url="html/T_ThoughtWorksCoreLib_Web_Response.htm" />
   <HelpKINode Title="ThoughtWorksCoreLib.WebApi class" Url="html/T_ThoughtWorksCoreLib_WebApi.htm" />
   <HelpKINode Title="ThoughtWorksMingleLib namespace" Url="html/N_ThoughtWorksMingleLib.htm" />
   <HelpKINode Title="ThoughtWorksMingleLib.IMingleProject interface" Url="html/T_ThoughtWorksMingleLib_IMingleProject.htm" />
@@ -1041,6 +1046,16 @@
   <HelpKINode Title="Web.Get method" Url="html/Overload_ThoughtWorksCoreLib_Web_Get.htm" />
   <HelpKINode Title="Web.Post method" Url="html/M_ThoughtWorksCoreLib_Web_Post.htm" />
   <HelpKINode Title="Web.Put method" Url="html/M_ThoughtWorksCoreLib_Web_Put.htm" />
+  <HelpKINode Title="Web.Response class" Url="html/T_ThoughtWorksCoreLib_Web_Response.htm" />
+  <HelpKINode Title="Web.Response class">
+    <HelpKINode Title="about Web.Response class" Url="html/T_ThoughtWorksCoreLib_Web_Response.htm" />
+    <HelpKINode Title="constructor" Url="html/M_ThoughtWorksCoreLib_Web_Response__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_ThoughtWorksCoreLib_Web_Response.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_ThoughtWorksCoreLib_Web_Response.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Web.Response.Body property" Url="html/P_ThoughtWorksCoreLib_Web_Response_Body.htm" />
+  <HelpKINode Title="Web.Response.Headers property" Url="html/P_ThoughtWorksCoreLib_Web_Response_Headers.htm" />
+  <HelpKINode Title="Web.Response.Response constructor" Url="html/M_ThoughtWorksCoreLib_Web_Response__ctor.htm" />
   <HelpKINode Title="Web.Web constructor" Url="html/Overload_ThoughtWorksCoreLib_Web__ctor.htm" />
   <HelpKINode Title="WebApi class" Url="html/T_ThoughtWorksCoreLib_WebApi.htm" />
   <HelpKINode Title="WebApi class">
