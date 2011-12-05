@@ -11,22 +11,13 @@ task :build => [:clean, :compile, :spec]
 
 task :compile do
 	puts "Building '#{apisln}' using '#{cfg}' configuration."
-	sh "#{dotnet}msbuild.exe /t:Rebuild /p:configuration=#{cfg} #{apisln}"
+#	sh "#{dotnet}msbuild.exe /t:Rebuild /p:configuration=#{cfg} #{apisln}"
+	sh "devenv #{apisln} /Rebuild #{cfg}"
 end
 
 task :clean do
 	clean 'build'
-	sh "#{dotnet}msbuild.exe /t:Clean /p:configuration=#{cfg} #{apisln}"
-end
-
-task :quick_compile do
-	puts "Building '#{apisln}' using '#{cfg}' configuration."
-	sh "#{dotnet}msbuild.exe /p:configuration=#{cfg} #{apisln}"
-end
-
-task :compilenoconfig do
-	puts "Building '#{apisln}'."
-	sh "#{dotnet}msbuild.exe /t:Rebuild #{apisln}"
+	sh "devenv.exe #{apisln} /Clean "
 end
 
 RSpec::Core::RakeTask.new(:spec) do |t|
