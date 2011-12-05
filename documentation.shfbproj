@@ -25,7 +25,7 @@
       <DocumentationSource sourceFile="build\ThoughtWorksMingleLib.xml" />
     </DocumentationSources>
     <FrameworkVersion>4.0.30319</FrameworkVersion>
-    <HelpFileFormat>HtmlHelp1, MSHelpViewer, Website</HelpFileFormat>
+    <HelpFileFormat>HtmlHelp1</HelpFileFormat>
     <HelpTitle>ThoughtWorks Studios API for .NET</HelpTitle>
     <CopyrightText>Copyright 2010,2011 ThoughtWorks Inc.</CopyrightText>
     <HeaderText>ThoughtWorks Studios API for .NET</HeaderText>

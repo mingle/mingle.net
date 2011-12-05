@@ -39,26 +39,14 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_DD83E6029FF34C56BC1A4AEA6CDF8AD3"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_E1C8E6604EDC4DE7A6368CCBCC2280C2"
-        "OwnerKey" = "8:_UNDEFINED"
+        "MsmKey" = "8:_9B51C66378BB6671C01CE5A31F313F10"
+        "OwnerKey" = "8:_4BCE9CFEE65D4B8A93DC6B71338858AD"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_E59B2C4948D14ECE879D051797FCF4B9"
         "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_E844ED65446D051A379F5E7C72A7FEEA"
-        "OwnerKey" = "8:_4BCE9CFEE65D4B8A93DC6B71338858AD"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -76,19 +64,13 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_DD83E6029FF34C56BC1A4AEA6CDF8AD3"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_4BCE9CFEE65D4B8A93DC6B71338858AD"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_E844ED65446D051A379F5E7C72A7FEEA"
+        "OwnerKey" = "8:_9B51C66378BB6671C01CE5A31F313F10"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -109,6 +91,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
         "Release"
         {
@@ -125,6 +115,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -214,85 +212,14 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_DD83E6029FF34C56BC1A4AEA6CDF8AD3"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_9B51C66378BB6671C01CE5A31F313F10"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:HelpLibraryManagerLauncher, Version=1.0.0.0, Culture=neutral, PublicKeyToken=70ea1bb087a3ebed, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:ThoughtWorksCoreLib, Version=1.0.0.27941, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_DD83E6029FF34C56BC1A4AEA6CDF8AD3"
-                    {
-                    "Name" = "8:HelpLibraryManagerLauncher.exe"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:..\\Help\\HelpLibraryManagerLauncher.exe"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_66D53509FA034837B5228FCC0FE1D18A"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E1C8E6604EDC4DE7A6368CCBCC2280C2"
-            {
-            "SourcePath" = "8:..\\Help\\TW.NET.mshc"
-            "TargetName" = "8:TW.NET.mshc"
-            "Tag" = "8:"
-            "Folder" = "8:_66D53509FA034837B5228FCC0FE1D18A"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E59B2C4948D14ECE879D051797FCF4B9"
-            {
-            "SourcePath" = "8:..\\Help\\Remove_TW.NET.bat"
-            "TargetName" = "8:Remove_TW.NET.bat"
-            "Tag" = "8:"
-            "Folder" = "8:_66D53509FA034837B5228FCC0FE1D18A"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_E844ED65446D051A379F5E7C72A7FEEA"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:ThoughtWorksCoreLib, Version=1.0.0.25984, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_E844ED65446D051A379F5E7C72A7FEEA"
+                    "_9B51C66378BB6671C01CE5A31F313F10"
                     {
                     "Name" = "8:ThoughtWorksCoreLib.dll"
                     "Attributes" = "3:512"
@@ -314,6 +241,26 @@
             "Register" = "3:1"
             "Exclude" = "11:TRUE"
             "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E59B2C4948D14ECE879D051797FCF4B9"
+            {
+            "SourcePath" = "8:..\\Help\\Remove_TW.NET.bat"
+            "TargetName" = "8:Remove_TW.NET.bat"
+            "Tag" = "8:"
+            "Folder" = "8:_66D53509FA034837B5228FCC0FE1D18A"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
         }
@@ -548,7 +495,7 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_DD83E6029FF34C56BC1A4AEA6CDF8AD3"
+            "Target" = "8:"
             "Folder" = "8:_DA7C0128EC24493C9855492D094B0B07"
             "WorkingFolder" = "8:_66D53509FA034837B5228FCC0FE1D18A"
             "Icon" = "8:"
