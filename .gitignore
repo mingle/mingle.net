@@ -18,3 +18,5 @@ vendor/ironruby
 .bundle
 build
 SetupMingleApi/SetupMingleApi/
+ApiSetup/Debug/
+ApiSetup/Release/

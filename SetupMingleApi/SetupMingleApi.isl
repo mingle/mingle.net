@@ -1889,8 +1889,8 @@
 		<col def="S72">ISComponentSubFolder_</col>
 		<row><td>thoughtworkscorelib.primary_1</td><td>ThoughtWorksCoreLib.Primary_output1</td><td>ThoughtWorksCoreLib.Primary output</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;ThoughtWorksCoreLib&gt;|Built</td><td>3</td><td/></row>
 		<row><td>thoughtworksminglelib.primar1</td><td>ThoughtWorksMingleLib.Primary_output1</td><td>ThoughtWorksMingleLib.Primary output</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;ThoughtWorksMingleLib&gt;|Built</td><td>3</td><td/></row>
-		<row><td>tw.net.chm</td><td>TW.NET.chm</td><td>TWNET~1.CHM|TW.NET.chm</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\mark\src\Mingle.NET\Help\TW.NET.chm</td><td>1</td><td/></row>
-		<row><td>tw.net.mshc</td><td>ISX_DEFAULTCOMPONENT</td><td>TWNET~1.MSH|TW.NET.mshc</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\mark\src\Mingle.NET\Help\TW.NET.mshc</td><td>1</td><td/></row>
+		<row><td>tw.net.chm</td><td>TW.NET.chm</td><td>TWNET~1.CHM|TW.NET.chm</td><td>0</td><td/><td/><td/><td>1</td><td>.\Help\TW.NET.chm</td><td>1</td><td/></row>
+		<row><td>tw.net.mshc</td><td>ISX_DEFAULTCOMPONENT</td><td>TWNET~1.MSH|TW.NET.mshc</td><td>0</td><td/><td/><td/><td>1</td><td>..Help\TW.NET.mshc</td><td>1</td><td/></row>
 	</table>
 
 	<table name="FileSFPCatalog">

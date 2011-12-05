@@ -27,7 +27,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThoughtWorksGoLib", "Though
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{F2BB97DF-D976-4CBD-8725-C6A13A8C9E85}"
 EndProject
-Project("{6141683F-8A12-4E36-9623-2EB02B2C2303}") = "SetupMingleApi", "SetupMingleApi\SetupMingleApi.isproj", "{739AB632-DFC8-4C3B-9DE9-21F20AA3D4C7}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ApiSetup", "ApiSetup\ApiSetup.vdproj", "{6045B192-C7C2-4469-BB77-2312A54112EE}"
 EndProject
 Global
 	GlobalSection(TestCaseManagementSettings) = postSolution
@@ -89,16 +89,11 @@ Global
 		{F2BB97DF-D976-4CBD-8725-C6A13A8C9E85}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F2BB97DF-D976-4CBD-8725-C6A13A8C9E85}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
 		{F2BB97DF-D976-4CBD-8725-C6A13A8C9E85}.SingleImage|Any CPU.Build.0 = Release|Any CPU
-		{739AB632-DFC8-4C3B-9DE9-21F20AA3D4C7}.CD_ROM|Any CPU.ActiveCfg = CD_ROM
-		{739AB632-DFC8-4C3B-9DE9-21F20AA3D4C7}.CD_ROM|Any CPU.Build.0 = CD_ROM
-		{739AB632-DFC8-4C3B-9DE9-21F20AA3D4C7}.Debug|Any CPU.ActiveCfg = DVD-5
-		{739AB632-DFC8-4C3B-9DE9-21F20AA3D4C7}.Debug|Any CPU.Build.0 = DVD-5
-		{739AB632-DFC8-4C3B-9DE9-21F20AA3D4C7}.DVD-5|Any CPU.ActiveCfg = DVD-5
-		{739AB632-DFC8-4C3B-9DE9-21F20AA3D4C7}.DVD-5|Any CPU.Build.0 = DVD-5
-		{739AB632-DFC8-4C3B-9DE9-21F20AA3D4C7}.Release|Any CPU.ActiveCfg = SingleImage
-		{739AB632-DFC8-4C3B-9DE9-21F20AA3D4C7}.Release|Any CPU.Build.0 = SingleImage
-		{739AB632-DFC8-4C3B-9DE9-21F20AA3D4C7}.SingleImage|Any CPU.ActiveCfg = SingleImage
-		{739AB632-DFC8-4C3B-9DE9-21F20AA3D4C7}.SingleImage|Any CPU.Build.0 = SingleImage
+		{6045B192-C7C2-4469-BB77-2312A54112EE}.CD_ROM|Any CPU.ActiveCfg = Release
+		{6045B192-C7C2-4469-BB77-2312A54112EE}.Debug|Any CPU.ActiveCfg = Debug
+		{6045B192-C7C2-4469-BB77-2312A54112EE}.DVD-5|Any CPU.ActiveCfg = Debug
+		{6045B192-C7C2-4469-BB77-2312A54112EE}.Release|Any CPU.ActiveCfg = Release
+		{6045B192-C7C2-4469-BB77-2312A54112EE}.SingleImage|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
