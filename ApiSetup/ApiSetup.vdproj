@@ -119,7 +119,7 @@
         "PackageFilesAs" = "3:2"
         "PackageFileSize" = "3:-2147483648"
         "CabType" = "3:1"
-        "Compression" = "3:2"
+        "Compression" = "3:3"
         "SignOutput" = "11:FALSE"
         "CertificateFile" = "8:"
         "PrivateKeyFile" = "8:"
@@ -292,11 +292,6 @@
             "AssemblyAsmDisplayName" = "8:ThoughtWorksCoreLib, Version=1.0.0.25088, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_E844ED65446D051A379F5E7C72A7FEEA"
-                    {
-                    "Name" = "8:ThoughtWorksCoreLib.dll"
-                    "Attributes" = "3:512"
-                    }
                 }
             "SourcePath" = "8:ThoughtWorksCoreLib.dll"
             "TargetName" = "8:"
@@ -322,6 +317,28 @@
         }
         "Folder"
         {
+            "{1525181F-901A-416C-8A58-119130FE478E}:_40BBEE70DE8E4324AC69B4271AE9BAE0"
+            {
+            "Name" = "8:#1921"
+            "AlwaysCreate" = "11:FALSE"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Property" = "8:StartMenuFolder"
+                "Folders"
+                {
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_DA7C0128EC24493C9855492D094B0B07"
+                    {
+                    "Name" = "8:ThoughtWorks Mingle API"
+                    "AlwaysCreate" = "11:FALSE"
+                    "Condition" = "8:"
+                    "Transitive" = "11:FALSE"
+                    "Property" = "8:_887EE9512235451EBFABFD41CF3367DC"
+                        "Folders"
+                        {
+                        }
+                    }
+                }
+            }
             "{3C67513D-01DD-4637-8A68-80971EB9504F}:_762F3F2F338146B7941471EC9FED3DAD"
             {
             "DefaultLocation" = "8:[ProgramFilesFolder][Manufacturer]\\[ProductName]"
@@ -382,13 +399,13 @@
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
-        "ProductName" = "8:ApiSetup"
+        "ProductName" = "8:Mingle .NET Client API"
         "ProductCode" = "8:{77ABA257-4520-416D-8CDD-AD21F4B4808F}"
         "PackageCode" = "8:{16008535-2762-4D9C-B5B0-E5B1B5BD4C35}"
         "UpgradeCode" = "8:{9DE53018-F568-4C80-8E9E-291444B1A018}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
-        "RemovePreviousVersions" = "11:FALSE"
+        "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
         "ProductVersion" = "8:1.0.0"
@@ -397,7 +414,7 @@
         "ARPHELPLINK" = "8:"
         "Title" = "8:ApiSetup"
         "Subject" = "8:"
-        "ARPCONTACT" = "8:Default Company Name"
+        "ARPCONTACT" = "8:ThoughtWorks, Inc."
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:"
         "ARPURLINFOABOUT" = "8:"
@@ -504,6 +521,34 @@
         }
         "Shortcut"
         {
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_67EDA7F359E64D3E84621E586E3ED330"
+            {
+            "Name" = "8:API Documentation (MS Help Viewer Format))"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_9614D3C396B148A98F0A14369C1C491E"
+            "Folder" = "8:_DA7C0128EC24493C9855492D094B0B07"
+            "WorkingFolder" = "8:_66D53509FA034837B5228FCC0FE1D18A"
+            "Icon" = "8:"
+            "Feature" = "8:"
+            }
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_7DF4A4AF467A47FFB73F7C6BD35386E5"
+            {
+            "Name" = "8:Launch Help Library Manager"
+            "Arguments" = "8:"
+            "Description" = "8:Launches the Help Library Manager so you can integrate the API documentation."
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_DD83E6029FF34C56BC1A4AEA6CDF8AD3"
+            "Folder" = "8:_DA7C0128EC24493C9855492D094B0B07"
+            "WorkingFolder" = "8:_66D53509FA034837B5228FCC0FE1D18A"
+            "Icon" = "8:"
+            "Feature" = "8:"
+            }
         }
         "UserInterface"
         {
