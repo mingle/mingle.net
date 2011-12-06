@@ -30,7 +30,7 @@ namespace ThoughtWorksMingleLib
     /// </summary>
     public class MingleCard
     {
-        private readonly MingleProject _project;
+        private readonly IMingleProject _project;
         private readonly SortedList<string,MingleTransition> _transitions = new SortedList<string, MingleTransition>();
         private readonly SortedList<string,MinglePropertyDefinition> _properties = new SortedList<string, MinglePropertyDefinition>();
 
@@ -232,7 +232,7 @@ namespace ThoughtWorksMingleLib
         /// </summary>
         /// <param name="card">XML for a card</param>
         /// <param name="project">Mingle project</param>
-        public MingleCard(string card, MingleProject project)
+        public MingleCard(string card, IMingleProject project)
         {
             RawData = XElement.Parse(card);
             PostData = new Collection<string>();

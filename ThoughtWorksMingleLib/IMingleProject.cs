@@ -15,6 +15,7 @@
 //
 
 using System.Collections;
+using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Xml.Linq;
 
@@ -111,5 +112,33 @@ namespace ThoughtWorksMingleLib
         /// <param name="macro">Macro text</param>
         /// <returns>HTML</returns>
         string RunMacro(string macro);
+
+        /// <summary>
+        /// Creates a new card
+        /// </summary>
+        /// <param name="type"></param>
+        /// <param name="name"></param>
+        /// <returns></returns>
+        MingleCard CreateCard(string type, string name);
+
+        /// <summary>
+        /// The project identifier
+        /// </summary>
+        string ProjectId { get; }
+
+        /// <summary>
+        /// Property definitions for this project
+        /// </summary>
+        MinglePropertyDefinitionCollection Properties { get; }
+
+        /// <summary>
+        /// Transition collection for this project
+        /// </summary>
+        MingleTransitionCollection Transitions { get; }
+
+        /// <summary>
+        /// Mingle server interface for this project
+        /// </summary>
+        IMingleServer Mingle { get; }
     }
 }

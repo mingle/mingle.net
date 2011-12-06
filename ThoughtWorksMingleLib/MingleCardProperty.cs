@@ -34,7 +34,7 @@ namespace ThoughtWorksMingleLib
         /// </summary>
         public XElement RawData { get; private set; }
 
-        private readonly MingleProject _project;
+        private readonly IMingleProject _project;
 
         /// <summary>
         /// Name of the property
@@ -98,7 +98,7 @@ namespace ThoughtWorksMingleLib
         /// </summary>
         /// <param name="xml">Xml for the property</param>
         /// <param name="project">MingleProject associated with this property</param>
-        public MingleCardProperty(string xml, MingleProject project)
+        public MingleCardProperty(string xml, IMingleProject project)
         {
             RawData = XElement.Parse(xml);
             _project = project;

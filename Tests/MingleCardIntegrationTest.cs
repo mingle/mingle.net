@@ -1,6 +1,5 @@
 ﻿using ThoughtWorksMingleLib;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
 
 namespace Tests
 {
@@ -16,9 +15,11 @@ namespace Tests
 
 
         private TestContext testContextInstance;
-        private const string MINGLEHOST = "http://fmtstdsol01.thoughtworks.com:8080";
+        private const string MINGLEHOST = "http://localhost:8080";
         private const string MINGLEUSER = "mingleuser";
         private const string MINGLEPASSWORD = "secret";
+        private static MingleServer _mingle;
+        private static MingleProject _project;
 
         /// <summary>
         ///Gets or sets the test context which provides
@@ -41,10 +42,12 @@ namespace Tests
         //You can use the following additional attributes as you write your tests:
         //
         //Use ClassInitialize to run code before running the first test in the class
-        //[ClassInitialize()]
-        //public static void MyClassInitialize(TestContext testContext)
-        //{
-        //}
+        [ClassInitialize()]
+        public static void MyClassInitialize(TestContext testContext)
+        {
+            _mingle = new MingleServer(MINGLEHOST, MINGLEUSER, MINGLEPASSWORD);
+            _project = _mingle.GetProject("test");
+        }
         //
         //Use ClassCleanup to run code after all tests in a class have run
         //[ClassCleanup()]
@@ -71,12 +74,23 @@ namespace Tests
         ///A scenario test for Update
         ///</summary>
         [TestMethod()]
-        public void UpdateIntegrationTest()
+        public void CreateIntegrationTest()
         {
-            var mingle = new MingleServer(MINGLEHOST, MINGLEUSER, MINGLEPASSWORD);
-            var card = mingle.GetProject("test").GetCard(117);
+            var project = _mingle.GetProject("test");
+            var card = project.GetCard(4);
             Assert.IsInstanceOfType(card, typeof(MingleCard));
-            Assert.AreEqual("Feature", card.Type);
+            Assert.AreEqual("Sprint 2", card.Name);
+            var newCard = project.CreateCard("story", "make a new widget");
+            Assert.AreEqual("Story", newCard.Type);
+            var view = project.GetView("Sprint List");
+            Assert.IsInstanceOfType(view, typeof(MingleCardCollection));
+            Assert.AreEqual(view.Count, 7);
+        }
+
+        [TestMethod]
+        public void CardPropertyIntegrationTest()
+        {
+            
         }
     }
 }

@@ -38,13 +38,13 @@ namespace ThoughtWorksMingleLib
         /// <summary>
         /// MingleProject object
         /// </summary>
-        public MingleProject Project { get; private set; }
+        public IMingleProject Project { get; private set; }
 
         /// <summary>
         /// Constructs a new MingleCardPropertyCollection
         /// </summary>
         /// <param name="project">MingleProject object</param>
-        public MingleCardPropertyCollection(MingleProject project)
+        public MingleCardPropertyCollection(IMingleProject project)
         {
             Project = project;
             ProjectId = project.ProjectId;
