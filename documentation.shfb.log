@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder Utilities" version="1.9.1.0" projectFile="C:\Users\mark\src\Mingle.NET\documentation.shfbproj" started="12/5/2011 3:29:49 PM">
+<shfbBuild product="Sandcastle Help File Builder Utilities" version="1.9.1.0" projectFile="C:\Users\mark\src\Mingle.NET\documentation.shfbproj" started="12/6/2011 8:26:35 AM">
 <buildStep step="Initializing">
 </buildStep>
 <buildStep step="FindingTools">
@@ -23,7 +23,7 @@ Copying XML comments files
 </buildStep>
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
-    Last step completed in 00:00:00.0090
+    Last step completed in 00:00:00.0700
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
@@ -36,23 +36,23 @@ GenerateRefInfo:
   MrefBuilder (v2.6.10621.1)
   Copyright c Microsoft 2006
   Info: Loaded 2 assemblies for reflection and 0 dependency assemblies.
-  Info: Wrote information on 2 namespaces, 45 types, and 413 members
+  Info: Wrote information on 2 namespaces, 45 types, and 418 members
   XslTransform (v2.6.10621.1)
   Copyright c Microsoft 2005-2006
   Info: Applying XSL transformation 'C:\Program Files (x86)\Sandcastle\ProductionTransforms\MergeDuplicates.xsl'.
   reflection.all -&gt; reflection.org
-    Last step completed in 00:00:05.1503
+    Last step completed in 00:00:05.5303
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.0010
+    Last step completed in 00:00:00.0120
 </buildStep>
 <buildStep step="ApplyVisibilityProperties">
 Applying visibility properties to reflection information file
     2 attribute nodes removed
     0 explicit interface implementations removed
     132 local and base class EII elements removed
-    Last step completed in 00:00:00.0760
+    Last step completed in 00:00:00.0750
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
@@ -61,14 +61,14 @@ TransformManifest:
   XslTransform (v2.6.10621.1)
   Copyright c Microsoft 2005-2006
   Info: Applying XSL transformation 'C:\Program Files (x86)\Sandcastle\ProductionTransforms\ApplyVSDocModel.xsl'.
-  reflection.org -&gt; C:\Users\mark\AppData\Local\Temp\tmp5C66.tmp
+  reflection.org -&gt; C:\Users\mark\AppData\Local\Temp\tmp40AF.tmp
   Info: Applying XSL transformation 'C:\Program Files (x86)\Sandcastle\ProductionTransforms\AddGuidFilenames.xsl'.
-  C:\Users\mark\AppData\Local\Temp\tmp5C66.tmp -&gt; reflection.xml
+  C:\Users\mark\AppData\Local\Temp\tmp40AF.tmp -&gt; reflection.xml
   XslTransform (v2.6.10621.1)
   Copyright c Microsoft 2005-2006
   Info: Applying XSL transformation 'C:\Program Files (x86)\Sandcastle\ProductionTransforms\ReflectionToManifest.xsl'.
   reflection.xml -&gt; manifest.xml
-    Last step completed in 00:00:01.5831
+    Last step completed in 00:00:01.6851
 </buildStep>
 <buildStep step="ModifyHelpTopicFilenames">
 Modifying help topic filenames in reflection information file
@@ -78,10 +78,10 @@ Modifying help topic filenames in reflection information file
     Unique name M_ThoughtWorksCoreLib_Web__ctor_2 generated for M:ThoughtWorksCoreLib.Web.#ctor(System.Action{System.Net.HttpWebRequest},System.Action{System.Net.HttpWebRequest})
     Unique name M_ThoughtWorksCoreLib_Web_Get_1 generated for M:ThoughtWorksCoreLib.Web.Get(System.String,System.Collections.Generic.IEnumerable{System.String})
     Unique name M_ThoughtWorksMingleLib_IMingleServer_Get_1 generated for M:ThoughtWorksMingleLib.IMingleServer.Get(System.String,System.String,System.Collections.Generic.IEnumerable{System.String})
-    Unique name M_ThoughtWorksMingleLib_MingleCard__ctor_1 generated for M:ThoughtWorksMingleLib.MingleCard.#ctor(System.String,ThoughtWorksMingleLib.MingleProject)
+    Unique name M_ThoughtWorksMingleLib_MingleCard__ctor_1 generated for M:ThoughtWorksMingleLib.MingleCard.#ctor(System.String,ThoughtWorksMingleLib.IMingleProject)
     Unique name M_ThoughtWorksMingleLib_MingleCardCollection_Parse_1 generated for M:ThoughtWorksMingleLib.MingleCardCollection.Parse(System.Collections.ObjectModel.Collection{System.String})
     Unique name M_ThoughtWorksMingleLib_MingleCardCollection_Parse_2 generated for M:ThoughtWorksMingleLib.MingleCardCollection.Parse(System.Int32)
-    Unique name M_ThoughtWorksMingleLib_MingleCardProperty__ctor_1 generated for M:ThoughtWorksMingleLib.MingleCardProperty.#ctor(System.String,ThoughtWorksMingleLib.MingleProject)
+    Unique name M_ThoughtWorksMingleLib_MingleCardProperty__ctor_1 generated for M:ThoughtWorksMingleLib.MingleCardProperty.#ctor(System.String,ThoughtWorksMingleLib.IMingleProject)
     Unique name M_ThoughtWorksMingleLib_MingleEventsCategory__ctor_1 generated for M:ThoughtWorksMingleLib.MingleEventsCategory.#ctor(System.Xml.Linq.XElement)
     Unique name M_ThoughtWorksMingleLib_MingleEventsChange__ctor_1 generated for M:ThoughtWorksMingleLib.MingleEventsChange.#ctor(System.Xml.Linq.XElement)
     Unique name M_ThoughtWorksMingleLib_MingleEventsElementNillableValue__ctor_1 generated for M:ThoughtWorksMingleLib.MingleEventsElementNillableValue.#ctor(System.Xml.Linq.XElement)
@@ -102,7 +102,7 @@ Modifying help topic filenames in reflection information file
     Unique name M_ThoughtWorksMingleLib_MingleServer__ctor_1 generated for M:ThoughtWorksMingleLib.MingleServer.#ctor(System.String,System.String,System.String)
     Unique name M_ThoughtWorksMingleLib_MingleServer_Get_1 generated for M:ThoughtWorksMingleLib.MingleServer.Get(System.String,System.String,System.Collections.Generic.IEnumerable{System.String})
     Unique name M_ThoughtWorksMingleLib_MingleTransitionCollection_Parse_1 generated for M:ThoughtWorksMingleLib.MingleTransitionCollection.Parse(System.Int32)
-    Last step completed in 00:00:00.1650
+    Last step completed in 00:00:00.2200
 </buildStep>
 <buildStep step="CopyStandardContent">
 Copying standard help content...
@@ -229,12 +229,12 @@ C:\Program Files (x86)\Sandcastle\Presentation\hana\scripts\SplitScreen.js -&gt;
 C:\Program Files (x86)\Sandcastle\Presentation\hana\styles\Presentation.css -&gt; C:\Users\mark\src\Mingle.NET\Help\Working\Output\HtmlHelp1\styles\Presentation.css
 C:\Program Files (x86)\Sandcastle\Presentation\hana\styles\syntax.css -&gt; C:\Users\mark\src\Mingle.NET\Help\Working\Output\HtmlHelp1\styles\syntax.css
 C:\Program Files (x86)\Sandcastle\Presentation\hana\styles\tabs.css -&gt; C:\Users\mark\src\Mingle.NET\Help\Working\Output\HtmlHelp1\styles\tabs.css
-    Last step completed in 00:00:00.8040
+    Last step completed in 00:00:01.0671
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 No additional content to copy
-    Last step completed in 00:00:00.0120
+    Last step completed in 00:00:00.0150
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
@@ -249,17 +249,17 @@ GenerateIntermediateTOC:
   Info: Applying XSL transformation 'C:\Program Files (x86)\Sandcastle\ProductionTransforms\CreateVSToc.xsl'.
   reflection.xml -&gt; toc.xml
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00.3800
+    Last step completed in 00:00:00.4300
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00.0200
+    Last step completed in 00:00:00.0780
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
 C:\Users\mark\src\Mingle.NET\Help\Working\sandcastle.config
-    Last step completed in 00:00:00.0300
+    Last step completed in 00:00:00.0370
 </buildStep>
 <buildStep step="BuildReferenceTopics">
 Building reference help topics...
@@ -272,7 +272,7 @@ BuildReferenceTopics:
   Info: CopyFromIndexComponent: Instantiating component.
   Info: CopyFromIndexComponent: Searching for files that match '*.xml'.
   Info: CopyFromIndexComponent: Searching for files that match 'reflection.xml'.
-  Info: CopyFromIndexComponent: Indexed 203308 elements in 409 files.
+  Info: CopyFromIndexComponent: Indexed 203314 elements in 409 files.
   Info: CopyFromIndexComponent: Loaded 0 copy components.
   Info: CopyFromIndexComponent: Instantiating component.
   Info: CopyFromIndexComponent: Loaded 0 copy components.
@@ -293,7 +293,7 @@ BuildReferenceTopics:
   Info: CopyFromIndexComponent: Searching for files that match 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\en\*.xml'.
   Info: CopyFromIndexComponent: Searching for files that match 'C:\Users\mark\src\Mingle.NET\Help\Working\ThoughtWorksCoreLib.XML'.
   Info: CopyFromIndexComponent: Searching for files that match 'C:\Users\mark\src\Mingle.NET\Help\Working\ThoughtWorksMingleLib.XML'.
-  Info: CopyFromIndexComponent: Indexed 81763 elements in 51 files.
+  Info: CopyFromIndexComponent: Indexed 81768 elements in 51 files.
   Info: CopyFromIndexComponent: Loaded 0 copy components.
   Info: ForEachComponent: Instantiating component.
   Info: ForEachComponent: Loading subcomponents.
@@ -363,7 +363,7 @@ BuildReferenceTopics:
   Info: ResolveReferenceLinksComponent2: Creating MSDN URL resolver.
   Info: ResolveReferenceLinksComponent2: Searching directory 'C:\Program Files (x86)\Sandcastle\Data\Reflection' for targets files of the form '*.xml'.
   Info: ResolveReferenceLinksComponent2: Searching directory 'C:\Users\mark\src\Mingle.NET\Help\Working' for targets files of the form 'reflection.xml'.
-  Info: ResolveReferenceLinksComponent2: Loaded 203308 reference targets.
+  Info: ResolveReferenceLinksComponent2: Loaded 203314 reference targets.
   Info: SaveComponent: Instantiating component.
   Info: BuildAssembler: Building topic N:ThoughtWorksCoreLib
   Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for N:ThoughtWorksCoreLib
@@ -594,6 +594,11 @@ BuildReferenceTopics:
   Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for N:ThoughtWorksMingleLib
   Info: BuildAssembler: Building topic T:ThoughtWorksMingleLib.IMingleProject
   Info: BuildAssembler: Building topic Methods.T:ThoughtWorksMingleLib.IMingleProject
+  Info: BuildAssembler: Building topic Properties.T:ThoughtWorksMingleLib.IMingleProject
+  Info: BuildAssembler: Building topic M:ThoughtWorksMingleLib.IMingleProject.CreateCard(System.String,System.String)
+  Warn: ShowMissingComponent: Missing &lt;returns&gt; documentation for M:ThoughtWorksMingleLib.IMingleProject.CreateCard(System.String,System.String)
+  Warn: ShowMissingComponent: Missing &lt;param name=&quot;type&quot;/&gt; documentation for M:ThoughtWorksMingleLib.IMingleProject.CreateCard(System.String,System.String)
+  Warn: ShowMissingComponent: Missing &lt;param name=&quot;name&quot;/&gt; documentation for M:ThoughtWorksMingleLib.IMingleProject.CreateCard(System.String,System.String)
   Info: BuildAssembler: Building topic M:ThoughtWorksMingleLib.IMingleProject.ExecMql(System.String)
   Info: BuildAssembler: Building topic M:ThoughtWorksMingleLib.IMingleProject.GetCards(System.Collections.ObjectModel.Collection{System.String})
   Warn: ShowMissingComponent: Missing &lt;returns&gt; documentation for M:ThoughtWorksMingleLib.IMingleProject.GetCards(System.Collections.ObjectModel.Collection{System.String})
@@ -619,7 +624,11 @@ BuildReferenceTopics:
   Warn: ShowMissingComponent: Missing &lt;returns&gt; documentation for M:ThoughtWorksMingleLib.IMingleProject.GetTransitions
   Info: BuildAssembler: Building topic M:ThoughtWorksMingleLib.IMingleProject.GetView(System.String)
   Warn: ShowMissingComponent: Missing &lt;returns&gt; documentation for M:ThoughtWorksMingleLib.IMingleProject.GetView(System.String)
+  Info: BuildAssembler: Building topic P:ThoughtWorksMingleLib.IMingleProject.Mingle
+  Info: BuildAssembler: Building topic P:ThoughtWorksMingleLib.IMingleProject.ProjectId
+  Info: BuildAssembler: Building topic P:ThoughtWorksMingleLib.IMingleProject.Properties
   Info: BuildAssembler: Building topic M:ThoughtWorksMingleLib.IMingleProject.RunMacro(System.String)
+  Info: BuildAssembler: Building topic P:ThoughtWorksMingleLib.IMingleProject.Transitions
   Info: BuildAssembler: Building topic T:ThoughtWorksMingleLib.IMingleServer
   Info: BuildAssembler: Building topic Methods.T:ThoughtWorksMingleLib.IMingleServer
   Info: BuildAssembler: Building topic Overload:ThoughtWorksMingleLib.IMingleServer.Get
@@ -671,7 +680,7 @@ BuildReferenceTopics:
   Info: BuildAssembler: Building topic Properties.T:ThoughtWorksMingleLib.MingleCard
   Info: BuildAssembler: Building topic Overload:ThoughtWorksMingleLib.MingleCard.#ctor
   Info: BuildAssembler: Building topic M:ThoughtWorksMingleLib.MingleCard.#ctor
-  Info: BuildAssembler: Building topic M:ThoughtWorksMingleLib.MingleCard.#ctor(System.String,ThoughtWorksMingleLib.MingleProject)
+  Info: BuildAssembler: Building topic M:ThoughtWorksMingleLib.MingleCard.#ctor(System.String,ThoughtWorksMingleLib.IMingleProject)
   Info: BuildAssembler: Building topic M:ThoughtWorksMingleLib.MingleCard.AddCardAttributeFilterToPostData(System.String,System.String)
   Info: BuildAssembler: Building topic M:ThoughtWorksMingleLib.MingleCard.AddPropertyFilterToPostData(System.String,System.String)
   Info: BuildAssembler: Building topic P:ThoughtWorksMingleLib.MingleCard.CardProperties
@@ -719,7 +728,7 @@ BuildReferenceTopics:
   Info: BuildAssembler: Building topic Properties.T:ThoughtWorksMingleLib.MingleCardProperty
   Info: BuildAssembler: Building topic Overload:ThoughtWorksMingleLib.MingleCardProperty.#ctor
   Info: BuildAssembler: Building topic M:ThoughtWorksMingleLib.MingleCardProperty.#ctor(System.String)
-  Info: BuildAssembler: Building topic M:ThoughtWorksMingleLib.MingleCardProperty.#ctor(System.String,ThoughtWorksMingleLib.MingleProject)
+  Info: BuildAssembler: Building topic M:ThoughtWorksMingleLib.MingleCardProperty.#ctor(System.String,ThoughtWorksMingleLib.IMingleProject)
   Info: BuildAssembler: Building topic P:ThoughtWorksMingleLib.MingleCardProperty.Name
   Info: BuildAssembler: Building topic P:ThoughtWorksMingleLib.MingleCardProperty.PropertyDefinition
   Info: BuildAssembler: Building topic P:ThoughtWorksMingleLib.MingleCardProperty.RawData
@@ -728,7 +737,7 @@ BuildReferenceTopics:
   Info: BuildAssembler: Building topic T:ThoughtWorksMingleLib.MingleCardPropertyCollection
   Info: BuildAssembler: Building topic Methods.T:ThoughtWorksMingleLib.MingleCardPropertyCollection
   Info: BuildAssembler: Building topic Properties.T:ThoughtWorksMingleLib.MingleCardPropertyCollection
-  Info: BuildAssembler: Building topic M:ThoughtWorksMingleLib.MingleCardPropertyCollection.#ctor(ThoughtWorksMingleLib.MingleProject)
+  Info: BuildAssembler: Building topic M:ThoughtWorksMingleLib.MingleCardPropertyCollection.#ctor(ThoughtWorksMingleLib.IMingleProject)
   Info: BuildAssembler: Building topic M:ThoughtWorksMingleLib.MingleCardPropertyCollection.Parse(System.Xml.Linq.XElement)
   Warn: ShowMissingComponent: Missing &lt;returns&gt; documentation for M:ThoughtWorksMingleLib.MingleCardPropertyCollection.Parse(System.Xml.Linq.XElement)
   Warn: ShowMissingComponent: Missing &lt;param name=&quot;properties&quot;/&gt; documentation for M:ThoughtWorksMingleLib.MingleCardPropertyCollection.Parse(System.Xml.Linq.XElement)
@@ -1106,12 +1115,12 @@ BuildReferenceTopics:
   Info: BuildAssembler: Building topic P:ThoughtWorksMingleLib.MingleTransitionCollection.ProjectId
   Info: BuildAssembler: Building topic T:ThoughtWorksMingleLib.XElementWrapper
   Info: BuildAssembler: Building topic Methods.T:ThoughtWorksMingleLib.XElementWrapper
-  Info: Processed 564 topics
-    Last step completed in 00:00:56.0372
+  Info: Processed 570 topics
+    Last step completed in 00:01:05.4231
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00.0020
+    Last step completed in 00:00:00.0090
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
@@ -1123,23 +1132,23 @@ E-Mail: Eric@EWoodruff.us
 Using LCID '1033', code page '65001', encoding charset 'UTF-8'.
 
 Processing Help 1 files in C:\Users\mark\src\Mingle.NET\Help\Working\Output\HtmlHelp1
-Processed 564 HTML files
+Processed 570 HTML files
 Sorting keywords and generating See Also indices
 Saving HTML Help 1 keyword index to C:\Users\mark\src\Mingle.NET\Help\Working\TW.NET.hhk
 Saving HTML Help 1 table of contents to C:\Users\mark\src\Mingle.NET\Help\Working\TW.NET.hhc
-    Last step completed in 00:00:01.4791
+    Last step completed in 00:00:01.4241
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating HTML Help 1 table of contents file...
-    Last step completed in 00:00:00.0010
+    Last step completed in 00:00:00.0050
 </buildStep>
 <buildStep step="GenerateHelpFileIndex">
 Generating HTML Help 1 index file...
-    Last step completed in 00:00:00.0010
+    Last step completed in 00:00:00.0070
 </buildStep>
 <buildStep step="GenerateHelpProject">
 Generating HTML Help 1 project file...
-    Last step completed in 00:00:00.0090
+    Last step completed in 00:00:00.0190
 </buildStep>
 <buildStep step="CompilingHelpFile">
 Compiling HTML Help 1 file...
@@ -1157,11 +1166,11 @@ Build1xHelpFile:
   
   Compile time: 0 minutes, 8 seconds
   
-  566	Topics
+  572	Topics
   
-  6,336	Local links
+  6,418	Local links
   
-  4,337	Internet links
+  4,349	Internet links
   
   0	Graphics
   
@@ -1169,19 +1178,19 @@ Build1xHelpFile:
   
   
   
-  Created c:\Users\mark\src\Mingle.NET\Help\Working\Output\HtmlHelp1\TW.NET.chm, 849,263 bytes
+  Created c:\Users\mark\src\Mingle.NET\Help\Working\Output\HtmlHelp1\TW.NET.chm, 855,463 bytes
   
-  Compression decreased file by 9,162,969 bytes.
+  Compression decreased file by 9,253,318 bytes.
   
-    Last step completed in 00:00:09.5975
+    Last step completed in 00:00:09.0614
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00.1830
+    Last step completed in 00:00:00.1660
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 12/05/2011 03:31 PM.  Total time: 00:01:15.6923
+Build completed successfully at 12/06/2011 08:28 AM.  Total time: 00:01:25.5191
 
 </buildStep>
 </shfbBuild>
