@@ -35,9 +35,9 @@ namespace ThoughtWorksMingleLib
     /// </summary>
     public class MingleServer : IMingleServer
     {
-        private SecureString _password;
-        private string _host;
-        private string _login;
+        private readonly SecureString _password;
+        private readonly string _host;
+        private readonly string _login;
 
         #region Constructors
         /// <summary>
@@ -107,9 +107,7 @@ namespace ThoughtWorksMingleLib
         /// <returns>URL of the card from the Location header</returns>
         public IResponse Put(string project, string url, IEnumerable<string> data)
         {
-            var qurl = FullyQualifiedMingleUrl(project, url);
-            var web = new AuthenticatingWeb(_login, GetStringFromSecureString(_password));
-            return web.Put(qurl, data);
+            return GetResponse("put", project, url, data);
         }
 
         /// <summary>
@@ -242,14 +240,18 @@ namespace ThoughtWorksMingleLib
                 }
             }
 
-            catch (Exception ex)
+            catch (WebException ex)
             {
-                if (ex.Message.Contains("(422)") && ex.GetType().Name.CompareTo("WebException") == 0)
+                if (ex.Message.Contains("(422)"))
                 {
-                    var message = XElement.Parse(new StreamReader((ex as WebException).Response.GetResponseStream()).ReadToEnd()).Element("error").Value;
+                    var message = XElement.Parse(new StreamReader((ex).Response.GetResponseStream()).ReadToEnd()).Element("error").Value;
                     throw new MingleWebException(message, ex);
                 }
 
+                throw new MingleWebException(ex.Message, ex);
+            }
+            catch (Exception ex)
+            {
                 throw new MingleWebException(ex.Message, ex);
             }
 
@@ -334,7 +336,7 @@ namespace ThoughtWorksMingleLib
 
     }
 
-    internal class MingleWebException : WebException
+    public class MingleWebException : WebException
     {
         public MingleWebException ()
         {

@@ -76,13 +76,12 @@ namespace Tests
         [TestMethod()]
         public void CreateIntegrationTest()
         {
-            var project = _mingle.GetProject("test");
-            var card = project.GetCard(4);
+            var card = _project.GetCard(4);
             Assert.IsInstanceOfType(card, typeof(MingleCard));
             Assert.AreEqual("Sprint 2", card.Name);
-            var newCard = project.CreateCard("story", "make a new widget");
+            var newCard = _project.CreateCard("story", "make a new widget");
             Assert.AreEqual("Story", newCard.Type);
-            var view = project.GetView("Sprint List");
+            var view = _project.GetView("Sprint List");
             Assert.IsInstanceOfType(view, typeof(MingleCardCollection));
             Assert.AreEqual(view.Count, 7);
         }
@@ -90,7 +89,18 @@ namespace Tests
         [TestMethod]
         public void CardPropertyIntegrationTest()
         {
-            
+            var card = _project.GetCard(7);
+            card.AddPropertyFilterToPostData("bogus property", string.Empty);
+            try
+            {
+                card.Update();
+            }
+            catch (System.Exception ex)
+            {
+                Assert.IsInstanceOfType(ex, typeof(MingleWebException));
+                return;
+            }
+            Assert.Fail("Expected a MingleWebException and did not get an exception at all.");
         }
     }
 }
