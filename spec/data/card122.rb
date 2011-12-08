@@ -89,18 +89,31 @@ h2. Defects
 </created_by> 
 <properties type="array"> 
     <property type_description="Managed text list" hidden="false"> 
-    <name>Status</name> 
-    <value>Ready for Analysis</value> 
+        <name>Status</name> 
+        <value>Ready for Analysis</value> 
     </property> 
     <property type_description="Managed text list" hidden="false"> 
-    <name>Priority</name> 
-    <value nil="true"></value> 
+      <name>Priority</name>
+      <value>Essential</value>
     </property> 
-    <property type_description="Automatically generated from the team list" hidden="false"> 
-    <name>Owner</name> 
-    <value nil="true"></value> 
+    <property type_description="Automatically generated from the team list" hidden="false">
+      <name>Owner</name>
+      <value url="http://localhost:8080/api/v2/users/30.xml">
+        <name>mingleuser</name>
+        <login>mingleuser</login>
+      </value>
     </property> 
-    <property type_description="Managed number list" hidden="false"> 
+    <property type_description="Managed text list" hidden="false">
+      <name>Story Status</name>
+      <value>New</value>
+    </property>
+    <property type_description="Any card used in tree" hidden="false">
+      <name>Feature - Story</name>
+      <value url="http://localhost:8080/api/v2/projects/test/cards/117.xml">
+        <number type="integer">117</number>
+      </value>
+    </property>
+   <property type_description="Managed number list" hidden="false"> 
     <name>Story Points</name> 
     <value nil="true"></value> 
     </property> 

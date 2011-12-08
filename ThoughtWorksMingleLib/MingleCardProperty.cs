@@ -50,8 +50,38 @@ namespace ThoughtWorksMingleLib
         /// </summary>
         public string Value
         {
-            get { return RawData.Element("value").Value; }
-            set { RawData.SetElementValue("value", value); }
+            get
+            {
+                switch(RawData.Attribute("type_description").Value.ToLower())
+                {
+                    case "date":
+                    case "managed text lis":
+                    case "managed number list":
+                    case "any number":
+                        {
+                            return RawData.Element("value").Value;
+                        }
+
+                    case "card":
+                    case "any card used in tree":
+                        {
+                            return RawData.Element("value").Element("number").Value;
+                        }
+
+                    case "automatically generated from the team list":
+                        {
+                            return RawData.Element("value").Element("login").Value;
+                        }
+
+                    default:
+                        {
+                            return RawData.Element("value").Value;
+                        }
+
+
+                }
+            }
+
         }
 
         /// <summary>

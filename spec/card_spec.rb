@@ -121,5 +121,6 @@ describe 'card tests' do
     it 'should check the property url' do
         @cards.Parse(79)[0].card_properties["Release"].value_url.should == "http://localhost:8080/api/v2/projects/test/cards/1.xml"   
     end
+    
 end
 

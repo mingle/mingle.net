@@ -71,5 +71,15 @@ describe 'mingle_project' do
         card = proj.create_card("story", "This is a new card")
         card.type.should == "Story" 
     end
+
+    it 'should get a property of managed list of text items' do
+        proj = MingleServer.new("http://localhost:8080", "mingleuser", "secret").GetProject("test")
+        #System::Diagnostics::Debugger.break
+        card = proj.get_card(181)
+        card.card_properties["Priority"].value.should == "Essential"
+        card.card_properties["Story Status"].value.should == "New"
+        card.card_properties["Owner"].value.should == "mingleuser"
+        card.card_properties["Feature - Story"].value.should == "117"
+    end
     
 end
