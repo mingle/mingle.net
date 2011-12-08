@@ -55,6 +55,24 @@ namespace ThoughtWorksMingleLib
         }
 
         /// <summary>
+        /// True if the 'nil' attribute exists
+        /// </summary>
+        public bool IsValueNil
+        {
+            get
+            {
+                try
+                {
+                    return !string.IsNullOrEmpty(RawData.Element("value").Attribute("nil").Value);
+                }
+                catch (Exception)
+                {
+                    return false;
+                }
+            }
+        }
+
+        /// <summary>
         /// If the Value is a card then this returns the Url of the card
         /// </summary>
         public string ValueUrl
