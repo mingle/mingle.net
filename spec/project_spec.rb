@@ -67,13 +67,13 @@ describe 'mingle_project' do
     end
     
     it 'creates a card' do
-        proj = MingleServer.new("http://localhost:8080","mingleuser","secret").GetProject("test")
+        proj = MingleServer.new("http://localhost:8080","mingleuser","secret").GetProject("apitest")
         card = proj.create_card("story", "This is a new card")
         card.type.should == "Story" 
     end
 
     it 'should get a property of managed list of text items' do
-        proj = MingleServer.new("http://localhost:8080", "mingleuser", "secret").GetProject("test")
+        proj = MingleServer.new("http://localhost:8080", "mingleuser", "secret").GetProject("apitest")
         #System::Diagnostics::Debugger.break
         card = proj.get_card(181)
         card.card_properties["Priority"].value.should == "Essential"

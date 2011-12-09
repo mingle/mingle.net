@@ -3,10 +3,10 @@ require 'fake_mingle'
 
 describe 'card' do
     before do
-        host = "http://fmtstdsol01.thoughtworks.com:8080"
+        host = "http://localhost:8080"
         user = "mingleuser"
         pw = "secret"
-        @project = MingleServer.new(host, user, pw).get_project("test")
+        @project = MingleServer.new(host, user, pw).get_project("apitest")
     end
     
     it 'update invalid property name should fail' do
