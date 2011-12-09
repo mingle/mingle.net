@@ -52,7 +52,8 @@ namespace ThoughtWorksMingleLib
         {
             get
             {
-                switch(RawData.Attribute("type_description").Value.ToLower())
+                if (IsValueNil) return string.Empty;
+                switch (RawData.Attribute("type_description").Value.ToLower())
                 {
                     case "date":
                     case "managed text lis":
