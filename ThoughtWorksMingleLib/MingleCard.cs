@@ -195,6 +195,14 @@ namespace ThoughtWorksMingleLib
             get { return RawData.Element("created_by").Element("name").Value; }
             set { RawData.Element("created_by").SetElementValue("name", value); }
         }
+        /// <summary>
+        /// The rendered description to be handed to a web browser
+        /// </summary>
+        public string RenderedDescription
+        {
+            get { return RawData.Element("rendered_description").Attribute("url").Value; }
+        }
+
         #endregion
 
         /// <summary>

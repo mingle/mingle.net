@@ -47,7 +47,6 @@ namespace ThoughtWorksMingleLib
         public int Id
         {
             get { return int.Parse(_propertyDefinition.Element("id").Value); }
-            set { _propertyDefinition.SetElementValue("id", value); }
         }
 
         /// <summary>
@@ -56,7 +55,6 @@ namespace ThoughtWorksMingleLib
         public string Name
         {
             get { return _propertyDefinition.Element("name").Value; }
-            set { _propertyDefinition.SetElementValue("name", value); }
         }
 
         /// <summary>
@@ -65,7 +63,6 @@ namespace ThoughtWorksMingleLib
         public string Description
         {
             get { return _propertyDefinition.Element("description").Value; }
-            set { _propertyDefinition.SetElementValue("description", value); }
         }
 
         /// <summary>
@@ -74,7 +71,6 @@ namespace ThoughtWorksMingleLib
         public string DataType
         {
             get { return _propertyDefinition.Element("data_type").Value; }
-            set { _propertyDefinition.SetElementValue("data_type", value); }
         }
 
         /// <summary>
@@ -83,7 +79,6 @@ namespace ThoughtWorksMingleLib
         public bool IsNumeric
         {
             get { return bool.Parse(_propertyDefinition.Element("is_numeric").Value); }
-            set { _propertyDefinition.SetElementValue("is_numeric", value); }
         }
 
         /// <summary>
@@ -92,7 +87,6 @@ namespace ThoughtWorksMingleLib
         public bool Hidden
         {
             get { return bool.Parse(_propertyDefinition.Element("hidden").Value); }
-            set { _propertyDefinition.SetElementValue("hidden", value); }
         }
 
         /// <summary>
@@ -101,7 +95,6 @@ namespace ThoughtWorksMingleLib
         public bool Restricted
         {
             get { return bool.Parse(_propertyDefinition.Element("restricted").Value); }
-            set { _propertyDefinition.SetElementValue("restricted", value); }
         }
 
         /// <summary>
@@ -110,7 +103,6 @@ namespace ThoughtWorksMingleLib
         public bool IsTransitionOnly
         {
             get { return bool.Parse(_propertyDefinition.Element("transition_only").Value); }
-            set { _propertyDefinition.SetElementValue("transition_only", value); }
         }
 
         /// <summary>
@@ -119,7 +111,6 @@ namespace ThoughtWorksMingleLib
         public string ProjectName
         {
             get { return _propertyDefinition.Element("project").Element("name").Value; }
-            set { _propertyDefinition.Element("project").SetElementValue("name", value); }
         }
 
         /// <summary>
@@ -128,7 +119,6 @@ namespace ThoughtWorksMingleLib
         public string ProjectId
         {
             get { return _propertyDefinition.Element("project").Element("identifier").Value; }
-            set { _propertyDefinition.Element("project").SetElementValue("identifier", value); }
         }
 
         /// <summary>
@@ -137,7 +127,6 @@ namespace ThoughtWorksMingleLib
         public string ColumnName
         {
             get { return _propertyDefinition.Element("column_name").Value; }
-            set { _propertyDefinition.SetElementValue("column_name", value); }
         }
 
         /// <summary>
@@ -146,7 +135,6 @@ namespace ThoughtWorksMingleLib
         public int Position
         {
             get { return int.Parse(_propertyDefinition.Element("position").Value); }
-            set { _propertyDefinition.SetElementValue("position", value); }
         }
 
         /// <summary>
@@ -155,7 +143,6 @@ namespace ThoughtWorksMingleLib
         public string PropertyValuesDescription
         {
             get { return _propertyDefinition.Element("property_values_description").Value; }
-            set { _propertyDefinition.SetElementValue("property_values_description", value); }
         }
 
         /// <summary>
@@ -193,7 +180,7 @@ namespace ThoughtWorksMingleLib
                 return list;
             }
         }
-        
+
         #endregion
 
         #region Dynamically evaluated properties

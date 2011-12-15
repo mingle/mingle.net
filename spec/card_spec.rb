@@ -122,5 +122,10 @@ describe 'card tests' do
         @cards.Parse(79)[0].card_properties["Release"].value_url.should == "http://localhost:8080/api/v2/projects/test/cards/1.xml"   
     end
     
+    it 'gets the rendered description' do
+        System::String.new(@thecard.rendered_description).starts_with(System::String.new("http")).should == true
+    end
+    
+
 end
 
