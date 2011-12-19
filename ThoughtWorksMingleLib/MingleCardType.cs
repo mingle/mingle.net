@@ -39,6 +39,15 @@ namespace ThoughtWorksMingleLib
         }
 
         /// <summary>
+        /// Constructs a MingleCardType from card_type XML
+        /// </summary>
+        /// <param name="cardType">XML for a card_type</param>
+        public MingleCardType(XElement cardType)
+        {
+            RawData = cardType;
+        }
+
+        /// <summary>
         /// Card Id
         /// </summary>
         public int Id {
