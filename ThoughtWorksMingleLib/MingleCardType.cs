@@ -14,6 +14,7 @@
 // limitations under the License.
 //
 
+using System.Collections;
 using System.Collections.Generic;
 using System.Xml.Linq;
 
@@ -85,13 +86,13 @@ namespace ThoughtWorksMingleLib
         /// <summary>
         /// Returns the list of property_definition names associated with this card type
         /// </summary>
-        public SortedList<string, XElement> PropertyDefinitions
+        public Hashtable PropertyDefinitions
         {
             get
             {
-                var properties = new SortedList<string, XElement>();
+                var properties = new Hashtable();
                 foreach (var property in RawData.Element("property_definitions").Elements("property_definition"))
-                    properties.Add(property.Element("name").Value, property);
+                    properties.Add(property.Element("name").Value, "");
                     
                 return properties;
             }

@@ -16,6 +16,7 @@
 
 using System;
 using System.Collections;
+using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Diagnostics;
 using System.Globalization;
@@ -398,33 +399,19 @@ namespace ThoughtWorksMingleLib
         /// <param name="cardType"></param>
         /// <param name="forceRead"></param>
         /// <returns></returns>
-        public MingleCardCollection GetIndirectCardsByTypeName(string cardType, bool forceRead)
+        public List<string> GetIndirectCardsByTypeName(string cardType, bool forceRead)
         {
-            var me = new StackFrame().GetMethod().Name;
+            if (string.IsNullOrEmpty(cardType)) return new List<string>();
 
-            if (string.IsNullOrEmpty(cardType)) return new MingleCardCollection(this);
+            var types = new List<string>();
 
-            try
+            foreach (var ct in CardTypes.Where(ct => ct.PropertyDefinitions.ContainsKey(cardType)))
             {
-                var cards = new MingleCardCollection(this);
-
-                // If we're being asked to fill the cache, or we do not have a cache, then fill it.
-                if (forceRead || !CardSetPropertyValues.ContainsKey(cardType))
-                {
-                    var filter = new MingleFilter {Name = "Type", Condition = "Is", Value = cardType};
-                    cards.Parse(new Collection<string> {filter.FilterFormatString, "page=all"});
-                }
-
-                if (!CardSetPropertyValues.ContainsKey(cardType))
-                    CardSetPropertyValues.Add(cardType, cards);
-
-                return (MingleCardCollection) CardSetPropertyValues[cardType];
+                types.Add(ct.Name);
+                break;
             }
-            catch (Exception ex)
-            {
-                TraceLog.Exception(me, ex);
-                throw;
-            }
+
+            return types;
         }
 
         /// <summary>

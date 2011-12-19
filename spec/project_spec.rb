@@ -54,7 +54,7 @@ describe 'mingle_project' do
     end
     
     it 'gets the indirect cards by type name' do
-        @project.get_indirect_cards_by_type_name("Story", false).count.should == 25
+        @project.get_indirect_cards_by_type_name("Epic Story", false).count.should == 1
     end
     
     it 'gets a view' do
@@ -74,7 +74,6 @@ describe 'mingle_project' do
 
     it 'should get a property of managed list of text items' do
         proj = MingleServer.new("http://localhost:8080", "mingleuser", "secret").GetProject("apitest")
-        #System::Diagnostics::Debugger.break
         card = proj.get_card(181)
         card.card_properties["Priority"].value.should == "Essential"
         card.card_properties["Story Status"].value.should == "New"
