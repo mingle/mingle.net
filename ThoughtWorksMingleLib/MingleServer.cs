@@ -336,17 +336,31 @@ namespace ThoughtWorksMingleLib
 
     }
 
+    /// <summary>
+    /// A wrapper for WebException
+    /// </summary>
     public class MingleWebException : WebException
     {
+        /// <summary>
+        /// Constructs a new MingleWebException
+        /// </summary>
         public MingleWebException ()
         {
         }
 
-        public MingleWebException(string message) :base(message)
+        /// <summary>
+        /// Constructs a new MingleWebException
+        /// </summary>
+        public MingleWebException(string message)
+            : base(message)
         {
         }
 
-        public MingleWebException(string message, Exception inner):base(message, inner)
+        /// <summary>
+        /// Constructs a new MingleWebException
+        /// </summary>
+        public MingleWebException(string message, Exception inner)
+            : base(message, inner)
         {
         }
 
