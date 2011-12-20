@@ -49,10 +49,6 @@ describe 'mingle_project' do
         @project.get_card_type("117").should == "Task"
     end
     
-    it 'gets the cards with a card_type matching this card' do
-        @project.get_indirect_cards_by_number("117").count.should == 25
-    end
-    
     it 'gets the indirect cards by type name' do
         @project.get_indirect_cards_by_type_name("Epic Story", false).count.should == 1
     end

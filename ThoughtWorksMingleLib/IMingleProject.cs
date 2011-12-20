@@ -78,12 +78,6 @@ namespace ThoughtWorksMingleLib
         string GetCardType(string cardNumber);
 
         /// <summary>
-        /// Returns a CardSet derived from the set of cards of the same type as the card associated with cardNumber.
-        /// </summary>
-        /// <param name="cardNumber">The card number to be "typed"</param>
-        MingleCardCollection GetIndirectCardsByNumber(string cardNumber);
-
-        /// <summary>
         /// Returns card of the type indicated by cardType
         /// </summary>
         /// <param name="cardType">Card_type of cards to be returned</param>
