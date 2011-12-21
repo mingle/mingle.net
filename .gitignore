@@ -14,8 +14,7 @@ TestResults/
 *Re[sS]harper*.*
 _Re[sS]harper*/
 *Doc.xml
-vendor/ironruby
-.bundle
+vendor/bundle/
 build
 SetupMingleApi/SetupMingleApi/
 ApiSetup/Debug/

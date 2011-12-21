@@ -1,5 +1,4 @@
 @echo off
 call buildvars.bat
-del /S /Q .bundle
-call bundle install --path vendor
+call bundle install --deployment vendor
 rake.bat build
