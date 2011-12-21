@@ -77,4 +77,10 @@ describe 'mingle_project' do
         card.card_properties["Feature - Story"].value.should == "117"
     end
     
+    it 'should get results from execute_mql' do
+        proj = MingleServer.new("http://localhost:8080", "mingleuser", "secret").GetProject("apitest")
+        results = proj.exec_mql("select name where number=120")
+        proj.results_count(results).should == 1
+    end
+    
 end

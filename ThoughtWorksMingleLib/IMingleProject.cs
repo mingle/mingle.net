@@ -91,7 +91,7 @@ namespace ThoughtWorksMingleLib
         /// <param name="mql">MQL query string</param>
         /// <returns>MingleCardCollection</returns>
         /// <exception cref="System.Exception">May throw an exception bubbling up from below</exception>
-        XDocument ExecMql(string mql);
+        XElement ExecMql(string mql);
 
         /// <summary>
         /// Returns a MingleCardCollection for a view 
@@ -134,5 +134,12 @@ namespace ThoughtWorksMingleLib
         /// Mingle server interface for this project
         /// </summary>
         IMingleServer Mingle { get; }
+
+        /// <summary>
+        /// For testing. Given XElement with results from ExecMql, counts the results.
+        /// </summary>
+        /// <param name="results"></param>
+        /// <returns></returns>
+        int ResultsCount(XElement results);
     }
 }

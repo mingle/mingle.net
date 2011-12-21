@@ -55,6 +55,12 @@ namespace ThoughtWorksMingleLib
         {
             get { return _mingle; }
         }
+
+        public int ResultsCount(XElement results)
+        {
+            return results.Elements("result").Count();
+        }
+
         /// <summary>
         /// Mingle users for this project
         /// </summary>
@@ -376,10 +382,12 @@ namespace ThoughtWorksMingleLib
         /// <param name="mql">MQL query string</param>
         /// <returns>MingleCardCollection</returns>
         /// <exception cref="System.Exception">May throw an exception bubbling up from below</exception>
-        public XDocument ExecMql(string mql)
+        public XElement ExecMql(string mql)
         {
-            var url = string.Format(CultureInfo.InvariantCulture, "/cards/execute_mql.xml?mql={0}",mql);
-            return new XDocument(_mingle.Get(ProjectId, url));
+            var url = "/cards/execute_mql.xml";
+            var data = new Collection<string>{string.Format("mql={0}",mql)};
+            var result = _mingle.Get(ProjectId, url, data);
+            return XElement.Parse(result);
         }
 
         ///// <summary>
