@@ -65,6 +65,12 @@ describe 'mingle server' do
         response = @mingle.Put("test", "/cards/82.xml", param)
         response.body.slice(0,19).should == '<cards type="array"'
     end
+    
+    it 'computes an absolute url' do
+        m = MingleServer.new("http://localhost:9123", "mingleuser", "secret")
+        m.FullyQualifiedMingleUrl("", "/foo").should == "http://localhost:9123/api/v2/foo"
+        m.FullyQualifiedMingleUrl("test", "/foo").should == "http://localhost:9123/api/v2/projects/test/foo"
+    end
 
     def list_projects
         @mingle.get_project_list().count.should == 2

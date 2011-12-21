@@ -266,11 +266,11 @@ namespace ThoughtWorksMingleLib
         /// <param name="project">Mingle project id (not name)</param>
         /// <param name="urlSegment">URL segment string</param>
         /// <returns></returns>
-        private string FullyQualifiedMingleUrl(string project, string urlSegment)
+        public string FullyQualifiedMingleUrl(string project, string urlSegment)
         {
             if (null == urlSegment) throw new ArgumentNullException("urlSegment");
 
-            project = null == project ? string.Empty : "projects/" + project;
+            project = string.IsNullOrEmpty(project) ? string.Empty : "projects/" + project;
 
             return string.Format("{0}/api/v2{1}{2}", 
                                             _host, 
