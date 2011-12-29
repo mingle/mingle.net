@@ -70,11 +70,10 @@ describe 'mingle_project' do
 
     it 'should get a property of managed list of text items' do
         proj = MingleServer.new("http://localhost:8080", "mingleuser", "secret").GetProject("apitest")
-        card = proj.get_card(181)
+        card = proj.get_card(120)
         card.card_properties["Priority"].value.should == "Essential"
         card.card_properties["Story Status"].value.should == "New"
         card.card_properties["Owner"].value.should == "mingleuser"
-        card.card_properties["Feature - Story"].value.should == "117"
     end
     
     it 'should get results from execute_mql' do
