@@ -50,7 +50,8 @@ describe 'mingle_project' do
     end
     
     it 'gets the indirect cards by type name' do
-        @project.get_indirect_cards_by_type_name("Epic Story", false).count.should == 1
+        proj = MingleServer.new("http://localhost:8080","mingleuser","secret").GetProject("apitest")
+        proj.get_cards_of_type("Iteration").count.should == 11
     end
     
     it 'gets a view' do
@@ -78,8 +79,7 @@ describe 'mingle_project' do
     
     it 'should get results from execute_mql' do
         proj = MingleServer.new("http://localhost:8080", "mingleuser", "secret").GetProject("apitest")
-        results = proj.exec_mql("select name where number=120")
+        results = proj.exec_mql("select count(number)")
         proj.results_count(results).should == 1
-    end
-    
+    end    
 end

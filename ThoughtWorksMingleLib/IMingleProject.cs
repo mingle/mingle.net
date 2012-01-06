@@ -83,7 +83,7 @@ namespace ThoughtWorksMingleLib
         /// <param name="cardType">Card_type of cards to be returned</param>
         /// <param name="forceRead">Force cache to be filled. If false then data from the cache is returned.</param>
         /// <returns></returns>
-        List<string> GetIndirectCardsByTypeName(string cardType, bool forceRead);
+        MingleCardCollection GetCardsOfType(string cardType);
 
         /// <summary>
         /// Execute an MQL request and return results in a MingleCardCollection

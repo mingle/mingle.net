@@ -340,19 +340,10 @@ namespace ThoughtWorksMingleLib
         /// <param name="cardType"></param>
         /// <param name="forceRead"></param>
         /// <returns></returns>
-        public List<string> GetIndirectCardsByTypeName(string cardType, bool forceRead)
+        public MingleCardCollection GetCardsOfType(string cardType)
         {
-            if (string.IsNullOrEmpty(cardType)) return new List<string>();
-
-            var types = new List<string>();
-
-            foreach (var ct in CardTypes.Where(ct => ct.PropertyDefinitions.ContainsKey(cardType)))
-            {
-                types.Add(ct.Name);
-                break;
-            }
-
-            return types;
+            var filter = new MingleFilter {Name = "Type", Condition = "=", Value = cardType};
+            return GetCards(new Collection<string>{filter.FilterFormatString});
         }
 
         /// <summary>
