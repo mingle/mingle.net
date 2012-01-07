@@ -56,6 +56,11 @@ namespace ThoughtWorksMingleLib
             get { return _mingle; }
         }
 
+        /// <summary>
+        /// Count of the result tags returned from a MQL query
+        /// </summary>
+        /// <param name="results"></param>
+        /// <returns></returns>
         public int ResultsCount(XElement results)
         {
             return results.Elements("result").Count();
@@ -338,7 +343,6 @@ namespace ThoughtWorksMingleLib
         /// Returns card of the type indicated by cardType
         /// </summary>
         /// <param name="cardType"></param>
-        /// <param name="forceRead"></param>
         /// <returns></returns>
         public MingleCardCollection GetCardsOfType(string cardType)
         {

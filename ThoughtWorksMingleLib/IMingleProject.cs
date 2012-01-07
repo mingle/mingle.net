@@ -81,7 +81,6 @@ namespace ThoughtWorksMingleLib
         /// Returns card of the type indicated by cardType
         /// </summary>
         /// <param name="cardType">Card_type of cards to be returned</param>
-        /// <param name="forceRead">Force cache to be filled. If false then data from the cache is returned.</param>
         /// <returns></returns>
         MingleCardCollection GetCardsOfType(string cardType);
 
