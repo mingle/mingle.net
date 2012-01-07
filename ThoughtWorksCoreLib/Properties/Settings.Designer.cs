@@ -25,54 +25,6 @@ namespace ThoughtWorksCoreLib.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
-        public string MingleUser {
-            get {
-                return ((string)(this["MingleUser"]));
-            }
-            set {
-                this["MingleUser"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
-        public string MinglePassword {
-            get {
-                return ((string)(this["MinglePassword"]));
-            }
-            set {
-                this["MinglePassword"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
-        public string MingleHost {
-            get {
-                return ((string)(this["MingleHost"]));
-            }
-            set {
-                this["MingleHost"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
-        public string MingleProject {
-            get {
-                return ((string)(this["MingleProject"]));
-            }
-            set {
-                this["MingleProject"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
         public bool Trace {
             get {
@@ -118,19 +70,10 @@ namespace ThoughtWorksCoreLib.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("{0}:{1}")]
-        public string PropertyOutOfRange {
+        [global::System.Configuration.DefaultSettingValueAttribute("Copyright (C) 2010,2011 ThoughtWorks, Inc.")]
+        public string Copyright {
             get {
-                return ((string)(this["PropertyOutOfRange"]));
-            }
-        }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("/api/v2")]
-        public string ApiV2 {
-            get {
-                return ((string)(this["ApiV2"]));
+                return ((string)(this["Copyright"]));
             }
         }
     }

@@ -2,18 +2,6 @@
 <SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ThoughtWorksCoreLib.Properties" GeneratedClassName="Settings">
   <Profiles />
   <Settings>
-    <Setting Name="MingleUser" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
-    </Setting>
-    <Setting Name="MinglePassword" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
-    </Setting>
-    <Setting Name="MingleHost" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
-    </Setting>
-    <Setting Name="MingleProject" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
-    </Setting>
     <Setting Name="Trace" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">True</Value>
     </Setting>
@@ -26,11 +14,8 @@
     <Setting Name="TraceEntryAndExit" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">False</Value>
     </Setting>
-    <Setting Name="PropertyOutOfRange" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">{0}:{1}</Value>
-    </Setting>
-    <Setting Name="ApiV2" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">/api/v2</Value>
+    <Setting Name="Copyright" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Copyright (C) 2010,2011 ThoughtWorks, Inc.</Value>
     </Setting>
   </Settings>
 </SettingsFile>
