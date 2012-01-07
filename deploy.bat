@@ -1,4 +1,5 @@
 @echo off
+attrib -r ..\vscon\lib\*.*
 copy /Y .\build\thoughtworksminglelib.dll ..\vscon\lib\"
 copy /Y .\build\thoughtworksminglelib.pdb ..\vscon\lib\"
 copy /Y .\build\thoughtworkscorelib.dll ..\vscon\lib\"

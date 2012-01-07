@@ -343,7 +343,7 @@ namespace ThoughtWorksMingleLib
         public MingleCardCollection GetCardsOfType(string cardType)
         {
             var filter = new MingleFilter {Name = "Type", Condition = "=", Value = cardType};
-            return GetCards(new Collection<string>{filter.FilterFormatString});
+            return GetCards(new Collection<string> { filter.FilterFormatString, "page=all" });
         }
 
         /// <summary>
