@@ -82,4 +82,13 @@ describe 'mingle_project' do
         results = proj.exec_mql("select count(number)")
         proj.results_count(results).should == 1
     end    
+    
+    it 'posts a murmur' do
+        now = System::DateTime.now
+        proj = MingleServer.new("http://localhost:8080", "mingleuser", "secret").GetProject("apitest")
+        count = proj.get_murmurs.count
+        #System::Diagnostics::Debugger.break
+        proj.send_murmur("I was murmured at " + now.to_string)
+        proj.get_murmurs.count.should == count + 1
+    end
 end

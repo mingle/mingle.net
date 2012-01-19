@@ -14,6 +14,7 @@
 // limitations under the License.
 //
 
+using System;
 using System.Xml.Linq;
 
 namespace ThoughtWorksMingleLib
@@ -40,6 +41,14 @@ namespace ThoughtWorksMingleLib
         public string Body
         {
             get { return _xElement.Element("body").Value; }
+        }
+
+        /// <summary>
+        /// Date and time the murmur was created
+        /// </summary>
+        public DateTime CreatedAt
+        {
+            get { return Convert.ToDateTime(_xElement.Element("created_at").Value); }
         }
 
         /// <summary>

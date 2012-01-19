@@ -442,6 +442,32 @@ namespace ThoughtWorksMingleLib
         }
 
         /// <summary>
+        /// Returns murmurs from Mingle
+        /// </summary>
+        /// <returns></returns>
+        public IEnumerable<MingleMurmur> GetMurmurs()
+        {
+            var url = string.Format("/murmurs.xml");
+
+            return (from m in XElement.Parse(Mingle.Get(ProjectId, url)).Elements("murmur").ToList()
+                    where null != m.Element("author")
+                    where null != m.Element("author").Element("name")
+                    where null != m.Element("created_at")
+                    where null != m.Element("body")
+                    select new MingleMurmur(m)).ToList();
+
+        }
+
+        /// <summary>
+        /// Sends a murmur to Mingle
+        /// </summary>
+        /// <param name="murmur"></param>
+        public void SendMurmur(string murmur)
+        {
+            Mingle.Post(ProjectId, "/murmurs.xml", new Collection<string> { string.Format(CultureInfo.InvariantCulture, "murmur[body]={0}", murmur) });
+        }
+
+        /// <summary>
         /// Creates a new card
         /// </summary>
         /// <param name="type"></param>
@@ -449,9 +475,11 @@ namespace ThoughtWorksMingleLib
         /// <exception cref="NotImplementedException"></exception>
         public MingleCard CreateCard(string type, string name)
         {
-            var data = new Collection<string>();
-            data.Add(string.Format("card[card_type_name]={0}", type));
-            data.Add(string.Format("card[name]={0}", name));
+            var data = new Collection<string>
+                           {
+                               string.Format("card[card_type_name]={0}", type), 
+                               string.Format("card[name]={0}", name)
+                           };
             var response = Mingle.Post(ProjectId, "/cards.xml", data);
             var segments = new Uri(response.Headers["Location"]).Segments;
             var sb = new StringBuilder(segments[segments.Count() - 2]);

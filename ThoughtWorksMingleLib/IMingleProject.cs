@@ -140,5 +140,24 @@ namespace ThoughtWorksMingleLib
         /// <param name="results"></param>
         /// <returns></returns>
         int ResultsCount(XElement results);
+
+        /// <summary>
+        /// Returns card given a card number
+        /// </summary>
+        /// <param name="cardNumber"></param>
+        /// <returns></returns>
+        MingleCard GetCard(int cardNumber);
+
+        /// <summary>
+        /// Returns murmurs from Mingle
+        /// </summary>
+        /// <returns></returns>
+        IEnumerable<MingleMurmur> GetMurmurs();
+
+        /// <summary>
+        /// Sends a murmur to Mingle
+        /// </summary>
+        /// <param name="murmur"></param>
+        void SendMurmur(string murmur);
     }
 }
