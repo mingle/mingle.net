@@ -242,6 +242,7 @@ namespace ThoughtWorksMingleLib
 
             catch (WebException ex)
             {
+                ex.Data.Add("url", ex.Response.ResponseUri.OriginalString);
                 if (ex.Message.Contains("(422)"))
                 {
                     var message = XElement.Parse(new StreamReader((ex).Response.GetResponseStream()).ReadToEnd()).Element("error").Value;
@@ -339,7 +340,7 @@ namespace ThoughtWorksMingleLib
     /// <summary>
     /// A wrapper for WebException
     /// </summary>
-    public class MingleWebException : WebException
+    public sealed class MingleWebException : WebException
     {
         /// <summary>
         /// Constructs a new MingleWebException
@@ -362,6 +363,7 @@ namespace ThoughtWorksMingleLib
         public MingleWebException(string message, Exception inner)
             : base(message, inner)
         {
+            if (inner.GetType() != typeof(WebException)) return;
         }
 
     }
