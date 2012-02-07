@@ -450,10 +450,10 @@ namespace ThoughtWorksMingleLib
             var url = string.Format("/murmurs.xml");
 
             return (from m in XElement.Parse(Mingle.Get(ProjectId, url)).Elements("murmur").ToList()
-                    where null != m.Element("author")
-                    where null != m.Element("author").Element("name")
-                    where null != m.Element("created_at")
-                    where null != m.Element("body")
+                    //where null != m.Element("author")
+                    //where null != m.Element("author").Element("name")
+                    //where null != m.Element("created_at")
+                    //where null != m.Element("body")
                     select new MingleMurmur(m)).ToList();
 
         }

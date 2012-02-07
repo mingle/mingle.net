@@ -40,7 +40,7 @@ namespace ThoughtWorksMingleLib
         /// </summary>
         public string Body
         {
-            get { return _xElement.Element("body").Value; }
+            get { return null != _xElement.Element("body") ? _xElement.Element("body").Value : string.Empty; }
         }
 
         /// <summary>
@@ -48,7 +48,10 @@ namespace ThoughtWorksMingleLib
         /// </summary>
         public DateTime CreatedAt
         {
-            get { return Convert.ToDateTime(_xElement.Element("created_at").Value); }
+            get
+            {
+                return null != _xElement.Element("created_at") ? Convert.ToDateTime(_xElement.Element("created_at").Value) : DateTime.MinValue;
+            }
         }
 
         /// <summary>
@@ -56,7 +59,32 @@ namespace ThoughtWorksMingleLib
         /// </summary>
         public string AuthorName
         {
-            get { return _xElement.Element("author").Element("name").Value; }
+            get
+            {
+                return null != _xElement.Element("author").Element("name") ? _xElement.Element("author").Element("name").Value : string.Empty;
+            }
+        }
+
+        /// <summary>
+        /// Login of the author
+        /// </summary>
+        public string LoginName
+        {
+            get
+            {
+                return null != _xElement.Element("author").Element("login") ? _xElement.Element("author").Element("login").Value : string.Empty;
+            }
+        }
+
+        /// <summary>
+        /// Jabber client name
+        /// </summary>
+        public string JabberName
+        {
+            get
+            {
+                return null != _xElement.Element("jabber_user_name") ? _xElement.Element("jabber_user_name").Value : string.Empty;
+            }
         }
     }
 }
