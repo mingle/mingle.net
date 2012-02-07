@@ -22,9 +22,12 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <None Include="apitest.mingle" />
     <None Include="a_initialize_log_spec.rb" />
+    <None Include="C:\Users\mark\src\Mingle.NET\spec\.idea" />
     <None Include="C:\Users\mark\src\Mingle.NET\spec\data" />
     <None Include="C:\Users\mark\src\solutions_netapi\spec\data" />
+    <None Include="cardtype_spec.rb" />
     <None Include="cardtype_spec.rb" />
     <None Include="card_collection_spec.rb" />
     <None Include="card_collection_spec.rb" />
@@ -53,6 +56,7 @@
     <None Include="card_spec.rb" />
     <None Include="card_spec.rb" />
     <None Include="card_spec.rb" />
+    <None Include="card_spec.rb" />
     <None Include="credential_spec.rb" />
     <None Include="credential_spec.rb" />
     <None Include="credential_spec.rb" />
@@ -69,6 +73,7 @@
     <None Include="data\bad_cards.rb" />
     <None Include="data\bad_cards.rb" />
     <None Include="data\bad_cards.rb" />
+    <None Include="data\bad_cards.rb" />
     <None Include="data\card117.rb" />
     <None Include="data\card117.rb" />
     <None Include="data\card117.rb" />
@@ -85,6 +90,8 @@
     <None Include="data\card117.rb" />
     <None Include="data\card117.rb" />
     <None Include="data\card117.rb" />
+    <None Include="data\card117.rb" />
+    <None Include="data\card122.rb" />
     <None Include="data\card122.rb" />
     <None Include="data\card122.rb" />
     <None Include="data\card122.rb" />
@@ -106,6 +113,8 @@
     <None Include="data\card79.rb" />
     <None Include="data\card79.rb" />
     <None Include="data\card79.rb" />
+    <None Include="data\card79.rb" />
+    <None Include="data\cards.rb" />
     <None Include="data\cards.rb" />
     <None Include="data\cards.rb" />
     <None Include="data\cards.rb" />
@@ -126,6 +135,7 @@
     <None Include="data\cardtypes.rb" />
     <None Include="data\cardtypes.rb" />
     <None Include="data\card122.rb" />
+    <None Include="data\cardtypes.rb" />
     <None Include="data\cardtypes.rb" />
     <None Include="data\cardtypes.rb" />
     <None Include="data\cardtypes.rb" />
@@ -142,6 +152,8 @@
     <None Include="data\errors.rb" />
     <None Include="data\errors.rb" />
     <None Include="data\errors.rb" />
+    <None Include="data\errors.rb" />
+    <None Include="data\FakeCategory.xml" />
     <None Include="data\FakeCategory.xml" />
     <None Include="data\FakeCategory.xml" />
     <None Include="data\FakeCategory.xml" />
@@ -154,6 +166,8 @@
     <None Include="data\FakeElementNilValue.xml" />
     <None Include="data\FakeElementNilValue.xml" />
     <None Include="data\FakeElementNilValue.xml" />
+    <None Include="data\FakeElementNilValue.xml" />
+    <None Include="data\FakeElementValue.xml" />
     <None Include="data\FakeElementValue.xml" />
     <None Include="data\FakeElementValue.xml" />
     <None Include="data\FakeElementValue.xml" />
@@ -166,6 +180,8 @@
     <None Include="data\FakeEntryContent.xml" />
     <None Include="data\FakeEntryContent.xml" />
     <None Include="data\FakeEntryContent.xml" />
+    <None Include="data\FakeEntryContent.xml" />
+    <None Include="data\FakeInterestingEvents.xml" />
     <None Include="data\FakeInterestingEvents.xml" />
     <None Include="data\FakeInterestingEvents.xml" />
     <None Include="data\FakeInterestingEvents.xml" />
@@ -178,6 +194,8 @@
     <None Include="data\FakeLink.xml" />
     <None Include="data\FakeLink.xml" />
     <None Include="data\FakeLink.xml" />
+    <None Include="data\FakeLink.xml" />
+    <None Include="data\FakeMingleEventsEntry.xml" />
     <None Include="data\FakeMingleEventsEntry.xml" />
     <None Include="data\FakeMingleEventsEntry.xml" />
     <None Include="data\FakeMingleEventsEntry.xml" />
@@ -190,12 +208,15 @@
     <None Include="data\FakeMingleEventsFeed.xml" />
     <None Include="data\FakeMingleEventsFeed.xml" />
     <None Include="data\FakeMingleEventsFeed.xml" />
+    <None Include="data\FakeMingleEventsFeed.xml" />
     <None Include="data\FakeOlderMingleEventsFeed.xml" />
     <None Include="data\FakeOlderMingleEventsFeed.xml" />
     <None Include="data\FakeOlderMingleEventsFeed.xml" />
     <None Include="data\FakeOlderMingleEventsFeed.xml" />
     <None Include="data\FakeOlderMingleEventsFeed.xml" />
     <None Include="data\FakeOlderMingleEventsFeed.xml" />
+    <None Include="data\FakeOlderMingleEventsFeed.xml" />
+    <None Include="data\favorites.rb" />
     <None Include="data\favorites.rb" />
     <None Include="data\favorites.rb" />
     <None Include="data\favorites.rb" />
@@ -219,6 +240,8 @@
     <None Include="data\morethan25cards.rb" />
     <None Include="data\morethan25cards.rb" />
     <None Include="data\morethan25cards.rb" />
+    <None Include="data\morethan25cards.rb" />
+    <None Include="data\mqlapiresults.rb" />
     <None Include="data\mqlapiresults.rb" />
     <None Include="data\mqlapiresults.rb" />
     <None Include="data\mqlapiresults.rb" />
@@ -247,6 +270,9 @@
     <None Include="data\mqlcount.rb" />
     <None Include="data\mqlcount.rb" />
     <None Include="data\mqlcount.rb" />
+    <None Include="data\mqlcount.rb" />
+    <None Include="data\oneproject.rb" />
+    <None Include="data\projectmember.rb" />
     <None Include="data\projectmember.rb" />
     <None Include="data\projectmember.rb" />
     <None Include="data\projectmember.rb" />
@@ -271,6 +297,7 @@
     <None Include="data\projectmembers.rb" />
     <None Include="data\projectmembers.rb" />
     <None Include="data\projectmembers.rb" />
+    <None Include="data\projectmembers.rb" />
     <None Include="data\projects.rb" />
     <None Include="data\projects.rb" />
     <None Include="data\projects.rb" />
@@ -286,6 +313,8 @@
     <None Include="data\projects.rb" />
     <None Include="data\projects.rb" />
     <None Include="data\projects.rb" />
+    <None Include="data\projects.rb" />
+    <None Include="data\propertydefinitions.rb" />
     <None Include="data\propertydefinitions.rb" />
     <None Include="data\propertydefinitions.rb" />
     <None Include="data\propertydefinitions.rb" />
@@ -307,6 +336,8 @@
     <None Include="data\stories.rb" />
     <None Include="data\stories.rb" />
     <None Include="data\stories.rb" />
+    <None Include="data\stories.rb" />
+    <None Include="data\transitions.rb" />
     <None Include="data\transitions.rb" />
     <None Include="data\transitions.rb" />
     <None Include="data\transitions.rb" />
@@ -327,6 +358,7 @@
     <None Include="data\transition_update.rb" />
     <None Include="data\transition_update.rb" />
     <None Include="data\transition_update.rb" />
+    <None Include="data\transition_update.rb" />
     <None Include="data\users.rb" />
     <None Include="data\users.rb" />
     <None Include="data\users.rb" />
@@ -353,6 +385,8 @@
     <None Include="eventcategory_spec.rb" />
     <None Include="eventcategory_spec.rb" />
     <None Include="eventcategory_spec.rb" />
+    <None Include="eventcategory_spec.rb" />
+    <None Include="evententry_spec.rb" />
     <None Include="evententry_spec.rb" />
     <None Include="evententry_spec.rb" />
     <None Include="evententry_spec.rb" />
@@ -365,6 +399,8 @@
     <None Include="eventfeed_spec.rb" />
     <None Include="eventfeed_spec.rb" />
     <None Include="eventfeed_spec.rb" />
+    <None Include="eventfeed_spec.rb" />
+    <None Include="eventlink_spec.rb" />
     <None Include="eventlink_spec.rb" />
     <None Include="eventlink_spec.rb" />
     <None Include="eventlink_spec.rb" />
@@ -377,6 +413,8 @@
     <None Include="eventvalue_spec.rb" />
     <None Include="eventvalue_spec.rb" />
     <None Include="eventvalue_spec.rb" />
+    <None Include="eventvalue_spec.rb" />
+    <None Include="fake_mingle.rb" />
     <None Include="fake_mingle.rb" />
     <None Include="fake_mingle.rb" />
     <None Include="fake_mingle.rb" />
@@ -410,6 +448,8 @@
     <None Include="favorites_spec.rb" />
     <None Include="favorites_spec.rb" />
     <None Include="favorites_spec.rb" />
+    <None Include="favorites_spec.rb" />
+    <None Include="filter_spec.rb" />
     <None Include="filter_spec.rb" />
     <None Include="filter_spec.rb" />
     <None Include="filter_spec.rb" />
@@ -457,6 +497,8 @@
     <None Include="Gemfile" />
     <None Include="Gemfile" />
     <None Include="Gemfile" />
+    <None Include="Gemfile" />
+    <None Include="Gemfile.lock" />
     <None Include="Gemfile.lock" />
     <None Include="Gemfile.lock" />
     <None Include="Gemfile.lock" />
@@ -485,6 +527,8 @@
     <None Include="Gemfile.lock" />
     <None Include="integration_spec.rb" />
     <None Include="integration_spec.rb" />
+    <None Include="integration_spec.rb" />
+    <None Include="mingle_murmurs_spec.rb" />
     <None Include="mingle_murmurs_spec.rb" />
     <None Include="mingle_murmurs_spec.rb" />
     <None Include="mingle_murmurs_spec.rb" />
@@ -536,6 +580,8 @@
     <None Include="mingle_results_set_spec.rb" />
     <None Include="mingle_results_set_spec.rb" />
     <None Include="mingle_results_set_spec.rb" />
+    <None Include="mingle_results_set_spec.rb" />
+    <None Include="mqlresults_spec.rb" />
     <None Include="mqlresults_spec.rb" />
     <None Include="mqlresults_spec.rb" />
     <None Include="mqlresults_spec.rb" />
@@ -579,6 +625,8 @@
     <None Include="project_member_spec.rb" />
     <None Include="project_member_spec.rb" />
     <None Include="project_member_spec.rb" />
+    <None Include="project_member_spec.rb" />
+    <None Include="project_spec.rb" />
     <None Include="project_spec.rb" />
     <None Include="project_spec.rb" />
     <None Include="project_spec.rb" />
@@ -610,6 +658,7 @@
     <None Include="properties_spec.rb" />
     <None Include="properties_spec.rb" />
     <None Include="properties_spec.rb" />
+    <None Include="properties_spec.rb" />
     <None Include="server_spec.rb" />
     <None Include="server_spec.rb" />
     <None Include="server_spec.rb" />
@@ -625,6 +674,7 @@
     <None Include="server_spec.rb" />
     <None Include="server_spec.rb" />
     <None Include="server_spec.rb" />
+    <None Include="server_spec.rb" />
     <None Include="settings_spec.rb" />
     <None Include="settings_spec.rb" />
     <None Include="settings_spec.rb" />
@@ -642,6 +692,7 @@
     <None Include="settings_spec.rb" />
     <None Include="settings_spec.rb" />
     <None Include="settings_spec.rb" />
+    <None Include="spec_helper.rb" />
     <None Include="spec_helper.rb" />
     <None Include="spec_helper.rb" />
     <None Include="spec_helper.rb" />
@@ -692,6 +743,7 @@
     <None Include="transition_spec.rb" />
     <None Include="transition_spec.rb" />
     <None Include="transition_spec.rb" />
+    <None Include="transition_spec.rb" />
     <None Include="user_spec.rb" />
     <None Include="user_spec.rb" />
     <None Include="user_spec.rb" />
@@ -733,6 +785,8 @@
     <None Include="web_api_spec.rb" />
     <None Include="web_api_spec.rb" />
     <None Include="web_api_spec.rb" />
+    <None Include="web_api_spec.rb" />
+    <None Include="web_spec.rb" />
     <None Include="web_spec.rb" />
     <None Include="web_spec.rb" />
     <None Include="web_spec.rb" />
