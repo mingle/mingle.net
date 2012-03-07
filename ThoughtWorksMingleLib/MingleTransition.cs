@@ -95,7 +95,7 @@ namespace ThoughtWorksMingleLib
             {
                 var d = new Collection<MinglePropertyDefinition>();
                 RawData.Element("user_input_required").Elements("property_definition").ToList().
-                    ForEach(p => d.Add(Project.Properties[p.Element("name").Value]));
+                    ForEach(p => d.Add(new MinglePropertyDefinition(p.ToString())));
                 return d;
             }
         }
@@ -109,7 +109,7 @@ namespace ThoughtWorksMingleLib
             {
                 var d = new Collection<MinglePropertyDefinition>();
                 RawData.Element("user_input_optional").Elements("property").ToList().
-                    ForEach(p => d.Add(Project.Properties[p.Element("name").Value]));
+                    ForEach(p => d.Add(new MinglePropertyDefinition(p.ToString())));
                 return d;
             }
         }
