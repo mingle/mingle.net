@@ -46,7 +46,7 @@ namespace Tests
         public static void MyClassInitialize(TestContext testContext)
         {
             _mingle = new MingleServer(MINGLEHOST, MINGLEUSER, MINGLEPASSWORD);
-            _project = _mingle.GetProject("test");
+            _project = _mingle.GetProject("apitest");
         }
         //
         //Use ClassCleanup to run code after all tests in a class have run
@@ -89,7 +89,7 @@ namespace Tests
         [TestMethod]
         public void CardPropertyIntegrationTest()
         {
-            var card = _project.GetCard(7);
+            var card = _project.GetCard(120);
             card.AddPropertyFilterToPostData("bogus property", string.Empty);
             try
             {
@@ -101,6 +101,54 @@ namespace Tests
                 return;
             }
             Assert.Fail("Expected a MingleWebException and did not get an exception at all.");
+
+        }
+
+        [TestMethod]
+        public void TestSetCardProperty()
+        {
+            var card = _project.GetCard(120);
+
+            try
+            {
+                card.AddPropertyFilterToPostData("TestProperty", "");
+                card.Update();
+                Assert.AreEqual("", card.CardProperties["TestProperty"].Value);
+                card.AddPropertyFilterToPostData("TestProperty", "test me");
+                card.Update();
+                Assert.AreEqual("test me", card.CardProperties["TestProperty"].Value);
+                card.AddPropertyFilterToPostData("TestProperty", "");
+                card.Update();
+            }
+            catch (System.Exception ex)
+            {
+                Assert.Fail(ex.Message);
+                return;
+            }
+        }
+         
+        [TestMethod]
+        public void TestSetCardPropertyWithTwoWordName()
+        {
+            var card = _project.GetCard(120);
+
+            try
+            {
+                card.AddPropertyFilterToPostData("Two Word", "");
+                card.Update();
+                Assert.AreEqual("", card.CardProperties["Two Word"].Value);
+                card.AddPropertyFilterToPostData("Two Word", "test me");
+                card.Update();
+                Assert.AreEqual("test me", card.CardProperties["Two Word"].Value);
+                card.AddPropertyFilterToPostData("Two Word", "");
+                card.Update();
+            }
+            catch (System.Exception ex)
+            {
+                Assert.Fail(ex.Message);
+                return;
+            }
+            
         }
     }
 }
