@@ -15,7 +15,19 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_141DABB6E32B4EABA0D14AA890F03F01"
+        "MsmKey" = "8:_1981B12363F548F6995D3708DB2ECD48"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_2551F790633240208A0DEDA68B5F8256"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_2D2D445052BB42D7AD2073883508086B"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -27,13 +39,19 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_7E155464F9F3448892B27EF06D1F38FB"
+        "MsmKey" = "8:_4EA005373C2047F7AD374F465EE02288"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_9614D3C396B148A98F0A14369C1C491E"
+        "MsmKey" = "8:_5D814E5E8F8146C4956EA54E5757945D"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_5FE59022A13D4902BDA67F36E7915F26"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -45,7 +63,13 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_E59B2C4948D14ECE879D051797FCF4B9"
+        "MsmKey" = "8:_AE574D1EEEDC4B7A844792AEBD2BA270"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_B3CAD332656F41FA94D52735CEBF4FBB"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -59,6 +83,12 @@
         {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_EB681CD6EF144B8DBF9336B6F500A42B"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_1981B12363F548F6995D3708DB2ECD48"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -178,10 +208,21 @@
         }
         "File"
         {
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_141DABB6E32B4EABA0D14AA890F03F01"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_1981B12363F548F6995D3708DB2ECD48"
             {
-            "SourcePath" = "8:..\\Help\\Install_TW.NET.bat"
-            "TargetName" = "8:Install_TW.NET.bat"
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:HelpLibraryManagerLauncher, Version=1.0.0.0, Culture=neutral, PublicKeyToken=70ea1bb087a3ebed, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_1981B12363F548F6995D3708DB2ECD48"
+                    {
+                    "Name" = "8:HelpLibraryManagerLauncher.exe"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:..\\Help\\HelpLibraryManagerLauncher.exe"
+            "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_66D53509FA034837B5228FCC0FE1D18A"
             "Condition" = "8:"
@@ -198,7 +239,47 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_7E155464F9F3448892B27EF06D1F38FB"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_2551F790633240208A0DEDA68B5F8256"
+            {
+            "SourcePath" = "8:..\\Help\\MingleApiHelp.NET.chm"
+            "TargetName" = "8:MingleApiHelp.NET.chm"
+            "Tag" = "8:"
+            "Folder" = "8:_66D53509FA034837B5228FCC0FE1D18A"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_2D2D445052BB42D7AD2073883508086B"
+            {
+            "SourcePath" = "8:..\\Help\\Remove_MingleApiHelp.NET.bat"
+            "TargetName" = "8:Remove_MingleApiHelp.NET.bat"
+            "Tag" = "8:"
+            "Folder" = "8:_66D53509FA034837B5228FCC0FE1D18A"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_4EA005373C2047F7AD374F465EE02288"
             {
             "SourcePath" = "8:..\\License.rtf"
             "TargetName" = "8:License.rtf"
@@ -218,10 +299,30 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_9614D3C396B148A98F0A14369C1C491E"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_5D814E5E8F8146C4956EA54E5757945D"
             {
-            "SourcePath" = "8:..\\Help\\TW.NET.chm"
-            "TargetName" = "8:TW.NET.chm"
+            "SourcePath" = "8:..\\Help\\MingleApiHelp.NET.mshc"
+            "TargetName" = "8:MingleApiHelp.NET.mshc"
+            "Tag" = "8:"
+            "Folder" = "8:_66D53509FA034837B5228FCC0FE1D18A"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_5FE59022A13D4902BDA67F36E7915F26"
+            {
+            "SourcePath" = "8:..\\Help\\HelpContentSetup.msha"
+            "TargetName" = "8:HelpContentSetup.msha"
             "Tag" = "8:"
             "Folder" = "8:_66D53509FA034837B5228FCC0FE1D18A"
             "Condition" = "8:"
@@ -242,7 +343,7 @@
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:ThoughtWorksCoreLib, Version=1.0.0.15051, Culture=neutral, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:ThoughtWorksCoreLib, Version=1.0.0.16438, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
                     "_9B51C66378BB6671C01CE5A31F313F10"
@@ -269,10 +370,30 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E59B2C4948D14ECE879D051797FCF4B9"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_AE574D1EEEDC4B7A844792AEBD2BA270"
             {
-            "SourcePath" = "8:..\\Help\\Remove_TW.NET.bat"
-            "TargetName" = "8:Remove_TW.NET.bat"
+            "SourcePath" = "8:..\\Help\\MingleApiHelp.NET.msha"
+            "TargetName" = "8:MingleApiHelp.NET.msha"
+            "Tag" = "8:"
+            "Folder" = "8:_66D53509FA034837B5228FCC0FE1D18A"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B3CAD332656F41FA94D52735CEBF4FBB"
+            {
+            "SourcePath" = "8:..\\Help\\Install_MingleApiHelp.NET.bat"
+            "TargetName" = "8:Install_MingleApiHelp.NET.bat"
             "Tag" = "8:"
             "Folder" = "8:_66D53509FA034837B5228FCC0FE1D18A"
             "Condition" = "8:"
@@ -306,7 +427,7 @@
                 {
                     "{9EF0B969-E518-4E46-987F-47570745A589}:_DA7C0128EC24493C9855492D094B0B07"
                     {
-                    "Name" = "8:ThoughtWorks Mingle API"
+                    "Name" = "8:Mingle.NET SDK"
                     "AlwaysCreate" = "11:FALSE"
                     "Condition" = "8:"
                     "Transitive" = "11:FALSE"
@@ -351,7 +472,7 @@
                 {
                     "{9EF0B969-E518-4E46-987F-47570745A589}:_66D53509FA034837B5228FCC0FE1D18A"
                     {
-                    "Name" = "8:ThoughtWorks Mingle API"
+                    "Name" = "8:Mingle.NET SDK"
                     "AlwaysCreate" = "11:FALSE"
                     "Condition" = "8:"
                     "Transitive" = "11:FALSE"
@@ -379,7 +500,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Mingle .NET Client API"
         "ProductCode" = "8:{0AEB125A-4994-4916-917F-CD56AEE5FD75}"
-        "PackageCode" = "8:{5F3C8BF4-DD67-4245-9766-0AEC24A777AC}"
+        "PackageCode" = "8:{4FCCE8C3-5976-4E1D-BF30-DB6A0937410E}"
         "UpgradeCode" = "8:{9DE53018-F568-4C80-8E9E-291444B1A018}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -499,15 +620,15 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_67EDA7F359E64D3E84621E586E3ED330"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_C11435356714457397C8D38E66051BE8"
             {
-            "Name" = "8:API Documentation (MS Help Viewer Format))"
+            "Name" = "8:Mingle.NET SDK Documentation"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_9614D3C396B148A98F0A14369C1C491E"
+            "Target" = "8:_2551F790633240208A0DEDA68B5F8256"
             "Folder" = "8:_DA7C0128EC24493C9855492D094B0B07"
             "WorkingFolder" = "8:_66D53509FA034837B5228FCC0FE1D18A"
             "Icon" = "8:"
@@ -832,7 +953,7 @@
                             "ContextData" = "8:"
                             "Attributes" = "3:0"
                             "Setting" = "3:2"
-                            "Value" = "8:_7E155464F9F3448892B27EF06D1F38FB"
+                            "Value" = "8:_4EA005373C2047F7AD374F465EE02288"
                             "UsePlugInResources" = "11:TRUE"
                             }
                             "Sunken"

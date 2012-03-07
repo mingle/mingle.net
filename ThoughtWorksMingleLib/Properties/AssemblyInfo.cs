@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 
-[assembly: AssemblyTitle("ThoughtWorksMingleLib")]
+[assembly: AssemblyTitle("MingleLib")]
 [assembly: AssemblyDescription("Mingle API")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("ThoughtWorks Studios")]
-[assembly: AssemblyProduct("ThoughtWorks Mingle Access Library")]
-[assembly: AssemblyCopyright("Copyright © ThoughtWorks 2010, 2011")]
+[assembly: AssemblyProduct("Mingle.NET SDK")]
+[assembly: AssemblyCopyright("Copyright © ThoughtWorks 2010, 2011, 2012")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

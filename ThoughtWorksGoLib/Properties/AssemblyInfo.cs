@@ -6,12 +6,12 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 
-[assembly: AssemblyTitle("ThoughtWorksGoLib")]
+[assembly: AssemblyTitle("GoLib")]
 [assembly: AssemblyDescription("Go API")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("ThoughtWorks Studios")]
-[assembly: AssemblyProduct("ThoughtWorks Go Access Library")]
-[assembly: AssemblyCopyright("Copyright © ThoughtWorks 2010, 2011")]
+[assembly: AssemblyProduct("Go.NET SDK")]
+[assembly: AssemblyCopyright("Copyright © ThoughtWorks 2010, 2011, 2012")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
