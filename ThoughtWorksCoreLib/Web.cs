@@ -99,7 +99,7 @@ namespace ThoughtWorksCoreLib
             request.Method = "get";
             request.ContentType = "text/html";
             _authenticate(request);
-
+            TraceLog.WriteLine(new StackFrame().GetMethod().Name, request.RequestUri.AbsolutePath);
             using (var response = (HttpWebResponse)request.GetResponse())
             {
                 var body = new StreamReader(response.GetResponseStream()).ReadToEnd();
