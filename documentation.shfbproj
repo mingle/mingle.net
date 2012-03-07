@@ -15,9 +15,9 @@
     <Name>Documentation</Name>
     <!-- SHFB properties -->
     <OutputPath>.\Help\</OutputPath>
-    <HtmlHelpName>TW.NET</HtmlHelpName>
+    <HtmlHelpName>MingleApiHelp.NET</HtmlHelpName>
     <Language>en-US</Language>
-    <BuildLogFile>documentation.shfb.log</BuildLogFile>
+    <BuildLogFile>Help\documentation.shfb.log</BuildLogFile>
     <DocumentationSources>
       <DocumentationSource sourceFile="build\ThoughtWorksCoreLib.dll" />
       <DocumentationSource sourceFile="build\ThoughtWorksCoreLib.xml" />
@@ -25,13 +25,12 @@
       <DocumentationSource sourceFile="build\ThoughtWorksMingleLib.xml" />
     </DocumentationSources>
     <FrameworkVersion>4.0.30319</FrameworkVersion>
-    <HelpFileFormat>HtmlHelp1</HelpFileFormat>
-    <HelpTitle>ThoughtWorks Studios API for .NET</HelpTitle>
-    <CopyrightText>Copyright 2010,2011 ThoughtWorks Inc.</CopyrightText>
-    <HeaderText>ThoughtWorks Studios API for .NET</HeaderText>
-    <FooterText>
-    </FooterText>
-    <ProductTitle>ThoughtWorks Studios API for .NET</ProductTitle>
+    <HelpFileFormat>HtmlHelp1, MSHelpViewer</HelpFileFormat>
+    <HelpTitle>Mingle API for .NET</HelpTitle>
+    <CopyrightText>Copyright 2010,2011,2012 ThoughtWorks Inc.</CopyrightText>
+    <HeaderText>Mingle API for .NET</HeaderText>
+    <FooterText>Please send feedbak to mrichter%40thoughtworks.com</FooterText>
+    <ProductTitle>Mingle API for .NET</ProductTitle>
     <VendorName>ThoughtWorks Studios</VendorName>
     <ApiFilter>
       <Filter entryType="Namespace" fullName="" isExposed="False">
@@ -48,10 +47,10 @@
       <Filter entryType="Namespace" fullName="ThoughtWorks.VisualStudio.View.SettingsView" isExposed="False" />
       <Filter entryType="Namespace" fullName="ThoughtWorks.VisualStudio.View.TransitionCommentView" isExposed="False" />
     </ApiFilter>
-    <HelpFileVersion>1.0.1.1</HelpFileVersion>
+    <HelpFileVersion>1.0.1.2</HelpFileVersion>
     <IncludeFavorites>True</IncludeFavorites>
     <RootNamespaceContainer>False</RootNamespaceContainer>
-    <PresentationStyle>hana</PresentationStyle>
+    <PresentationStyle>vs2005</PresentationStyle>
     <NamingMethod>MemberName</NamingMethod>
     <Preliminary>False</Preliminary>
     <FeedbackEMailLinkText>Feedback</FeedbackEMailLinkText>
