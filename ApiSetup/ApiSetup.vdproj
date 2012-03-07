@@ -343,7 +343,7 @@
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:ThoughtWorksCoreLib, Version=1.0.0.16438, Culture=neutral, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:ThoughtWorksCoreLib, Version=1.0.0.16453, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
                     "_9B51C66378BB6671C01CE5A31F313F10"
@@ -620,6 +620,20 @@
         }
         "Shortcut"
         {
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_3644F982759D45B8952B74A050AFAEF2"
+            {
+            "Name" = "8:Install SDK Help Into MS Help Viewer"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_B3CAD332656F41FA94D52735CEBF4FBB"
+            "Folder" = "8:_DA7C0128EC24493C9855492D094B0B07"
+            "WorkingFolder" = "8:_66D53509FA034837B5228FCC0FE1D18A"
+            "Icon" = "8:"
+            "Feature" = "8:"
+            }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_C11435356714457397C8D38E66051BE8"
             {
             "Name" = "8:Mingle.NET SDK Documentation"
