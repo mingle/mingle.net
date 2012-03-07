@@ -72,7 +72,7 @@ namespace ThoughtWorksMingleLib
 
         private string Get(string url)
         {
-            return GetResponse("get", null, url, null).Body;
+            return GetResponse("get", string.Empty, url, new List<string>()).Body;
         }
 
         /// <summary>
@@ -83,7 +83,7 @@ namespace ThoughtWorksMingleLib
         /// <returns></returns>
         public string Get(string project, string url)
         {
-            return GetResponse("get", project, url, null).Body;
+            return GetResponse("get", project, url, new List<string>()).Body;
         }
 
         /// <summary>
