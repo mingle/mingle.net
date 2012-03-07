@@ -15,6 +15,7 @@ describe 'project' do
         card.card_properties["Priority"].value.should == "Essential"
         card.card_properties["Story Status"].value.should == "New"
         card.card_properties["Owner"].value.should == "mingleuser"
+        
     end
     
     it 'should get results from execute_mql' do
@@ -29,5 +30,31 @@ describe 'project' do
         count = proj.get_murmurs.count
         proj.send_murmur("I was murmured at " + now.to_string)
         proj.get_murmurs.count.should == count + 1
+    end
+    
+    it 'updates the value of a property with a multi-worded name' do
+        proj = MingleServer.new("http://localhost:8080", "mingleuser", "secret").GetProject("apitest")
+        card = proj.get_card(120)
+        card.AddPropertyFilterToPostData("Two Word","New value")
+        card.Update()
+        target = proj.get_card(120)
+        target.card_properties["Two Word"].value.should == "New value"
+        target.AddPropertyFilterToPostData("Two Word","")
+        target.Update
+        card = proj.get_card(120)
+        target.card_properties["Two Word"].value.should == ""
+    end
+
+    it 'updates the value of a property' do
+        proj = MingleServer.new("http://localhost:8080", "mingleuser", "secret").GetProject("apitest")
+        card = proj.get_card(120)
+        card.AddPropertyFilterToPostData("TestProperty","New value")
+        card.Update()
+        target = proj.get_card(120)
+        target.card_properties["TestProperty"].value.should == "New value"
+        target.AddPropertyFilterToPostData("TestProperty","")
+        target.Update
+        card = proj.get_card(120)
+        target.card_properties["TestProperty"].value.should == ""
     end
 end
