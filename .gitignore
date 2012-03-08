@@ -16,6 +16,8 @@ _Re[sS]harper*/
 *Doc.xml
 vendor/bundle/
 build
-SetupMingleApi/SetupMingleApi/
+ApiSetup/MingleApiSetup.msi
+ApiSetup/setup.exe
 ApiSetup/Debug/
 ApiSetup/Release/
+SetupMingleApi/SetupMingleApi
