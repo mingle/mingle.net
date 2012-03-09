@@ -53,7 +53,6 @@
     <Compile Include="IMingleServer.cs" />
     <Compile Include="IMingleXmlObject.cs" />
     <Compile Include="IMingleXmlObjectCollection.cs" />
-    <Compile Include="Mingle.cs" />
     <Compile Include="MingleCard.cs" />
     <Compile Include="MingleCardCollection.cs" />
     <Compile Include="MingleCardProperty.cs" />
