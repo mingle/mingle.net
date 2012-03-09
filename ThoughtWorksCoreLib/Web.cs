@@ -100,10 +100,19 @@ namespace ThoughtWorksCoreLib
             request.ContentType = "text/html";
             _authenticate(request);
             TraceLog.WriteLine(new StackFrame().GetMethod().Name, request.RequestUri.AbsolutePath);
-            using (var response = (HttpWebResponse)request.GetResponse())
+            try
             {
-                var body = new StreamReader(response.GetResponseStream()).ReadToEnd();
-                return new Response(response.Headers, body);
+                using (var response = (HttpWebResponse)request.GetResponse())
+                {
+                    var body = new StreamReader(response.GetResponseStream()).ReadToEnd();
+                    return new Response(response.Headers, body);
+                }
+            }
+            catch (Exception ex)
+            {
+                var me = new StackFrame().GetMethod().Name;
+                TraceLog.Exception(me, ex);
+                throw;
             }
         }
 
@@ -143,7 +152,7 @@ namespace ThoughtWorksCoreLib
                 if (data != null)
                 {
                     var d = data.ToList();
-                    if (d.Count() > 0)
+                    if (d.Any())
                     {
                         d.ForEach(s => postData.Append(s + "&"));
                         postData.Remove(postData.Length - 1, 1);
