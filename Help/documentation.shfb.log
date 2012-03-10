@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder Utilities" version="1.9.1.0" projectFile="C:\Users\mark\src\Mingle.NET\documentation.shfbproj" started="3/9/2012 3:24:40 PM">
+<shfbBuild product="Sandcastle Help File Builder Utilities" version="1.9.1.0" projectFile="C:\Users\mark\src\Mingle.NET\documentation.shfbproj" started="3/9/2012 4:18:17 PM">
 <buildStep step="Initializing">
 </buildStep>
 <buildStep step="FindingTools">
 Finding tools...
-Found Sandcastle tools in 'C:\Program Files (x86)\Sandcastle\'
+Found Sandcastle tools in &#39;C:\Program Files (x86)\Sandcastle\&#39;
 Searching for HTML Help 1 compiler...
-Found HTML Help 1 compiler in 'C:\Program Files (x86)\HTML Help Workshop\'
+Found HTML Help 1 compiler in &#39;C:\Program Files (x86)\HTML Help Workshop\&#39;
 </buildStep>
 <buildStep step="ValidatingDocumentationSources">
 Validating and copying documentation source information
 Source: C:\Users\mark\src\Mingle.NET\build\ThoughtWorksCoreLib.dll
-    Found assembly 'C:\Users\mark\src\Mingle.NET\build\ThoughtWorksCoreLib.dll'
+    Found assembly &#39;C:\Users\mark\src\Mingle.NET\build\ThoughtWorksCoreLib.dll&#39;
 Source: C:\Users\mark\src\Mingle.NET\build\ThoughtWorksCoreLib.xml
 Source: C:\Users\mark\src\Mingle.NET\build\ThoughtWorksMingleLib.dll
-    Found assembly 'C:\Users\mark\src\Mingle.NET\build\ThoughtWorksMingleLib.dll'
+    Found assembly &#39;C:\Users\mark\src\Mingle.NET\build\ThoughtWorksMingleLib.dll&#39;
 Source: C:\Users\mark\src\Mingle.NET\build\ThoughtWorksMingleLib.xml
 
 Copying XML comments files
@@ -23,52 +23,52 @@ Copying XML comments files
 </buildStep>
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
-    Last step completed in 00:00:00.1570
+    Last step completed in 00:00:00.0280
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.0100
+    Last step completed in 00:00:00.0050
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
-[C:\Windows\Microsoft.NET\Framework64\v3.5\MSBuild.exe]
+[C:\Windows\Microsoft.NET\Framework\v3.5\MSBuild.exe]
 GenerateRefInfo:
   MrefBuilder (v2.6.10621.1)
   Copyright c Microsoft 2006
   Info: Loaded 2 assemblies for reflection and 0 dependency assemblies.
-  Info: Wrote information on 2 namespaces, 46 types, and 432 members
+  Info: Wrote information on 2 namespaces, 45 types, and 429 members
   XslTransform (v2.6.10621.1)
   Copyright c Microsoft 2005-2006
-  Info: Applying XSL transformation 'C:\Program Files (x86)\Sandcastle\ProductionTransforms\MergeDuplicates.xsl'.
+  Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\MergeDuplicates.xsl&#39;.
   reflection.all -&gt; reflection.org
-    Last step completed in 00:00:06.7454
+    Last step completed in 00:00:04.7273
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.0680
+    Last step completed in 00:00:00.0040
 </buildStep>
 <buildStep step="ApplyVisibilityProperties">
 Applying visibility properties to reflection information file
     0 protected members noted for removal
     18 protected inherited framework members noted for removal
     Removing previously noted unwanted APIs and elements
-    Last step completed in 00:00:00.1980
+    Last step completed in 00:00:00.1870
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
-[C:\Windows\Microsoft.NET\Framework64\v3.5\MSBuild.exe]
+[C:\Windows\Microsoft.NET\Framework\v3.5\MSBuild.exe]
 TransformManifest:
   XslTransform (v2.6.10621.1)
   Copyright c Microsoft 2005-2006
-  Info: Applying XSL transformation 'C:\Program Files (x86)\Sandcastle\ProductionTransforms\ApplyVSDocModel.xsl'.
-  reflection.org -&gt; C:\Users\mark\AppData\Local\Temp\tmp589F.tmp
-  Info: Applying XSL transformation 'C:\Program Files (x86)\Sandcastle\ProductionTransforms\AddGuidFilenames.xsl'.
-  C:\Users\mark\AppData\Local\Temp\tmp589F.tmp -&gt; reflection.xml
+  Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\ApplyVSDocModel.xsl&#39;.
+  reflection.org -&gt; C:\Users\mark\AppData\Local\Temp\tmp64FF.tmp
+  Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\AddGuidFilenames.xsl&#39;.
+  C:\Users\mark\AppData\Local\Temp\tmp64FF.tmp -&gt; reflection.xml
   XslTransform (v2.6.10621.1)
   Copyright c Microsoft 2005-2006
-  Info: Applying XSL transformation 'C:\Program Files (x86)\Sandcastle\ProductionTransforms\ReflectionToManifest.xsl'.
+  Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\ReflectionToManifest.xsl&#39;.
   reflection.xml -&gt; manifest.xml
-    Last step completed in 00:00:01.8561
+    Last step completed in 00:00:01.4301
 </buildStep>
 <buildStep step="ModifyHelpTopicFilenames">
 Modifying help topic filenames in reflection information file
@@ -104,7 +104,7 @@ Modifying help topic filenames in reflection information file
     Unique name M_ThoughtWorksMingleLib_MingleTransitionCollection_Parse_1 generated for M:ThoughtWorksMingleLib.MingleTransitionCollection.Parse(System.Int32)
     Unique name M_ThoughtWorksMingleLib_MingleWebException__ctor_1 generated for M:ThoughtWorksMingleLib.MingleWebException.#ctor(System.String)
     Unique name M_ThoughtWorksMingleLib_MingleWebException__ctor_2 generated for M:ThoughtWorksMingleLib.MingleWebException.#ctor(System.String,System.Exception)
-    Last step completed in 00:00:00.1690
+    Last step completed in 00:00:00.0850
 </buildStep>
 <buildStep step="CopyStandardContent">
 Copying standard help content...
@@ -322,50 +322,50 @@ C:\Program Files (x86)\Sandcastle\Presentation\vs2005\scripts\script_manifold.js
 C:\Program Files (x86)\Sandcastle\Presentation\vs2005\scripts\SplitScreen.js -&gt; C:\Users\mark\src\Mingle.NET\Help\Working\Output\MSHelpViewer\scripts\SplitScreen.js
 C:\Program Files (x86)\Sandcastle\Presentation\vs2005\styles\Presentation.css -&gt; C:\Users\mark\src\Mingle.NET\Help\Working\Output\MSHelpViewer\styles\Presentation.css
 C:\Program Files (x86)\Sandcastle\Presentation\vs2005\styles\Whidbey\presentation.css -&gt; C:\Users\mark\src\Mingle.NET\Help\Working\Output\MSHelpViewer\styles\Whidbey\presentation.css
-    Last step completed in 00:00:02.4551
+    Last step completed in 00:00:00.3370
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 No additional content to copy
-    Last step completed in 00:00:00.0190
+    Last step completed in 00:00:00.0040
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
-    Last step completed in 00:00:00.0060
+    Last step completed in 00:00:00.0000
 </buildStep>
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
-[C:\Windows\Microsoft.NET\Framework64\v3.5\MSBuild.exe]
+[C:\Windows\Microsoft.NET\Framework\v3.5\MSBuild.exe]
 GenerateIntermediateTOC:
   XslTransform (v2.6.10621.1)
   Copyright c Microsoft 2005-2006
-  Info: Applying XSL transformation 'C:\Program Files (x86)\Sandcastle\ProductionTransforms\CreateVSToc.xsl'.
+  Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\CreateVSToc.xsl&#39;.
   reflection.xml -&gt; toc.xml
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00.4100
+    Last step completed in 00:00:00.3800
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00.1880
+    Last step completed in 00:00:00.0460
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
 C:\Users\mark\src\Mingle.NET\Help\Working\sandcastle.config
-    Last step completed in 00:00:00.1090
+    Last step completed in 00:00:00.0780
 </buildStep>
 <buildStep step="BuildReferenceTopics">
 Building reference help topics...
-[C:\Windows\Microsoft.NET\Framework64\v3.5\MSBuild.exe]
+[C:\Windows\Microsoft.NET\Framework\v3.5\MSBuild.exe]
 BuildReferenceTopics:
   BuildAssembler (v2.6.10621.1)
   Copyright c Microsoft 2006
   Info: CopyFromFileComponent: Instantiating component.
-  Info: CopyFromFileComponent: Loading data file 'C:\Program Files (x86)\Sandcastle\Presentation\vs2005\Transforms\skeleton.xml'.
+  Info: CopyFromFileComponent: Loading data file &#39;C:\Program Files (x86)\Sandcastle\Presentation\vs2005\Transforms\skeleton.xml&#39;.
   Info: CopyFromIndexComponent: Instantiating component.
-  Info: CopyFromIndexComponent: Searching for files that match '*.xml'.
-  Info: CopyFromIndexComponent: Searching for files that match 'reflection.xml'.
-  Info: CopyFromIndexComponent: Indexed 203378 elements in 409 files.
+  Info: CopyFromIndexComponent: Searching for files that match &#39;*.xml&#39;.
+  Info: CopyFromIndexComponent: Searching for files that match &#39;reflection.xml&#39;.
+  Info: CopyFromIndexComponent: Indexed 203372 elements in 409 files.
   Info: CopyFromIndexComponent: Loaded 0 copy components.
   Info: CopyFromIndexComponent: Instantiating component.
   Info: CopyFromIndexComponent: Loaded 0 copy components.
@@ -408,10 +408,10 @@ BuildReferenceTopics:
   Info: SyntaxComponent: Instantiating component.
   Info: SyntaxComponent: Loaded 3 syntax generators.
   Info: CopyFromIndexComponent: Instantiating component.
-  Info: CopyFromIndexComponent: Searching for files that match 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\en\*.xml'.
-  Info: CopyFromIndexComponent: Searching for files that match 'C:\Users\mark\src\Mingle.NET\Help\Working\ThoughtWorksCoreLib.XML'.
-  Info: CopyFromIndexComponent: Searching for files that match 'C:\Users\mark\src\Mingle.NET\Help\Working\ThoughtWorksMingleLib.XML'.
-  Info: CopyFromIndexComponent: Indexed 81782 elements in 51 files.
+  Info: CopyFromIndexComponent: Searching for files that match &#39;C:\Windows\Microsoft.NET\Framework\v4.0.30319\en\*.xml&#39;.
+  Info: CopyFromIndexComponent: Searching for files that match &#39;C:\Users\mark\src\Mingle.NET\Help\Working\ThoughtWorksCoreLib.XML&#39;.
+  Info: CopyFromIndexComponent: Searching for files that match &#39;C:\Users\mark\src\Mingle.NET\Help\Working\ThoughtWorksMingleLib.XML&#39;.
+  Info: CopyFromIndexComponent: Indexed 81778 elements in 51 files.
   Info: CopyFromIndexComponent: Loaded 0 copy components.
   Info: ForEachComponent: Instantiating component.
   Info: ForEachComponent: Loading subcomponents.
@@ -453,91 +453,91 @@ BuildReferenceTopics:
       http://SHFB.CodePlex.com
   Info: MultiFormatOutputComponent: Loading components for HtmlHelp1 format
   Info: SharedContentComponent: Instantiating component.
-  Info: SharedContentComponent: Searching for files that match 'C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\shared_content.xml'.
-  Info: SharedContentComponent: Loading shared content file 'C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\shared_content.xml'.
+  Info: SharedContentComponent: Searching for files that match &#39;C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\shared_content.xml&#39;.
+  Info: SharedContentComponent: Loading shared content file &#39;C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\shared_content.xml&#39;.
   Info: SharedContentComponent: Found 1 files in C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\shared_content.xml.
-  Info: SharedContentComponent: Searching for files that match 'C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\reference_content.xml'.
-  Info: SharedContentComponent: Loading shared content file 'C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\reference_content.xml'.
+  Info: SharedContentComponent: Searching for files that match &#39;C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\reference_content.xml&#39;.
+  Info: SharedContentComponent: Loading shared content file &#39;C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\reference_content.xml&#39;.
   Info: SharedContentComponent: Found 1 files in C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\reference_content.xml.
-  Info: SharedContentComponent: Searching for files that match 'C:\Program Files (x86)\Sandcastle\Presentation\shared\content\syntax_content.xml'.
-  Info: SharedContentComponent: Loading shared content file 'C:\Program Files (x86)\Sandcastle\Presentation\shared\content\syntax_content.xml'.
+  Info: SharedContentComponent: Searching for files that match &#39;C:\Program Files (x86)\Sandcastle\Presentation\shared\content\syntax_content.xml&#39;.
+  Info: SharedContentComponent: Loading shared content file &#39;C:\Program Files (x86)\Sandcastle\Presentation\shared\content\syntax_content.xml&#39;.
   Info: SharedContentComponent: Found 1 files in C:\Program Files (x86)\Sandcastle\Presentation\shared\content\syntax_content.xml.
-  Info: SharedContentComponent: Searching for files that match 'C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\feedback_content.xml'.
-  Info: SharedContentComponent: Loading shared content file 'C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\feedBack_content.xml'.
+  Info: SharedContentComponent: Searching for files that match &#39;C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\feedback_content.xml&#39;.
+  Info: SharedContentComponent: Loading shared content file &#39;C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\feedBack_content.xml&#39;.
   Info: SharedContentComponent: Found 1 files in C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\feedback_content.xml.
-  Info: SharedContentComponent: Searching for files that match 'SharedBuilderContent.xml'.
-  Info: SharedContentComponent: Loading shared content file 'C:\Users\mark\src\Mingle.NET\Help\Working\SharedBuilderContent.xml'.
-  Info: SharedContentComponent: Overriding shared content item 'roottopictitle' with value in file 'C:\Users\mark\src\Mingle.NET\Help\Working\SharedBuilderContent.xml'.
-  Info: SharedContentComponent: Overriding shared content item 'rootlink' with value in file 'C:\Users\mark\src\Mingle.NET\Help\Working\SharedBuilderContent.xml'.
-  Info: SharedContentComponent: Overriding shared content item 'runningheadertext' with value in file 'C:\Users\mark\src\Mingle.NET\Help\Working\SharedBuilderContent.xml'.
-  Info: SharedContentComponent: Overriding shared content item 'locationinformation' with value in file 'C:\Users\mark\src\Mingle.NET\Help\Working\SharedBuilderContent.xml'.
-  Info: SharedContentComponent: Overriding shared content item 'assemblynameandmodule' with value in file 'C:\Users\mark\src\Mingle.NET\Help\Working\SharedBuilderContent.xml'.
-  Info: SharedContentComponent: Overriding shared content item 'copycode' with value in file 'C:\Users\mark\src\Mingle.NET\Help\Working\SharedBuilderContent.xml'.
-  Info: SharedContentComponent: Overriding shared content item 'locale' with value in file 'C:\Users\mark\src\Mingle.NET\Help\Working\SharedBuilderContent.xml'.
+  Info: SharedContentComponent: Searching for files that match &#39;SharedBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Loading shared content file &#39;C:\Users\mark\src\Mingle.NET\Help\Working\SharedBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;roottopictitle&#39; with value in file &#39;C:\Users\mark\src\Mingle.NET\Help\Working\SharedBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;rootlink&#39; with value in file &#39;C:\Users\mark\src\Mingle.NET\Help\Working\SharedBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;runningheadertext&#39; with value in file &#39;C:\Users\mark\src\Mingle.NET\Help\Working\SharedBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;locationinformation&#39; with value in file &#39;C:\Users\mark\src\Mingle.NET\Help\Working\SharedBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;assemblynameandmodule&#39; with value in file &#39;C:\Users\mark\src\Mingle.NET\Help\Working\SharedBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;copycode&#39; with value in file &#39;C:\Users\mark\src\Mingle.NET\Help\Working\SharedBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;locale&#39; with value in file &#39;C:\Users\mark\src\Mingle.NET\Help\Working\SharedBuilderContent.xml&#39;.
   Info: SharedContentComponent: Found 1 files in SharedBuilderContent.xml.
-  Info: SharedContentComponent: Searching for files that match 'PresentationStyleBuilderContent.xml'.
-  Info: SharedContentComponent: Loading shared content file 'C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml'.
-  Info: SharedContentComponent: Overriding shared content item 'header' with value in file 'C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml'.
-  Info: SharedContentComponent: Overriding shared content item 'footer' with value in file 'C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml'.
-  Info: SharedContentComponent: Overriding shared content item 'fb_alias' with value in file 'C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml'.
-  Info: SharedContentComponent: Overriding shared content item 'fb_product' with value in file 'C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml'.
-  Info: SharedContentComponent: Overriding shared content item 'fb_body' with value in file 'C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml'.
-  Info: SharedContentComponent: Overriding shared content item 'fb_send' with value in file 'C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml'.
-  Info: SharedContentComponent: Overriding shared content item 'fb_headerfeedback' with value in file 'C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml'.
-  Info: SharedContentComponent: Overriding shared content item 'feedback_alias' with value in file 'C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml'.
-  Info: SharedContentComponent: Overriding shared content item 'feedback_product' with value in file 'C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml'.
-  Info: SharedContentComponent: Overriding shared content item 'feedback_body' with value in file 'C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml'.
+  Info: SharedContentComponent: Searching for files that match &#39;PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Loading shared content file &#39;C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;header&#39; with value in file &#39;C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;footer&#39; with value in file &#39;C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;fb_alias&#39; with value in file &#39;C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;fb_product&#39; with value in file &#39;C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;fb_body&#39; with value in file &#39;C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;fb_send&#39; with value in file &#39;C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;fb_headerfeedback&#39; with value in file &#39;C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;feedback_alias&#39; with value in file &#39;C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;feedback_product&#39; with value in file &#39;C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;feedback_body&#39; with value in file &#39;C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml&#39;.
   Info: SharedContentComponent: Found 1 files in PresentationStyleBuilderContent.xml.
   Info: SharedContentComponent: Loaded 631 shared content items.
   Info: ResolveReferenceLinksComponent2: Instantiating component.
   Info: ResolveReferenceLinksComponent2: Creating MSDN URL resolver.
-  Info: ResolveReferenceLinksComponent2: Searching directory 'C:\Program Files (x86)\Sandcastle\Data\Reflection' for targets files of the form '*.xml'.
-  Info: ResolveReferenceLinksComponent2: Searching directory 'C:\Users\mark\src\Mingle.NET\Help\Working' for targets files of the form 'reflection.xml'.
-  Info: ResolveReferenceLinksComponent2: Loaded 203378 reference targets.
+  Info: ResolveReferenceLinksComponent2: Searching directory &#39;C:\Program Files (x86)\Sandcastle\Data\Reflection&#39; for targets files of the form &#39;*.xml&#39;.
+  Info: ResolveReferenceLinksComponent2: Searching directory &#39;C:\Users\mark\src\Mingle.NET\Help\Working&#39; for targets files of the form &#39;reflection.xml&#39;.
+  Info: ResolveReferenceLinksComponent2: Loaded 203372 reference targets.
   Info: SaveComponent: Instantiating component.
   Info: MultiFormatOutputComponent: Loading components for MSHelpViewer format
   Info: SharedContentComponent: Instantiating component.
-  Info: SharedContentComponent: Searching for files that match 'C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\shared_content_mshc.xml'.
-  Info: SharedContentComponent: Loading shared content file 'C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\shared_content_mshc.xml'.
+  Info: SharedContentComponent: Searching for files that match &#39;C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\shared_content_mshc.xml&#39;.
+  Info: SharedContentComponent: Loading shared content file &#39;C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\shared_content_mshc.xml&#39;.
   Info: SharedContentComponent: Found 1 files in C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\shared_content_mshc.xml.
-  Info: SharedContentComponent: Searching for files that match 'C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\reference_content.xml'.
-  Info: SharedContentComponent: Loading shared content file 'C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\reference_content.xml'.
+  Info: SharedContentComponent: Searching for files that match &#39;C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\reference_content.xml&#39;.
+  Info: SharedContentComponent: Loading shared content file &#39;C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\reference_content.xml&#39;.
   Info: SharedContentComponent: Found 1 files in C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\reference_content.xml.
-  Info: SharedContentComponent: Searching for files that match 'C:\Program Files (x86)\Sandcastle\Presentation\shared\content\syntax_content.xml'.
-  Info: SharedContentComponent: Loading shared content file 'C:\Program Files (x86)\Sandcastle\Presentation\shared\content\syntax_content.xml'.
+  Info: SharedContentComponent: Searching for files that match &#39;C:\Program Files (x86)\Sandcastle\Presentation\shared\content\syntax_content.xml&#39;.
+  Info: SharedContentComponent: Loading shared content file &#39;C:\Program Files (x86)\Sandcastle\Presentation\shared\content\syntax_content.xml&#39;.
   Info: SharedContentComponent: Found 1 files in C:\Program Files (x86)\Sandcastle\Presentation\shared\content\syntax_content.xml.
-  Info: SharedContentComponent: Searching for files that match 'C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\feedback_content.xml'.
-  Info: SharedContentComponent: Loading shared content file 'C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\feedBack_content.xml'.
+  Info: SharedContentComponent: Searching for files that match &#39;C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\feedback_content.xml&#39;.
+  Info: SharedContentComponent: Loading shared content file &#39;C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\feedBack_content.xml&#39;.
   Info: SharedContentComponent: Found 1 files in C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\feedback_content.xml.
-  Info: SharedContentComponent: Searching for files that match 'SharedBuilderContent.xml'.
-  Info: SharedContentComponent: Loading shared content file 'C:\Users\mark\src\Mingle.NET\Help\Working\SharedBuilderContent.xml'.
-  Info: SharedContentComponent: Overriding shared content item 'roottopictitle' with value in file 'C:\Users\mark\src\Mingle.NET\Help\Working\SharedBuilderContent.xml'.
-  Info: SharedContentComponent: Overriding shared content item 'rootlink' with value in file 'C:\Users\mark\src\Mingle.NET\Help\Working\SharedBuilderContent.xml'.
-  Info: SharedContentComponent: Overriding shared content item 'runningheadertext' with value in file 'C:\Users\mark\src\Mingle.NET\Help\Working\SharedBuilderContent.xml'.
-  Info: SharedContentComponent: Overriding shared content item 'locationinformation' with value in file 'C:\Users\mark\src\Mingle.NET\Help\Working\SharedBuilderContent.xml'.
-  Info: SharedContentComponent: Overriding shared content item 'assemblynameandmodule' with value in file 'C:\Users\mark\src\Mingle.NET\Help\Working\SharedBuilderContent.xml'.
-  Info: SharedContentComponent: Overriding shared content item 'copycode' with value in file 'C:\Users\mark\src\Mingle.NET\Help\Working\SharedBuilderContent.xml'.
-  Info: SharedContentComponent: Overriding shared content item 'locale' with value in file 'C:\Users\mark\src\Mingle.NET\Help\Working\SharedBuilderContent.xml'.
+  Info: SharedContentComponent: Searching for files that match &#39;SharedBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Loading shared content file &#39;C:\Users\mark\src\Mingle.NET\Help\Working\SharedBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;roottopictitle&#39; with value in file &#39;C:\Users\mark\src\Mingle.NET\Help\Working\SharedBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;rootlink&#39; with value in file &#39;C:\Users\mark\src\Mingle.NET\Help\Working\SharedBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;runningheadertext&#39; with value in file &#39;C:\Users\mark\src\Mingle.NET\Help\Working\SharedBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;locationinformation&#39; with value in file &#39;C:\Users\mark\src\Mingle.NET\Help\Working\SharedBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;assemblynameandmodule&#39; with value in file &#39;C:\Users\mark\src\Mingle.NET\Help\Working\SharedBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;copycode&#39; with value in file &#39;C:\Users\mark\src\Mingle.NET\Help\Working\SharedBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;locale&#39; with value in file &#39;C:\Users\mark\src\Mingle.NET\Help\Working\SharedBuilderContent.xml&#39;.
   Info: SharedContentComponent: Found 1 files in SharedBuilderContent.xml.
-  Info: SharedContentComponent: Searching for files that match 'PresentationStyleBuilderContent.xml'.
-  Info: SharedContentComponent: Loading shared content file 'C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml'.
-  Info: SharedContentComponent: Overriding shared content item 'header' with value in file 'C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml'.
-  Info: SharedContentComponent: Overriding shared content item 'footer' with value in file 'C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml'.
-  Info: SharedContentComponent: Overriding shared content item 'fb_alias' with value in file 'C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml'.
-  Info: SharedContentComponent: Overriding shared content item 'fb_product' with value in file 'C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml'.
-  Info: SharedContentComponent: Overriding shared content item 'fb_body' with value in file 'C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml'.
-  Info: SharedContentComponent: Overriding shared content item 'fb_send' with value in file 'C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml'.
-  Info: SharedContentComponent: Overriding shared content item 'fb_headerfeedback' with value in file 'C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml'.
-  Info: SharedContentComponent: Overriding shared content item 'feedback_alias' with value in file 'C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml'.
-  Info: SharedContentComponent: Overriding shared content item 'feedback_product' with value in file 'C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml'.
-  Info: SharedContentComponent: Overriding shared content item 'feedback_body' with value in file 'C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml'.
+  Info: SharedContentComponent: Searching for files that match &#39;PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Loading shared content file &#39;C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;header&#39; with value in file &#39;C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;footer&#39; with value in file &#39;C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;fb_alias&#39; with value in file &#39;C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;fb_product&#39; with value in file &#39;C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;fb_body&#39; with value in file &#39;C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;fb_send&#39; with value in file &#39;C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;fb_headerfeedback&#39; with value in file &#39;C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;feedback_alias&#39; with value in file &#39;C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;feedback_product&#39; with value in file &#39;C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;feedback_body&#39; with value in file &#39;C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml&#39;.
   Info: SharedContentComponent: Found 1 files in PresentationStyleBuilderContent.xml.
   Info: SharedContentComponent: Loaded 631 shared content items.
   Info: ResolveReferenceLinksComponent2: Instantiating component.
   Info: ResolveReferenceLinksComponent2: Creating MSDN URL resolver.
-  Info: ResolveReferenceLinksComponent2: Searching directory 'C:\Program Files (x86)\Sandcastle\Data\Reflection' for targets files of the form '*.xml'.
-  Info: ResolveReferenceLinksComponent2: Searching directory 'C:\Users\mark\src\Mingle.NET\Help\Working' for targets files of the form 'reflection.xml'.
-  Info: ResolveReferenceLinksComponent2: Loaded 203378 reference targets.
+  Info: ResolveReferenceLinksComponent2: Searching directory &#39;C:\Program Files (x86)\Sandcastle\Data\Reflection&#39; for targets files of the form &#39;*.xml&#39;.
+  Info: ResolveReferenceLinksComponent2: Searching directory &#39;C:\Users\mark\src\Mingle.NET\Help\Working&#39; for targets files of the form &#39;reflection.xml&#39;.
+  Info: ResolveReferenceLinksComponent2: Loaded 203372 reference targets.
   Info: MSHCComponent: Instantiating component.
   Info: SaveComponent: Instantiating component.
   Info: BuildAssembler: Building topic N:ThoughtWorksCoreLib
@@ -762,12 +762,6 @@ BuildReferenceTopics:
   Info: BuildAssembler: Building topic Properties.T:ThoughtWorksMingleLib.IMingleXmlObjectCollection
   Info: BuildAssembler: Building topic M:ThoughtWorksMingleLib.IMingleXmlObjectCollection.Parse
   Info: BuildAssembler: Building topic P:ThoughtWorksMingleLib.IMingleXmlObjectCollection.ProjectId
-  Info: BuildAssembler: Building topic T:ThoughtWorksMingleLib.Mingle
-  Info: BuildAssembler: Building topic AllMembers.T:ThoughtWorksMingleLib.Mingle
-  Info: BuildAssembler: Building topic Methods.T:ThoughtWorksMingleLib.Mingle
-  Info: BuildAssembler: Building topic M:ThoughtWorksMingleLib.Mingle.#ctor(ThoughtWorksCoreLib.IWebApi)
-  Info: BuildAssembler: Building topic M:ThoughtWorksMingleLib.Mingle.GetMurmurs(System.String)
-  Info: BuildAssembler: Building topic M:ThoughtWorksMingleLib.Mingle.GetResults(System.String,System.String)
   Info: BuildAssembler: Building topic T:ThoughtWorksMingleLib.MingleCard
   Info: BuildAssembler: Building topic AllMembers.T:ThoughtWorksMingleLib.MingleCard
   Info: BuildAssembler: Building topic Methods.T:ThoughtWorksMingleLib.MingleCard
@@ -1174,44 +1168,44 @@ BuildReferenceTopics:
   Info: BuildAssembler: Building topic T:ThoughtWorksMingleLib.XElementWrapper
   Info: BuildAssembler: Building topic AllMembers.T:ThoughtWorksMingleLib.XElementWrapper
   Info: BuildAssembler: Building topic Methods.T:ThoughtWorksMingleLib.XElementWrapper
-  Info: Processed 634 topics
-    Last step completed in 00:02:05.5112
+  Info: Processed 628 topics
+    Last step completed in 00:01:36.1025
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00.0070
+    Last step completed in 00:00:00.0030
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
-[C:\Windows\Microsoft.NET\Framework64\v3.5\MSBuild.exe]
+[C:\Windows\Microsoft.NET\Framework\v3.5\MSBuild.exe]
 Sandcastle Help File Builder HTML Extract, version 1.9.1.0
 Copyright c 2006-2010, Eric Woodruff, All Rights Reserved
 E-Mail: Eric@EWoodruff.us
 
-Using LCID '1033', code page '65001', encoding charset 'UTF-8'.
+Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
 
 Processing Help 1 files in C:\Users\mark\src\Mingle.NET\Help\Working\Output\HtmlHelp1
-Processed 634 HTML files
+Processed 628 HTML files
 Sorting keywords and generating See Also indices
 Saving HTML Help 1 keyword index to C:\Users\mark\src\Mingle.NET\Help\Working\MingleApiHelp.NET.hhk
 Saving HTML Help 1 table of contents to C:\Users\mark\src\Mingle.NET\Help\Working\MingleApiHelp.NET.hhc
-    Last step completed in 00:00:01.3211
+    Last step completed in 00:00:00.9681
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating HTML Help 1 table of contents file...
-    Last step completed in 00:00:00.0100
+    Last step completed in 00:00:00.0000
 </buildStep>
 <buildStep step="GenerateHelpFileIndex">
 Generating HTML Help 1 index file...
-    Last step completed in 00:00:00.0060
+    Last step completed in 00:00:00.0010
 </buildStep>
 <buildStep step="GenerateHelpProject">
 Generating HTML Help 1 project file...
-    Last step completed in 00:00:00.0230
+    Last step completed in 00:00:00.0130
 </buildStep>
 <buildStep step="CompilingHelpFile">
 Compiling HTML Help 1 file...
-[C:\Windows\Microsoft.NET\Framework64\v3.5\MSBuild.exe]
+[C:\Windows\Microsoft.NET\Framework\v3.5\MSBuild.exe]
 Build1xHelpFile:
   Microsoft HTML Help Compiler 4.74.8702
   
@@ -1223,13 +1217,13 @@ Build1xHelpFile:
   
   
   
-  Compile time: 0 minutes, 7 seconds
+  Compile time: 0 minutes, 6 seconds
   
-  636	Topics
+  630	Topics
   
-  8,041	Local links
+  7,963	Local links
   
-  4,796	Internet links
+  4,751	Internet links
   
   0	Graphics
   
@@ -1237,23 +1231,23 @@ Build1xHelpFile:
   
   
   
-  Created c:\Users\mark\src\Mingle.NET\Help\Working\Output\HtmlHelp1\MingleApiHelp.NET.chm, 854,198 bytes
+  Created c:\Users\mark\src\Mingle.NET\Help\Working\Output\HtmlHelp1\MingleApiHelp.NET.chm, 848,432 bytes
   
-  Compression decreased file by 8,627,310 bytes.
+  Compression decreased file by 8,551,097 bytes.
   
-    Last step completed in 00:00:08.1675
+    Last step completed in 00:00:07.4134
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Executing informational Generate Table of Contents build step for plug-ins (not used for MS Help Viewer)
-    Last step completed in 00:00:00.0090
+    Last step completed in 00:00:00.0000
 </buildStep>
 <buildStep step="GenerateHelpProject">
 Executing informational Generate Help Project build step for plug-ins (not used for MS Help Viewer)
-    Last step completed in 00:00:00.0120
+    Last step completed in 00:00:00.0000
 </buildStep>
 <buildStep step="CompilingHelpFile">
 Generating MS Help Viewer file...
-[C:\Windows\Microsoft.NET\Framework64\v3.5\MSBuild.exe]
+[C:\Windows\Microsoft.NET\Framework\v3.5\MSBuild.exe]
 BuildHelpViewerFile:
   Compressing help content files...
   Added StopWordList.txt
@@ -1272,7 +1266,6 @@ BuildHelpViewerFile:
   Added html/AllMembers_T_ThoughtWorksMingleLib_IMingleServer.htm
   Added html/AllMembers_T_ThoughtWorksMingleLib_IMingleXmlObject.htm
   Added html/AllMembers_T_ThoughtWorksMingleLib_IMingleXmlObjectCollection.htm
-  Added html/AllMembers_T_ThoughtWorksMingleLib_Mingle.htm
   Added html/AllMembers_T_ThoughtWorksMingleLib_MingleCard.htm
   Added html/AllMembers_T_ThoughtWorksMingleLib_MingleCardCollection.htm
   Added html/AllMembers_T_ThoughtWorksMingleLib_MingleCardProperty.htm
@@ -1325,7 +1318,6 @@ BuildHelpViewerFile:
   Added html/Methods_T_ThoughtWorksMingleLib_IMingleServer.htm
   Added html/Methods_T_ThoughtWorksMingleLib_IMingleXmlObject.htm
   Added html/Methods_T_ThoughtWorksMingleLib_IMingleXmlObjectCollection.htm
-  Added html/Methods_T_ThoughtWorksMingleLib_Mingle.htm
   Added html/Methods_T_ThoughtWorksMingleLib_MingleCard.htm
   Added html/Methods_T_ThoughtWorksMingleLib_MingleCardCollection.htm
   Added html/Methods_T_ThoughtWorksMingleLib_MingleCardProperty.htm
@@ -1504,9 +1496,6 @@ BuildHelpViewerFile:
   Added html/M_ThoughtWorksMingleLib_MingleWebException__ctor.htm
   Added html/M_ThoughtWorksMingleLib_MingleWebException__ctor_1.htm
   Added html/M_ThoughtWorksMingleLib_MingleWebException__ctor_2.htm
-  Added html/M_ThoughtWorksMingleLib_Mingle_GetMurmurs.htm
-  Added html/M_ThoughtWorksMingleLib_Mingle_GetResults.htm
-  Added html/M_ThoughtWorksMingleLib_Mingle__ctor.htm
   Added html/N_ThoughtWorksCoreLib.htm
   Added html/N_ThoughtWorksMingleLib.htm
   Added html/Overload_ThoughtWorksCoreLib_AuthenticatingWeb_Get.htm
@@ -1860,7 +1849,6 @@ BuildHelpViewerFile:
   Added html/T_ThoughtWorksMingleLib_IMingleServer.htm
   Added html/T_ThoughtWorksMingleLib_IMingleXmlObject.htm
   Added html/T_ThoughtWorksMingleLib_IMingleXmlObjectCollection.htm
-  Added html/T_ThoughtWorksMingleLib_Mingle.htm
   Added html/T_ThoughtWorksMingleLib_MingleCard.htm
   Added html/T_ThoughtWorksMingleLib_MingleCardCollection.htm
   Added html/T_ThoughtWorksMingleLib_MingleCardProperty.htm
@@ -2004,764 +1992,758 @@ BuildHelpViewerFile:
   Added styles/Whidbey/
   Added styles/Whidbey/presentation.css
   Saving C:\Users\mark\src\Mingle.NET\Help\MingleApiHelp.NET.mshc...
-  Saved 1 of 747: StopWordList.txt
-  Saved 2 of 747: html/
-  Saved 3 of 747: html/AllMembers_T_ThoughtWorksCoreLib_AuthenticatingWeb.htm
-  Saved 4 of 747: html/AllMembers_T_ThoughtWorksCoreLib_IResponse.htm
-  Saved 5 of 747: html/AllMembers_T_ThoughtWorksCoreLib_IWeb.htm
-  Saved 6 of 747: html/AllMembers_T_ThoughtWorksCoreLib_IWebApi.htm
-  Saved 7 of 747: html/AllMembers_T_ThoughtWorksCoreLib_Resources.htm
-  Saved 8 of 747: html/AllMembers_T_ThoughtWorksCoreLib_TraceLog.htm
-  Saved 9 of 747: html/AllMembers_T_ThoughtWorksCoreLib_ViewIdentifiers.htm
-  Saved 10 of 747: html/AllMembers_T_ThoughtWorksCoreLib_Web.htm
-  Saved 11 of 747: html/AllMembers_T_ThoughtWorksCoreLib_WebApi.htm
-  Saved 12 of 747: html/AllMembers_T_ThoughtWorksCoreLib_Web_Response.htm
-  Saved 13 of 747: html/AllMembers_T_ThoughtWorksMingleLib_IMingleProject.htm
-  Saved 14 of 747: html/AllMembers_T_ThoughtWorksMingleLib_IMingleServer.htm
-  Saved 15 of 747: html/AllMembers_T_ThoughtWorksMingleLib_IMingleXmlObject.htm
-  Saved 16 of 747: html/AllMembers_T_ThoughtWorksMingleLib_IMingleXmlObjectCollection.htm
-  Saved 17 of 747: html/AllMembers_T_ThoughtWorksMingleLib_Mingle.htm
-  Saved 18 of 747: html/AllMembers_T_ThoughtWorksMingleLib_MingleCard.htm
-  Saved 19 of 747: html/AllMembers_T_ThoughtWorksMingleLib_MingleCardCollection.htm
-  Saved 20 of 747: html/AllMembers_T_ThoughtWorksMingleLib_MingleCardProperty.htm
-  Saved 21 of 747: html/AllMembers_T_ThoughtWorksMingleLib_MingleCardPropertyCollection.htm
-  Saved 22 of 747: html/AllMembers_T_ThoughtWorksMingleLib_MingleCardType.htm
-  Saved 23 of 747: html/AllMembers_T_ThoughtWorksMingleLib_MingleCardTypeCollection.htm
-  Saved 24 of 747: html/AllMembers_T_ThoughtWorksMingleLib_MingleEventsCategory.htm
-  Saved 25 of 747: html/AllMembers_T_ThoughtWorksMingleLib_MingleEventsChange.htm
-  Saved 26 of 747: html/AllMembers_T_ThoughtWorksMingleLib_MingleEventsElementNillableValue.htm
-  Saved 27 of 747: html/AllMembers_T_ThoughtWorksMingleLib_MingleEventsEntryContent.htm
-  Saved 28 of 747: html/AllMembers_T_ThoughtWorksMingleLib_MingleEventsFeed.htm
-  Saved 29 of 747: html/AllMembers_T_ThoughtWorksMingleLib_MingleEventsFeedEntry.htm
-  Saved 30 of 747: html/AllMembers_T_ThoughtWorksMingleLib_MingleEventsLink.htm
-  Saved 31 of 747: html/AllMembers_T_ThoughtWorksMingleLib_MingleEventsPropertyDefinition.htm
-  Saved 32 of 747: html/AllMembers_T_ThoughtWorksMingleLib_MingleFavorite.htm
-  Saved 33 of 747: html/AllMembers_T_ThoughtWorksMingleLib_MingleFavoriteCollection.htm
-  Saved 34 of 747: html/AllMembers_T_ThoughtWorksMingleLib_MingleFilter.htm
-  Saved 35 of 747: html/AllMembers_T_ThoughtWorksMingleLib_MingleMurmur.htm
-  Saved 36 of 747: html/AllMembers_T_ThoughtWorksMingleLib_MingleNotRunningException.htm
-  Saved 37 of 747: html/AllMembers_T_ThoughtWorksMingleLib_MingleProject.htm
-  Saved 38 of 747: html/AllMembers_T_ThoughtWorksMingleLib_MingleProjectMember.htm
-  Saved 39 of 747: html/AllMembers_T_ThoughtWorksMingleLib_MingleProjectMemberCollection.htm
-  Saved 40 of 747: html/AllMembers_T_ThoughtWorksMingleLib_MinglePropertyDefinition.htm
-  Saved 41 of 747: html/AllMembers_T_ThoughtWorksMingleLib_MinglePropertyDefinitionCollection.htm
-  Saved 42 of 747: html/AllMembers_T_ThoughtWorksMingleLib_MinglePropertyValue.htm
-  Saved 43 of 747: html/AllMembers_T_ThoughtWorksMingleLib_MingleResult.htm
-  Saved 44 of 747: html/AllMembers_T_ThoughtWorksMingleLib_MingleServer.htm
-  Saved 45 of 747: html/AllMembers_T_ThoughtWorksMingleLib_MingleTransition.htm
-  Saved 46 of 747: html/AllMembers_T_ThoughtWorksMingleLib_MingleTransitionCollection.htm
-  Saved 47 of 747: html/AllMembers_T_ThoughtWorksMingleLib_MingleWebException.htm
-  Saved 48 of 747: html/AllMembers_T_ThoughtWorksMingleLib_XElementWrapper.htm
-  Saved 49 of 747: html/Events_T_ThoughtWorksMingleLib_MingleCardCollection.htm
-  Saved 50 of 747: html/Fields_T_ThoughtWorksCoreLib_ViewIdentifiers.htm
-  Saved 51 of 747: html/F_ThoughtWorksCoreLib_ViewIdentifiers_Card.htm
-  Saved 52 of 747: html/F_ThoughtWorksCoreLib_ViewIdentifiers_CardSet.htm
-  Saved 53 of 747: html/F_ThoughtWorksCoreLib_ViewIdentifiers_CardSetFiltered.htm
-  Saved 54 of 747: html/F_ThoughtWorksCoreLib_ViewIdentifiers_Explorer.htm
-  Saved 55 of 747: html/F_ThoughtWorksCoreLib_ViewIdentifiers_PipelineProperties.htm
-  Saved 56 of 747: html/F_ThoughtWorksCoreLib_ViewIdentifiers_Settings.htm
-  Saved 57 of 747: html/Methods_T_ThoughtWorksCoreLib_AuthenticatingWeb.htm
-  Saved 58 of 747: html/Methods_T_ThoughtWorksCoreLib_IWeb.htm
-  Saved 59 of 747: html/Methods_T_ThoughtWorksCoreLib_IWebApi.htm
-  Saved 60 of 747: html/Methods_T_ThoughtWorksCoreLib_Resources.htm
-  Saved 61 of 747: html/Methods_T_ThoughtWorksCoreLib_TraceLog.htm
-  Saved 62 of 747: html/Methods_T_ThoughtWorksCoreLib_ViewIdentifiers.htm
-  Saved 63 of 747: html/Methods_T_ThoughtWorksCoreLib_Web.htm
-  Saved 64 of 747: html/Methods_T_ThoughtWorksCoreLib_WebApi.htm
-  Saved 65 of 747: html/Methods_T_ThoughtWorksCoreLib_Web_Response.htm
-  Saved 66 of 747: html/Methods_T_ThoughtWorksMingleLib_IMingleProject.htm
-  Saved 67 of 747: html/Methods_T_ThoughtWorksMingleLib_IMingleServer.htm
-  Saved 68 of 747: html/Methods_T_ThoughtWorksMingleLib_IMingleXmlObject.htm
-  Saved 69 of 747: html/Methods_T_ThoughtWorksMingleLib_IMingleXmlObjectCollection.htm
-  Saved 70 of 747: html/Methods_T_ThoughtWorksMingleLib_Mingle.htm
-  Saved 71 of 747: html/Methods_T_ThoughtWorksMingleLib_MingleCard.htm
-  Saved 72 of 747: html/Methods_T_ThoughtWorksMingleLib_MingleCardCollection.htm
-  Saved 73 of 747: html/Methods_T_ThoughtWorksMingleLib_MingleCardProperty.htm
-  Saved 74 of 747: html/Methods_T_ThoughtWorksMingleLib_MingleCardPropertyCollection.htm
-  Saved 75 of 747: html/Methods_T_ThoughtWorksMingleLib_MingleCardType.htm
-  Saved 76 of 747: html/Methods_T_ThoughtWorksMingleLib_MingleCardTypeCollection.htm
-  Saved 77 of 747: html/Methods_T_ThoughtWorksMingleLib_MingleEventsCategory.htm
-  Saved 78 of 747: html/Methods_T_ThoughtWorksMingleLib_MingleEventsChange.htm
-  Saved 79 of 747: html/Methods_T_ThoughtWorksMingleLib_MingleEventsElementNillableValue.htm
-  Saved 80 of 747: html/Methods_T_ThoughtWorksMingleLib_MingleEventsEntryContent.htm
-  Saved 81 of 747: html/Methods_T_ThoughtWorksMingleLib_MingleEventsFeed.htm
-  Saved 82 of 747: html/Methods_T_ThoughtWorksMingleLib_MingleEventsFeedEntry.htm
-  Saved 83 of 747: html/Methods_T_ThoughtWorksMingleLib_MingleEventsLink.htm
-  Saved 84 of 747: html/Methods_T_ThoughtWorksMingleLib_MingleEventsPropertyDefinition.htm
-  Saved 85 of 747: html/Methods_T_ThoughtWorksMingleLib_MingleFavorite.htm
-  Saved 86 of 747: html/Methods_T_ThoughtWorksMingleLib_MingleFavoriteCollection.htm
-  Saved 87 of 747: html/Methods_T_ThoughtWorksMingleLib_MingleFilter.htm
-  Saved 88 of 747: html/Methods_T_ThoughtWorksMingleLib_MingleMurmur.htm
-  Saved 89 of 747: html/Methods_T_ThoughtWorksMingleLib_MingleNotRunningException.htm
-  Saved 90 of 747: html/Methods_T_ThoughtWorksMingleLib_MingleProject.htm
-  Saved 91 of 747: html/Methods_T_ThoughtWorksMingleLib_MingleProjectMember.htm
-  Saved 92 of 747: html/Methods_T_ThoughtWorksMingleLib_MingleProjectMemberCollection.htm
-  Saved 93 of 747: html/Methods_T_ThoughtWorksMingleLib_MinglePropertyDefinition.htm
-  Saved 94 of 747: html/Methods_T_ThoughtWorksMingleLib_MinglePropertyDefinitionCollection.htm
-  Saved 95 of 747: html/Methods_T_ThoughtWorksMingleLib_MinglePropertyValue.htm
-  Saved 96 of 747: html/Methods_T_ThoughtWorksMingleLib_MingleResult.htm
-  Saved 97 of 747: html/Methods_T_ThoughtWorksMingleLib_MingleServer.htm
-  Saved 98 of 747: html/Methods_T_ThoughtWorksMingleLib_MingleTransition.htm
-  Saved 99 of 747: html/Methods_T_ThoughtWorksMingleLib_MingleTransitionCollection.htm
-  Saved 100 of 747: html/Methods_T_ThoughtWorksMingleLib_MingleWebException.htm
-  Saved 101 of 747: html/Methods_T_ThoughtWorksMingleLib_XElementWrapper.htm
-  Saved 102 of 747: html/M_ThoughtWorksCoreLib_AuthenticatingWeb_Delete.htm
-  Saved 103 of 747: html/M_ThoughtWorksCoreLib_AuthenticatingWeb_Get.htm
-  Saved 104 of 747: html/M_ThoughtWorksCoreLib_AuthenticatingWeb_Get_1.htm
-  Saved 105 of 747: html/M_ThoughtWorksCoreLib_AuthenticatingWeb_Post.htm
-  Saved 106 of 747: html/M_ThoughtWorksCoreLib_AuthenticatingWeb_Put.htm
-  Saved 107 of 747: html/M_ThoughtWorksCoreLib_AuthenticatingWeb__ctor.htm
-  Saved 108 of 747: html/M_ThoughtWorksCoreLib_IWebApi_Get.htm
-  Saved 109 of 747: html/M_ThoughtWorksCoreLib_IWeb_Delete.htm
-  Saved 110 of 747: html/M_ThoughtWorksCoreLib_IWeb_Get.htm
-  Saved 111 of 747: html/M_ThoughtWorksCoreLib_IWeb_Get_1.htm
-  Saved 112 of 747: html/M_ThoughtWorksCoreLib_IWeb_Post.htm
-  Saved 113 of 747: html/M_ThoughtWorksCoreLib_IWeb_Put.htm
-  Saved 114 of 747: html/M_ThoughtWorksCoreLib_TraceLog_Exception.htm
-  Saved 115 of 747: html/M_ThoughtWorksCoreLib_TraceLog_Initialize.htm
-  Saved 116 of 747: html/M_ThoughtWorksCoreLib_TraceLog_WriteLine.htm
-  Saved 117 of 747: html/M_ThoughtWorksCoreLib_WebApi_Get.htm
-  Saved 118 of 747: html/M_ThoughtWorksCoreLib_WebApi__ctor.htm
-  Saved 119 of 747: html/M_ThoughtWorksCoreLib_Web_Delete.htm
-  Saved 120 of 747: html/M_ThoughtWorksCoreLib_Web_Get.htm
-  Saved 121 of 747: html/M_ThoughtWorksCoreLib_Web_Get_1.htm
-  Saved 122 of 747: html/M_ThoughtWorksCoreLib_Web_Post.htm
-  Saved 123 of 747: html/M_ThoughtWorksCoreLib_Web_Put.htm
-  Saved 124 of 747: html/M_ThoughtWorksCoreLib_Web_Response__ctor.htm
-  Saved 125 of 747: html/M_ThoughtWorksCoreLib_Web__ctor.htm
-  Saved 126 of 747: html/M_ThoughtWorksCoreLib_Web__ctor_1.htm
-  Saved 127 of 747: html/M_ThoughtWorksCoreLib_Web__ctor_2.htm
-  Saved 128 of 747: html/M_ThoughtWorksMingleLib_IMingleProject_CreateCard.htm
-  Saved 129 of 747: html/M_ThoughtWorksMingleLib_IMingleProject_ExecMql.htm
-  Saved 130 of 747: html/M_ThoughtWorksMingleLib_IMingleProject_GetCard.htm
-  Saved 131 of 747: html/M_ThoughtWorksMingleLib_IMingleProject_GetCards.htm
-  Saved 132 of 747: html/M_ThoughtWorksMingleLib_IMingleProject_GetCardsOfType.htm
-  Saved 133 of 747: html/M_ThoughtWorksMingleLib_IMingleProject_GetCardType.htm
-  Saved 134 of 747: html/M_ThoughtWorksMingleLib_IMingleProject_GetCardTypes.htm
-  Saved 135 of 747: html/M_ThoughtWorksMingleLib_IMingleProject_GetCardValuedProperties.htm
-  Saved 136 of 747: html/M_ThoughtWorksMingleLib_IMingleProject_GetFavorites.htm
-  Saved 137 of 747: html/M_ThoughtWorksMingleLib_IMingleProject_GetMurmurs.htm
-  Saved 138 of 747: html/M_ThoughtWorksMingleLib_IMingleProject_GetProperties.htm
-  Saved 139 of 747: html/M_ThoughtWorksMingleLib_IMingleProject_GetTeam.htm
-  Saved 140 of 747: html/M_ThoughtWorksMingleLib_IMingleProject_GetTransitions.htm
-  Saved 141 of 747: html/M_ThoughtWorksMingleLib_IMingleProject_GetView.htm
-  Saved 142 of 747: html/M_ThoughtWorksMingleLib_IMingleProject_ResultsCount.htm
-  Saved 143 of 747: html/M_ThoughtWorksMingleLib_IMingleProject_RunMacro.htm
-  Saved 144 of 747: html/M_ThoughtWorksMingleLib_IMingleProject_SendMurmur.htm
-  Saved 145 of 747: html/M_ThoughtWorksMingleLib_IMingleServer_Get.htm
-  Saved 146 of 747: html/M_ThoughtWorksMingleLib_IMingleServer_GetProject.htm
-  Saved 147 of 747: html/M_ThoughtWorksMingleLib_IMingleServer_GetProjectList.htm
-  Saved 148 of 747: html/M_ThoughtWorksMingleLib_IMingleServer_Get_1.htm
-  Saved 149 of 747: html/M_ThoughtWorksMingleLib_IMingleServer_Post.htm
-  Saved 150 of 747: html/M_ThoughtWorksMingleLib_IMingleServer_Put.htm
-  Saved 151 of 747: html/M_ThoughtWorksMingleLib_IMingleXmlObjectCollection_Parse.htm
-  Saved 152 of 747: html/M_ThoughtWorksMingleLib_IMingleXmlObject_Update.htm
-  Saved 153 of 747: html/M_ThoughtWorksMingleLib_MingleCardCollection_Parse.htm
-  Saved 154 of 747: html/M_ThoughtWorksMingleLib_MingleCardCollection_Parse_1.htm
-  Saved 155 of 747: html/M_ThoughtWorksMingleLib_MingleCardCollection_Parse_2.htm
-  Saved 156 of 747: html/M_ThoughtWorksMingleLib_MingleCardCollection__ctor.htm
-  Saved 157 of 747: html/M_ThoughtWorksMingleLib_MingleCardPropertyCollection_Parse.htm
-  Saved 158 of 747: html/M_ThoughtWorksMingleLib_MingleCardPropertyCollection__ctor.htm
-  Saved 159 of 747: html/M_ThoughtWorksMingleLib_MingleCardProperty__ctor.htm
-  Saved 160 of 747: html/M_ThoughtWorksMingleLib_MingleCardProperty__ctor_1.htm
-  Saved 161 of 747: html/M_ThoughtWorksMingleLib_MingleCardTypeCollection_Parse.htm
-  Saved 162 of 747: html/M_ThoughtWorksMingleLib_MingleCardTypeCollection__ctor.htm
-  Saved 163 of 747: html/M_ThoughtWorksMingleLib_MingleCardType__ctor.htm
-  Saved 164 of 747: html/M_ThoughtWorksMingleLib_MingleCardType__ctor_1.htm
-  Saved 165 of 747: html/M_ThoughtWorksMingleLib_MingleCard_AddCardAttributeFilterToPostData.htm
-  Saved 166 of 747: html/M_ThoughtWorksMingleLib_MingleCard_AddPropertyFilterToPostData.htm
-  Saved 167 of 747: html/M_ThoughtWorksMingleLib_MingleCard_Update.htm
-  Saved 168 of 747: html/M_ThoughtWorksMingleLib_MingleCard__ctor.htm
-  Saved 169 of 747: html/M_ThoughtWorksMingleLib_MingleCard__ctor_1.htm
-  Saved 170 of 747: html/M_ThoughtWorksMingleLib_MingleEventsCategory__ctor.htm
-  Saved 171 of 747: html/M_ThoughtWorksMingleLib_MingleEventsCategory__ctor_1.htm
-  Saved 172 of 747: html/M_ThoughtWorksMingleLib_MingleEventsChange__ctor.htm
-  Saved 173 of 747: html/M_ThoughtWorksMingleLib_MingleEventsChange__ctor_1.htm
-  Saved 174 of 747: html/M_ThoughtWorksMingleLib_MingleEventsElementNillableValue__ctor.htm
-  Saved 175 of 747: html/M_ThoughtWorksMingleLib_MingleEventsElementNillableValue__ctor_1.htm
-  Saved 176 of 747: html/M_ThoughtWorksMingleLib_MingleEventsEntryContent__ctor.htm
-  Saved 177 of 747: html/M_ThoughtWorksMingleLib_MingleEventsEntryContent__ctor_1.htm
-  Saved 178 of 747: html/M_ThoughtWorksMingleLib_MingleEventsFeedEntry_GetCardUrlPathForApi.htm
-  Saved 179 of 747: html/M_ThoughtWorksMingleLib_MingleEventsFeedEntry__ctor.htm
-  Saved 180 of 747: html/M_ThoughtWorksMingleLib_MingleEventsFeedEntry__ctor_1.htm
-  Saved 181 of 747: html/M_ThoughtWorksMingleLib_MingleEventsFeed__ctor.htm
-  Saved 182 of 747: html/M_ThoughtWorksMingleLib_MingleEventsFeed__ctor_1.htm
-  Saved 183 of 747: html/M_ThoughtWorksMingleLib_MingleEventsLink__ctor.htm
-  Saved 184 of 747: html/M_ThoughtWorksMingleLib_MingleEventsLink__ctor_1.htm
-  Saved 185 of 747: html/M_ThoughtWorksMingleLib_MingleEventsPropertyDefinition__ctor.htm
-  Saved 186 of 747: html/M_ThoughtWorksMingleLib_MingleEventsPropertyDefinition__ctor_1.htm
-  Saved 187 of 747: html/M_ThoughtWorksMingleLib_MingleFavoriteCollection_Parse.htm
-  Saved 188 of 747: html/M_ThoughtWorksMingleLib_MingleFavoriteCollection_Parse_1.htm
-  Saved 189 of 747: html/M_ThoughtWorksMingleLib_MingleFavoriteCollection__ctor.htm
-  Saved 190 of 747: html/M_ThoughtWorksMingleLib_MingleFavorite_GetCards.htm
-  Saved 191 of 747: html/M_ThoughtWorksMingleLib_MingleFavorite__ctor.htm
-  Saved 192 of 747: html/M_ThoughtWorksMingleLib_MingleFavorite__ctor_1.htm
-  Saved 193 of 747: html/M_ThoughtWorksMingleLib_MingleFilter__ctor.htm
-  Saved 194 of 747: html/M_ThoughtWorksMingleLib_MingleFilter__ctor_1.htm
-  Saved 195 of 747: html/M_ThoughtWorksMingleLib_MingleMurmur__ctor.htm
-  Saved 196 of 747: html/M_ThoughtWorksMingleLib_MingleNotRunningException__ctor.htm
-  Saved 197 of 747: html/M_ThoughtWorksMingleLib_MingleNotRunningException__ctor_1.htm
-  Saved 198 of 747: html/M_ThoughtWorksMingleLib_MingleNotRunningException__ctor_2.htm
-  Saved 199 of 747: html/M_ThoughtWorksMingleLib_MingleNotRunningException__ctor_3.htm
-  Saved 200 of 747: html/M_ThoughtWorksMingleLib_MingleProjectMemberCollection_Parse.htm
-  Saved 201 of 747: html/M_ThoughtWorksMingleLib_MingleProjectMemberCollection_Parse_1.htm
-  Saved 202 of 747: html/M_ThoughtWorksMingleLib_MingleProjectMemberCollection__ctor.htm
-  Saved 203 of 747: html/M_ThoughtWorksMingleLib_MingleProjectMember__ctor.htm
-  Saved 204 of 747: html/M_ThoughtWorksMingleLib_MingleProject_ClearCardSetPropertyValues.htm
-  Saved 205 of 747: html/M_ThoughtWorksMingleLib_MingleProject_CreateCard.htm
-  Saved 206 of 747: html/M_ThoughtWorksMingleLib_MingleProject_ExecMql.htm
-  Saved 207 of 747: html/M_ThoughtWorksMingleLib_MingleProject_GetCard.htm
-  Saved 208 of 747: html/M_ThoughtWorksMingleLib_MingleProject_GetCards.htm
-  Saved 209 of 747: html/M_ThoughtWorksMingleLib_MingleProject_GetCardsOfType.htm
-  Saved 210 of 747: html/M_ThoughtWorksMingleLib_MingleProject_GetCards_1.htm
-  Saved 211 of 747: html/M_ThoughtWorksMingleLib_MingleProject_GetCardType.htm
-  Saved 212 of 747: html/M_ThoughtWorksMingleLib_MingleProject_GetCardTypes.htm
-  Saved 213 of 747: html/M_ThoughtWorksMingleLib_MingleProject_GetCardValuedProperties.htm
-  Saved 214 of 747: html/M_ThoughtWorksMingleLib_MingleProject_GetFavorites.htm
-  Saved 215 of 747: html/M_ThoughtWorksMingleLib_MingleProject_GetMurmurs.htm
-  Saved 216 of 747: html/M_ThoughtWorksMingleLib_MingleProject_GetProperties.htm
-  Saved 217 of 747: html/M_ThoughtWorksMingleLib_MingleProject_GetTeam.htm
-  Saved 218 of 747: html/M_ThoughtWorksMingleLib_MingleProject_GetTransitions.htm
-  Saved 219 of 747: html/M_ThoughtWorksMingleLib_MingleProject_GetView.htm
-  Saved 220 of 747: html/M_ThoughtWorksMingleLib_MingleProject_ResultsCount.htm
-  Saved 221 of 747: html/M_ThoughtWorksMingleLib_MingleProject_RunMacro.htm
-  Saved 222 of 747: html/M_ThoughtWorksMingleLib_MingleProject_SendMurmur.htm
-  Saved 223 of 747: html/M_ThoughtWorksMingleLib_MingleProject__ctor.htm
-  Saved 224 of 747: html/M_ThoughtWorksMingleLib_MinglePropertyDefinitionCollection_Parse.htm
-  Saved 225 of 747: html/M_ThoughtWorksMingleLib_MinglePropertyDefinitionCollection__ctor.htm
-  Saved 226 of 747: html/M_ThoughtWorksMingleLib_MinglePropertyDefinition__ctor.htm
-  Saved 227 of 747: html/M_ThoughtWorksMingleLib_MinglePropertyValue_Parse.htm
-  Saved 228 of 747: html/M_ThoughtWorksMingleLib_MinglePropertyValue__ctor.htm
-  Saved 229 of 747: html/M_ThoughtWorksMingleLib_MingleResult_TryGetMember.htm
-  Saved 230 of 747: html/M_ThoughtWorksMingleLib_MingleResult__ctor.htm
-  Saved 231 of 747: html/M_ThoughtWorksMingleLib_MingleServer_FullyQualifiedMingleUrl.htm
-  Saved 232 of 747: html/M_ThoughtWorksMingleLib_MingleServer_Get.htm
-  Saved 233 of 747: html/M_ThoughtWorksMingleLib_MingleServer_GetProject.htm
-  Saved 234 of 747: html/M_ThoughtWorksMingleLib_MingleServer_GetProjectList.htm
-  Saved 235 of 747: html/M_ThoughtWorksMingleLib_MingleServer_GetSecureStringFromString.htm
-  Saved 236 of 747: html/M_ThoughtWorksMingleLib_MingleServer_Get_1.htm
-  Saved 237 of 747: html/M_ThoughtWorksMingleLib_MingleServer_Post.htm
-  Saved 238 of 747: html/M_ThoughtWorksMingleLib_MingleServer_Put.htm
-  Saved 239 of 747: html/M_ThoughtWorksMingleLib_MingleServer__ctor.htm
-  Saved 240 of 747: html/M_ThoughtWorksMingleLib_MingleServer__ctor_1.htm
-  Saved 241 of 747: html/M_ThoughtWorksMingleLib_MingleTransitionCollection_Parse.htm
-  Saved 242 of 747: html/M_ThoughtWorksMingleLib_MingleTransitionCollection_Parse_1.htm
-  Saved 243 of 747: html/M_ThoughtWorksMingleLib_MingleTransitionCollection__ctor.htm
-  Saved 244 of 747: html/M_ThoughtWorksMingleLib_MingleTransition_Update.htm
-  Saved 245 of 747: html/M_ThoughtWorksMingleLib_MingleTransition__ctor.htm
-  Saved 246 of 747: html/M_ThoughtWorksMingleLib_MingleWebException__ctor.htm
-  Saved 247 of 747: html/M_ThoughtWorksMingleLib_MingleWebException__ctor_1.htm
-  Saved 248 of 747: html/M_ThoughtWorksMingleLib_MingleWebException__ctor_2.htm
-  Saved 249 of 747: html/M_ThoughtWorksMingleLib_Mingle_GetMurmurs.htm
-  Saved 250 of 747: html/M_ThoughtWorksMingleLib_Mingle_GetResults.htm
-  Saved 251 of 747: html/M_ThoughtWorksMingleLib_Mingle__ctor.htm
-  Saved 252 of 747: html/N_ThoughtWorksCoreLib.htm
-  Saved 253 of 747: html/N_ThoughtWorksMingleLib.htm
-  Saved 254 of 747: html/Overload_ThoughtWorksCoreLib_AuthenticatingWeb_Get.htm
-  Saved 255 of 747: html/Overload_ThoughtWorksCoreLib_IWeb_Get.htm
-  Saved 256 of 747: html/Overload_ThoughtWorksCoreLib_Web_Get.htm
-  Saved 257 of 747: html/Overload_ThoughtWorksCoreLib_Web__ctor.htm
-  Saved 258 of 747: html/Overload_ThoughtWorksMingleLib_IMingleServer_Get.htm
-  Saved 259 of 747: html/Overload_ThoughtWorksMingleLib_MingleCardCollection_Parse.htm
-  Saved 260 of 747: html/Overload_ThoughtWorksMingleLib_MingleCardProperty__ctor.htm
-  Saved 261 of 747: html/Overload_ThoughtWorksMingleLib_MingleCardType__ctor.htm
-  Saved 262 of 747: html/Overload_ThoughtWorksMingleLib_MingleCard__ctor.htm
-  Saved 263 of 747: html/Overload_ThoughtWorksMingleLib_MingleEventsCategory__ctor.htm
-  Saved 264 of 747: html/Overload_ThoughtWorksMingleLib_MingleEventsChange__ctor.htm
-  Saved 265 of 747: html/Overload_ThoughtWorksMingleLib_MingleEventsElementNillableValue__ctor.htm
-  Saved 266 of 747: html/Overload_ThoughtWorksMingleLib_MingleEventsEntryContent__ctor.htm
-  Saved 267 of 747: html/Overload_ThoughtWorksMingleLib_MingleEventsFeedEntry__ctor.htm
-  Saved 268 of 747: html/Overload_ThoughtWorksMingleLib_MingleEventsFeed__ctor.htm
-  Saved 269 of 747: html/Overload_ThoughtWorksMingleLib_MingleEventsLink__ctor.htm
-  Saved 270 of 747: html/Overload_ThoughtWorksMingleLib_MingleEventsPropertyDefinition__ctor.htm
-  Saved 271 of 747: html/Overload_ThoughtWorksMingleLib_MingleFavoriteCollection_Parse.htm
-  Saved 272 of 747: html/Overload_ThoughtWorksMingleLib_MingleFavorite__ctor.htm
-  Saved 273 of 747: html/Overload_ThoughtWorksMingleLib_MingleFilter__ctor.htm
-  Saved 274 of 747: html/Overload_ThoughtWorksMingleLib_MingleNotRunningException__ctor.htm
-  Saved 275 of 747: html/Overload_ThoughtWorksMingleLib_MingleProjectMemberCollection_Parse.htm
-  Saved 276 of 747: html/Overload_ThoughtWorksMingleLib_MingleProject_GetCards.htm
-  Saved 277 of 747: html/Overload_ThoughtWorksMingleLib_MingleServer_Get.htm
-  Saved 278 of 747: html/Overload_ThoughtWorksMingleLib_MingleServer__ctor.htm
-  Saved 279 of 747: html/Overload_ThoughtWorksMingleLib_MingleTransitionCollection_Parse.htm
-  Saved 280 of 747: html/Overload_ThoughtWorksMingleLib_MingleWebException__ctor.htm
-  Saved 281 of 747: html/Properties_T_ThoughtWorksCoreLib_IResponse.htm
-  Saved 282 of 747: html/Properties_T_ThoughtWorksCoreLib_Resources.htm
-  Saved 283 of 747: html/Properties_T_ThoughtWorksCoreLib_TraceLog.htm
-  Saved 284 of 747: html/Properties_T_ThoughtWorksCoreLib_Web_Response.htm
-  Saved 285 of 747: html/Properties_T_ThoughtWorksMingleLib_IMingleProject.htm
-  Saved 286 of 747: html/Properties_T_ThoughtWorksMingleLib_IMingleXmlObjectCollection.htm
-  Saved 287 of 747: html/Properties_T_ThoughtWorksMingleLib_MingleCard.htm
-  Saved 288 of 747: html/Properties_T_ThoughtWorksMingleLib_MingleCardCollection.htm
-  Saved 289 of 747: html/Properties_T_ThoughtWorksMingleLib_MingleCardProperty.htm
-  Saved 290 of 747: html/Properties_T_ThoughtWorksMingleLib_MingleCardPropertyCollection.htm
-  Saved 291 of 747: html/Properties_T_ThoughtWorksMingleLib_MingleCardType.htm
-  Saved 292 of 747: html/Properties_T_ThoughtWorksMingleLib_MingleCardTypeCollection.htm
-  Saved 293 of 747: html/Properties_T_ThoughtWorksMingleLib_MingleEventsCategory.htm
-  Saved 294 of 747: html/Properties_T_ThoughtWorksMingleLib_MingleEventsChange.htm
-  Saved 295 of 747: html/Properties_T_ThoughtWorksMingleLib_MingleEventsElementNillableValue.htm
-  Saved 296 of 747: html/Properties_T_ThoughtWorksMingleLib_MingleEventsEntryContent.htm
-  Saved 297 of 747: html/Properties_T_ThoughtWorksMingleLib_MingleEventsFeed.htm
-  Saved 298 of 747: html/Properties_T_ThoughtWorksMingleLib_MingleEventsFeedEntry.htm
-  Saved 299 of 747: html/Properties_T_ThoughtWorksMingleLib_MingleEventsLink.htm
-  Saved 300 of 747: html/Properties_T_ThoughtWorksMingleLib_MingleEventsPropertyDefinition.htm
-  Saved 301 of 747: html/Properties_T_ThoughtWorksMingleLib_MingleFavorite.htm
-  Saved 302 of 747: html/Properties_T_ThoughtWorksMingleLib_MingleFavoriteCollection.htm
-  Saved 303 of 747: html/Properties_T_ThoughtWorksMingleLib_MingleFilter.htm
-  Saved 304 of 747: html/Properties_T_ThoughtWorksMingleLib_MingleMurmur.htm
-  Saved 305 of 747: html/Properties_T_ThoughtWorksMingleLib_MingleNotRunningException.htm
-  Saved 306 of 747: html/Properties_T_ThoughtWorksMingleLib_MingleProject.htm
-  Saved 307 of 747: html/Properties_T_ThoughtWorksMingleLib_MingleProjectMember.htm
-  Saved 308 of 747: html/Properties_T_ThoughtWorksMingleLib_MingleProjectMemberCollection.htm
-  Saved 309 of 747: html/Properties_T_ThoughtWorksMingleLib_MinglePropertyDefinition.htm
-  Saved 310 of 747: html/Properties_T_ThoughtWorksMingleLib_MinglePropertyDefinitionCollection.htm
-  Saved 311 of 747: html/Properties_T_ThoughtWorksMingleLib_MinglePropertyValue.htm
-  Saved 312 of 747: html/Properties_T_ThoughtWorksMingleLib_MingleTransition.htm
-  Saved 313 of 747: html/Properties_T_ThoughtWorksMingleLib_MingleTransitionCollection.htm
-  Saved 314 of 747: html/Properties_T_ThoughtWorksMingleLib_MingleWebException.htm
-  Saved 315 of 747: html/P_ThoughtWorksCoreLib_IResponse_Body.htm
-  Saved 316 of 747: html/P_ThoughtWorksCoreLib_IResponse_Headers.htm
-  Saved 317 of 747: html/P_ThoughtWorksCoreLib_Resources_At.htm
-  Saved 318 of 747: html/P_ThoughtWorksCoreLib_Resources_BuildNotification.htm
-  Saved 319 of 747: html/P_ThoughtWorksCoreLib_Resources_CancelLabel.htm
-  Saved 320 of 747: html/P_ThoughtWorksCoreLib_Resources_CannotBeNullOrEmpty.htm
-  Saved 321 of 747: html/P_ThoughtWorksCoreLib_Resources_CanNotCreateWindow.htm
-  Saved 322 of 747: html/P_ThoughtWorksCoreLib_Resources_CannotInterpretResponse.htm
-  Saved 323 of 747: html/P_ThoughtWorksCoreLib_Resources_CardCreatedByLogin.htm
-  Saved 324 of 747: html/P_ThoughtWorksCoreLib_Resources_CardCreatedByName.htm
-  Saved 325 of 747: html/P_ThoughtWorksCoreLib_Resources_CardCreatedOn.htm
-  Saved 326 of 747: html/P_ThoughtWorksCoreLib_Resources_CardDescription.htm
-  Saved 327 of 747: html/P_ThoughtWorksCoreLib_Resources_CardId.htm
-  Saved 328 of 747: html/P_ThoughtWorksCoreLib_Resources_CardModifiedBy.htm
-  Saved 329 of 747: html/P_ThoughtWorksCoreLib_Resources_CardModifiedByLogin.htm
-  Saved 330 of 747: html/P_ThoughtWorksCoreLib_Resources_CardModifiedByName.htm
-  Saved 331 of 747: html/P_ThoughtWorksCoreLib_Resources_CardModifiedOn.htm
-  Saved 332 of 747: html/P_ThoughtWorksCoreLib_Resources_CardName.htm
-  Saved 333 of 747: html/P_ThoughtWorksCoreLib_Resources_CardNotFound.htm
-  Saved 334 of 747: html/P_ThoughtWorksCoreLib_Resources_CardNumber.htm
-  Saved 335 of 747: html/P_ThoughtWorksCoreLib_Resources_CardProjectId.htm
-  Saved 336 of 747: html/P_ThoughtWorksCoreLib_Resources_CardProjectName.htm
-  Saved 337 of 747: html/P_ThoughtWorksCoreLib_Resources_CardRank.htm
-  Saved 338 of 747: html/P_ThoughtWorksCoreLib_Resources_CardsAllCommandCallback.htm
-  Saved 339 of 747: html/P_ThoughtWorksCoreLib_Resources_CardSetIsEmpty.htm
-  Saved 340 of 747: html/P_ThoughtWorksCoreLib_Resources_CardSetWindowTitle.htm
-  Saved 341 of 747: html/P_ThoughtWorksCoreLib_Resources_CardSetWindowTitleStories.htm
-  Saved 342 of 747: html/P_ThoughtWorksCoreLib_Resources_CardsThisUserCommandCallback.htm
-  Saved 343 of 747: html/P_ThoughtWorksCoreLib_Resources_CardType.htm
-  Saved 344 of 747: html/P_ThoughtWorksCoreLib_Resources_CardVersion.htm
-  Saved 345 of 747: html/P_ThoughtWorksCoreLib_Resources_CardWindowCaption.htm
-  Saved 346 of 747: html/P_ThoughtWorksCoreLib_Resources_CheckYourSettings.htm
-  Saved 347 of 747: html/P_ThoughtWorksCoreLib_Resources_ClickToEdit.htm
-  Saved 348 of 747: html/P_ThoughtWorksCoreLib_Resources_ClickToMakeTransition.htm
-  Saved 349 of 747: html/P_ThoughtWorksCoreLib_Resources_Colon.htm
-  Saved 350 of 747: html/P_ThoughtWorksCoreLib_Resources_Culture.htm
-  Saved 351 of 747: html/P_ThoughtWorksCoreLib_Resources_ExplorerCommandCallback.htm
-  Saved 352 of 747: html/P_ThoughtWorksCoreLib_Resources_ExplorerViewCaption.htm
-  Saved 353 of 747: html/P_ThoughtWorksCoreLib_Resources_FeedbackDataUnsubmittedWarning.htm
-  Saved 354 of 747: html/P_ThoughtWorksCoreLib_Resources_FeedbackDescriptionToolTip.htm
-  Saved 355 of 747: html/P_ThoughtWorksCoreLib_Resources_FeedbackEmailSubject.htm
-  Saved 356 of 747: html/P_ThoughtWorksCoreLib_Resources_FeedbackFormCompanyLabel.htm
-  Saved 357 of 747: html/P_ThoughtWorksCoreLib_Resources_FeedbackFormDescriptionLabel.htm
-  Saved 358 of 747: html/P_ThoughtWorksCoreLib_Resources_FeedbackFormEmailLabel.htm
-  Saved 359 of 747: html/P_ThoughtWorksCoreLib_Resources_FeedbackFormTitle.htm
-  Saved 360 of 747: html/P_ThoughtWorksCoreLib_Resources_FeedbackFormTitleLabel.htm
-  Saved 361 of 747: html/P_ThoughtWorksCoreLib_Resources_FeedbackTypeDefect.htm
-  Saved 362 of 747: html/P_ThoughtWorksCoreLib_Resources_FeedbackTypeFeature.htm
-  Saved 363 of 747: html/P_ThoughtWorksCoreLib_Resources_GoPipelinePropertiesCaption.htm
-  Saved 364 of 747: html/P_ThoughtWorksCoreLib_Resources_HostnameIsEmpty.htm
-  Saved 365 of 747: html/P_ThoughtWorksCoreLib_Resources_InvalidProtocol.htm
-  Saved 366 of 747: html/P_ThoughtWorksCoreLib_Resources_IvsOutputWindowAccessFail.htm
-  Saved 367 of 747: html/P_ThoughtWorksCoreLib_Resources_MalformedHostnameVarious.htm
-  Saved 368 of 747: html/P_ThoughtWorksCoreLib_Resources_MessageMurmurCommitted.htm
-  Saved 369 of 747: html/P_ThoughtWorksCoreLib_Resources_MingleApiSegment.htm
-  Saved 370 of 747: html/P_ThoughtWorksCoreLib_Resources_MingleCardNameNullOrEmpty.htm
-  Saved 371 of 747: html/P_ThoughtWorksCoreLib_Resources_MingleCardSegment.htm
-  Saved 372 of 747: html/P_ThoughtWorksCoreLib_Resources_MingleCardSetSegment.htm
-  Saved 373 of 747: html/P_ThoughtWorksCoreLib_Resources_MingleCardTypesLoadingError.htm
-  Saved 374 of 747: html/P_ThoughtWorksCoreLib_Resources_MingleCardUpdateError.htm
-  Saved 375 of 747: html/P_ThoughtWorksCoreLib_Resources_MingleFavoritesLoadingError.htm
-  Saved 376 of 747: html/P_ThoughtWorksCoreLib_Resources_MingleNotRunning.htm
-  Saved 377 of 747: html/P_ThoughtWorksCoreLib_Resources_MingleProjectsSegment.htm
-  Saved 378 of 747: html/P_ThoughtWorksCoreLib_Resources_MinglePropertiesLoadingError.htm
-  Saved 379 of 747: html/P_ThoughtWorksCoreLib_Resources_MingleTeamMembersLoadingError.htm
-  Saved 380 of 747: html/P_ThoughtWorksCoreLib_Resources_MingleTransitionSetSegment.htm
-  Saved 381 of 747: html/P_ThoughtWorksCoreLib_Resources_MingleTransitionsLoadingError.htm
-  Saved 382 of 747: html/P_ThoughtWorksCoreLib_Resources_MissingMingleConnectionInformation.htm
-  Saved 383 of 747: html/P_ThoughtWorksCoreLib_Resources_MissingOrInvalidCredentialData.htm
-  Saved 384 of 747: html/P_ThoughtWorksCoreLib_Resources_MissingOrInvalidSetting.htm
-  Saved 385 of 747: html/P_ThoughtWorksCoreLib_Resources_MustBeMingleUrlSegment.htm
-  Saved 386 of 747: html/P_ThoughtWorksCoreLib_Resources_NewCardDefaultName.htm
-  Saved 387 of 747: html/P_ThoughtWorksCoreLib_Resources_OtherConnectionError.htm
-  Saved 388 of 747: html/P_ThoughtWorksCoreLib_Resources_OutputWindowAccessFail.htm
-  Saved 389 of 747: html/P_ThoughtWorksCoreLib_Resources_OutputWindowWriteFail.htm
-  Saved 390 of 747: html/P_ThoughtWorksCoreLib_Resources_PackageIsNull.htm
-  Saved 391 of 747: html/P_ThoughtWorksCoreLib_Resources_PipelineSearchError.htm
-  Saved 392 of 747: html/P_ThoughtWorksCoreLib_Resources_PleaseSelectRowFirst.htm
-  Saved 393 of 747: html/P_ThoughtWorksCoreLib_Resources_ProductDetails.htm
-  Saved 394 of 747: html/P_ThoughtWorksCoreLib_Resources_ProductId.htm
-  Saved 395 of 747: html/P_ThoughtWorksCoreLib_Resources_ProjectIsRequired.htm
-  Saved 396 of 747: html/P_ThoughtWorksCoreLib_Resources_PropertyCouldNotBeUpdated.htm
-  Saved 397 of 747: html/P_ThoughtWorksCoreLib_Resources_PropertyOutOfRange.htm
-  Saved 398 of 747: html/P_ThoughtWorksCoreLib_Resources_PropertyValueCurrentIteration.htm
-  Saved 399 of 747: html/P_ThoughtWorksCoreLib_Resources_PropertyValueNotSet.htm
-  Saved 400 of 747: html/P_ThoughtWorksCoreLib_Resources_PropertyValueSelectCard.htm
-  Saved 401 of 747: html/P_ThoughtWorksCoreLib_Resources_ResourceManager.htm
-  Saved 402 of 747: html/P_ThoughtWorksCoreLib_Resources_SettingsDataIsDirty.htm
-  Saved 403 of 747: html/P_ThoughtWorksCoreLib_Resources_Slash.htm
-  Saved 404 of 747: html/P_ThoughtWorksCoreLib_Resources_SubmitLabel.htm
-  Saved 405 of 747: html/P_ThoughtWorksCoreLib_Resources_TheTypeMustBeSerializable.htm
-  Saved 406 of 747: html/P_ThoughtWorksCoreLib_Resources_TransitionAdmonitionLabel.htm
-  Saved 407 of 747: html/P_ThoughtWorksCoreLib_Resources_TransitionCannotBeApplied.htm
-  Saved 408 of 747: html/P_ThoughtWorksCoreLib_Resources_TransitionCommentRequired.htm
-  Saved 409 of 747: html/P_ThoughtWorksCoreLib_Resources_TransitionEquals.htm
-  Saved 410 of 747: html/P_ThoughtWorksCoreLib_Resources_TransitionIsNull.htm
-  Saved 411 of 747: html/P_ThoughtWorksCoreLib_Resources_TransitionWindowTitle.htm
-  Saved 412 of 747: html/P_ThoughtWorksCoreLib_Resources_TwSettingsCommandCallback.htm
-  Saved 413 of 747: html/P_ThoughtWorksCoreLib_Resources_UrlPropertyIsNullOrEmpty.htm
-  Saved 414 of 747: html/P_ThoughtWorksCoreLib_Resources_ViewNotUsableFromVisualStudio.htm
-  Saved 415 of 747: html/P_ThoughtWorksCoreLib_TraceLog_FilePath.htm
-  Saved 416 of 747: html/P_ThoughtWorksCoreLib_TraceLog_TraceEntryAndExit.htm
-  Saved 417 of 747: html/P_ThoughtWorksCoreLib_TraceLog_Tracing.htm
-  Saved 418 of 747: html/P_ThoughtWorksCoreLib_Web_Response_Body.htm
-  Saved 419 of 747: html/P_ThoughtWorksCoreLib_Web_Response_Headers.htm
-  Saved 420 of 747: html/P_ThoughtWorksMingleLib_IMingleProject_Mingle.htm
-  Saved 421 of 747: html/P_ThoughtWorksMingleLib_IMingleProject_ProjectId.htm
-  Saved 422 of 747: html/P_ThoughtWorksMingleLib_IMingleProject_Properties.htm
-  Saved 423 of 747: html/P_ThoughtWorksMingleLib_IMingleProject_Transitions.htm
-  Saved 424 of 747: html/P_ThoughtWorksMingleLib_IMingleXmlObjectCollection_ProjectId.htm
-  Saved 425 of 747: html/P_ThoughtWorksMingleLib_MingleCardCollection_Project.htm
-  Saved 426 of 747: html/P_ThoughtWorksMingleLib_MingleCardCollection_ProjectId.htm
-  Saved 427 of 747: html/P_ThoughtWorksMingleLib_MingleCardPropertyCollection_Project.htm
-  Saved 428 of 747: html/P_ThoughtWorksMingleLib_MingleCardPropertyCollection_ProjectId.htm
-  Saved 429 of 747: html/P_ThoughtWorksMingleLib_MingleCardProperty_IsValueNil.htm
-  Saved 430 of 747: html/P_ThoughtWorksMingleLib_MingleCardProperty_Name.htm
-  Saved 431 of 747: html/P_ThoughtWorksMingleLib_MingleCardProperty_PropertyDefinition.htm
-  Saved 432 of 747: html/P_ThoughtWorksMingleLib_MingleCardProperty_RawData.htm
-  Saved 433 of 747: html/P_ThoughtWorksMingleLib_MingleCardProperty_Value.htm
-  Saved 434 of 747: html/P_ThoughtWorksMingleLib_MingleCardProperty_ValueUrl.htm
-  Saved 435 of 747: html/P_ThoughtWorksMingleLib_MingleCardTypeCollection_Project.htm
-  Saved 436 of 747: html/P_ThoughtWorksMingleLib_MingleCardTypeCollection_ProjectId.htm
-  Saved 437 of 747: html/P_ThoughtWorksMingleLib_MingleCardType_Color.htm
-  Saved 438 of 747: html/P_ThoughtWorksMingleLib_MingleCardType_Id.htm
-  Saved 439 of 747: html/P_ThoughtWorksMingleLib_MingleCardType_Name.htm
-  Saved 440 of 747: html/P_ThoughtWorksMingleLib_MingleCardType_Position.htm
-  Saved 441 of 747: html/P_ThoughtWorksMingleLib_MingleCardType_PropertyDefinitions.htm
-  Saved 442 of 747: html/P_ThoughtWorksMingleLib_MingleCardType_RawData.htm
-  Saved 443 of 747: html/P_ThoughtWorksMingleLib_MingleCard_CardProperties.htm
-  Saved 444 of 747: html/P_ThoughtWorksMingleLib_MingleCard_CardTypeUrl.htm
-  Saved 445 of 747: html/P_ThoughtWorksMingleLib_MingleCard_CreatedByLogin.htm
-  Saved 446 of 747: html/P_ThoughtWorksMingleLib_MingleCard_CreatedByName.htm
-  Saved 447 of 747: html/P_ThoughtWorksMingleLib_MingleCard_CreatedByUrl.htm
-  Saved 448 of 747: html/P_ThoughtWorksMingleLib_MingleCard_CreatedOn.htm
-  Saved 449 of 747: html/P_ThoughtWorksMingleLib_MingleCard_Description.htm
-  Saved 450 of 747: html/P_ThoughtWorksMingleLib_MingleCard_Id.htm
-  Saved 451 of 747: html/P_ThoughtWorksMingleLib_MingleCard_ModifiedByLogin.htm
-  Saved 452 of 747: html/P_ThoughtWorksMingleLib_MingleCard_ModifiedByName.htm
-  Saved 453 of 747: html/P_ThoughtWorksMingleLib_MingleCard_ModifiedByUrl.htm
-  Saved 454 of 747: html/P_ThoughtWorksMingleLib_MingleCard_ModifiedOn.htm
-  Saved 455 of 747: html/P_ThoughtWorksMingleLib_MingleCard_Name.htm
-  Saved 456 of 747: html/P_ThoughtWorksMingleLib_MingleCard_Number.htm
-  Saved 457 of 747: html/P_ThoughtWorksMingleLib_MingleCard_PostData.htm
-  Saved 458 of 747: html/P_ThoughtWorksMingleLib_MingleCard_ProjectCardRank.htm
-  Saved 459 of 747: html/P_ThoughtWorksMingleLib_MingleCard_ProjectId.htm
-  Saved 460 of 747: html/P_ThoughtWorksMingleLib_MingleCard_ProjectName.htm
-  Saved 461 of 747: html/P_ThoughtWorksMingleLib_MingleCard_ProjectUrl.htm
-  Saved 462 of 747: html/P_ThoughtWorksMingleLib_MingleCard_RawData.htm
-  Saved 463 of 747: html/P_ThoughtWorksMingleLib_MingleCard_RenderedDescription.htm
-  Saved 464 of 747: html/P_ThoughtWorksMingleLib_MingleCard_Transitions.htm
-  Saved 465 of 747: html/P_ThoughtWorksMingleLib_MingleCard_Type.htm
-  Saved 466 of 747: html/P_ThoughtWorksMingleLib_MingleCard_Url.htm
-  Saved 467 of 747: html/P_ThoughtWorksMingleLib_MingleCard_Version.htm
-  Saved 468 of 747: html/P_ThoughtWorksMingleLib_MingleEventsCategory_Scheme.htm
-  Saved 469 of 747: html/P_ThoughtWorksMingleLib_MingleEventsCategory_Term.htm
-  Saved 470 of 747: html/P_ThoughtWorksMingleLib_MingleEventsChange_NewValue.htm
-  Saved 471 of 747: html/P_ThoughtWorksMingleLib_MingleEventsChange_OldValue.htm
-  Saved 472 of 747: html/P_ThoughtWorksMingleLib_MingleEventsChange_PropertyDefinition.htm
-  Saved 473 of 747: html/P_ThoughtWorksMingleLib_MingleEventsChange_Type.htm
-  Saved 474 of 747: html/P_ThoughtWorksMingleLib_MingleEventsChange_TypeAction.htm
-  Saved 475 of 747: html/P_ThoughtWorksMingleLib_MingleEventsChange_TypeFieldName.htm
-  Saved 476 of 747: html/P_ThoughtWorksMingleLib_MingleEventsElementNillableValue_Value.htm
-  Saved 477 of 747: html/P_ThoughtWorksMingleLib_MingleEventsEntryContent_Changes.htm
-  Saved 478 of 747: html/P_ThoughtWorksMingleLib_MingleEventsFeedEntry_AuthorName.htm
-  Saved 479 of 747: html/P_ThoughtWorksMingleLib_MingleEventsFeedEntry_AuthorUri.htm
-  Saved 480 of 747: html/P_ThoughtWorksMingleLib_MingleEventsFeedEntry_CardNumber.htm
-  Saved 481 of 747: html/P_ThoughtWorksMingleLib_MingleEventsFeedEntry_Categories.htm
-  Saved 482 of 747: html/P_ThoughtWorksMingleLib_MingleEventsFeedEntry_Content.htm
-  Saved 483 of 747: html/P_ThoughtWorksMingleLib_MingleEventsFeedEntry_Id.htm
-  Saved 484 of 747: html/P_ThoughtWorksMingleLib_MingleEventsFeedEntry_Links.htm
-  Saved 485 of 747: html/P_ThoughtWorksMingleLib_MingleEventsFeedEntry_Title.htm
-  Saved 486 of 747: html/P_ThoughtWorksMingleLib_MingleEventsFeedEntry_Updated.htm
-  Saved 487 of 747: html/P_ThoughtWorksMingleLib_MingleEventsFeed_Entries.htm
-  Saved 488 of 747: html/P_ThoughtWorksMingleLib_MingleEventsFeed_Id.htm
-  Saved 489 of 747: html/P_ThoughtWorksMingleLib_MingleEventsFeed_Links.htm
-  Saved 490 of 747: html/P_ThoughtWorksMingleLib_MingleEventsFeed_Title.htm
-  Saved 491 of 747: html/P_ThoughtWorksMingleLib_MingleEventsFeed_Updated.htm
-  Saved 492 of 747: html/P_ThoughtWorksMingleLib_MingleEventsLink_Href.htm
-  Saved 493 of 747: html/P_ThoughtWorksMingleLib_MingleEventsLink_Rel.htm
-  Saved 494 of 747: html/P_ThoughtWorksMingleLib_MingleEventsLink_Title.htm
-  Saved 495 of 747: html/P_ThoughtWorksMingleLib_MingleEventsLink_Type.htm
-  Saved 496 of 747: html/P_ThoughtWorksMingleLib_MingleEventsPropertyDefinition_DataType.htm
-  Saved 497 of 747: html/P_ThoughtWorksMingleLib_MingleEventsPropertyDefinition_IsNumeric.htm
-  Saved 498 of 747: html/P_ThoughtWorksMingleLib_MingleEventsPropertyDefinition_Name.htm
-  Saved 499 of 747: html/P_ThoughtWorksMingleLib_MingleEventsPropertyDefinition_Position.htm
-  Saved 500 of 747: html/P_ThoughtWorksMingleLib_MingleEventsPropertyDefinition_Url.htm
-  Saved 501 of 747: html/P_ThoughtWorksMingleLib_MingleFavoriteCollection_Project.htm
-  Saved 502 of 747: html/P_ThoughtWorksMingleLib_MingleFavoriteCollection_ProjectId.htm
-  Saved 503 of 747: html/P_ThoughtWorksMingleLib_MingleFavorite_FavoritedType.htm
-  Saved 504 of 747: html/P_ThoughtWorksMingleLib_MingleFavorite_Id.htm
-  Saved 505 of 747: html/P_ThoughtWorksMingleLib_MingleFavorite_Name.htm
-  Saved 506 of 747: html/P_ThoughtWorksMingleLib_MingleFavorite_Project.htm
-  Saved 507 of 747: html/P_ThoughtWorksMingleLib_MingleFavorite_ProjectId.htm
-  Saved 508 of 747: html/P_ThoughtWorksMingleLib_MingleFavorite_ProjectName.htm
-  Saved 509 of 747: html/P_ThoughtWorksMingleLib_MingleFavorite_RawData.htm
-  Saved 510 of 747: html/P_ThoughtWorksMingleLib_MingleFavorite_TabView.htm
-  Saved 511 of 747: html/P_ThoughtWorksMingleLib_MingleFilter_CardDataString.htm
-  Saved 512 of 747: html/P_ThoughtWorksMingleLib_MingleFilter_CardPropertyNameString.htm
-  Saved 513 of 747: html/P_ThoughtWorksMingleLib_MingleFilter_CardPropertyValueString.htm
-  Saved 514 of 747: html/P_ThoughtWorksMingleLib_MingleFilter_Condition.htm
-  Saved 515 of 747: html/P_ThoughtWorksMingleLib_MingleFilter_FavoriteString.htm
-  Saved 516 of 747: html/P_ThoughtWorksMingleLib_MingleFilter_FilterFormatString.htm
-  Saved 517 of 747: html/P_ThoughtWorksMingleLib_MingleFilter_MqlString.htm
-  Saved 518 of 747: html/P_ThoughtWorksMingleLib_MingleFilter_Name.htm
-  Saved 519 of 747: html/P_ThoughtWorksMingleLib_MingleFilter_TransitionFormatString.htm
-  Saved 520 of 747: html/P_ThoughtWorksMingleLib_MingleFilter_Value.htm
-  Saved 521 of 747: html/P_ThoughtWorksMingleLib_MingleMurmur_AuthorName.htm
-  Saved 522 of 747: html/P_ThoughtWorksMingleLib_MingleMurmur_Body.htm
-  Saved 523 of 747: html/P_ThoughtWorksMingleLib_MingleMurmur_CreatedAt.htm
-  Saved 524 of 747: html/P_ThoughtWorksMingleLib_MingleMurmur_JabberName.htm
-  Saved 525 of 747: html/P_ThoughtWorksMingleLib_MingleMurmur_LoginName.htm
-  Saved 526 of 747: html/P_ThoughtWorksMingleLib_MingleProjectMemberCollection_Project.htm
-  Saved 527 of 747: html/P_ThoughtWorksMingleLib_MingleProjectMemberCollection_ProjectId.htm
-  Saved 528 of 747: html/P_ThoughtWorksMingleLib_MingleProjectMember_MemberId.htm
-  Saved 529 of 747: html/P_ThoughtWorksMingleLib_MingleProjectMember_ProjectAdmin.htm
-  Saved 530 of 747: html/P_ThoughtWorksMingleLib_MingleProjectMember_ProjectId.htm
-  Saved 531 of 747: html/P_ThoughtWorksMingleLib_MingleProjectMember_ProjectName.htm
-  Saved 532 of 747: html/P_ThoughtWorksMingleLib_MingleProjectMember_ProjectUrl.htm
-  Saved 533 of 747: html/P_ThoughtWorksMingleLib_MingleProjectMember_RawData.htm
-  Saved 534 of 747: html/P_ThoughtWorksMingleLib_MingleProjectMember_Readonly.htm
-  Saved 535 of 747: html/P_ThoughtWorksMingleLib_MingleProjectMember_UserEmail.htm
-  Saved 536 of 747: html/P_ThoughtWorksMingleLib_MingleProjectMember_UserIconPath.htm
-  Saved 537 of 747: html/P_ThoughtWorksMingleLib_MingleProjectMember_UserId.htm
-  Saved 538 of 747: html/P_ThoughtWorksMingleLib_MingleProjectMember_UserLight.htm
-  Saved 539 of 747: html/P_ThoughtWorksMingleLib_MingleProjectMember_UserLogin.htm
-  Saved 540 of 747: html/P_ThoughtWorksMingleLib_MingleProjectMember_UserName.htm
-  Saved 541 of 747: html/P_ThoughtWorksMingleLib_MingleProject_CardTypes.htm
-  Saved 542 of 747: html/P_ThoughtWorksMingleLib_MingleProject_Favorites.htm
-  Saved 543 of 747: html/P_ThoughtWorksMingleLib_MingleProject_Mingle.htm
-  Saved 544 of 747: html/P_ThoughtWorksMingleLib_MingleProject_ProjectId.htm
-  Saved 545 of 747: html/P_ThoughtWorksMingleLib_MingleProject_Properties.htm
-  Saved 546 of 747: html/P_ThoughtWorksMingleLib_MingleProject_Team.htm
-  Saved 547 of 747: html/P_ThoughtWorksMingleLib_MingleProject_Transitions.htm
-  Saved 548 of 747: html/P_ThoughtWorksMingleLib_MingleProject_Url.htm
-  Saved 549 of 747: html/P_ThoughtWorksMingleLib_MinglePropertyDefinitionCollection_Project.htm
-  Saved 550 of 747: html/P_ThoughtWorksMingleLib_MinglePropertyDefinitionCollection_ProjectId.htm
-  Saved 551 of 747: html/P_ThoughtWorksMingleLib_MinglePropertyDefinition_CardTypes.htm
-  Saved 552 of 747: html/P_ThoughtWorksMingleLib_MinglePropertyDefinition_CardUrl.htm
-  Saved 553 of 747: html/P_ThoughtWorksMingleLib_MinglePropertyDefinition_ColumnName.htm
-  Saved 554 of 747: html/P_ThoughtWorksMingleLib_MinglePropertyDefinition_CurrentItem.htm
-  Saved 555 of 747: html/P_ThoughtWorksMingleLib_MinglePropertyDefinition_DataType.htm
-  Saved 556 of 747: html/P_ThoughtWorksMingleLib_MinglePropertyDefinition_Description.htm
-  Saved 557 of 747: html/P_ThoughtWorksMingleLib_MinglePropertyDefinition_Hidden.htm
-  Saved 558 of 747: html/P_ThoughtWorksMingleLib_MinglePropertyDefinition_Id.htm
-  Saved 559 of 747: html/P_ThoughtWorksMingleLib_MinglePropertyDefinition_IsCardValued.htm
-  Saved 560 of 747: html/P_ThoughtWorksMingleLib_MinglePropertyDefinition_IsFormula.htm
-  Saved 561 of 747: html/P_ThoughtWorksMingleLib_MinglePropertyDefinition_IsNumeric.htm
-  Saved 562 of 747: html/P_ThoughtWorksMingleLib_MinglePropertyDefinition_IsSetValued.htm
-  Saved 563 of 747: html/P_ThoughtWorksMingleLib_MinglePropertyDefinition_IsTeamValued.htm
-  Saved 564 of 747: html/P_ThoughtWorksMingleLib_MinglePropertyDefinition_IsTransitionOnly.htm
-  Saved 565 of 747: html/P_ThoughtWorksMingleLib_MinglePropertyDefinition_Name.htm
-  Saved 566 of 747: html/P_ThoughtWorksMingleLib_MinglePropertyDefinition_Position.htm
-  Saved 567 of 747: html/P_ThoughtWorksMingleLib_MinglePropertyDefinition_ProjectId.htm
-  Saved 568 of 747: html/P_ThoughtWorksMingleLib_MinglePropertyDefinition_ProjectName.htm
-  Saved 569 of 747: html/P_ThoughtWorksMingleLib_MinglePropertyDefinition_PropertyValueDetails.htm
-  Saved 570 of 747: html/P_ThoughtWorksMingleLib_MinglePropertyDefinition_PropertyValuesDescription.htm
-  Saved 571 of 747: html/P_ThoughtWorksMingleLib_MinglePropertyDefinition_Restricted.htm
-  Saved 572 of 747: html/P_ThoughtWorksMingleLib_MinglePropertyValue_Color.htm
-  Saved 573 of 747: html/P_ThoughtWorksMingleLib_MinglePropertyValue_Id.htm
-  Saved 574 of 747: html/P_ThoughtWorksMingleLib_MinglePropertyValue_Position.htm
-  Saved 575 of 747: html/P_ThoughtWorksMingleLib_MinglePropertyValue_Value.htm
-  Saved 576 of 747: html/P_ThoughtWorksMingleLib_MingleTransitionCollection_CardNumber.htm
-  Saved 577 of 747: html/P_ThoughtWorksMingleLib_MingleTransitionCollection_Project.htm
-  Saved 578 of 747: html/P_ThoughtWorksMingleLib_MingleTransitionCollection_ProjectId.htm
-  Saved 579 of 747: html/P_ThoughtWorksMingleLib_MingleTransition_CardTypeName.htm
-  Saved 580 of 747: html/P_ThoughtWorksMingleLib_MingleTransition_CardTypeUrl.htm
-  Saved 581 of 747: html/P_ThoughtWorksMingleLib_MingleTransition_Id.htm
-  Saved 582 of 747: html/P_ThoughtWorksMingleLib_MingleTransition_IfCardHasProperties.htm
-  Saved 583 of 747: html/P_ThoughtWorksMingleLib_MingleTransition_Name.htm
-  Saved 584 of 747: html/P_ThoughtWorksMingleLib_MingleTransition_OptionalUserInput.htm
-  Saved 585 of 747: html/P_ThoughtWorksMingleLib_MingleTransition_Project.htm
-  Saved 586 of 747: html/P_ThoughtWorksMingleLib_MingleTransition_RawData.htm
-  Saved 587 of 747: html/P_ThoughtWorksMingleLib_MingleTransition_RequireComment.htm
-  Saved 588 of 747: html/P_ThoughtWorksMingleLib_MingleTransition_RequiredUserInput.htm
-  Saved 589 of 747: html/P_ThoughtWorksMingleLib_MingleTransition_Url.htm
-  Saved 590 of 747: html/P_ThoughtWorksMingleLib_MingleTransition_WillSetCardProperties.htm
-  Saved 591 of 747: html/T_ThoughtWorksCoreLib_AuthenticatingWeb.htm
-  Saved 592 of 747: html/T_ThoughtWorksCoreLib_IResponse.htm
-  Saved 593 of 747: html/T_ThoughtWorksCoreLib_IWeb.htm
-  Saved 594 of 747: html/T_ThoughtWorksCoreLib_IWebApi.htm
-  Saved 595 of 747: html/T_ThoughtWorksCoreLib_Resources.htm
-  Saved 596 of 747: html/T_ThoughtWorksCoreLib_TraceLog.htm
-  Saved 597 of 747: html/T_ThoughtWorksCoreLib_ViewIdentifiers.htm
-  Saved 598 of 747: html/T_ThoughtWorksCoreLib_Web.htm
-  Saved 599 of 747: html/T_ThoughtWorksCoreLib_WebApi.htm
-  Saved 600 of 747: html/T_ThoughtWorksCoreLib_Web_Response.htm
-  Saved 601 of 747: html/T_ThoughtWorksMingleLib_IMingleProject.htm
-  Saved 602 of 747: html/T_ThoughtWorksMingleLib_IMingleServer.htm
-  Saved 603 of 747: html/T_ThoughtWorksMingleLib_IMingleXmlObject.htm
-  Saved 604 of 747: html/T_ThoughtWorksMingleLib_IMingleXmlObjectCollection.htm
-  Saved 605 of 747: html/T_ThoughtWorksMingleLib_Mingle.htm
-  Saved 606 of 747: html/T_ThoughtWorksMingleLib_MingleCard.htm
-  Saved 607 of 747: html/T_ThoughtWorksMingleLib_MingleCardCollection.htm
-  Saved 608 of 747: html/T_ThoughtWorksMingleLib_MingleCardProperty.htm
-  Saved 609 of 747: html/T_ThoughtWorksMingleLib_MingleCardPropertyCollection.htm
-  Saved 610 of 747: html/T_ThoughtWorksMingleLib_MingleCardType.htm
-  Saved 611 of 747: html/T_ThoughtWorksMingleLib_MingleCardTypeCollection.htm
-  Saved 612 of 747: html/T_ThoughtWorksMingleLib_MingleEventsCategory.htm
-  Saved 613 of 747: html/T_ThoughtWorksMingleLib_MingleEventsChange.htm
-  Saved 614 of 747: html/T_ThoughtWorksMingleLib_MingleEventsElementNillableValue.htm
-  Saved 615 of 747: html/T_ThoughtWorksMingleLib_MingleEventsEntryContent.htm
-  Saved 616 of 747: html/T_ThoughtWorksMingleLib_MingleEventsFeed.htm
-  Saved 617 of 747: html/T_ThoughtWorksMingleLib_MingleEventsFeedEntry.htm
-  Saved 618 of 747: html/T_ThoughtWorksMingleLib_MingleEventsLink.htm
-  Saved 619 of 747: html/T_ThoughtWorksMingleLib_MingleEventsPropertyDefinition.htm
-  Saved 620 of 747: html/T_ThoughtWorksMingleLib_MingleFavorite.htm
-  Saved 621 of 747: html/T_ThoughtWorksMingleLib_MingleFavoriteCollection.htm
-  Saved 622 of 747: html/T_ThoughtWorksMingleLib_MingleFilter.htm
-  Saved 623 of 747: html/T_ThoughtWorksMingleLib_MingleMurmur.htm
-  Saved 624 of 747: html/T_ThoughtWorksMingleLib_MingleNotRunningException.htm
-  Saved 625 of 747: html/T_ThoughtWorksMingleLib_MingleProject.htm
-  Saved 626 of 747: html/T_ThoughtWorksMingleLib_MingleProjectMember.htm
-  Saved 627 of 747: html/T_ThoughtWorksMingleLib_MingleProjectMemberCollection.htm
-  Saved 628 of 747: html/T_ThoughtWorksMingleLib_MinglePropertyDefinition.htm
-  Saved 629 of 747: html/T_ThoughtWorksMingleLib_MinglePropertyDefinitionCollection.htm
-  Saved 630 of 747: html/T_ThoughtWorksMingleLib_MinglePropertyValue.htm
-  Saved 631 of 747: html/T_ThoughtWorksMingleLib_MingleResult.htm
-  Saved 632 of 747: html/T_ThoughtWorksMingleLib_MingleServer.htm
-  Saved 633 of 747: html/T_ThoughtWorksMingleLib_MingleTransition.htm
-  Saved 634 of 747: html/T_ThoughtWorksMingleLib_MingleTransitionCollection.htm
-  Saved 635 of 747: html/T_ThoughtWorksMingleLib_MingleWebException.htm
-  Saved 636 of 747: html/T_ThoughtWorksMingleLib_XElementWrapper.htm
-  Saved 637 of 747: icons/
-  Saved 638 of 747: icons/adm.gif
-  Saved 639 of 747: icons/adm_arch.gif
-  Saved 640 of 747: icons/adm_dev.gif
-  Saved 641 of 747: icons/adm_dev_arch.gif
-  Saved 642 of 747: icons/alert_caution.gif
-  Saved 643 of 747: icons/alert_note.gif
-  Saved 644 of 747: icons/alert_security.gif
-  Saved 645 of 747: icons/arch.gif
-  Saved 646 of 747: icons/big_adm.gif
-  Saved 647 of 747: icons/big_arch.gif
-  Saved 648 of 747: icons/big_dev.gif
-  Saved 649 of 747: icons/big_kw.gif
-  Saved 650 of 747: icons/box.gif
-  Saved 651 of 747: icons/Caution.gif
-  Saved 652 of 747: icons/CFW.gif
-  Saved 653 of 747: icons/collall.gif
-  Saved 654 of 747: icons/collapse.gif
-  Saved 655 of 747: icons/collapse_all.gif
-  Saved 656 of 747: icons/copycode.gif
-  Saved 657 of 747: icons/copycodeHighlight.gif
-  Saved 658 of 747: icons/dev.gif
-  Saved 659 of 747: icons/dev_arch.gif
-  Saved 660 of 747: icons/dropdown.gif
-  Saved 661 of 747: icons/dropdownHover.gif
-  Saved 662 of 747: icons/drpdown.gif
-  Saved 663 of 747: icons/drpdown_orange.gif
-  Saved 664 of 747: icons/drpdown_orange_up.gif
-  Saved 665 of 747: icons/drpup.gif
-  Saved 666 of 747: icons/exp.gif
-  Saved 667 of 747: icons/expall.gif
-  Saved 668 of 747: icons/expand_all.gif
-  Saved 669 of 747: icons/filter1a.gif
-  Saved 670 of 747: icons/filter1c.gif
-  Saved 671 of 747: icons/footer.gif
-  Saved 672 of 747: icons/gradient.gif
-  Saved 673 of 747: icons/greencheck.gif
-  Saved 674 of 747: icons/greychck.gif
-  Saved 675 of 747: icons/header_prev_next.jpg
-  Saved 676 of 747: icons/header_sql_tutorial_blank.jpg
-  Saved 677 of 747: icons/header_sql_tutorial_logo.GIF
-  Saved 678 of 747: icons/kw.gif
-  Saved 679 of 747: icons/kw_adm.gif
-  Saved 680 of 747: icons/kw_adm_arch.gif
-  Saved 681 of 747: icons/kw_adm_dev.gif
-  Saved 682 of 747: icons/kw_adm_dev_arch.gif
-  Saved 683 of 747: icons/kw_arch.gif
-  Saved 684 of 747: icons/kw_dev.gif
-  Saved 685 of 747: icons/kw_dev_arch.gif
-  Saved 686 of 747: icons/LastChild.gif
-  Saved 687 of 747: icons/load.gif
-  Saved 688 of 747: icons/load_hover.gif
-  Saved 689 of 747: icons/note.gif
-  Saved 690 of 747: icons/pencil.GIF
-  Saved 691 of 747: icons/privclass.gif
-  Saved 692 of 747: icons/privdelegate.gif
-  Saved 693 of 747: icons/privenum.gif
-  Saved 694 of 747: icons/privenumeration.gif
-  Saved 695 of 747: icons/privevent.gif
-  Saved 696 of 747: icons/privextension.gif
-  Saved 697 of 747: icons/privfield.gif
-  Saved 698 of 747: icons/privinterface.gif
-  Saved 699 of 747: icons/privmethod.gif
-  Saved 700 of 747: icons/privproperty.gif
-  Saved 701 of 747: icons/privstructure.gif
-  Saved 702 of 747: icons/protclass.gif
-  Saved 703 of 747: icons/protdelegate.gif
-  Saved 704 of 747: icons/protenum.gif
-  Saved 705 of 747: icons/protenumeration.gif
-  Saved 706 of 747: icons/protevent.gif
-  Saved 707 of 747: icons/protextension.gif
-  Saved 708 of 747: icons/protfield.gif
-  Saved 709 of 747: icons/protinterface.gif
-  Saved 710 of 747: icons/protmethod.gif
-  Saved 711 of 747: icons/protoperator.gif
-  Saved 712 of 747: icons/protproperty.gif
-  Saved 713 of 747: icons/protstructure.gif
-  Saved 714 of 747: icons/pubclass.gif
-  Saved 715 of 747: icons/pubdelegate.gif
-  Saved 716 of 747: icons/pubenum.gif
-  Saved 717 of 747: icons/pubenumeration.gif
-  Saved 718 of 747: icons/pubevent.gif
-  Saved 719 of 747: icons/pubextension.gif
-  Saved 720 of 747: icons/pubfield.gif
-  Saved 721 of 747: icons/pubinterface.gif
-  Saved 722 of 747: icons/pubmethod.gif
-  Saved 723 of 747: icons/puboperator.gif
-  Saved 724 of 747: icons/pubproperty.gif
-  Saved 725 of 747: icons/pubstructure.gif
-  Saved 726 of 747: icons/requirements1a.gif
-  Saved 727 of 747: icons/requirements1c.gif
-  Saved 728 of 747: icons/save.gif
-  Saved 729 of 747: icons/save_hover.gif
-  Saved 730 of 747: icons/security.gif
-  Saved 731 of 747: icons/seealso1a.gif
-  Saved 732 of 747: icons/seealso1c.gif
-  Saved 733 of 747: icons/slMobile.gif
-  Saved 734 of 747: icons/static.gif
-  Saved 735 of 747: icons/xna.gif
-  Saved 736 of 747: scripts/
-  Saved 737 of 747: scripts/CheckboxMenu.js
-  Saved 738 of 747: scripts/CommonUtilities.js
-  Saved 739 of 747: scripts/Dropdown.js
-  Saved 740 of 747: scripts/EventUtilities.js
-  Saved 741 of 747: scripts/script_feedBack.js
-  Saved 742 of 747: scripts/script_manifold.js
-  Saved 743 of 747: scripts/SplitScreen.js
-  Saved 744 of 747: styles/
-  Saved 745 of 747: styles/Presentation.css
-  Saved 746 of 747: styles/Whidbey/
-  Saved 747 of 747: styles/Whidbey/presentation.css
+  Saved 1 of 741: StopWordList.txt
+  Saved 2 of 741: html/
+  Saved 3 of 741: html/AllMembers_T_ThoughtWorksCoreLib_AuthenticatingWeb.htm
+  Saved 4 of 741: html/AllMembers_T_ThoughtWorksCoreLib_IResponse.htm
+  Saved 5 of 741: html/AllMembers_T_ThoughtWorksCoreLib_IWeb.htm
+  Saved 6 of 741: html/AllMembers_T_ThoughtWorksCoreLib_IWebApi.htm
+  Saved 7 of 741: html/AllMembers_T_ThoughtWorksCoreLib_Resources.htm
+  Saved 8 of 741: html/AllMembers_T_ThoughtWorksCoreLib_TraceLog.htm
+  Saved 9 of 741: html/AllMembers_T_ThoughtWorksCoreLib_ViewIdentifiers.htm
+  Saved 10 of 741: html/AllMembers_T_ThoughtWorksCoreLib_Web.htm
+  Saved 11 of 741: html/AllMembers_T_ThoughtWorksCoreLib_WebApi.htm
+  Saved 12 of 741: html/AllMembers_T_ThoughtWorksCoreLib_Web_Response.htm
+  Saved 13 of 741: html/AllMembers_T_ThoughtWorksMingleLib_IMingleProject.htm
+  Saved 14 of 741: html/AllMembers_T_ThoughtWorksMingleLib_IMingleServer.htm
+  Saved 15 of 741: html/AllMembers_T_ThoughtWorksMingleLib_IMingleXmlObject.htm
+  Saved 16 of 741: html/AllMembers_T_ThoughtWorksMingleLib_IMingleXmlObjectCollection.htm
+  Saved 17 of 741: html/AllMembers_T_ThoughtWorksMingleLib_MingleCard.htm
+  Saved 18 of 741: html/AllMembers_T_ThoughtWorksMingleLib_MingleCardCollection.htm
+  Saved 19 of 741: html/AllMembers_T_ThoughtWorksMingleLib_MingleCardProperty.htm
+  Saved 20 of 741: html/AllMembers_T_ThoughtWorksMingleLib_MingleCardPropertyCollection.htm
+  Saved 21 of 741: html/AllMembers_T_ThoughtWorksMingleLib_MingleCardType.htm
+  Saved 22 of 741: html/AllMembers_T_ThoughtWorksMingleLib_MingleCardTypeCollection.htm
+  Saved 23 of 741: html/AllMembers_T_ThoughtWorksMingleLib_MingleEventsCategory.htm
+  Saved 24 of 741: html/AllMembers_T_ThoughtWorksMingleLib_MingleEventsChange.htm
+  Saved 25 of 741: html/AllMembers_T_ThoughtWorksMingleLib_MingleEventsElementNillableValue.htm
+  Saved 26 of 741: html/AllMembers_T_ThoughtWorksMingleLib_MingleEventsEntryContent.htm
+  Saved 27 of 741: html/AllMembers_T_ThoughtWorksMingleLib_MingleEventsFeed.htm
+  Saved 28 of 741: html/AllMembers_T_ThoughtWorksMingleLib_MingleEventsFeedEntry.htm
+  Saved 29 of 741: html/AllMembers_T_ThoughtWorksMingleLib_MingleEventsLink.htm
+  Saved 30 of 741: html/AllMembers_T_ThoughtWorksMingleLib_MingleEventsPropertyDefinition.htm
+  Saved 31 of 741: html/AllMembers_T_ThoughtWorksMingleLib_MingleFavorite.htm
+  Saved 32 of 741: html/AllMembers_T_ThoughtWorksMingleLib_MingleFavoriteCollection.htm
+  Saved 33 of 741: html/AllMembers_T_ThoughtWorksMingleLib_MingleFilter.htm
+  Saved 34 of 741: html/AllMembers_T_ThoughtWorksMingleLib_MingleMurmur.htm
+  Saved 35 of 741: html/AllMembers_T_ThoughtWorksMingleLib_MingleNotRunningException.htm
+  Saved 36 of 741: html/AllMembers_T_ThoughtWorksMingleLib_MingleProject.htm
+  Saved 37 of 741: html/AllMembers_T_ThoughtWorksMingleLib_MingleProjectMember.htm
+  Saved 38 of 741: html/AllMembers_T_ThoughtWorksMingleLib_MingleProjectMemberCollection.htm
+  Saved 39 of 741: html/AllMembers_T_ThoughtWorksMingleLib_MinglePropertyDefinition.htm
+  Saved 40 of 741: html/AllMembers_T_ThoughtWorksMingleLib_MinglePropertyDefinitionCollection.htm
+  Saved 41 of 741: html/AllMembers_T_ThoughtWorksMingleLib_MinglePropertyValue.htm
+  Saved 42 of 741: html/AllMembers_T_ThoughtWorksMingleLib_MingleResult.htm
+  Saved 43 of 741: html/AllMembers_T_ThoughtWorksMingleLib_MingleServer.htm
+  Saved 44 of 741: html/AllMembers_T_ThoughtWorksMingleLib_MingleTransition.htm
+  Saved 45 of 741: html/AllMembers_T_ThoughtWorksMingleLib_MingleTransitionCollection.htm
+  Saved 46 of 741: html/AllMembers_T_ThoughtWorksMingleLib_MingleWebException.htm
+  Saved 47 of 741: html/AllMembers_T_ThoughtWorksMingleLib_XElementWrapper.htm
+  Saved 48 of 741: html/Events_T_ThoughtWorksMingleLib_MingleCardCollection.htm
+  Saved 49 of 741: html/Fields_T_ThoughtWorksCoreLib_ViewIdentifiers.htm
+  Saved 50 of 741: html/F_ThoughtWorksCoreLib_ViewIdentifiers_Card.htm
+  Saved 51 of 741: html/F_ThoughtWorksCoreLib_ViewIdentifiers_CardSet.htm
+  Saved 52 of 741: html/F_ThoughtWorksCoreLib_ViewIdentifiers_CardSetFiltered.htm
+  Saved 53 of 741: html/F_ThoughtWorksCoreLib_ViewIdentifiers_Explorer.htm
+  Saved 54 of 741: html/F_ThoughtWorksCoreLib_ViewIdentifiers_PipelineProperties.htm
+  Saved 55 of 741: html/F_ThoughtWorksCoreLib_ViewIdentifiers_Settings.htm
+  Saved 56 of 741: html/Methods_T_ThoughtWorksCoreLib_AuthenticatingWeb.htm
+  Saved 57 of 741: html/Methods_T_ThoughtWorksCoreLib_IWeb.htm
+  Saved 58 of 741: html/Methods_T_ThoughtWorksCoreLib_IWebApi.htm
+  Saved 59 of 741: html/Methods_T_ThoughtWorksCoreLib_Resources.htm
+  Saved 60 of 741: html/Methods_T_ThoughtWorksCoreLib_TraceLog.htm
+  Saved 61 of 741: html/Methods_T_ThoughtWorksCoreLib_ViewIdentifiers.htm
+  Saved 62 of 741: html/Methods_T_ThoughtWorksCoreLib_Web.htm
+  Saved 63 of 741: html/Methods_T_ThoughtWorksCoreLib_WebApi.htm
+  Saved 64 of 741: html/Methods_T_ThoughtWorksCoreLib_Web_Response.htm
+  Saved 65 of 741: html/Methods_T_ThoughtWorksMingleLib_IMingleProject.htm
+  Saved 66 of 741: html/Methods_T_ThoughtWorksMingleLib_IMingleServer.htm
+  Saved 67 of 741: html/Methods_T_ThoughtWorksMingleLib_IMingleXmlObject.htm
+  Saved 68 of 741: html/Methods_T_ThoughtWorksMingleLib_IMingleXmlObjectCollection.htm
+  Saved 69 of 741: html/Methods_T_ThoughtWorksMingleLib_MingleCard.htm
+  Saved 70 of 741: html/Methods_T_ThoughtWorksMingleLib_MingleCardCollection.htm
+  Saved 71 of 741: html/Methods_T_ThoughtWorksMingleLib_MingleCardProperty.htm
+  Saved 72 of 741: html/Methods_T_ThoughtWorksMingleLib_MingleCardPropertyCollection.htm
+  Saved 73 of 741: html/Methods_T_ThoughtWorksMingleLib_MingleCardType.htm
+  Saved 74 of 741: html/Methods_T_ThoughtWorksMingleLib_MingleCardTypeCollection.htm
+  Saved 75 of 741: html/Methods_T_ThoughtWorksMingleLib_MingleEventsCategory.htm
+  Saved 76 of 741: html/Methods_T_ThoughtWorksMingleLib_MingleEventsChange.htm
+  Saved 77 of 741: html/Methods_T_ThoughtWorksMingleLib_MingleEventsElementNillableValue.htm
+  Saved 78 of 741: html/Methods_T_ThoughtWorksMingleLib_MingleEventsEntryContent.htm
+  Saved 79 of 741: html/Methods_T_ThoughtWorksMingleLib_MingleEventsFeed.htm
+  Saved 80 of 741: html/Methods_T_ThoughtWorksMingleLib_MingleEventsFeedEntry.htm
+  Saved 81 of 741: html/Methods_T_ThoughtWorksMingleLib_MingleEventsLink.htm
+  Saved 82 of 741: html/Methods_T_ThoughtWorksMingleLib_MingleEventsPropertyDefinition.htm
+  Saved 83 of 741: html/Methods_T_ThoughtWorksMingleLib_MingleFavorite.htm
+  Saved 84 of 741: html/Methods_T_ThoughtWorksMingleLib_MingleFavoriteCollection.htm
+  Saved 85 of 741: html/Methods_T_ThoughtWorksMingleLib_MingleFilter.htm
+  Saved 86 of 741: html/Methods_T_ThoughtWorksMingleLib_MingleMurmur.htm
+  Saved 87 of 741: html/Methods_T_ThoughtWorksMingleLib_MingleNotRunningException.htm
+  Saved 88 of 741: html/Methods_T_ThoughtWorksMingleLib_MingleProject.htm
+  Saved 89 of 741: html/Methods_T_ThoughtWorksMingleLib_MingleProjectMember.htm
+  Saved 90 of 741: html/Methods_T_ThoughtWorksMingleLib_MingleProjectMemberCollection.htm
+  Saved 91 of 741: html/Methods_T_ThoughtWorksMingleLib_MinglePropertyDefinition.htm
+  Saved 92 of 741: html/Methods_T_ThoughtWorksMingleLib_MinglePropertyDefinitionCollection.htm
+  Saved 93 of 741: html/Methods_T_ThoughtWorksMingleLib_MinglePropertyValue.htm
+  Saved 94 of 741: html/Methods_T_ThoughtWorksMingleLib_MingleResult.htm
+  Saved 95 of 741: html/Methods_T_ThoughtWorksMingleLib_MingleServer.htm
+  Saved 96 of 741: html/Methods_T_ThoughtWorksMingleLib_MingleTransition.htm
+  Saved 97 of 741: html/Methods_T_ThoughtWorksMingleLib_MingleTransitionCollection.htm
+  Saved 98 of 741: html/Methods_T_ThoughtWorksMingleLib_MingleWebException.htm
+  Saved 99 of 741: html/Methods_T_ThoughtWorksMingleLib_XElementWrapper.htm
+  Saved 100 of 741: html/M_ThoughtWorksCoreLib_AuthenticatingWeb_Delete.htm
+  Saved 101 of 741: html/M_ThoughtWorksCoreLib_AuthenticatingWeb_Get.htm
+  Saved 102 of 741: html/M_ThoughtWorksCoreLib_AuthenticatingWeb_Get_1.htm
+  Saved 103 of 741: html/M_ThoughtWorksCoreLib_AuthenticatingWeb_Post.htm
+  Saved 104 of 741: html/M_ThoughtWorksCoreLib_AuthenticatingWeb_Put.htm
+  Saved 105 of 741: html/M_ThoughtWorksCoreLib_AuthenticatingWeb__ctor.htm
+  Saved 106 of 741: html/M_ThoughtWorksCoreLib_IWebApi_Get.htm
+  Saved 107 of 741: html/M_ThoughtWorksCoreLib_IWeb_Delete.htm
+  Saved 108 of 741: html/M_ThoughtWorksCoreLib_IWeb_Get.htm
+  Saved 109 of 741: html/M_ThoughtWorksCoreLib_IWeb_Get_1.htm
+  Saved 110 of 741: html/M_ThoughtWorksCoreLib_IWeb_Post.htm
+  Saved 111 of 741: html/M_ThoughtWorksCoreLib_IWeb_Put.htm
+  Saved 112 of 741: html/M_ThoughtWorksCoreLib_TraceLog_Exception.htm
+  Saved 113 of 741: html/M_ThoughtWorksCoreLib_TraceLog_Initialize.htm
+  Saved 114 of 741: html/M_ThoughtWorksCoreLib_TraceLog_WriteLine.htm
+  Saved 115 of 741: html/M_ThoughtWorksCoreLib_WebApi_Get.htm
+  Saved 116 of 741: html/M_ThoughtWorksCoreLib_WebApi__ctor.htm
+  Saved 117 of 741: html/M_ThoughtWorksCoreLib_Web_Delete.htm
+  Saved 118 of 741: html/M_ThoughtWorksCoreLib_Web_Get.htm
+  Saved 119 of 741: html/M_ThoughtWorksCoreLib_Web_Get_1.htm
+  Saved 120 of 741: html/M_ThoughtWorksCoreLib_Web_Post.htm
+  Saved 121 of 741: html/M_ThoughtWorksCoreLib_Web_Put.htm
+  Saved 122 of 741: html/M_ThoughtWorksCoreLib_Web_Response__ctor.htm
+  Saved 123 of 741: html/M_ThoughtWorksCoreLib_Web__ctor.htm
+  Saved 124 of 741: html/M_ThoughtWorksCoreLib_Web__ctor_1.htm
+  Saved 125 of 741: html/M_ThoughtWorksCoreLib_Web__ctor_2.htm
+  Saved 126 of 741: html/M_ThoughtWorksMingleLib_IMingleProject_CreateCard.htm
+  Saved 127 of 741: html/M_ThoughtWorksMingleLib_IMingleProject_ExecMql.htm
+  Saved 128 of 741: html/M_ThoughtWorksMingleLib_IMingleProject_GetCard.htm
+  Saved 129 of 741: html/M_ThoughtWorksMingleLib_IMingleProject_GetCards.htm
+  Saved 130 of 741: html/M_ThoughtWorksMingleLib_IMingleProject_GetCardsOfType.htm
+  Saved 131 of 741: html/M_ThoughtWorksMingleLib_IMingleProject_GetCardType.htm
+  Saved 132 of 741: html/M_ThoughtWorksMingleLib_IMingleProject_GetCardTypes.htm
+  Saved 133 of 741: html/M_ThoughtWorksMingleLib_IMingleProject_GetCardValuedProperties.htm
+  Saved 134 of 741: html/M_ThoughtWorksMingleLib_IMingleProject_GetFavorites.htm
+  Saved 135 of 741: html/M_ThoughtWorksMingleLib_IMingleProject_GetMurmurs.htm
+  Saved 136 of 741: html/M_ThoughtWorksMingleLib_IMingleProject_GetProperties.htm
+  Saved 137 of 741: html/M_ThoughtWorksMingleLib_IMingleProject_GetTeam.htm
+  Saved 138 of 741: html/M_ThoughtWorksMingleLib_IMingleProject_GetTransitions.htm
+  Saved 139 of 741: html/M_ThoughtWorksMingleLib_IMingleProject_GetView.htm
+  Saved 140 of 741: html/M_ThoughtWorksMingleLib_IMingleProject_ResultsCount.htm
+  Saved 141 of 741: html/M_ThoughtWorksMingleLib_IMingleProject_RunMacro.htm
+  Saved 142 of 741: html/M_ThoughtWorksMingleLib_IMingleProject_SendMurmur.htm
+  Saved 143 of 741: html/M_ThoughtWorksMingleLib_IMingleServer_Get.htm
+  Saved 144 of 741: html/M_ThoughtWorksMingleLib_IMingleServer_GetProject.htm
+  Saved 145 of 741: html/M_ThoughtWorksMingleLib_IMingleServer_GetProjectList.htm
+  Saved 146 of 741: html/M_ThoughtWorksMingleLib_IMingleServer_Get_1.htm
+  Saved 147 of 741: html/M_ThoughtWorksMingleLib_IMingleServer_Post.htm
+  Saved 148 of 741: html/M_ThoughtWorksMingleLib_IMingleServer_Put.htm
+  Saved 149 of 741: html/M_ThoughtWorksMingleLib_IMingleXmlObjectCollection_Parse.htm
+  Saved 150 of 741: html/M_ThoughtWorksMingleLib_IMingleXmlObject_Update.htm
+  Saved 151 of 741: html/M_ThoughtWorksMingleLib_MingleCardCollection_Parse.htm
+  Saved 152 of 741: html/M_ThoughtWorksMingleLib_MingleCardCollection_Parse_1.htm
+  Saved 153 of 741: html/M_ThoughtWorksMingleLib_MingleCardCollection_Parse_2.htm
+  Saved 154 of 741: html/M_ThoughtWorksMingleLib_MingleCardCollection__ctor.htm
+  Saved 155 of 741: html/M_ThoughtWorksMingleLib_MingleCardPropertyCollection_Parse.htm
+  Saved 156 of 741: html/M_ThoughtWorksMingleLib_MingleCardPropertyCollection__ctor.htm
+  Saved 157 of 741: html/M_ThoughtWorksMingleLib_MingleCardProperty__ctor.htm
+  Saved 158 of 741: html/M_ThoughtWorksMingleLib_MingleCardProperty__ctor_1.htm
+  Saved 159 of 741: html/M_ThoughtWorksMingleLib_MingleCardTypeCollection_Parse.htm
+  Saved 160 of 741: html/M_ThoughtWorksMingleLib_MingleCardTypeCollection__ctor.htm
+  Saved 161 of 741: html/M_ThoughtWorksMingleLib_MingleCardType__ctor.htm
+  Saved 162 of 741: html/M_ThoughtWorksMingleLib_MingleCardType__ctor_1.htm
+  Saved 163 of 741: html/M_ThoughtWorksMingleLib_MingleCard_AddCardAttributeFilterToPostData.htm
+  Saved 164 of 741: html/M_ThoughtWorksMingleLib_MingleCard_AddPropertyFilterToPostData.htm
+  Saved 165 of 741: html/M_ThoughtWorksMingleLib_MingleCard_Update.htm
+  Saved 166 of 741: html/M_ThoughtWorksMingleLib_MingleCard__ctor.htm
+  Saved 167 of 741: html/M_ThoughtWorksMingleLib_MingleCard__ctor_1.htm
+  Saved 168 of 741: html/M_ThoughtWorksMingleLib_MingleEventsCategory__ctor.htm
+  Saved 169 of 741: html/M_ThoughtWorksMingleLib_MingleEventsCategory__ctor_1.htm
+  Saved 170 of 741: html/M_ThoughtWorksMingleLib_MingleEventsChange__ctor.htm
+  Saved 171 of 741: html/M_ThoughtWorksMingleLib_MingleEventsChange__ctor_1.htm
+  Saved 172 of 741: html/M_ThoughtWorksMingleLib_MingleEventsElementNillableValue__ctor.htm
+  Saved 173 of 741: html/M_ThoughtWorksMingleLib_MingleEventsElementNillableValue__ctor_1.htm
+  Saved 174 of 741: html/M_ThoughtWorksMingleLib_MingleEventsEntryContent__ctor.htm
+  Saved 175 of 741: html/M_ThoughtWorksMingleLib_MingleEventsEntryContent__ctor_1.htm
+  Saved 176 of 741: html/M_ThoughtWorksMingleLib_MingleEventsFeedEntry_GetCardUrlPathForApi.htm
+  Saved 177 of 741: html/M_ThoughtWorksMingleLib_MingleEventsFeedEntry__ctor.htm
+  Saved 178 of 741: html/M_ThoughtWorksMingleLib_MingleEventsFeedEntry__ctor_1.htm
+  Saved 179 of 741: html/M_ThoughtWorksMingleLib_MingleEventsFeed__ctor.htm
+  Saved 180 of 741: html/M_ThoughtWorksMingleLib_MingleEventsFeed__ctor_1.htm
+  Saved 181 of 741: html/M_ThoughtWorksMingleLib_MingleEventsLink__ctor.htm
+  Saved 182 of 741: html/M_ThoughtWorksMingleLib_MingleEventsLink__ctor_1.htm
+  Saved 183 of 741: html/M_ThoughtWorksMingleLib_MingleEventsPropertyDefinition__ctor.htm
+  Saved 184 of 741: html/M_ThoughtWorksMingleLib_MingleEventsPropertyDefinition__ctor_1.htm
+  Saved 185 of 741: html/M_ThoughtWorksMingleLib_MingleFavoriteCollection_Parse.htm
+  Saved 186 of 741: html/M_ThoughtWorksMingleLib_MingleFavoriteCollection_Parse_1.htm
+  Saved 187 of 741: html/M_ThoughtWorksMingleLib_MingleFavoriteCollection__ctor.htm
+  Saved 188 of 741: html/M_ThoughtWorksMingleLib_MingleFavorite_GetCards.htm
+  Saved 189 of 741: html/M_ThoughtWorksMingleLib_MingleFavorite__ctor.htm
+  Saved 190 of 741: html/M_ThoughtWorksMingleLib_MingleFavorite__ctor_1.htm
+  Saved 191 of 741: html/M_ThoughtWorksMingleLib_MingleFilter__ctor.htm
+  Saved 192 of 741: html/M_ThoughtWorksMingleLib_MingleFilter__ctor_1.htm
+  Saved 193 of 741: html/M_ThoughtWorksMingleLib_MingleMurmur__ctor.htm
+  Saved 194 of 741: html/M_ThoughtWorksMingleLib_MingleNotRunningException__ctor.htm
+  Saved 195 of 741: html/M_ThoughtWorksMingleLib_MingleNotRunningException__ctor_1.htm
+  Saved 196 of 741: html/M_ThoughtWorksMingleLib_MingleNotRunningException__ctor_2.htm
+  Saved 197 of 741: html/M_ThoughtWorksMingleLib_MingleNotRunningException__ctor_3.htm
+  Saved 198 of 741: html/M_ThoughtWorksMingleLib_MingleProjectMemberCollection_Parse.htm
+  Saved 199 of 741: html/M_ThoughtWorksMingleLib_MingleProjectMemberCollection_Parse_1.htm
+  Saved 200 of 741: html/M_ThoughtWorksMingleLib_MingleProjectMemberCollection__ctor.htm
+  Saved 201 of 741: html/M_ThoughtWorksMingleLib_MingleProjectMember__ctor.htm
+  Saved 202 of 741: html/M_ThoughtWorksMingleLib_MingleProject_ClearCardSetPropertyValues.htm
+  Saved 203 of 741: html/M_ThoughtWorksMingleLib_MingleProject_CreateCard.htm
+  Saved 204 of 741: html/M_ThoughtWorksMingleLib_MingleProject_ExecMql.htm
+  Saved 205 of 741: html/M_ThoughtWorksMingleLib_MingleProject_GetCard.htm
+  Saved 206 of 741: html/M_ThoughtWorksMingleLib_MingleProject_GetCards.htm
+  Saved 207 of 741: html/M_ThoughtWorksMingleLib_MingleProject_GetCardsOfType.htm
+  Saved 208 of 741: html/M_ThoughtWorksMingleLib_MingleProject_GetCards_1.htm
+  Saved 209 of 741: html/M_ThoughtWorksMingleLib_MingleProject_GetCardType.htm
+  Saved 210 of 741: html/M_ThoughtWorksMingleLib_MingleProject_GetCardTypes.htm
+  Saved 211 of 741: html/M_ThoughtWorksMingleLib_MingleProject_GetCardValuedProperties.htm
+  Saved 212 of 741: html/M_ThoughtWorksMingleLib_MingleProject_GetFavorites.htm
+  Saved 213 of 741: html/M_ThoughtWorksMingleLib_MingleProject_GetMurmurs.htm
+  Saved 214 of 741: html/M_ThoughtWorksMingleLib_MingleProject_GetProperties.htm
+  Saved 215 of 741: html/M_ThoughtWorksMingleLib_MingleProject_GetTeam.htm
+  Saved 216 of 741: html/M_ThoughtWorksMingleLib_MingleProject_GetTransitions.htm
+  Saved 217 of 741: html/M_ThoughtWorksMingleLib_MingleProject_GetView.htm
+  Saved 218 of 741: html/M_ThoughtWorksMingleLib_MingleProject_ResultsCount.htm
+  Saved 219 of 741: html/M_ThoughtWorksMingleLib_MingleProject_RunMacro.htm
+  Saved 220 of 741: html/M_ThoughtWorksMingleLib_MingleProject_SendMurmur.htm
+  Saved 221 of 741: html/M_ThoughtWorksMingleLib_MingleProject__ctor.htm
+  Saved 222 of 741: html/M_ThoughtWorksMingleLib_MinglePropertyDefinitionCollection_Parse.htm
+  Saved 223 of 741: html/M_ThoughtWorksMingleLib_MinglePropertyDefinitionCollection__ctor.htm
+  Saved 224 of 741: html/M_ThoughtWorksMingleLib_MinglePropertyDefinition__ctor.htm
+  Saved 225 of 741: html/M_ThoughtWorksMingleLib_MinglePropertyValue_Parse.htm
+  Saved 226 of 741: html/M_ThoughtWorksMingleLib_MinglePropertyValue__ctor.htm
+  Saved 227 of 741: html/M_ThoughtWorksMingleLib_MingleResult_TryGetMember.htm
+  Saved 228 of 741: html/M_ThoughtWorksMingleLib_MingleResult__ctor.htm
+  Saved 229 of 741: html/M_ThoughtWorksMingleLib_MingleServer_FullyQualifiedMingleUrl.htm
+  Saved 230 of 741: html/M_ThoughtWorksMingleLib_MingleServer_Get.htm
+  Saved 231 of 741: html/M_ThoughtWorksMingleLib_MingleServer_GetProject.htm
+  Saved 232 of 741: html/M_ThoughtWorksMingleLib_MingleServer_GetProjectList.htm
+  Saved 233 of 741: html/M_ThoughtWorksMingleLib_MingleServer_GetSecureStringFromString.htm
+  Saved 234 of 741: html/M_ThoughtWorksMingleLib_MingleServer_Get_1.htm
+  Saved 235 of 741: html/M_ThoughtWorksMingleLib_MingleServer_Post.htm
+  Saved 236 of 741: html/M_ThoughtWorksMingleLib_MingleServer_Put.htm
+  Saved 237 of 741: html/M_ThoughtWorksMingleLib_MingleServer__ctor.htm
+  Saved 238 of 741: html/M_ThoughtWorksMingleLib_MingleServer__ctor_1.htm
+  Saved 239 of 741: html/M_ThoughtWorksMingleLib_MingleTransitionCollection_Parse.htm
+  Saved 240 of 741: html/M_ThoughtWorksMingleLib_MingleTransitionCollection_Parse_1.htm
+  Saved 241 of 741: html/M_ThoughtWorksMingleLib_MingleTransitionCollection__ctor.htm
+  Saved 242 of 741: html/M_ThoughtWorksMingleLib_MingleTransition_Update.htm
+  Saved 243 of 741: html/M_ThoughtWorksMingleLib_MingleTransition__ctor.htm
+  Saved 244 of 741: html/M_ThoughtWorksMingleLib_MingleWebException__ctor.htm
+  Saved 245 of 741: html/M_ThoughtWorksMingleLib_MingleWebException__ctor_1.htm
+  Saved 246 of 741: html/M_ThoughtWorksMingleLib_MingleWebException__ctor_2.htm
+  Saved 247 of 741: html/N_ThoughtWorksCoreLib.htm
+  Saved 248 of 741: html/N_ThoughtWorksMingleLib.htm
+  Saved 249 of 741: html/Overload_ThoughtWorksCoreLib_AuthenticatingWeb_Get.htm
+  Saved 250 of 741: html/Overload_ThoughtWorksCoreLib_IWeb_Get.htm
+  Saved 251 of 741: html/Overload_ThoughtWorksCoreLib_Web_Get.htm
+  Saved 252 of 741: html/Overload_ThoughtWorksCoreLib_Web__ctor.htm
+  Saved 253 of 741: html/Overload_ThoughtWorksMingleLib_IMingleServer_Get.htm
+  Saved 254 of 741: html/Overload_ThoughtWorksMingleLib_MingleCardCollection_Parse.htm
+  Saved 255 of 741: html/Overload_ThoughtWorksMingleLib_MingleCardProperty__ctor.htm
+  Saved 256 of 741: html/Overload_ThoughtWorksMingleLib_MingleCardType__ctor.htm
+  Saved 257 of 741: html/Overload_ThoughtWorksMingleLib_MingleCard__ctor.htm
+  Saved 258 of 741: html/Overload_ThoughtWorksMingleLib_MingleEventsCategory__ctor.htm
+  Saved 259 of 741: html/Overload_ThoughtWorksMingleLib_MingleEventsChange__ctor.htm
+  Saved 260 of 741: html/Overload_ThoughtWorksMingleLib_MingleEventsElementNillableValue__ctor.htm
+  Saved 261 of 741: html/Overload_ThoughtWorksMingleLib_MingleEventsEntryContent__ctor.htm
+  Saved 262 of 741: html/Overload_ThoughtWorksMingleLib_MingleEventsFeedEntry__ctor.htm
+  Saved 263 of 741: html/Overload_ThoughtWorksMingleLib_MingleEventsFeed__ctor.htm
+  Saved 264 of 741: html/Overload_ThoughtWorksMingleLib_MingleEventsLink__ctor.htm
+  Saved 265 of 741: html/Overload_ThoughtWorksMingleLib_MingleEventsPropertyDefinition__ctor.htm
+  Saved 266 of 741: html/Overload_ThoughtWorksMingleLib_MingleFavoriteCollection_Parse.htm
+  Saved 267 of 741: html/Overload_ThoughtWorksMingleLib_MingleFavorite__ctor.htm
+  Saved 268 of 741: html/Overload_ThoughtWorksMingleLib_MingleFilter__ctor.htm
+  Saved 269 of 741: html/Overload_ThoughtWorksMingleLib_MingleNotRunningException__ctor.htm
+  Saved 270 of 741: html/Overload_ThoughtWorksMingleLib_MingleProjectMemberCollection_Parse.htm
+  Saved 271 of 741: html/Overload_ThoughtWorksMingleLib_MingleProject_GetCards.htm
+  Saved 272 of 741: html/Overload_ThoughtWorksMingleLib_MingleServer_Get.htm
+  Saved 273 of 741: html/Overload_ThoughtWorksMingleLib_MingleServer__ctor.htm
+  Saved 274 of 741: html/Overload_ThoughtWorksMingleLib_MingleTransitionCollection_Parse.htm
+  Saved 275 of 741: html/Overload_ThoughtWorksMingleLib_MingleWebException__ctor.htm
+  Saved 276 of 741: html/Properties_T_ThoughtWorksCoreLib_IResponse.htm
+  Saved 277 of 741: html/Properties_T_ThoughtWorksCoreLib_Resources.htm
+  Saved 278 of 741: html/Properties_T_ThoughtWorksCoreLib_TraceLog.htm
+  Saved 279 of 741: html/Properties_T_ThoughtWorksCoreLib_Web_Response.htm
+  Saved 280 of 741: html/Properties_T_ThoughtWorksMingleLib_IMingleProject.htm
+  Saved 281 of 741: html/Properties_T_ThoughtWorksMingleLib_IMingleXmlObjectCollection.htm
+  Saved 282 of 741: html/Properties_T_ThoughtWorksMingleLib_MingleCard.htm
+  Saved 283 of 741: html/Properties_T_ThoughtWorksMingleLib_MingleCardCollection.htm
+  Saved 284 of 741: html/Properties_T_ThoughtWorksMingleLib_MingleCardProperty.htm
+  Saved 285 of 741: html/Properties_T_ThoughtWorksMingleLib_MingleCardPropertyCollection.htm
+  Saved 286 of 741: html/Properties_T_ThoughtWorksMingleLib_MingleCardType.htm
+  Saved 287 of 741: html/Properties_T_ThoughtWorksMingleLib_MingleCardTypeCollection.htm
+  Saved 288 of 741: html/Properties_T_ThoughtWorksMingleLib_MingleEventsCategory.htm
+  Saved 289 of 741: html/Properties_T_ThoughtWorksMingleLib_MingleEventsChange.htm
+  Saved 290 of 741: html/Properties_T_ThoughtWorksMingleLib_MingleEventsElementNillableValue.htm
+  Saved 291 of 741: html/Properties_T_ThoughtWorksMingleLib_MingleEventsEntryContent.htm
+  Saved 292 of 741: html/Properties_T_ThoughtWorksMingleLib_MingleEventsFeed.htm
+  Saved 293 of 741: html/Properties_T_ThoughtWorksMingleLib_MingleEventsFeedEntry.htm
+  Saved 294 of 741: html/Properties_T_ThoughtWorksMingleLib_MingleEventsLink.htm
+  Saved 295 of 741: html/Properties_T_ThoughtWorksMingleLib_MingleEventsPropertyDefinition.htm
+  Saved 296 of 741: html/Properties_T_ThoughtWorksMingleLib_MingleFavorite.htm
+  Saved 297 of 741: html/Properties_T_ThoughtWorksMingleLib_MingleFavoriteCollection.htm
+  Saved 298 of 741: html/Properties_T_ThoughtWorksMingleLib_MingleFilter.htm
+  Saved 299 of 741: html/Properties_T_ThoughtWorksMingleLib_MingleMurmur.htm
+  Saved 300 of 741: html/Properties_T_ThoughtWorksMingleLib_MingleNotRunningException.htm
+  Saved 301 of 741: html/Properties_T_ThoughtWorksMingleLib_MingleProject.htm
+  Saved 302 of 741: html/Properties_T_ThoughtWorksMingleLib_MingleProjectMember.htm
+  Saved 303 of 741: html/Properties_T_ThoughtWorksMingleLib_MingleProjectMemberCollection.htm
+  Saved 304 of 741: html/Properties_T_ThoughtWorksMingleLib_MinglePropertyDefinition.htm
+  Saved 305 of 741: html/Properties_T_ThoughtWorksMingleLib_MinglePropertyDefinitionCollection.htm
+  Saved 306 of 741: html/Properties_T_ThoughtWorksMingleLib_MinglePropertyValue.htm
+  Saved 307 of 741: html/Properties_T_ThoughtWorksMingleLib_MingleTransition.htm
+  Saved 308 of 741: html/Properties_T_ThoughtWorksMingleLib_MingleTransitionCollection.htm
+  Saved 309 of 741: html/Properties_T_ThoughtWorksMingleLib_MingleWebException.htm
+  Saved 310 of 741: html/P_ThoughtWorksCoreLib_IResponse_Body.htm
+  Saved 311 of 741: html/P_ThoughtWorksCoreLib_IResponse_Headers.htm
+  Saved 312 of 741: html/P_ThoughtWorksCoreLib_Resources_At.htm
+  Saved 313 of 741: html/P_ThoughtWorksCoreLib_Resources_BuildNotification.htm
+  Saved 314 of 741: html/P_ThoughtWorksCoreLib_Resources_CancelLabel.htm
+  Saved 315 of 741: html/P_ThoughtWorksCoreLib_Resources_CannotBeNullOrEmpty.htm
+  Saved 316 of 741: html/P_ThoughtWorksCoreLib_Resources_CanNotCreateWindow.htm
+  Saved 317 of 741: html/P_ThoughtWorksCoreLib_Resources_CannotInterpretResponse.htm
+  Saved 318 of 741: html/P_ThoughtWorksCoreLib_Resources_CardCreatedByLogin.htm
+  Saved 319 of 741: html/P_ThoughtWorksCoreLib_Resources_CardCreatedByName.htm
+  Saved 320 of 741: html/P_ThoughtWorksCoreLib_Resources_CardCreatedOn.htm
+  Saved 321 of 741: html/P_ThoughtWorksCoreLib_Resources_CardDescription.htm
+  Saved 322 of 741: html/P_ThoughtWorksCoreLib_Resources_CardId.htm
+  Saved 323 of 741: html/P_ThoughtWorksCoreLib_Resources_CardModifiedBy.htm
+  Saved 324 of 741: html/P_ThoughtWorksCoreLib_Resources_CardModifiedByLogin.htm
+  Saved 325 of 741: html/P_ThoughtWorksCoreLib_Resources_CardModifiedByName.htm
+  Saved 326 of 741: html/P_ThoughtWorksCoreLib_Resources_CardModifiedOn.htm
+  Saved 327 of 741: html/P_ThoughtWorksCoreLib_Resources_CardName.htm
+  Saved 328 of 741: html/P_ThoughtWorksCoreLib_Resources_CardNotFound.htm
+  Saved 329 of 741: html/P_ThoughtWorksCoreLib_Resources_CardNumber.htm
+  Saved 330 of 741: html/P_ThoughtWorksCoreLib_Resources_CardProjectId.htm
+  Saved 331 of 741: html/P_ThoughtWorksCoreLib_Resources_CardProjectName.htm
+  Saved 332 of 741: html/P_ThoughtWorksCoreLib_Resources_CardRank.htm
+  Saved 333 of 741: html/P_ThoughtWorksCoreLib_Resources_CardsAllCommandCallback.htm
+  Saved 334 of 741: html/P_ThoughtWorksCoreLib_Resources_CardSetIsEmpty.htm
+  Saved 335 of 741: html/P_ThoughtWorksCoreLib_Resources_CardSetWindowTitle.htm
+  Saved 336 of 741: html/P_ThoughtWorksCoreLib_Resources_CardSetWindowTitleStories.htm
+  Saved 337 of 741: html/P_ThoughtWorksCoreLib_Resources_CardsThisUserCommandCallback.htm
+  Saved 338 of 741: html/P_ThoughtWorksCoreLib_Resources_CardType.htm
+  Saved 339 of 741: html/P_ThoughtWorksCoreLib_Resources_CardVersion.htm
+  Saved 340 of 741: html/P_ThoughtWorksCoreLib_Resources_CardWindowCaption.htm
+  Saved 341 of 741: html/P_ThoughtWorksCoreLib_Resources_CheckYourSettings.htm
+  Saved 342 of 741: html/P_ThoughtWorksCoreLib_Resources_ClickToEdit.htm
+  Saved 343 of 741: html/P_ThoughtWorksCoreLib_Resources_ClickToMakeTransition.htm
+  Saved 344 of 741: html/P_ThoughtWorksCoreLib_Resources_Colon.htm
+  Saved 345 of 741: html/P_ThoughtWorksCoreLib_Resources_Culture.htm
+  Saved 346 of 741: html/P_ThoughtWorksCoreLib_Resources_ExplorerCommandCallback.htm
+  Saved 347 of 741: html/P_ThoughtWorksCoreLib_Resources_ExplorerViewCaption.htm
+  Saved 348 of 741: html/P_ThoughtWorksCoreLib_Resources_FeedbackDataUnsubmittedWarning.htm
+  Saved 349 of 741: html/P_ThoughtWorksCoreLib_Resources_FeedbackDescriptionToolTip.htm
+  Saved 350 of 741: html/P_ThoughtWorksCoreLib_Resources_FeedbackEmailSubject.htm
+  Saved 351 of 741: html/P_ThoughtWorksCoreLib_Resources_FeedbackFormCompanyLabel.htm
+  Saved 352 of 741: html/P_ThoughtWorksCoreLib_Resources_FeedbackFormDescriptionLabel.htm
+  Saved 353 of 741: html/P_ThoughtWorksCoreLib_Resources_FeedbackFormEmailLabel.htm
+  Saved 354 of 741: html/P_ThoughtWorksCoreLib_Resources_FeedbackFormTitle.htm
+  Saved 355 of 741: html/P_ThoughtWorksCoreLib_Resources_FeedbackFormTitleLabel.htm
+  Saved 356 of 741: html/P_ThoughtWorksCoreLib_Resources_FeedbackTypeDefect.htm
+  Saved 357 of 741: html/P_ThoughtWorksCoreLib_Resources_FeedbackTypeFeature.htm
+  Saved 358 of 741: html/P_ThoughtWorksCoreLib_Resources_GoPipelinePropertiesCaption.htm
+  Saved 359 of 741: html/P_ThoughtWorksCoreLib_Resources_HostnameIsEmpty.htm
+  Saved 360 of 741: html/P_ThoughtWorksCoreLib_Resources_InvalidProtocol.htm
+  Saved 361 of 741: html/P_ThoughtWorksCoreLib_Resources_IvsOutputWindowAccessFail.htm
+  Saved 362 of 741: html/P_ThoughtWorksCoreLib_Resources_MalformedHostnameVarious.htm
+  Saved 363 of 741: html/P_ThoughtWorksCoreLib_Resources_MessageMurmurCommitted.htm
+  Saved 364 of 741: html/P_ThoughtWorksCoreLib_Resources_MingleApiSegment.htm
+  Saved 365 of 741: html/P_ThoughtWorksCoreLib_Resources_MingleCardNameNullOrEmpty.htm
+  Saved 366 of 741: html/P_ThoughtWorksCoreLib_Resources_MingleCardSegment.htm
+  Saved 367 of 741: html/P_ThoughtWorksCoreLib_Resources_MingleCardSetSegment.htm
+  Saved 368 of 741: html/P_ThoughtWorksCoreLib_Resources_MingleCardTypesLoadingError.htm
+  Saved 369 of 741: html/P_ThoughtWorksCoreLib_Resources_MingleCardUpdateError.htm
+  Saved 370 of 741: html/P_ThoughtWorksCoreLib_Resources_MingleFavoritesLoadingError.htm
+  Saved 371 of 741: html/P_ThoughtWorksCoreLib_Resources_MingleNotRunning.htm
+  Saved 372 of 741: html/P_ThoughtWorksCoreLib_Resources_MingleProjectsSegment.htm
+  Saved 373 of 741: html/P_ThoughtWorksCoreLib_Resources_MinglePropertiesLoadingError.htm
+  Saved 374 of 741: html/P_ThoughtWorksCoreLib_Resources_MingleTeamMembersLoadingError.htm
+  Saved 375 of 741: html/P_ThoughtWorksCoreLib_Resources_MingleTransitionSetSegment.htm
+  Saved 376 of 741: html/P_ThoughtWorksCoreLib_Resources_MingleTransitionsLoadingError.htm
+  Saved 377 of 741: html/P_ThoughtWorksCoreLib_Resources_MissingMingleConnectionInformation.htm
+  Saved 378 of 741: html/P_ThoughtWorksCoreLib_Resources_MissingOrInvalidCredentialData.htm
+  Saved 379 of 741: html/P_ThoughtWorksCoreLib_Resources_MissingOrInvalidSetting.htm
+  Saved 380 of 741: html/P_ThoughtWorksCoreLib_Resources_MustBeMingleUrlSegment.htm
+  Saved 381 of 741: html/P_ThoughtWorksCoreLib_Resources_NewCardDefaultName.htm
+  Saved 382 of 741: html/P_ThoughtWorksCoreLib_Resources_OtherConnectionError.htm
+  Saved 383 of 741: html/P_ThoughtWorksCoreLib_Resources_OutputWindowAccessFail.htm
+  Saved 384 of 741: html/P_ThoughtWorksCoreLib_Resources_OutputWindowWriteFail.htm
+  Saved 385 of 741: html/P_ThoughtWorksCoreLib_Resources_PackageIsNull.htm
+  Saved 386 of 741: html/P_ThoughtWorksCoreLib_Resources_PipelineSearchError.htm
+  Saved 387 of 741: html/P_ThoughtWorksCoreLib_Resources_PleaseSelectRowFirst.htm
+  Saved 388 of 741: html/P_ThoughtWorksCoreLib_Resources_ProductDetails.htm
+  Saved 389 of 741: html/P_ThoughtWorksCoreLib_Resources_ProductId.htm
+  Saved 390 of 741: html/P_ThoughtWorksCoreLib_Resources_ProjectIsRequired.htm
+  Saved 391 of 741: html/P_ThoughtWorksCoreLib_Resources_PropertyCouldNotBeUpdated.htm
+  Saved 392 of 741: html/P_ThoughtWorksCoreLib_Resources_PropertyOutOfRange.htm
+  Saved 393 of 741: html/P_ThoughtWorksCoreLib_Resources_PropertyValueCurrentIteration.htm
+  Saved 394 of 741: html/P_ThoughtWorksCoreLib_Resources_PropertyValueNotSet.htm
+  Saved 395 of 741: html/P_ThoughtWorksCoreLib_Resources_PropertyValueSelectCard.htm
+  Saved 396 of 741: html/P_ThoughtWorksCoreLib_Resources_ResourceManager.htm
+  Saved 397 of 741: html/P_ThoughtWorksCoreLib_Resources_SettingsDataIsDirty.htm
+  Saved 398 of 741: html/P_ThoughtWorksCoreLib_Resources_Slash.htm
+  Saved 399 of 741: html/P_ThoughtWorksCoreLib_Resources_SubmitLabel.htm
+  Saved 400 of 741: html/P_ThoughtWorksCoreLib_Resources_TheTypeMustBeSerializable.htm
+  Saved 401 of 741: html/P_ThoughtWorksCoreLib_Resources_TransitionAdmonitionLabel.htm
+  Saved 402 of 741: html/P_ThoughtWorksCoreLib_Resources_TransitionCannotBeApplied.htm
+  Saved 403 of 741: html/P_ThoughtWorksCoreLib_Resources_TransitionCommentRequired.htm
+  Saved 404 of 741: html/P_ThoughtWorksCoreLib_Resources_TransitionEquals.htm
+  Saved 405 of 741: html/P_ThoughtWorksCoreLib_Resources_TransitionIsNull.htm
+  Saved 406 of 741: html/P_ThoughtWorksCoreLib_Resources_TransitionWindowTitle.htm
+  Saved 407 of 741: html/P_ThoughtWorksCoreLib_Resources_TwSettingsCommandCallback.htm
+  Saved 408 of 741: html/P_ThoughtWorksCoreLib_Resources_UrlPropertyIsNullOrEmpty.htm
+  Saved 409 of 741: html/P_ThoughtWorksCoreLib_Resources_ViewNotUsableFromVisualStudio.htm
+  Saved 410 of 741: html/P_ThoughtWorksCoreLib_TraceLog_FilePath.htm
+  Saved 411 of 741: html/P_ThoughtWorksCoreLib_TraceLog_TraceEntryAndExit.htm
+  Saved 412 of 741: html/P_ThoughtWorksCoreLib_TraceLog_Tracing.htm
+  Saved 413 of 741: html/P_ThoughtWorksCoreLib_Web_Response_Body.htm
+  Saved 414 of 741: html/P_ThoughtWorksCoreLib_Web_Response_Headers.htm
+  Saved 415 of 741: html/P_ThoughtWorksMingleLib_IMingleProject_Mingle.htm
+  Saved 416 of 741: html/P_ThoughtWorksMingleLib_IMingleProject_ProjectId.htm
+  Saved 417 of 741: html/P_ThoughtWorksMingleLib_IMingleProject_Properties.htm
+  Saved 418 of 741: html/P_ThoughtWorksMingleLib_IMingleProject_Transitions.htm
+  Saved 419 of 741: html/P_ThoughtWorksMingleLib_IMingleXmlObjectCollection_ProjectId.htm
+  Saved 420 of 741: html/P_ThoughtWorksMingleLib_MingleCardCollection_Project.htm
+  Saved 421 of 741: html/P_ThoughtWorksMingleLib_MingleCardCollection_ProjectId.htm
+  Saved 422 of 741: html/P_ThoughtWorksMingleLib_MingleCardPropertyCollection_Project.htm
+  Saved 423 of 741: html/P_ThoughtWorksMingleLib_MingleCardPropertyCollection_ProjectId.htm
+  Saved 424 of 741: html/P_ThoughtWorksMingleLib_MingleCardProperty_IsValueNil.htm
+  Saved 425 of 741: html/P_ThoughtWorksMingleLib_MingleCardProperty_Name.htm
+  Saved 426 of 741: html/P_ThoughtWorksMingleLib_MingleCardProperty_PropertyDefinition.htm
+  Saved 427 of 741: html/P_ThoughtWorksMingleLib_MingleCardProperty_RawData.htm
+  Saved 428 of 741: html/P_ThoughtWorksMingleLib_MingleCardProperty_Value.htm
+  Saved 429 of 741: html/P_ThoughtWorksMingleLib_MingleCardProperty_ValueUrl.htm
+  Saved 430 of 741: html/P_ThoughtWorksMingleLib_MingleCardTypeCollection_Project.htm
+  Saved 431 of 741: html/P_ThoughtWorksMingleLib_MingleCardTypeCollection_ProjectId.htm
+  Saved 432 of 741: html/P_ThoughtWorksMingleLib_MingleCardType_Color.htm
+  Saved 433 of 741: html/P_ThoughtWorksMingleLib_MingleCardType_Id.htm
+  Saved 434 of 741: html/P_ThoughtWorksMingleLib_MingleCardType_Name.htm
+  Saved 435 of 741: html/P_ThoughtWorksMingleLib_MingleCardType_Position.htm
+  Saved 436 of 741: html/P_ThoughtWorksMingleLib_MingleCardType_PropertyDefinitions.htm
+  Saved 437 of 741: html/P_ThoughtWorksMingleLib_MingleCardType_RawData.htm
+  Saved 438 of 741: html/P_ThoughtWorksMingleLib_MingleCard_CardProperties.htm
+  Saved 439 of 741: html/P_ThoughtWorksMingleLib_MingleCard_CardTypeUrl.htm
+  Saved 440 of 741: html/P_ThoughtWorksMingleLib_MingleCard_CreatedByLogin.htm
+  Saved 441 of 741: html/P_ThoughtWorksMingleLib_MingleCard_CreatedByName.htm
+  Saved 442 of 741: html/P_ThoughtWorksMingleLib_MingleCard_CreatedByUrl.htm
+  Saved 443 of 741: html/P_ThoughtWorksMingleLib_MingleCard_CreatedOn.htm
+  Saved 444 of 741: html/P_ThoughtWorksMingleLib_MingleCard_Description.htm
+  Saved 445 of 741: html/P_ThoughtWorksMingleLib_MingleCard_Id.htm
+  Saved 446 of 741: html/P_ThoughtWorksMingleLib_MingleCard_ModifiedByLogin.htm
+  Saved 447 of 741: html/P_ThoughtWorksMingleLib_MingleCard_ModifiedByName.htm
+  Saved 448 of 741: html/P_ThoughtWorksMingleLib_MingleCard_ModifiedByUrl.htm
+  Saved 449 of 741: html/P_ThoughtWorksMingleLib_MingleCard_ModifiedOn.htm
+  Saved 450 of 741: html/P_ThoughtWorksMingleLib_MingleCard_Name.htm
+  Saved 451 of 741: html/P_ThoughtWorksMingleLib_MingleCard_Number.htm
+  Saved 452 of 741: html/P_ThoughtWorksMingleLib_MingleCard_PostData.htm
+  Saved 453 of 741: html/P_ThoughtWorksMingleLib_MingleCard_ProjectCardRank.htm
+  Saved 454 of 741: html/P_ThoughtWorksMingleLib_MingleCard_ProjectId.htm
+  Saved 455 of 741: html/P_ThoughtWorksMingleLib_MingleCard_ProjectName.htm
+  Saved 456 of 741: html/P_ThoughtWorksMingleLib_MingleCard_ProjectUrl.htm
+  Saved 457 of 741: html/P_ThoughtWorksMingleLib_MingleCard_RawData.htm
+  Saved 458 of 741: html/P_ThoughtWorksMingleLib_MingleCard_RenderedDescription.htm
+  Saved 459 of 741: html/P_ThoughtWorksMingleLib_MingleCard_Transitions.htm
+  Saved 460 of 741: html/P_ThoughtWorksMingleLib_MingleCard_Type.htm
+  Saved 461 of 741: html/P_ThoughtWorksMingleLib_MingleCard_Url.htm
+  Saved 462 of 741: html/P_ThoughtWorksMingleLib_MingleCard_Version.htm
+  Saved 463 of 741: html/P_ThoughtWorksMingleLib_MingleEventsCategory_Scheme.htm
+  Saved 464 of 741: html/P_ThoughtWorksMingleLib_MingleEventsCategory_Term.htm
+  Saved 465 of 741: html/P_ThoughtWorksMingleLib_MingleEventsChange_NewValue.htm
+  Saved 466 of 741: html/P_ThoughtWorksMingleLib_MingleEventsChange_OldValue.htm
+  Saved 467 of 741: html/P_ThoughtWorksMingleLib_MingleEventsChange_PropertyDefinition.htm
+  Saved 468 of 741: html/P_ThoughtWorksMingleLib_MingleEventsChange_Type.htm
+  Saved 469 of 741: html/P_ThoughtWorksMingleLib_MingleEventsChange_TypeAction.htm
+  Saved 470 of 741: html/P_ThoughtWorksMingleLib_MingleEventsChange_TypeFieldName.htm
+  Saved 471 of 741: html/P_ThoughtWorksMingleLib_MingleEventsElementNillableValue_Value.htm
+  Saved 472 of 741: html/P_ThoughtWorksMingleLib_MingleEventsEntryContent_Changes.htm
+  Saved 473 of 741: html/P_ThoughtWorksMingleLib_MingleEventsFeedEntry_AuthorName.htm
+  Saved 474 of 741: html/P_ThoughtWorksMingleLib_MingleEventsFeedEntry_AuthorUri.htm
+  Saved 475 of 741: html/P_ThoughtWorksMingleLib_MingleEventsFeedEntry_CardNumber.htm
+  Saved 476 of 741: html/P_ThoughtWorksMingleLib_MingleEventsFeedEntry_Categories.htm
+  Saved 477 of 741: html/P_ThoughtWorksMingleLib_MingleEventsFeedEntry_Content.htm
+  Saved 478 of 741: html/P_ThoughtWorksMingleLib_MingleEventsFeedEntry_Id.htm
+  Saved 479 of 741: html/P_ThoughtWorksMingleLib_MingleEventsFeedEntry_Links.htm
+  Saved 480 of 741: html/P_ThoughtWorksMingleLib_MingleEventsFeedEntry_Title.htm
+  Saved 481 of 741: html/P_ThoughtWorksMingleLib_MingleEventsFeedEntry_Updated.htm
+  Saved 482 of 741: html/P_ThoughtWorksMingleLib_MingleEventsFeed_Entries.htm
+  Saved 483 of 741: html/P_ThoughtWorksMingleLib_MingleEventsFeed_Id.htm
+  Saved 484 of 741: html/P_ThoughtWorksMingleLib_MingleEventsFeed_Links.htm
+  Saved 485 of 741: html/P_ThoughtWorksMingleLib_MingleEventsFeed_Title.htm
+  Saved 486 of 741: html/P_ThoughtWorksMingleLib_MingleEventsFeed_Updated.htm
+  Saved 487 of 741: html/P_ThoughtWorksMingleLib_MingleEventsLink_Href.htm
+  Saved 488 of 741: html/P_ThoughtWorksMingleLib_MingleEventsLink_Rel.htm
+  Saved 489 of 741: html/P_ThoughtWorksMingleLib_MingleEventsLink_Title.htm
+  Saved 490 of 741: html/P_ThoughtWorksMingleLib_MingleEventsLink_Type.htm
+  Saved 491 of 741: html/P_ThoughtWorksMingleLib_MingleEventsPropertyDefinition_DataType.htm
+  Saved 492 of 741: html/P_ThoughtWorksMingleLib_MingleEventsPropertyDefinition_IsNumeric.htm
+  Saved 493 of 741: html/P_ThoughtWorksMingleLib_MingleEventsPropertyDefinition_Name.htm
+  Saved 494 of 741: html/P_ThoughtWorksMingleLib_MingleEventsPropertyDefinition_Position.htm
+  Saved 495 of 741: html/P_ThoughtWorksMingleLib_MingleEventsPropertyDefinition_Url.htm
+  Saved 496 of 741: html/P_ThoughtWorksMingleLib_MingleFavoriteCollection_Project.htm
+  Saved 497 of 741: html/P_ThoughtWorksMingleLib_MingleFavoriteCollection_ProjectId.htm
+  Saved 498 of 741: html/P_ThoughtWorksMingleLib_MingleFavorite_FavoritedType.htm
+  Saved 499 of 741: html/P_ThoughtWorksMingleLib_MingleFavorite_Id.htm
+  Saved 500 of 741: html/P_ThoughtWorksMingleLib_MingleFavorite_Name.htm
+  Saved 501 of 741: html/P_ThoughtWorksMingleLib_MingleFavorite_Project.htm
+  Saved 502 of 741: html/P_ThoughtWorksMingleLib_MingleFavorite_ProjectId.htm
+  Saved 503 of 741: html/P_ThoughtWorksMingleLib_MingleFavorite_ProjectName.htm
+  Saved 504 of 741: html/P_ThoughtWorksMingleLib_MingleFavorite_RawData.htm
+  Saved 505 of 741: html/P_ThoughtWorksMingleLib_MingleFavorite_TabView.htm
+  Saved 506 of 741: html/P_ThoughtWorksMingleLib_MingleFilter_CardDataString.htm
+  Saved 507 of 741: html/P_ThoughtWorksMingleLib_MingleFilter_CardPropertyNameString.htm
+  Saved 508 of 741: html/P_ThoughtWorksMingleLib_MingleFilter_CardPropertyValueString.htm
+  Saved 509 of 741: html/P_ThoughtWorksMingleLib_MingleFilter_Condition.htm
+  Saved 510 of 741: html/P_ThoughtWorksMingleLib_MingleFilter_FavoriteString.htm
+  Saved 511 of 741: html/P_ThoughtWorksMingleLib_MingleFilter_FilterFormatString.htm
+  Saved 512 of 741: html/P_ThoughtWorksMingleLib_MingleFilter_MqlString.htm
+  Saved 513 of 741: html/P_ThoughtWorksMingleLib_MingleFilter_Name.htm
+  Saved 514 of 741: html/P_ThoughtWorksMingleLib_MingleFilter_TransitionFormatString.htm
+  Saved 515 of 741: html/P_ThoughtWorksMingleLib_MingleFilter_Value.htm
+  Saved 516 of 741: html/P_ThoughtWorksMingleLib_MingleMurmur_AuthorName.htm
+  Saved 517 of 741: html/P_ThoughtWorksMingleLib_MingleMurmur_Body.htm
+  Saved 518 of 741: html/P_ThoughtWorksMingleLib_MingleMurmur_CreatedAt.htm
+  Saved 519 of 741: html/P_ThoughtWorksMingleLib_MingleMurmur_JabberName.htm
+  Saved 520 of 741: html/P_ThoughtWorksMingleLib_MingleMurmur_LoginName.htm
+  Saved 521 of 741: html/P_ThoughtWorksMingleLib_MingleProjectMemberCollection_Project.htm
+  Saved 522 of 741: html/P_ThoughtWorksMingleLib_MingleProjectMemberCollection_ProjectId.htm
+  Saved 523 of 741: html/P_ThoughtWorksMingleLib_MingleProjectMember_MemberId.htm
+  Saved 524 of 741: html/P_ThoughtWorksMingleLib_MingleProjectMember_ProjectAdmin.htm
+  Saved 525 of 741: html/P_ThoughtWorksMingleLib_MingleProjectMember_ProjectId.htm
+  Saved 526 of 741: html/P_ThoughtWorksMingleLib_MingleProjectMember_ProjectName.htm
+  Saved 527 of 741: html/P_ThoughtWorksMingleLib_MingleProjectMember_ProjectUrl.htm
+  Saved 528 of 741: html/P_ThoughtWorksMingleLib_MingleProjectMember_RawData.htm
+  Saved 529 of 741: html/P_ThoughtWorksMingleLib_MingleProjectMember_Readonly.htm
+  Saved 530 of 741: html/P_ThoughtWorksMingleLib_MingleProjectMember_UserEmail.htm
+  Saved 531 of 741: html/P_ThoughtWorksMingleLib_MingleProjectMember_UserIconPath.htm
+  Saved 532 of 741: html/P_ThoughtWorksMingleLib_MingleProjectMember_UserId.htm
+  Saved 533 of 741: html/P_ThoughtWorksMingleLib_MingleProjectMember_UserLight.htm
+  Saved 534 of 741: html/P_ThoughtWorksMingleLib_MingleProjectMember_UserLogin.htm
+  Saved 535 of 741: html/P_ThoughtWorksMingleLib_MingleProjectMember_UserName.htm
+  Saved 536 of 741: html/P_ThoughtWorksMingleLib_MingleProject_CardTypes.htm
+  Saved 537 of 741: html/P_ThoughtWorksMingleLib_MingleProject_Favorites.htm
+  Saved 538 of 741: html/P_ThoughtWorksMingleLib_MingleProject_Mingle.htm
+  Saved 539 of 741: html/P_ThoughtWorksMingleLib_MingleProject_ProjectId.htm
+  Saved 540 of 741: html/P_ThoughtWorksMingleLib_MingleProject_Properties.htm
+  Saved 541 of 741: html/P_ThoughtWorksMingleLib_MingleProject_Team.htm
+  Saved 542 of 741: html/P_ThoughtWorksMingleLib_MingleProject_Transitions.htm
+  Saved 543 of 741: html/P_ThoughtWorksMingleLib_MingleProject_Url.htm
+  Saved 544 of 741: html/P_ThoughtWorksMingleLib_MinglePropertyDefinitionCollection_Project.htm
+  Saved 545 of 741: html/P_ThoughtWorksMingleLib_MinglePropertyDefinitionCollection_ProjectId.htm
+  Saved 546 of 741: html/P_ThoughtWorksMingleLib_MinglePropertyDefinition_CardTypes.htm
+  Saved 547 of 741: html/P_ThoughtWorksMingleLib_MinglePropertyDefinition_CardUrl.htm
+  Saved 548 of 741: html/P_ThoughtWorksMingleLib_MinglePropertyDefinition_ColumnName.htm
+  Saved 549 of 741: html/P_ThoughtWorksMingleLib_MinglePropertyDefinition_CurrentItem.htm
+  Saved 550 of 741: html/P_ThoughtWorksMingleLib_MinglePropertyDefinition_DataType.htm
+  Saved 551 of 741: html/P_ThoughtWorksMingleLib_MinglePropertyDefinition_Description.htm
+  Saved 552 of 741: html/P_ThoughtWorksMingleLib_MinglePropertyDefinition_Hidden.htm
+  Saved 553 of 741: html/P_ThoughtWorksMingleLib_MinglePropertyDefinition_Id.htm
+  Saved 554 of 741: html/P_ThoughtWorksMingleLib_MinglePropertyDefinition_IsCardValued.htm
+  Saved 555 of 741: html/P_ThoughtWorksMingleLib_MinglePropertyDefinition_IsFormula.htm
+  Saved 556 of 741: html/P_ThoughtWorksMingleLib_MinglePropertyDefinition_IsNumeric.htm
+  Saved 557 of 741: html/P_ThoughtWorksMingleLib_MinglePropertyDefinition_IsSetValued.htm
+  Saved 558 of 741: html/P_ThoughtWorksMingleLib_MinglePropertyDefinition_IsTeamValued.htm
+  Saved 559 of 741: html/P_ThoughtWorksMingleLib_MinglePropertyDefinition_IsTransitionOnly.htm
+  Saved 560 of 741: html/P_ThoughtWorksMingleLib_MinglePropertyDefinition_Name.htm
+  Saved 561 of 741: html/P_ThoughtWorksMingleLib_MinglePropertyDefinition_Position.htm
+  Saved 562 of 741: html/P_ThoughtWorksMingleLib_MinglePropertyDefinition_ProjectId.htm
+  Saved 563 of 741: html/P_ThoughtWorksMingleLib_MinglePropertyDefinition_ProjectName.htm
+  Saved 564 of 741: html/P_ThoughtWorksMingleLib_MinglePropertyDefinition_PropertyValueDetails.htm
+  Saved 565 of 741: html/P_ThoughtWorksMingleLib_MinglePropertyDefinition_PropertyValuesDescription.htm
+  Saved 566 of 741: html/P_ThoughtWorksMingleLib_MinglePropertyDefinition_Restricted.htm
+  Saved 567 of 741: html/P_ThoughtWorksMingleLib_MinglePropertyValue_Color.htm
+  Saved 568 of 741: html/P_ThoughtWorksMingleLib_MinglePropertyValue_Id.htm
+  Saved 569 of 741: html/P_ThoughtWorksMingleLib_MinglePropertyValue_Position.htm
+  Saved 570 of 741: html/P_ThoughtWorksMingleLib_MinglePropertyValue_Value.htm
+  Saved 571 of 741: html/P_ThoughtWorksMingleLib_MingleTransitionCollection_CardNumber.htm
+  Saved 572 of 741: html/P_ThoughtWorksMingleLib_MingleTransitionCollection_Project.htm
+  Saved 573 of 741: html/P_ThoughtWorksMingleLib_MingleTransitionCollection_ProjectId.htm
+  Saved 574 of 741: html/P_ThoughtWorksMingleLib_MingleTransition_CardTypeName.htm
+  Saved 575 of 741: html/P_ThoughtWorksMingleLib_MingleTransition_CardTypeUrl.htm
+  Saved 576 of 741: html/P_ThoughtWorksMingleLib_MingleTransition_Id.htm
+  Saved 577 of 741: html/P_ThoughtWorksMingleLib_MingleTransition_IfCardHasProperties.htm
+  Saved 578 of 741: html/P_ThoughtWorksMingleLib_MingleTransition_Name.htm
+  Saved 579 of 741: html/P_ThoughtWorksMingleLib_MingleTransition_OptionalUserInput.htm
+  Saved 580 of 741: html/P_ThoughtWorksMingleLib_MingleTransition_Project.htm
+  Saved 581 of 741: html/P_ThoughtWorksMingleLib_MingleTransition_RawData.htm
+  Saved 582 of 741: html/P_ThoughtWorksMingleLib_MingleTransition_RequireComment.htm
+  Saved 583 of 741: html/P_ThoughtWorksMingleLib_MingleTransition_RequiredUserInput.htm
+  Saved 584 of 741: html/P_ThoughtWorksMingleLib_MingleTransition_Url.htm
+  Saved 585 of 741: html/P_ThoughtWorksMingleLib_MingleTransition_WillSetCardProperties.htm
+  Saved 586 of 741: html/T_ThoughtWorksCoreLib_AuthenticatingWeb.htm
+  Saved 587 of 741: html/T_ThoughtWorksCoreLib_IResponse.htm
+  Saved 588 of 741: html/T_ThoughtWorksCoreLib_IWeb.htm
+  Saved 589 of 741: html/T_ThoughtWorksCoreLib_IWebApi.htm
+  Saved 590 of 741: html/T_ThoughtWorksCoreLib_Resources.htm
+  Saved 591 of 741: html/T_ThoughtWorksCoreLib_TraceLog.htm
+  Saved 592 of 741: html/T_ThoughtWorksCoreLib_ViewIdentifiers.htm
+  Saved 593 of 741: html/T_ThoughtWorksCoreLib_Web.htm
+  Saved 594 of 741: html/T_ThoughtWorksCoreLib_WebApi.htm
+  Saved 595 of 741: html/T_ThoughtWorksCoreLib_Web_Response.htm
+  Saved 596 of 741: html/T_ThoughtWorksMingleLib_IMingleProject.htm
+  Saved 597 of 741: html/T_ThoughtWorksMingleLib_IMingleServer.htm
+  Saved 598 of 741: html/T_ThoughtWorksMingleLib_IMingleXmlObject.htm
+  Saved 599 of 741: html/T_ThoughtWorksMingleLib_IMingleXmlObjectCollection.htm
+  Saved 600 of 741: html/T_ThoughtWorksMingleLib_MingleCard.htm
+  Saved 601 of 741: html/T_ThoughtWorksMingleLib_MingleCardCollection.htm
+  Saved 602 of 741: html/T_ThoughtWorksMingleLib_MingleCardProperty.htm
+  Saved 603 of 741: html/T_ThoughtWorksMingleLib_MingleCardPropertyCollection.htm
+  Saved 604 of 741: html/T_ThoughtWorksMingleLib_MingleCardType.htm
+  Saved 605 of 741: html/T_ThoughtWorksMingleLib_MingleCardTypeCollection.htm
+  Saved 606 of 741: html/T_ThoughtWorksMingleLib_MingleEventsCategory.htm
+  Saved 607 of 741: html/T_ThoughtWorksMingleLib_MingleEventsChange.htm
+  Saved 608 of 741: html/T_ThoughtWorksMingleLib_MingleEventsElementNillableValue.htm
+  Saved 609 of 741: html/T_ThoughtWorksMingleLib_MingleEventsEntryContent.htm
+  Saved 610 of 741: html/T_ThoughtWorksMingleLib_MingleEventsFeed.htm
+  Saved 611 of 741: html/T_ThoughtWorksMingleLib_MingleEventsFeedEntry.htm
+  Saved 612 of 741: html/T_ThoughtWorksMingleLib_MingleEventsLink.htm
+  Saved 613 of 741: html/T_ThoughtWorksMingleLib_MingleEventsPropertyDefinition.htm
+  Saved 614 of 741: html/T_ThoughtWorksMingleLib_MingleFavorite.htm
+  Saved 615 of 741: html/T_ThoughtWorksMingleLib_MingleFavoriteCollection.htm
+  Saved 616 of 741: html/T_ThoughtWorksMingleLib_MingleFilter.htm
+  Saved 617 of 741: html/T_ThoughtWorksMingleLib_MingleMurmur.htm
+  Saved 618 of 741: html/T_ThoughtWorksMingleLib_MingleNotRunningException.htm
+  Saved 619 of 741: html/T_ThoughtWorksMingleLib_MingleProject.htm
+  Saved 620 of 741: html/T_ThoughtWorksMingleLib_MingleProjectMember.htm
+  Saved 621 of 741: html/T_ThoughtWorksMingleLib_MingleProjectMemberCollection.htm
+  Saved 622 of 741: html/T_ThoughtWorksMingleLib_MinglePropertyDefinition.htm
+  Saved 623 of 741: html/T_ThoughtWorksMingleLib_MinglePropertyDefinitionCollection.htm
+  Saved 624 of 741: html/T_ThoughtWorksMingleLib_MinglePropertyValue.htm
+  Saved 625 of 741: html/T_ThoughtWorksMingleLib_MingleResult.htm
+  Saved 626 of 741: html/T_ThoughtWorksMingleLib_MingleServer.htm
+  Saved 627 of 741: html/T_ThoughtWorksMingleLib_MingleTransition.htm
+  Saved 628 of 741: html/T_ThoughtWorksMingleLib_MingleTransitionCollection.htm
+  Saved 629 of 741: html/T_ThoughtWorksMingleLib_MingleWebException.htm
+  Saved 630 of 741: html/T_ThoughtWorksMingleLib_XElementWrapper.htm
+  Saved 631 of 741: icons/
+  Saved 632 of 741: icons/adm.gif
+  Saved 633 of 741: icons/adm_arch.gif
+  Saved 634 of 741: icons/adm_dev.gif
+  Saved 635 of 741: icons/adm_dev_arch.gif
+  Saved 636 of 741: icons/alert_caution.gif
+  Saved 637 of 741: icons/alert_note.gif
+  Saved 638 of 741: icons/alert_security.gif
+  Saved 639 of 741: icons/arch.gif
+  Saved 640 of 741: icons/big_adm.gif
+  Saved 641 of 741: icons/big_arch.gif
+  Saved 642 of 741: icons/big_dev.gif
+  Saved 643 of 741: icons/big_kw.gif
+  Saved 644 of 741: icons/box.gif
+  Saved 645 of 741: icons/Caution.gif
+  Saved 646 of 741: icons/CFW.gif
+  Saved 647 of 741: icons/collall.gif
+  Saved 648 of 741: icons/collapse.gif
+  Saved 649 of 741: icons/collapse_all.gif
+  Saved 650 of 741: icons/copycode.gif
+  Saved 651 of 741: icons/copycodeHighlight.gif
+  Saved 652 of 741: icons/dev.gif
+  Saved 653 of 741: icons/dev_arch.gif
+  Saved 654 of 741: icons/dropdown.gif
+  Saved 655 of 741: icons/dropdownHover.gif
+  Saved 656 of 741: icons/drpdown.gif
+  Saved 657 of 741: icons/drpdown_orange.gif
+  Saved 658 of 741: icons/drpdown_orange_up.gif
+  Saved 659 of 741: icons/drpup.gif
+  Saved 660 of 741: icons/exp.gif
+  Saved 661 of 741: icons/expall.gif
+  Saved 662 of 741: icons/expand_all.gif
+  Saved 663 of 741: icons/filter1a.gif
+  Saved 664 of 741: icons/filter1c.gif
+  Saved 665 of 741: icons/footer.gif
+  Saved 666 of 741: icons/gradient.gif
+  Saved 667 of 741: icons/greencheck.gif
+  Saved 668 of 741: icons/greychck.gif
+  Saved 669 of 741: icons/header_prev_next.jpg
+  Saved 670 of 741: icons/header_sql_tutorial_blank.jpg
+  Saved 671 of 741: icons/header_sql_tutorial_logo.GIF
+  Saved 672 of 741: icons/kw.gif
+  Saved 673 of 741: icons/kw_adm.gif
+  Saved 674 of 741: icons/kw_adm_arch.gif
+  Saved 675 of 741: icons/kw_adm_dev.gif
+  Saved 676 of 741: icons/kw_adm_dev_arch.gif
+  Saved 677 of 741: icons/kw_arch.gif
+  Saved 678 of 741: icons/kw_dev.gif
+  Saved 679 of 741: icons/kw_dev_arch.gif
+  Saved 680 of 741: icons/LastChild.gif
+  Saved 681 of 741: icons/load.gif
+  Saved 682 of 741: icons/load_hover.gif
+  Saved 683 of 741: icons/note.gif
+  Saved 684 of 741: icons/pencil.GIF
+  Saved 685 of 741: icons/privclass.gif
+  Saved 686 of 741: icons/privdelegate.gif
+  Saved 687 of 741: icons/privenum.gif
+  Saved 688 of 741: icons/privenumeration.gif
+  Saved 689 of 741: icons/privevent.gif
+  Saved 690 of 741: icons/privextension.gif
+  Saved 691 of 741: icons/privfield.gif
+  Saved 692 of 741: icons/privinterface.gif
+  Saved 693 of 741: icons/privmethod.gif
+  Saved 694 of 741: icons/privproperty.gif
+  Saved 695 of 741: icons/privstructure.gif
+  Saved 696 of 741: icons/protclass.gif
+  Saved 697 of 741: icons/protdelegate.gif
+  Saved 698 of 741: icons/protenum.gif
+  Saved 699 of 741: icons/protenumeration.gif
+  Saved 700 of 741: icons/protevent.gif
+  Saved 701 of 741: icons/protextension.gif
+  Saved 702 of 741: icons/protfield.gif
+  Saved 703 of 741: icons/protinterface.gif
+  Saved 704 of 741: icons/protmethod.gif
+  Saved 705 of 741: icons/protoperator.gif
+  Saved 706 of 741: icons/protproperty.gif
+  Saved 707 of 741: icons/protstructure.gif
+  Saved 708 of 741: icons/pubclass.gif
+  Saved 709 of 741: icons/pubdelegate.gif
+  Saved 710 of 741: icons/pubenum.gif
+  Saved 711 of 741: icons/pubenumeration.gif
+  Saved 712 of 741: icons/pubevent.gif
+  Saved 713 of 741: icons/pubextension.gif
+  Saved 714 of 741: icons/pubfield.gif
+  Saved 715 of 741: icons/pubinterface.gif
+  Saved 716 of 741: icons/pubmethod.gif
+  Saved 717 of 741: icons/puboperator.gif
+  Saved 718 of 741: icons/pubproperty.gif
+  Saved 719 of 741: icons/pubstructure.gif
+  Saved 720 of 741: icons/requirements1a.gif
+  Saved 721 of 741: icons/requirements1c.gif
+  Saved 722 of 741: icons/save.gif
+  Saved 723 of 741: icons/save_hover.gif
+  Saved 724 of 741: icons/security.gif
+  Saved 725 of 741: icons/seealso1a.gif
+  Saved 726 of 741: icons/seealso1c.gif
+  Saved 727 of 741: icons/slMobile.gif
+  Saved 728 of 741: icons/static.gif
+  Saved 729 of 741: icons/xna.gif
+  Saved 730 of 741: scripts/
+  Saved 731 of 741: scripts/CheckboxMenu.js
+  Saved 732 of 741: scripts/CommonUtilities.js
+  Saved 733 of 741: scripts/Dropdown.js
+  Saved 734 of 741: scripts/EventUtilities.js
+  Saved 735 of 741: scripts/script_feedBack.js
+  Saved 736 of 741: scripts/script_manifold.js
+  Saved 737 of 741: scripts/SplitScreen.js
+  Saved 738 of 741: styles/
+  Saved 739 of 741: styles/Presentation.css
+  Saved 740 of 741: styles/Whidbey/
+  Saved 741 of 741: styles/Whidbey/presentation.css
   Finished saving C:\Users\mark\src\Mingle.NET\Help\MingleApiHelp.NET.mshc
-  Compressed 5 folders, 742 files.  Reduced size by 7,304,026 bytes (78%).
-    Last step completed in 00:00:11.0826
+  Compressed 5 folders, 736 files.  Reduced size by 7,242,864 bytes (78%).
+    Last step completed in 00:00:01.4781
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00.4480
+    Last step completed in 00:00:00.5310
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 03/09/2012 03:27 PM.  Total time: 00:02:39.3631
+Build completed successfully at 03/09/2012 04:20 PM.  Total time: 00:01:53.8575
 
 </buildStep>
 </shfbBuild>

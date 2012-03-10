@@ -33,7 +33,7 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_4BCE9CFEE65D4B8A93DC6B71338858AD"
+        "MsmKey" = "8:_2EB3CBFB4F78441EBAB2E8DE668EE8C8"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -58,7 +58,7 @@
         "Entry"
         {
         "MsmKey" = "8:_9B51C66378BB6671C01CE5A31F313F10"
-        "OwnerKey" = "8:_4BCE9CFEE65D4B8A93DC6B71338858AD"
+        "OwnerKey" = "8:_2EB3CBFB4F78441EBAB2E8DE668EE8C8"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -75,26 +75,26 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_EB681CD6EF144B8DBF9336B6F500A42B"
+        "MsmKey" = "8:_ECF32D182E6F45958C47E2C42A434414"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_EB681CD6EF144B8DBF9336B6F500A42B"
+        "OwnerKey" = "8:_2EB3CBFB4F78441EBAB2E8DE668EE8C8"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_ECF32D182E6F45958C47E2C42A434414"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_1981B12363F548F6995D3708DB2ECD48"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_4BCE9CFEE65D4B8A93DC6B71338858AD"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -279,6 +279,37 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_2EB3CBFB4F78441EBAB2E8DE668EE8C8"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:ThoughtWorksMingleLib, Version=1.0.0.29000, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_2EB3CBFB4F78441EBAB2E8DE668EE8C8"
+                    {
+                    "Name" = "8:ThoughtWorksMingleLib.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:..\\build\\ThoughtWorksMingleLib.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_66D53509FA034837B5228FCC0FE1D18A"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_4EA005373C2047F7AD374F465EE02288"
             {
             "SourcePath" = "8:..\\License.rtf"
@@ -343,7 +374,7 @@
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:ThoughtWorksCoreLib, Version=1.0.0.16453, Culture=neutral, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:ThoughtWorksCoreLib, Version=1.0.0.29000, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
                     "_9B51C66378BB6671C01CE5A31F313F10"
@@ -394,6 +425,37 @@
             {
             "SourcePath" = "8:..\\Help\\Install_MingleApiHelp.NET.bat"
             "TargetName" = "8:Install_MingleApiHelp.NET.bat"
+            "Tag" = "8:"
+            "Folder" = "8:_66D53509FA034837B5228FCC0FE1D18A"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_ECF32D182E6F45958C47E2C42A434414"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:ThoughtWorksCoreLib, Version=1.0.0.29000, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_ECF32D182E6F45958C47E2C42A434414"
+                    {
+                    "Name" = "8:ThoughtWorksCoreLib.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:..\\build\\ThoughtWorksCoreLib.dll"
+            "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_66D53509FA034837B5228FCC0FE1D18A"
             "Condition" = "8:"
@@ -1094,62 +1156,6 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_4BCE9CFEE65D4B8A93DC6B71338858AD"
-            {
-            "SourcePath" = "8:..\\ThoughtWorksMingleLib\\obj\\Release\\ThoughtWorksMingleLib.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_66D53509FA034837B5228FCC0FE1D18A"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            "ProjectOutputGroupRegister" = "3:1"
-            "OutputConfiguration" = "8:Release|Any CPU"
-            "OutputGroupCanonicalName" = "8:Built"
-            "OutputProjectGuid" = "8:{85CFE559-DFB3-4CC0-BBA3-4E5B5A9634B5}"
-            "ShowKeyOutput" = "11:TRUE"
-                "ExcludeFilters"
-                {
-                }
-            }
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_EB681CD6EF144B8DBF9336B6F500A42B"
-            {
-            "SourcePath" = "8:..\\ThoughtWorksCoreLib\\obj\\Release\\ThoughtWorksCoreLib.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_66D53509FA034837B5228FCC0FE1D18A"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            "ProjectOutputGroupRegister" = "3:1"
-            "OutputConfiguration" = "8:Release|Any CPU"
-            "OutputGroupCanonicalName" = "8:Built"
-            "OutputProjectGuid" = "8:{CCAB46BA-7559-4630-845C-8BFA38AEC2F0}"
-            "ShowKeyOutput" = "11:TRUE"
-                "ExcludeFilters"
-                {
-                }
-            }
         }
     }
 }

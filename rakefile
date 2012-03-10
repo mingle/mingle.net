@@ -7,17 +7,24 @@ vspath = ENV["VSPATH"]
 tfsTestContainer = './TfsSynchronizer/build/tests/TestSynchronizer.dll'
 tfsTestSettings = './TfsSynchronizer/Local.testsettings'
 
-task :build => [:clean, :compile, :spec]
+task :build => [:clean, :compile, :spec, :doc, :installer]
 
 task :compile do
 	puts "Building '#{apisln}' using '#{cfg}' configuration."
-#	sh "#{dotnet}msbuild.exe /t:Rebuild /p:configuration=#{cfg} #{apisln}"
-	sh "devenv #{apisln} /Rebuild #{cfg} /Log StudiosApiBuildLog.txt" 
+	sh "msbuild.exe /t:Rebuild /p:configuration=#{cfg} #{apisln}" 
 end
 
 task :clean do
 	clean 'build'
 	sh "devenv.exe #{apisln} /Clean "
+end
+
+task :doc do
+	sh "msbuild.exe /p:configuration=#{cfg}  documentation.shfbproj"
+end
+
+task :installer do
+	sh "devenv ApiSetup/ApiSetup.vdproj /Rebuild #{cfg} /Log StudiosApiSetupLog.txt"
 end
 
 RSpec::Core::RakeTask.new(:spec) do |t|
