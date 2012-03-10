@@ -7,7 +7,7 @@ vspath = ENV["VSPATH"]
 tfsTestContainer = './TfsSynchronizer/build/tests/TestSynchronizer.dll'
 tfsTestSettings = './TfsSynchronizer/Local.testsettings'
 
-task :build => [:clean, :compile, :spec, :doc, :installer]
+task :build => [:clean, :compile, :spec, :installer]
 
 task :compile do
 	puts "Building '#{apisln}' using '#{cfg}' configuration."
