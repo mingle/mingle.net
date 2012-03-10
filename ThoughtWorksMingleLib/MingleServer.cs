@@ -48,7 +48,6 @@ namespace ThoughtWorksMingleLib
         /// <param name="password">password</param>
         public MingleServer(string hostUrl, string loginName, SecureString password)
         {
-            TraceLog.Initialize("Mingle.NET.");
             _host = hostUrl;
             _login = loginName;
             _password = password;
@@ -62,7 +61,6 @@ namespace ThoughtWorksMingleLib
         /// <param name="password">password</param>
         public MingleServer(string hostUrl, string loginName, string password)
         {
-            TraceLog.Initialize("Mingle.NET.");
             _host = hostUrl;
             _login = loginName;
             _password = new SecureString();
