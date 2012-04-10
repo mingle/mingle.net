@@ -224,7 +224,7 @@
             "SourcePath" = "8:..\\Help\\HelpLibraryManagerLauncher.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
-            "Folder" = "8:_66D53509FA034837B5228FCC0FE1D18A"
+            "Folder" = "8:_97821C2D11AC4164AAD48BAD38266D90"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -244,7 +244,7 @@
             "SourcePath" = "8:..\\Help\\MingleApiHelp.NET.chm"
             "TargetName" = "8:MingleApiHelp.NET.chm"
             "Tag" = "8:"
-            "Folder" = "8:_66D53509FA034837B5228FCC0FE1D18A"
+            "Folder" = "8:_97821C2D11AC4164AAD48BAD38266D90"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -264,7 +264,7 @@
             "SourcePath" = "8:..\\Help\\Remove_MingleApiHelp.NET.bat"
             "TargetName" = "8:Remove_MingleApiHelp.NET.bat"
             "Tag" = "8:"
-            "Folder" = "8:_66D53509FA034837B5228FCC0FE1D18A"
+            "Folder" = "8:_97821C2D11AC4164AAD48BAD38266D90"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -283,7 +283,7 @@
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:ThoughtWorksMingleLib, Version=1.0.0.29681, Culture=neutral, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:ThoughtWorksMingleLib, Version=1.0.0.15457, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
                     "_2EB3CBFB4F78441EBAB2E8DE668EE8C8"
@@ -295,7 +295,7 @@
             "SourcePath" = "8:..\\build\\ThoughtWorksMingleLib.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
-            "Folder" = "8:_66D53509FA034837B5228FCC0FE1D18A"
+            "Folder" = "8:_97821C2D11AC4164AAD48BAD38266D90"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -315,7 +315,7 @@
             "SourcePath" = "8:..\\License.rtf"
             "TargetName" = "8:License.rtf"
             "Tag" = "8:"
-            "Folder" = "8:_66D53509FA034837B5228FCC0FE1D18A"
+            "Folder" = "8:_97821C2D11AC4164AAD48BAD38266D90"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -335,7 +335,7 @@
             "SourcePath" = "8:..\\Help\\MingleApiHelp.NET.mshc"
             "TargetName" = "8:MingleApiHelp.NET.mshc"
             "Tag" = "8:"
-            "Folder" = "8:_66D53509FA034837B5228FCC0FE1D18A"
+            "Folder" = "8:_97821C2D11AC4164AAD48BAD38266D90"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -355,7 +355,7 @@
             "SourcePath" = "8:..\\Help\\HelpContentSetup.msha"
             "TargetName" = "8:HelpContentSetup.msha"
             "Tag" = "8:"
-            "Folder" = "8:_66D53509FA034837B5228FCC0FE1D18A"
+            "Folder" = "8:_97821C2D11AC4164AAD48BAD38266D90"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -374,7 +374,7 @@
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:ThoughtWorksCoreLib, Version=1.0.0.29681, Culture=neutral, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:ThoughtWorksCoreLib, Version=1.0.0.15457, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
                     "_9B51C66378BB6671C01CE5A31F313F10"
@@ -406,7 +406,7 @@
             "SourcePath" = "8:..\\Help\\MingleApiHelp.NET.msha"
             "TargetName" = "8:MingleApiHelp.NET.msha"
             "Tag" = "8:"
-            "Folder" = "8:_66D53509FA034837B5228FCC0FE1D18A"
+            "Folder" = "8:_97821C2D11AC4164AAD48BAD38266D90"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -426,7 +426,7 @@
             "SourcePath" = "8:..\\Help\\Install_MingleApiHelp.NET.bat"
             "TargetName" = "8:Install_MingleApiHelp.NET.bat"
             "Tag" = "8:"
-            "Folder" = "8:_66D53509FA034837B5228FCC0FE1D18A"
+            "Folder" = "8:_97821C2D11AC4164AAD48BAD38266D90"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -445,7 +445,7 @@
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:ThoughtWorksCoreLib, Version=1.0.0.29681, Culture=neutral, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:ThoughtWorksCoreLib, Version=1.0.0.15457, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
                     "_ECF32D182E6F45958C47E2C42A434414"
@@ -457,7 +457,7 @@
             "SourcePath" = "8:..\\build\\ThoughtWorksCoreLib.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
-            "Folder" = "8:_66D53509FA034837B5228FCC0FE1D18A"
+            "Folder" = "8:_97821C2D11AC4164AAD48BAD38266D90"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -510,6 +510,28 @@
             "Property" = "8:TARGETDIR"
                 "Folders"
                 {
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_6470E0AFC7954D569D22AA341281F642"
+                    {
+                    "Name" = "8:ThoughtWorks"
+                    "AlwaysCreate" = "11:FALSE"
+                    "Condition" = "8:"
+                    "Transitive" = "11:FALSE"
+                    "Property" = "8:_70A0312D465F4D9DB40E13F59CDD2F91"
+                        "Folders"
+                        {
+                            "{9EF0B969-E518-4E46-987F-47570745A589}:_97821C2D11AC4164AAD48BAD38266D90"
+                            {
+                            "Name" = "8:Mingle.NET SDK"
+                            "AlwaysCreate" = "11:FALSE"
+                            "Condition" = "8:"
+                            "Transitive" = "11:FALSE"
+                            "Property" = "8:_580A77E86BC24AEA9A71F6CD77B92D9B"
+                                "Folders"
+                                {
+                                }
+                            }
+                        }
+                    }
                 }
             }
             "{1525181F-901A-416C-8A58-119130FE478E}:_78CDC1065F804B3D87E44C2E60B93C60"
@@ -532,17 +554,6 @@
             "Property" = "8:PersonalFolder"
                 "Folders"
                 {
-                    "{9EF0B969-E518-4E46-987F-47570745A589}:_66D53509FA034837B5228FCC0FE1D18A"
-                    {
-                    "Name" = "8:Mingle.NET SDK"
-                    "AlwaysCreate" = "11:FALSE"
-                    "Condition" = "8:"
-                    "Transitive" = "11:FALSE"
-                    "Property" = "8:_580A77E86BC24AEA9A71F6CD77B92D9B"
-                        "Folders"
-                        {
-                        }
-                    }
                 }
             }
         }
@@ -562,7 +573,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Mingle .NET Client API"
         "ProductCode" = "8:{0AEB125A-4994-4916-917F-CD56AEE5FD75}"
-        "PackageCode" = "8:{4FCCE8C3-5976-4E1D-BF30-DB6A0937410E}"
+        "PackageCode" = "8:{2D68F3D8-4C12-4448-AA9E-AD51880D3326}"
         "UpgradeCode" = "8:{9DE53018-F568-4C80-8E9E-291444B1A018}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -692,7 +703,7 @@
             "Transitive" = "11:FALSE"
             "Target" = "8:_B3CAD332656F41FA94D52735CEBF4FBB"
             "Folder" = "8:_DA7C0128EC24493C9855492D094B0B07"
-            "WorkingFolder" = "8:_66D53509FA034837B5228FCC0FE1D18A"
+            "WorkingFolder" = "8:_97821C2D11AC4164AAD48BAD38266D90"
             "Icon" = "8:"
             "Feature" = "8:"
             }
@@ -706,7 +717,7 @@
             "Transitive" = "11:FALSE"
             "Target" = "8:_2551F790633240208A0DEDA68B5F8256"
             "Folder" = "8:_DA7C0128EC24493C9855492D094B0B07"
-            "WorkingFolder" = "8:_66D53509FA034837B5228FCC0FE1D18A"
+            "WorkingFolder" = "8:_97821C2D11AC4164AAD48BAD38266D90"
             "Icon" = "8:"
             "Feature" = "8:"
             }
