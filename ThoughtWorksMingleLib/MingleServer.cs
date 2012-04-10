@@ -245,7 +245,6 @@ namespace ThoughtWorksMingleLib
 
             catch (WebException ex)
             {
-                ex.Data.Add("url", ex.Response.ResponseUri.OriginalString);
                 if (ex.Message.Contains("(422)"))
                 {
                     var message = XElement.Parse(new StreamReader((ex).Response.GetResponseStream()).ReadToEnd()).Element("error").Value;
