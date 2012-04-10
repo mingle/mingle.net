@@ -99,9 +99,9 @@ namespace ThoughtWorksCoreLib
             request.Method = "get";
             request.ContentType = "text/html";
             _authenticate(request);
-            TraceLog.WriteLine(new StackFrame().GetMethod().Name, request.RequestUri.AbsolutePath);
             try
             {
+                TraceLog.WriteLine(new StackFrame().GetMethod().Name, request.RequestUri.PathAndQuery);
                 using (var response = (HttpWebResponse)request.GetResponse())
                 {
                     var body = new StreamReader(response.GetResponseStream()).ReadToEnd();
@@ -166,9 +166,10 @@ namespace ThoughtWorksCoreLib
                     }
                 }
 
-                TraceLog.WriteLine(me, "Post Data:" + postData);
-
                 _authenticate(request);
+
+                TraceLog.WriteLine(new StackFrame().GetMethod().Name, request.RequestUri.PathAndQuery);
+                TraceLog.WriteLine(me, "Post Data:" + postData);
 
                 using (var response = (HttpWebResponse)request.GetResponse())
                 {

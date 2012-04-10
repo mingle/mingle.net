@@ -185,7 +185,9 @@ namespace ThoughtWorksMingleLib
         /// <returns></returns>
         public SortedList<string, string> GetProjectList()
         {
-            var url = "/projects.xml";
+            const string url = "/projects.xml";
+
+            var begin = DateTime.Now;
             var query =
                 from p in XElement.Parse(Get(url)).Descendants("project")
                 let name = p.Element("name").Value
@@ -195,7 +197,7 @@ namespace ThoughtWorksMingleLib
                     name,
                     identifier
                 };
-
+            TraceLog.WriteLine(new StackFrame().GetMethod().Name, string.Format("GetProjectList: {0} seconds.", (DateTime.Now - begin).TotalSeconds));
             // we're creating an anonymous type here, so it's easier to go
             // from the IEnumeration<,> to a Dictionary<,>
             // nothing is parsed (xml) or enumerated until ToDictionary is executed
