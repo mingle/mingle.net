@@ -1,23 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder Utilities" version="1.9.1.0" projectFile="C:\Users\mark\src\Mingle.NET\documentation.shfbproj" started="3/9/2012 5:07:47 PM">
+<shfbBuild product="Sandcastle Help File Builder Utilities" version="1.9.1.0" projectFile="C:\Users\mark\src\Mingle.NET\documentation.shfbproj" started="4/10/2012 9:38:11 AM">
 <buildStep step="Initializing">
-</buildStep>
-<buildStep step="ClearWorkFolder">
-Clearing working folder...
 </buildStep>
 <buildStep step="FindingTools">
 Finding tools...
-Found Sandcastle tools in &#39;C:\Program Files (x86)\Sandcastle\&#39;
+Found Sandcastle tools in 'C:\Program Files (x86)\Sandcastle\'
 Searching for HTML Help 1 compiler...
-Found HTML Help 1 compiler in &#39;C:\Program Files (x86)\HTML Help Workshop\&#39;
+Found HTML Help 1 compiler in 'C:\Program Files (x86)\HTML Help Workshop\'
 </buildStep>
 <buildStep step="ValidatingDocumentationSources">
 Validating and copying documentation source information
 Source: C:\Users\mark\src\Mingle.NET\build\ThoughtWorksCoreLib.dll
-    Found assembly &#39;C:\Users\mark\src\Mingle.NET\build\ThoughtWorksCoreLib.dll&#39;
+    Found assembly 'C:\Users\mark\src\Mingle.NET\build\ThoughtWorksCoreLib.dll'
 Source: C:\Users\mark\src\Mingle.NET\build\ThoughtWorksCoreLib.xml
 Source: C:\Users\mark\src\Mingle.NET\build\ThoughtWorksMingleLib.dll
-    Found assembly &#39;C:\Users\mark\src\Mingle.NET\build\ThoughtWorksMingleLib.dll&#39;
+    Found assembly 'C:\Users\mark\src\Mingle.NET\build\ThoughtWorksMingleLib.dll'
 Source: C:\Users\mark\src\Mingle.NET\build\ThoughtWorksMingleLib.xml
 
 Copying XML comments files
@@ -26,15 +23,15 @@ Copying XML comments files
 </buildStep>
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
-    Last step completed in 00:00:00.0380
+    Last step completed in 00:00:00.2280
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.0080
+    Last step completed in 00:00:00.0100
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
-[C:\Windows\Microsoft.NET\Framework\v3.5\MSBuild.exe]
+[C:\Windows\Microsoft.NET\Framework64\v3.5\MSBuild.exe]
 GenerateRefInfo:
   MrefBuilder (v2.6.10621.1)
   Copyright c Microsoft 2006
@@ -42,36 +39,36 @@ GenerateRefInfo:
   Info: Wrote information on 2 namespaces, 45 types, and 429 members
   XslTransform (v2.6.10621.1)
   Copyright c Microsoft 2005-2006
-  Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\MergeDuplicates.xsl&#39;.
+  Info: Applying XSL transformation 'C:\Program Files (x86)\Sandcastle\ProductionTransforms\MergeDuplicates.xsl'.
   reflection.all -&gt; reflection.org
-    Last step completed in 00:00:04.3953
+    Last step completed in 00:00:08.0285
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.0040
+    Last step completed in 00:00:00.0790
 </buildStep>
 <buildStep step="ApplyVisibilityProperties">
 Applying visibility properties to reflection information file
     0 protected members noted for removal
     18 protected inherited framework members noted for removal
     Removing previously noted unwanted APIs and elements
-    Last step completed in 00:00:00.1770
+    Last step completed in 00:00:00.1720
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
-[C:\Windows\Microsoft.NET\Framework\v3.5\MSBuild.exe]
+[C:\Windows\Microsoft.NET\Framework64\v3.5\MSBuild.exe]
 TransformManifest:
   XslTransform (v2.6.10621.1)
   Copyright c Microsoft 2005-2006
-  Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\ApplyVSDocModel.xsl&#39;.
-  reflection.org -&gt; C:\Users\mark\AppData\Local\Temp\tmpB918.tmp
-  Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\AddGuidFilenames.xsl&#39;.
-  C:\Users\mark\AppData\Local\Temp\tmpB918.tmp -&gt; reflection.xml
+  Info: Applying XSL transformation 'C:\Program Files (x86)\Sandcastle\ProductionTransforms\ApplyVSDocModel.xsl'.
+  reflection.org -&gt; C:\Users\mark\AppData\Local\Temp\tmpFF21.tmp
+  Info: Applying XSL transformation 'C:\Program Files (x86)\Sandcastle\ProductionTransforms\AddGuidFilenames.xsl'.
+  C:\Users\mark\AppData\Local\Temp\tmpFF21.tmp -&gt; reflection.xml
   XslTransform (v2.6.10621.1)
   Copyright c Microsoft 2005-2006
-  Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\ReflectionToManifest.xsl&#39;.
+  Info: Applying XSL transformation 'C:\Program Files (x86)\Sandcastle\ProductionTransforms\ReflectionToManifest.xsl'.
   reflection.xml -&gt; manifest.xml
-    Last step completed in 00:00:01.3581
+    Last step completed in 00:00:01.8311
 </buildStep>
 <buildStep step="ModifyHelpTopicFilenames">
 Modifying help topic filenames in reflection information file
@@ -107,7 +104,7 @@ Modifying help topic filenames in reflection information file
     Unique name M_ThoughtWorksMingleLib_MingleTransitionCollection_Parse_1 generated for M:ThoughtWorksMingleLib.MingleTransitionCollection.Parse(System.Int32)
     Unique name M_ThoughtWorksMingleLib_MingleWebException__ctor_1 generated for M:ThoughtWorksMingleLib.MingleWebException.#ctor(System.String)
     Unique name M_ThoughtWorksMingleLib_MingleWebException__ctor_2 generated for M:ThoughtWorksMingleLib.MingleWebException.#ctor(System.String,System.Exception)
-    Last step completed in 00:00:00.0770
+    Last step completed in 00:00:00.1590
 </buildStep>
 <buildStep step="CopyStandardContent">
 Copying standard help content...
@@ -325,49 +322,49 @@ C:\Program Files (x86)\Sandcastle\Presentation\vs2005\scripts\script_manifold.js
 C:\Program Files (x86)\Sandcastle\Presentation\vs2005\scripts\SplitScreen.js -&gt; C:\Users\mark\src\Mingle.NET\Help\Working\Output\MSHelpViewer\scripts\SplitScreen.js
 C:\Program Files (x86)\Sandcastle\Presentation\vs2005\styles\Presentation.css -&gt; C:\Users\mark\src\Mingle.NET\Help\Working\Output\MSHelpViewer\styles\Presentation.css
 C:\Program Files (x86)\Sandcastle\Presentation\vs2005\styles\Whidbey\presentation.css -&gt; C:\Users\mark\src\Mingle.NET\Help\Working\Output\MSHelpViewer\styles\Whidbey\presentation.css
-    Last step completed in 00:00:00.3070
+    Last step completed in 00:00:02.3491
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 No additional content to copy
-    Last step completed in 00:00:00.0040
+    Last step completed in 00:00:00.0140
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0060
 </buildStep>
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
-[C:\Windows\Microsoft.NET\Framework\v3.5\MSBuild.exe]
+[C:\Windows\Microsoft.NET\Framework64\v3.5\MSBuild.exe]
 GenerateIntermediateTOC:
   XslTransform (v2.6.10621.1)
   Copyright c Microsoft 2005-2006
-  Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\CreateVSToc.xsl&#39;.
+  Info: Applying XSL transformation 'C:\Program Files (x86)\Sandcastle\ProductionTransforms\CreateVSToc.xsl'.
   reflection.xml -&gt; toc.xml
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00.3470
+    Last step completed in 00:00:00.4460
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00.0240
+    Last step completed in 00:00:00.2420
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
 C:\Users\mark\src\Mingle.NET\Help\Working\sandcastle.config
-    Last step completed in 00:00:00.0660
+    Last step completed in 00:00:00.0750
 </buildStep>
 <buildStep step="BuildReferenceTopics">
 Building reference help topics...
-[C:\Windows\Microsoft.NET\Framework\v3.5\MSBuild.exe]
+[C:\Windows\Microsoft.NET\Framework64\v3.5\MSBuild.exe]
 BuildReferenceTopics:
   BuildAssembler (v2.6.10621.1)
   Copyright c Microsoft 2006
   Info: CopyFromFileComponent: Instantiating component.
-  Info: CopyFromFileComponent: Loading data file &#39;C:\Program Files (x86)\Sandcastle\Presentation\vs2005\Transforms\skeleton.xml&#39;.
+  Info: CopyFromFileComponent: Loading data file 'C:\Program Files (x86)\Sandcastle\Presentation\vs2005\Transforms\skeleton.xml'.
   Info: CopyFromIndexComponent: Instantiating component.
-  Info: CopyFromIndexComponent: Searching for files that match &#39;*.xml&#39;.
-  Info: CopyFromIndexComponent: Searching for files that match &#39;reflection.xml&#39;.
+  Info: CopyFromIndexComponent: Searching for files that match '*.xml'.
+  Info: CopyFromIndexComponent: Searching for files that match 'reflection.xml'.
   Info: CopyFromIndexComponent: Indexed 203372 elements in 409 files.
   Info: CopyFromIndexComponent: Loaded 0 copy components.
   Info: CopyFromIndexComponent: Instantiating component.
@@ -411,10 +408,10 @@ BuildReferenceTopics:
   Info: SyntaxComponent: Instantiating component.
   Info: SyntaxComponent: Loaded 3 syntax generators.
   Info: CopyFromIndexComponent: Instantiating component.
-  Info: CopyFromIndexComponent: Searching for files that match &#39;C:\Windows\Microsoft.NET\Framework\v4.0.30319\en\*.xml&#39;.
-  Info: CopyFromIndexComponent: Searching for files that match &#39;C:\Users\mark\src\Mingle.NET\Help\Working\ThoughtWorksCoreLib.XML&#39;.
-  Info: CopyFromIndexComponent: Searching for files that match &#39;C:\Users\mark\src\Mingle.NET\Help\Working\ThoughtWorksMingleLib.XML&#39;.
-  Info: CopyFromIndexComponent: Indexed 81778 elements in 51 files.
+  Info: CopyFromIndexComponent: Searching for files that match 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\en\*.xml'.
+  Info: CopyFromIndexComponent: Searching for files that match 'C:\Users\mark\src\Mingle.NET\Help\Working\ThoughtWorksCoreLib.XML'.
+  Info: CopyFromIndexComponent: Searching for files that match 'C:\Users\mark\src\Mingle.NET\Help\Working\ThoughtWorksMingleLib.XML'.
+  Info: CopyFromIndexComponent: Indexed 81774 elements in 51 files.
   Info: CopyFromIndexComponent: Loaded 0 copy components.
   Info: ForEachComponent: Instantiating component.
   Info: ForEachComponent: Loading subcomponents.
@@ -456,90 +453,90 @@ BuildReferenceTopics:
       http://SHFB.CodePlex.com
   Info: MultiFormatOutputComponent: Loading components for HtmlHelp1 format
   Info: SharedContentComponent: Instantiating component.
-  Info: SharedContentComponent: Searching for files that match &#39;C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\shared_content.xml&#39;.
-  Info: SharedContentComponent: Loading shared content file &#39;C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\shared_content.xml&#39;.
+  Info: SharedContentComponent: Searching for files that match 'C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\shared_content.xml'.
+  Info: SharedContentComponent: Loading shared content file 'C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\shared_content.xml'.
   Info: SharedContentComponent: Found 1 files in C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\shared_content.xml.
-  Info: SharedContentComponent: Searching for files that match &#39;C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\reference_content.xml&#39;.
-  Info: SharedContentComponent: Loading shared content file &#39;C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\reference_content.xml&#39;.
+  Info: SharedContentComponent: Searching for files that match 'C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\reference_content.xml'.
+  Info: SharedContentComponent: Loading shared content file 'C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\reference_content.xml'.
   Info: SharedContentComponent: Found 1 files in C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\reference_content.xml.
-  Info: SharedContentComponent: Searching for files that match &#39;C:\Program Files (x86)\Sandcastle\Presentation\shared\content\syntax_content.xml&#39;.
-  Info: SharedContentComponent: Loading shared content file &#39;C:\Program Files (x86)\Sandcastle\Presentation\shared\content\syntax_content.xml&#39;.
+  Info: SharedContentComponent: Searching for files that match 'C:\Program Files (x86)\Sandcastle\Presentation\shared\content\syntax_content.xml'.
+  Info: SharedContentComponent: Loading shared content file 'C:\Program Files (x86)\Sandcastle\Presentation\shared\content\syntax_content.xml'.
   Info: SharedContentComponent: Found 1 files in C:\Program Files (x86)\Sandcastle\Presentation\shared\content\syntax_content.xml.
-  Info: SharedContentComponent: Searching for files that match &#39;C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\feedback_content.xml&#39;.
-  Info: SharedContentComponent: Loading shared content file &#39;C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\feedBack_content.xml&#39;.
+  Info: SharedContentComponent: Searching for files that match 'C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\feedback_content.xml'.
+  Info: SharedContentComponent: Loading shared content file 'C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\feedBack_content.xml'.
   Info: SharedContentComponent: Found 1 files in C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\feedback_content.xml.
-  Info: SharedContentComponent: Searching for files that match &#39;SharedBuilderContent.xml&#39;.
-  Info: SharedContentComponent: Loading shared content file &#39;C:\Users\mark\src\Mingle.NET\Help\Working\SharedBuilderContent.xml&#39;.
-  Info: SharedContentComponent: Overriding shared content item &#39;roottopictitle&#39; with value in file &#39;C:\Users\mark\src\Mingle.NET\Help\Working\SharedBuilderContent.xml&#39;.
-  Info: SharedContentComponent: Overriding shared content item &#39;rootlink&#39; with value in file &#39;C:\Users\mark\src\Mingle.NET\Help\Working\SharedBuilderContent.xml&#39;.
-  Info: SharedContentComponent: Overriding shared content item &#39;runningheadertext&#39; with value in file &#39;C:\Users\mark\src\Mingle.NET\Help\Working\SharedBuilderContent.xml&#39;.
-  Info: SharedContentComponent: Overriding shared content item &#39;locationinformation&#39; with value in file &#39;C:\Users\mark\src\Mingle.NET\Help\Working\SharedBuilderContent.xml&#39;.
-  Info: SharedContentComponent: Overriding shared content item &#39;assemblynameandmodule&#39; with value in file &#39;C:\Users\mark\src\Mingle.NET\Help\Working\SharedBuilderContent.xml&#39;.
-  Info: SharedContentComponent: Overriding shared content item &#39;copycode&#39; with value in file &#39;C:\Users\mark\src\Mingle.NET\Help\Working\SharedBuilderContent.xml&#39;.
-  Info: SharedContentComponent: Overriding shared content item &#39;locale&#39; with value in file &#39;C:\Users\mark\src\Mingle.NET\Help\Working\SharedBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Searching for files that match 'SharedBuilderContent.xml'.
+  Info: SharedContentComponent: Loading shared content file 'C:\Users\mark\src\Mingle.NET\Help\Working\SharedBuilderContent.xml'.
+  Info: SharedContentComponent: Overriding shared content item 'roottopictitle' with value in file 'C:\Users\mark\src\Mingle.NET\Help\Working\SharedBuilderContent.xml'.
+  Info: SharedContentComponent: Overriding shared content item 'rootlink' with value in file 'C:\Users\mark\src\Mingle.NET\Help\Working\SharedBuilderContent.xml'.
+  Info: SharedContentComponent: Overriding shared content item 'runningheadertext' with value in file 'C:\Users\mark\src\Mingle.NET\Help\Working\SharedBuilderContent.xml'.
+  Info: SharedContentComponent: Overriding shared content item 'locationinformation' with value in file 'C:\Users\mark\src\Mingle.NET\Help\Working\SharedBuilderContent.xml'.
+  Info: SharedContentComponent: Overriding shared content item 'assemblynameandmodule' with value in file 'C:\Users\mark\src\Mingle.NET\Help\Working\SharedBuilderContent.xml'.
+  Info: SharedContentComponent: Overriding shared content item 'copycode' with value in file 'C:\Users\mark\src\Mingle.NET\Help\Working\SharedBuilderContent.xml'.
+  Info: SharedContentComponent: Overriding shared content item 'locale' with value in file 'C:\Users\mark\src\Mingle.NET\Help\Working\SharedBuilderContent.xml'.
   Info: SharedContentComponent: Found 1 files in SharedBuilderContent.xml.
-  Info: SharedContentComponent: Searching for files that match &#39;PresentationStyleBuilderContent.xml&#39;.
-  Info: SharedContentComponent: Loading shared content file &#39;C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml&#39;.
-  Info: SharedContentComponent: Overriding shared content item &#39;header&#39; with value in file &#39;C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml&#39;.
-  Info: SharedContentComponent: Overriding shared content item &#39;footer&#39; with value in file &#39;C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml&#39;.
-  Info: SharedContentComponent: Overriding shared content item &#39;fb_alias&#39; with value in file &#39;C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml&#39;.
-  Info: SharedContentComponent: Overriding shared content item &#39;fb_product&#39; with value in file &#39;C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml&#39;.
-  Info: SharedContentComponent: Overriding shared content item &#39;fb_body&#39; with value in file &#39;C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml&#39;.
-  Info: SharedContentComponent: Overriding shared content item &#39;fb_send&#39; with value in file &#39;C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml&#39;.
-  Info: SharedContentComponent: Overriding shared content item &#39;fb_headerfeedback&#39; with value in file &#39;C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml&#39;.
-  Info: SharedContentComponent: Overriding shared content item &#39;feedback_alias&#39; with value in file &#39;C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml&#39;.
-  Info: SharedContentComponent: Overriding shared content item &#39;feedback_product&#39; with value in file &#39;C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml&#39;.
-  Info: SharedContentComponent: Overriding shared content item &#39;feedback_body&#39; with value in file &#39;C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Searching for files that match 'PresentationStyleBuilderContent.xml'.
+  Info: SharedContentComponent: Loading shared content file 'C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml'.
+  Info: SharedContentComponent: Overriding shared content item 'header' with value in file 'C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml'.
+  Info: SharedContentComponent: Overriding shared content item 'footer' with value in file 'C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml'.
+  Info: SharedContentComponent: Overriding shared content item 'fb_alias' with value in file 'C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml'.
+  Info: SharedContentComponent: Overriding shared content item 'fb_product' with value in file 'C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml'.
+  Info: SharedContentComponent: Overriding shared content item 'fb_body' with value in file 'C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml'.
+  Info: SharedContentComponent: Overriding shared content item 'fb_send' with value in file 'C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml'.
+  Info: SharedContentComponent: Overriding shared content item 'fb_headerfeedback' with value in file 'C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml'.
+  Info: SharedContentComponent: Overriding shared content item 'feedback_alias' with value in file 'C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml'.
+  Info: SharedContentComponent: Overriding shared content item 'feedback_product' with value in file 'C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml'.
+  Info: SharedContentComponent: Overriding shared content item 'feedback_body' with value in file 'C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml'.
   Info: SharedContentComponent: Found 1 files in PresentationStyleBuilderContent.xml.
   Info: SharedContentComponent: Loaded 631 shared content items.
   Info: ResolveReferenceLinksComponent2: Instantiating component.
   Info: ResolveReferenceLinksComponent2: Creating MSDN URL resolver.
-  Info: ResolveReferenceLinksComponent2: Searching directory &#39;C:\Program Files (x86)\Sandcastle\Data\Reflection&#39; for targets files of the form &#39;*.xml&#39;.
-  Info: ResolveReferenceLinksComponent2: Searching directory &#39;C:\Users\mark\src\Mingle.NET\Help\Working&#39; for targets files of the form &#39;reflection.xml&#39;.
+  Info: ResolveReferenceLinksComponent2: Searching directory 'C:\Program Files (x86)\Sandcastle\Data\Reflection' for targets files of the form '*.xml'.
+  Info: ResolveReferenceLinksComponent2: Searching directory 'C:\Users\mark\src\Mingle.NET\Help\Working' for targets files of the form 'reflection.xml'.
   Info: ResolveReferenceLinksComponent2: Loaded 203372 reference targets.
   Info: SaveComponent: Instantiating component.
   Info: MultiFormatOutputComponent: Loading components for MSHelpViewer format
   Info: SharedContentComponent: Instantiating component.
-  Info: SharedContentComponent: Searching for files that match &#39;C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\shared_content_mshc.xml&#39;.
-  Info: SharedContentComponent: Loading shared content file &#39;C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\shared_content_mshc.xml&#39;.
+  Info: SharedContentComponent: Searching for files that match 'C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\shared_content_mshc.xml'.
+  Info: SharedContentComponent: Loading shared content file 'C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\shared_content_mshc.xml'.
   Info: SharedContentComponent: Found 1 files in C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\shared_content_mshc.xml.
-  Info: SharedContentComponent: Searching for files that match &#39;C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\reference_content.xml&#39;.
-  Info: SharedContentComponent: Loading shared content file &#39;C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\reference_content.xml&#39;.
+  Info: SharedContentComponent: Searching for files that match 'C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\reference_content.xml'.
+  Info: SharedContentComponent: Loading shared content file 'C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\reference_content.xml'.
   Info: SharedContentComponent: Found 1 files in C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\reference_content.xml.
-  Info: SharedContentComponent: Searching for files that match &#39;C:\Program Files (x86)\Sandcastle\Presentation\shared\content\syntax_content.xml&#39;.
-  Info: SharedContentComponent: Loading shared content file &#39;C:\Program Files (x86)\Sandcastle\Presentation\shared\content\syntax_content.xml&#39;.
+  Info: SharedContentComponent: Searching for files that match 'C:\Program Files (x86)\Sandcastle\Presentation\shared\content\syntax_content.xml'.
+  Info: SharedContentComponent: Loading shared content file 'C:\Program Files (x86)\Sandcastle\Presentation\shared\content\syntax_content.xml'.
   Info: SharedContentComponent: Found 1 files in C:\Program Files (x86)\Sandcastle\Presentation\shared\content\syntax_content.xml.
-  Info: SharedContentComponent: Searching for files that match &#39;C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\feedback_content.xml&#39;.
-  Info: SharedContentComponent: Loading shared content file &#39;C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\feedBack_content.xml&#39;.
+  Info: SharedContentComponent: Searching for files that match 'C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\feedback_content.xml'.
+  Info: SharedContentComponent: Loading shared content file 'C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\feedBack_content.xml'.
   Info: SharedContentComponent: Found 1 files in C:\Program Files (x86)\Sandcastle\Presentation\vs2005\content\feedback_content.xml.
-  Info: SharedContentComponent: Searching for files that match &#39;SharedBuilderContent.xml&#39;.
-  Info: SharedContentComponent: Loading shared content file &#39;C:\Users\mark\src\Mingle.NET\Help\Working\SharedBuilderContent.xml&#39;.
-  Info: SharedContentComponent: Overriding shared content item &#39;roottopictitle&#39; with value in file &#39;C:\Users\mark\src\Mingle.NET\Help\Working\SharedBuilderContent.xml&#39;.
-  Info: SharedContentComponent: Overriding shared content item &#39;rootlink&#39; with value in file &#39;C:\Users\mark\src\Mingle.NET\Help\Working\SharedBuilderContent.xml&#39;.
-  Info: SharedContentComponent: Overriding shared content item &#39;runningheadertext&#39; with value in file &#39;C:\Users\mark\src\Mingle.NET\Help\Working\SharedBuilderContent.xml&#39;.
-  Info: SharedContentComponent: Overriding shared content item &#39;locationinformation&#39; with value in file &#39;C:\Users\mark\src\Mingle.NET\Help\Working\SharedBuilderContent.xml&#39;.
-  Info: SharedContentComponent: Overriding shared content item &#39;assemblynameandmodule&#39; with value in file &#39;C:\Users\mark\src\Mingle.NET\Help\Working\SharedBuilderContent.xml&#39;.
-  Info: SharedContentComponent: Overriding shared content item &#39;copycode&#39; with value in file &#39;C:\Users\mark\src\Mingle.NET\Help\Working\SharedBuilderContent.xml&#39;.
-  Info: SharedContentComponent: Overriding shared content item &#39;locale&#39; with value in file &#39;C:\Users\mark\src\Mingle.NET\Help\Working\SharedBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Searching for files that match 'SharedBuilderContent.xml'.
+  Info: SharedContentComponent: Loading shared content file 'C:\Users\mark\src\Mingle.NET\Help\Working\SharedBuilderContent.xml'.
+  Info: SharedContentComponent: Overriding shared content item 'roottopictitle' with value in file 'C:\Users\mark\src\Mingle.NET\Help\Working\SharedBuilderContent.xml'.
+  Info: SharedContentComponent: Overriding shared content item 'rootlink' with value in file 'C:\Users\mark\src\Mingle.NET\Help\Working\SharedBuilderContent.xml'.
+  Info: SharedContentComponent: Overriding shared content item 'runningheadertext' with value in file 'C:\Users\mark\src\Mingle.NET\Help\Working\SharedBuilderContent.xml'.
+  Info: SharedContentComponent: Overriding shared content item 'locationinformation' with value in file 'C:\Users\mark\src\Mingle.NET\Help\Working\SharedBuilderContent.xml'.
+  Info: SharedContentComponent: Overriding shared content item 'assemblynameandmodule' with value in file 'C:\Users\mark\src\Mingle.NET\Help\Working\SharedBuilderContent.xml'.
+  Info: SharedContentComponent: Overriding shared content item 'copycode' with value in file 'C:\Users\mark\src\Mingle.NET\Help\Working\SharedBuilderContent.xml'.
+  Info: SharedContentComponent: Overriding shared content item 'locale' with value in file 'C:\Users\mark\src\Mingle.NET\Help\Working\SharedBuilderContent.xml'.
   Info: SharedContentComponent: Found 1 files in SharedBuilderContent.xml.
-  Info: SharedContentComponent: Searching for files that match &#39;PresentationStyleBuilderContent.xml&#39;.
-  Info: SharedContentComponent: Loading shared content file &#39;C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml&#39;.
-  Info: SharedContentComponent: Overriding shared content item &#39;header&#39; with value in file &#39;C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml&#39;.
-  Info: SharedContentComponent: Overriding shared content item &#39;footer&#39; with value in file &#39;C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml&#39;.
-  Info: SharedContentComponent: Overriding shared content item &#39;fb_alias&#39; with value in file &#39;C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml&#39;.
-  Info: SharedContentComponent: Overriding shared content item &#39;fb_product&#39; with value in file &#39;C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml&#39;.
-  Info: SharedContentComponent: Overriding shared content item &#39;fb_body&#39; with value in file &#39;C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml&#39;.
-  Info: SharedContentComponent: Overriding shared content item &#39;fb_send&#39; with value in file &#39;C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml&#39;.
-  Info: SharedContentComponent: Overriding shared content item &#39;fb_headerfeedback&#39; with value in file &#39;C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml&#39;.
-  Info: SharedContentComponent: Overriding shared content item &#39;feedback_alias&#39; with value in file &#39;C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml&#39;.
-  Info: SharedContentComponent: Overriding shared content item &#39;feedback_product&#39; with value in file &#39;C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml&#39;.
-  Info: SharedContentComponent: Overriding shared content item &#39;feedback_body&#39; with value in file &#39;C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Searching for files that match 'PresentationStyleBuilderContent.xml'.
+  Info: SharedContentComponent: Loading shared content file 'C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml'.
+  Info: SharedContentComponent: Overriding shared content item 'header' with value in file 'C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml'.
+  Info: SharedContentComponent: Overriding shared content item 'footer' with value in file 'C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml'.
+  Info: SharedContentComponent: Overriding shared content item 'fb_alias' with value in file 'C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml'.
+  Info: SharedContentComponent: Overriding shared content item 'fb_product' with value in file 'C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml'.
+  Info: SharedContentComponent: Overriding shared content item 'fb_body' with value in file 'C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml'.
+  Info: SharedContentComponent: Overriding shared content item 'fb_send' with value in file 'C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml'.
+  Info: SharedContentComponent: Overriding shared content item 'fb_headerfeedback' with value in file 'C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml'.
+  Info: SharedContentComponent: Overriding shared content item 'feedback_alias' with value in file 'C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml'.
+  Info: SharedContentComponent: Overriding shared content item 'feedback_product' with value in file 'C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml'.
+  Info: SharedContentComponent: Overriding shared content item 'feedback_body' with value in file 'C:\Users\mark\src\Mingle.NET\Help\Working\PresentationStyleBuilderContent.xml'.
   Info: SharedContentComponent: Found 1 files in PresentationStyleBuilderContent.xml.
   Info: SharedContentComponent: Loaded 631 shared content items.
   Info: ResolveReferenceLinksComponent2: Instantiating component.
   Info: ResolveReferenceLinksComponent2: Creating MSDN URL resolver.
-  Info: ResolveReferenceLinksComponent2: Searching directory &#39;C:\Program Files (x86)\Sandcastle\Data\Reflection&#39; for targets files of the form &#39;*.xml&#39;.
-  Info: ResolveReferenceLinksComponent2: Searching directory &#39;C:\Users\mark\src\Mingle.NET\Help\Working&#39; for targets files of the form &#39;reflection.xml&#39;.
+  Info: ResolveReferenceLinksComponent2: Searching directory 'C:\Program Files (x86)\Sandcastle\Data\Reflection' for targets files of the form '*.xml'.
+  Info: ResolveReferenceLinksComponent2: Searching directory 'C:\Users\mark\src\Mingle.NET\Help\Working' for targets files of the form 'reflection.xml'.
   Info: ResolveReferenceLinksComponent2: Loaded 203372 reference targets.
   Info: MSHCComponent: Instantiating component.
   Info: SaveComponent: Instantiating component.
@@ -1172,43 +1169,43 @@ BuildReferenceTopics:
   Info: BuildAssembler: Building topic AllMembers.T:ThoughtWorksMingleLib.XElementWrapper
   Info: BuildAssembler: Building topic Methods.T:ThoughtWorksMingleLib.XElementWrapper
   Info: Processed 628 topics
-    Last step completed in 00:01:41.3608
+    Last step completed in 00:01:56.5117
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00.0020
+    Last step completed in 00:00:00.0080
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
-[C:\Windows\Microsoft.NET\Framework\v3.5\MSBuild.exe]
+[C:\Windows\Microsoft.NET\Framework64\v3.5\MSBuild.exe]
 Sandcastle Help File Builder HTML Extract, version 1.9.1.0
 Copyright c 2006-2010, Eric Woodruff, All Rights Reserved
 E-Mail: Eric@EWoodruff.us
 
-Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
+Using LCID '1033', code page '65001', encoding charset 'UTF-8'.
 
 Processing Help 1 files in C:\Users\mark\src\Mingle.NET\Help\Working\Output\HtmlHelp1
 Processed 628 HTML files
 Sorting keywords and generating See Also indices
 Saving HTML Help 1 keyword index to C:\Users\mark\src\Mingle.NET\Help\Working\MingleApiHelp.NET.hhk
 Saving HTML Help 1 table of contents to C:\Users\mark\src\Mingle.NET\Help\Working\MingleApiHelp.NET.hhc
-    Last step completed in 00:00:00.9851
+    Last step completed in 00:00:01.2361
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating HTML Help 1 table of contents file...
-    Last step completed in 00:00:00.0030
+    Last step completed in 00:00:00.0060
 </buildStep>
 <buildStep step="GenerateHelpFileIndex">
 Generating HTML Help 1 index file...
-    Last step completed in 00:00:00.0010
+    Last step completed in 00:00:00.0060
 </buildStep>
 <buildStep step="GenerateHelpProject">
 Generating HTML Help 1 project file...
-    Last step completed in 00:00:00.0150
+    Last step completed in 00:00:00.0210
 </buildStep>
 <buildStep step="CompilingHelpFile">
 Compiling HTML Help 1 file...
-[C:\Windows\Microsoft.NET\Framework\v3.5\MSBuild.exe]
+[C:\Windows\Microsoft.NET\Framework64\v3.5\MSBuild.exe]
 Build1xHelpFile:
   Microsoft HTML Help Compiler 4.74.8702
   
@@ -1234,23 +1231,23 @@ Build1xHelpFile:
   
   
   
-  Created c:\Users\mark\src\Mingle.NET\Help\Working\Output\HtmlHelp1\MingleApiHelp.NET.chm, 848,624 bytes
+  Created c:\Users\mark\src\Mingle.NET\Help\Working\Output\HtmlHelp1\MingleApiHelp.NET.chm, 847,742 bytes
   
-  Compression decreased file by 8,550,905 bytes.
+  Compression decreased file by 8,545,507 bytes.
   
-    Last step completed in 00:00:07.3894
+    Last step completed in 00:00:07.9155
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Executing informational Generate Table of Contents build step for plug-ins (not used for MS Help Viewer)
-    Last step completed in 00:00:00.0010
+    Last step completed in 00:00:00.0070
 </buildStep>
 <buildStep step="GenerateHelpProject">
 Executing informational Generate Help Project build step for plug-ins (not used for MS Help Viewer)
-    Last step completed in 00:00:00.0030
+    Last step completed in 00:00:00.0040
 </buildStep>
 <buildStep step="CompilingHelpFile">
 Generating MS Help Viewer file...
-[C:\Windows\Microsoft.NET\Framework\v3.5\MSBuild.exe]
+[C:\Windows\Microsoft.NET\Framework64\v3.5\MSBuild.exe]
 BuildHelpViewerFile:
   Compressing help content files...
   Added StopWordList.txt
@@ -2737,16 +2734,16 @@ BuildHelpViewerFile:
   Saved 740 of 741: styles/Whidbey/
   Saved 741 of 741: styles/Whidbey/presentation.css
   Finished saving C:\Users\mark\src\Mingle.NET\Help\MingleApiHelp.NET.mshc
-  Compressed 5 folders, 736 files.  Reduced size by 7,242,548 bytes (78%).
-    Last step completed in 00:00:01.4641
+  Compressed 5 folders, 736 files.  Reduced size by 7,239,784 bytes (78%).
+    Last step completed in 00:00:09.4175
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00.5240
+    Last step completed in 00:00:00.3200
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 03/09/2012 05:09 PM.  Total time: 00:01:59.6838
+Build completed successfully at 04/10/2012 09:40 AM.  Total time: 00:02:29.4575
 
 </buildStep>
 </shfbBuild>

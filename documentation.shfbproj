@@ -27,7 +27,7 @@
     <FrameworkVersion>4.0.30319</FrameworkVersion>
     <HelpFileFormat>HtmlHelp1, MSHelpViewer</HelpFileFormat>
     <HelpTitle>Mingle API for .NET</HelpTitle>
-    <CopyrightText>Copyright 2010,2011,2012 ThoughtWorks Inc.</CopyrightText>
+    <CopyrightText>Copyright 2012 ThoughtWorks Inc.</CopyrightText>
     <HeaderText>Mingle API for .NET</HeaderText>
     <FooterText>Please send feedbak to mrichter%40thoughtworks.com</FooterText>
     <ProductTitle>Mingle API for .NET</ProductTitle>
