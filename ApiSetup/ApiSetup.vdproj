@@ -7,10 +7,10 @@
 "LanguageId" = "3:1033"
 "CodePage" = "3:1252"
 "UILanguageId" = "3:1033"
-"SccProjectName" = "8:"
-"SccLocalPath" = "8:"
-"SccAuxPath" = "8:"
-"SccProvider" = "8:"
+"SccProjectName" = "8:SAK"
+"SccLocalPath" = "8:SAK"
+"SccAuxPath" = "8:SAK"
+"SccProvider" = "8:SAK"
     "Hierarchy"
     {
         "Entry"
@@ -94,13 +94,13 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_1981B12363F548F6995D3708DB2ECD48"
+        "OwnerKey" = "8:_9B51C66378BB6671C01CE5A31F313F10"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_9B51C66378BB6671C01CE5A31F313F10"
+        "OwnerKey" = "8:_1981B12363F548F6995D3708DB2ECD48"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -283,7 +283,7 @@
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:ThoughtWorksMingleLib, Version=1.0.0.29000, Culture=neutral, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:ThoughtWorksMingleLib, Version=1.0.0.29681, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
                     "_2EB3CBFB4F78441EBAB2E8DE668EE8C8"
@@ -374,16 +374,16 @@
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:ThoughtWorksCoreLib, Version=1.0.0.29000, Culture=neutral, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:ThoughtWorksCoreLib, Version=1.0.0.29681, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
                     "_9B51C66378BB6671C01CE5A31F313F10"
                     {
-                    "Name" = "8:ThoughtWorksCoreLib.dll"
+                    "Name" = "8:ThoughtWorksCoreLib.DLL"
                     "Attributes" = "3:512"
                     }
                 }
-            "SourcePath" = "8:ThoughtWorksCoreLib.dll"
+            "SourcePath" = "8:ThoughtWorksCoreLib.DLL"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_B36C1601BCEF471A9498508B8562DCF6"
@@ -445,7 +445,7 @@
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:ThoughtWorksCoreLib, Version=1.0.0.29000, Culture=neutral, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:ThoughtWorksCoreLib, Version=1.0.0.29681, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
                     "_ECF32D182E6F45958C47E2C42A434414"
