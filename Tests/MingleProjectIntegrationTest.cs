@@ -13,25 +13,11 @@ namespace Tests
     [TestClass()]
     public class MingleProjectIntegrationTest
     {
-
-
-        private TestContext testContextInstance;
-
         /// <summary>
         ///Gets or sets the test context which provides
         ///information about and functionality for the current test run.
         ///</summary>
-        public TestContext TestContext
-        {
-            get
-            {
-                return testContextInstance;
-            }
-            set
-            {
-                testContextInstance = value;
-            }
-        }
+        public TestContext TestContext { get; set; }
 
         #region Additional test attributes
         // 
@@ -73,6 +59,19 @@ namespace Tests
             var target = new MingleServer("http://localhost:8080", "mingleuser", "secret").GetProject("apitest"); 
             var actual = target.GetView("Sprint List");
             Assert.AreEqual(25, actual.Count);
+        }
+
+        [TestMethod()]
+        public void GetProjectList()
+        {
+            //const string host = @"";
+            //const string user = "";
+            //const string pw = "";
+            //var mingle = new MingleServer(host, user, pw);
+            //var depart = DateTime.Now;
+            //mingle.GetProjectList();
+            //var duration = (DateTime.Now - depart).TotalSeconds;
+            //Console.WriteLine(string.Format("Time spent in GetProjectList: {0} seconds.", duration));
         }
     }
 }
