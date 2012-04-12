@@ -64,14 +64,15 @@ namespace Tests
         [TestMethod()]
         public void GetProjectList()
         {
-            //const string host = @"";
-            //const string user = "";
-            //const string pw = "";
-            //var mingle = new MingleServer(host, user, pw);
-            //var depart = DateTime.Now;
-            //mingle.GetProjectList();
-            //var duration = (DateTime.Now - depart).TotalSeconds;
-            //Console.WriteLine(string.Format("Time spent in GetProjectList: {0} seconds.", duration));
+            const string host = @"http://localhost:8080";
+            const string user = "mingleuser";
+            const string pw = "secret";
+            var mingle = new MingleServer(host, user, pw);
+            var depart = DateTime.Now;
+            var list = mingle.GetProjectList();
+            var duration = (DateTime.Now - depart).TotalSeconds;
+            Console.WriteLine(string.Format("Time spent in GetProjectList: {0} seconds.", duration));
+            Assert.AreEqual(2,list.Count);
         }
     }
 }

@@ -190,6 +190,7 @@ namespace ThoughtWorksMingleLib
             var begin = DateTime.Now;
             var query =
                 from p in XElement.Parse(Get(url)).Descendants("project")
+                where !p.Element("template").Value.Equals("true") 
                 let name = p.Element("name").Value
                 let identifier = p.Element("identifier").Value
                 select new
