@@ -31,7 +31,7 @@ Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ApiSetup", "ApiSetup\ApiSet
 EndProject
 Global
 	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 7
+		SccNumberOfProjects = 6
 		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
 		SccTeamFoundationServer = http://twstfs:8080/tfs/solutions
 		SccLocalPath0 = .
@@ -41,18 +41,15 @@ Global
 		SccProjectUniqueName2 = ThoughtWorksMingleLib\\ThoughtWorksMingleLib.csproj
 		SccProjectName2 = ../VSConnector/ThoughtWorksMingleLib
 		SccLocalPath2 = ThoughtWorksMingleLib
-		SccProjectUniqueName3 = spec\\spec.rbproj
-		SccProjectName3 = spec
-		SccLocalPath3 = spec
-		SccProjectUniqueName4 = ThoughtWorksGoLib\\ThoughtWorksGoLib.csproj
-		SccProjectName4 = ThoughtWorksGoLib
-		SccLocalPath4 = ThoughtWorksGoLib
-		SccProjectUniqueName5 = Tests\\Tests.csproj
-		SccProjectName5 = Tests
-		SccLocalPath5 = Tests
-		SccProjectUniqueName6 = ApiSetup\\ApiSetup.vdproj
-		SccProjectName6 = ApiSetup
-		SccLocalPath6 = ApiSetup
+		SccProjectUniqueName3 = ThoughtWorksGoLib\\ThoughtWorksGoLib.csproj
+		SccProjectName3 = ThoughtWorksGoLib
+		SccLocalPath3 = ThoughtWorksGoLib
+		SccProjectUniqueName4 = Tests\\Tests.csproj
+		SccProjectName4 = Tests
+		SccLocalPath4 = Tests
+		SccProjectUniqueName5 = ApiSetup\\ApiSetup.vdproj
+		SccProjectName5 = ApiSetup
+		SccLocalPath5 = ApiSetup
 	EndGlobalSection
 	GlobalSection(TestCaseManagementSettings) = postSolution
 		CategoryFile = StudiosApi.vsmdi
