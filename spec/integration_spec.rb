@@ -29,7 +29,7 @@ describe 'project' do
         proj = MingleServer.new("http://localhost:8080", "mingleuser", "secret").GetProject("apitest")
         count = proj.get_murmurs.count
         proj.send_murmur("I was murmured at " + now.to_string)
-        proj.get_murmurs.count.should == 25
+        proj.get_murmurs.count.should == count + 1
     end
     
     it 'updates the value of a property with a multi-worded name' do
