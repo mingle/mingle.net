@@ -58,11 +58,11 @@ describe 'card tests' do
     end
 
     it "should get CreatedOn" do
-        @thecard.created_on.to_string.should == "8/12/2011 10:59:41 AM"
+        @thecard.created_on.to_string.should == "8/12/2011 10:59:41"
     end
  
     it "should get ModifiedOn" do
-        @thecard.modified_on.to_string.should == "8/12/2011 10:59:41 AM"
+        @thecard.modified_on.to_string.should == "8/12/2011 10:59:41"
     end
     
     it "should get ModifiedByLogin" do

@@ -45,3 +45,7 @@ task :deploy do
 	sh "deploy.bat"
 end
 
+task :publish do
+	sh "nuget publish MingleNET 1.5.1" + ENV['NUGETAPIKEY'] -Source \\FRODO\Nuget
+end
+
