@@ -72,15 +72,13 @@ namespace Tests
         [TestMethod()]
         public void GetProjectListIntegrationTest()
         {
-            string hostUrl = "http://localhost:8080"; // TODO: Initialize to an appropriate value
-            string loginName = "mingleuser"; // TODO: Initialize to an appropriate value
-            string password = "secret"; // TODO: Initialize to an appropriate value
-            MingleServer target = new MingleServer(hostUrl, loginName, password); // TODO: Initialize to an appropriate value
-            SortedList<string, string> expected = null; // TODO: Initialize to an appropriate value
-            SortedList<string, string> actual;
-            actual = target.GetProjectList();
-            Assert.AreEqual(expected, actual);
-            Assert.Inconclusive("Verify the correctness of this test method.");
+            var hostUrl = Environment.GetEnvironmentVariable("MINGLETARGET"); 
+            const string loginName = "mingleuser"; 
+            const string password = "secret"; 
+            var target = new MingleServer(hostUrl, loginName, password); 
+            const int expected = 2;
+            var actual = target.GetProjectList();
+            Assert.AreEqual(expected, actual.Count);
         }
     }
 }

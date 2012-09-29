@@ -25,6 +25,67 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThoughtWorksGoLib", "Though
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{F2BB97DF-D976-4CBD-8725-C6A13A8C9E85}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "spec", "spec", "{E328BF35-87FE-40F8-93D7-25F26AF197D8}"
+	ProjectSection(SolutionItems) = preProject
+		spec\apitest.mingle = spec\apitest.mingle
+		spec\card_spec.rb = spec\card_spec.rb
+		spec\cardtype_spec.rb = spec\cardtype_spec.rb
+		spec\eventcategory_spec.rb = spec\eventcategory_spec.rb
+		spec\evententry_spec.rb = spec\evententry_spec.rb
+		spec\eventfeed_spec.rb = spec\eventfeed_spec.rb
+		spec\eventlink_spec.rb = spec\eventlink_spec.rb
+		spec\eventvalue_spec.rb = spec\eventvalue_spec.rb
+		spec\fake_mingle.rb = spec\fake_mingle.rb
+		spec\favorites_spec.rb = spec\favorites_spec.rb
+		spec\filter_spec.rb = spec\filter_spec.rb
+		spec\Gemfile = spec\Gemfile
+		spec\Gemfile.lock = spec\Gemfile.lock
+		spec\integration_spec.rb = spec\integration_spec.rb
+		spec\mingle_results_set_spec.rb = spec\mingle_results_set_spec.rb
+		spec\mqlresults_spec.rb = spec\mqlresults_spec.rb
+		spec\project_member_spec.rb = spec\project_member_spec.rb
+		spec\project_spec.rb = spec\project_spec.rb
+		spec\properties_spec.rb = spec\properties_spec.rb
+		spec\server_spec.rb = spec\server_spec.rb
+		spec\spec.rbproj = spec\spec.rbproj
+		spec\spec.sln = spec\spec.sln
+		spec\spec_helper.rb = spec\spec_helper.rb
+		spec\transition_spec.rb = spec\transition_spec.rb
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "data", "data", "{D5900F22-AC54-4BCB-A0FF-867C8FD5145A}"
+	ProjectSection(SolutionItems) = preProject
+		spec\data\.docstates.suo = spec\data\.docstates.suo
+		spec\data\bad_cards.rb = spec\data\bad_cards.rb
+		spec\data\card117.rb = spec\data\card117.rb
+		spec\data\card122.rb = spec\data\card122.rb
+		spec\data\card79.rb = spec\data\card79.rb
+		spec\data\cards.rb = spec\data\cards.rb
+		spec\data\cardtypes.rb = spec\data\cardtypes.rb
+		spec\data\errors.rb = spec\data\errors.rb
+		spec\data\FakeCategory.xml = spec\data\FakeCategory.xml
+		spec\data\FakeElementNilValue.xml = spec\data\FakeElementNilValue.xml
+		spec\data\FakeElementValue.xml = spec\data\FakeElementValue.xml
+		spec\data\FakeEntryContent.xml = spec\data\FakeEntryContent.xml
+		spec\data\FakeInterestingEvents.xml = spec\data\FakeInterestingEvents.xml
+		spec\data\FakeLink.xml = spec\data\FakeLink.xml
+		spec\data\FakeMingleEventsEntry.xml = spec\data\FakeMingleEventsEntry.xml
+		spec\data\FakeMingleEventsFeed.xml = spec\data\FakeMingleEventsFeed.xml
+		spec\data\FakeOlderMingleEventsFeed.xml = spec\data\FakeOlderMingleEventsFeed.xml
+		spec\data\favorites.rb = spec\data\favorites.rb
+		spec\data\morethan25cards.rb = spec\data\morethan25cards.rb
+		spec\data\mqlapiresults.rb = spec\data\mqlapiresults.rb
+		spec\data\mqlcount.rb = spec\data\mqlcount.rb
+		spec\data\oneproject.rb = spec\data\oneproject.rb
+		spec\data\projectmember.rb = spec\data\projectmember.rb
+		spec\data\projectmembers.rb = spec\data\projectmembers.rb
+		spec\data\projects.rb = spec\data\projects.rb
+		spec\data\propertydefinitions.rb = spec\data\propertydefinitions.rb
+		spec\data\stories.rb = spec\data\stories.rb
+		spec\data\transition_update.rb = spec\data\transition_update.rb
+		spec\data\transitions.rb = spec\data\transitions.rb
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(TestCaseManagementSettings) = postSolution
 		CategoryFile = StudiosApi.vsmdi
@@ -80,5 +141,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E328BF35-87FE-40F8-93D7-25F26AF197D8} = {87997511-32A2-423D-81DC-AD462D091794}
+		{D5900F22-AC54-4BCB-A0FF-867C8FD5145A} = {E328BF35-87FE-40F8-93D7-25F26AF197D8}
 	EndGlobalSection
 EndGlobal

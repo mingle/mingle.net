@@ -49,11 +49,6 @@ describe 'mingle_project' do
         @project.get_card_type("117").should == "Task"
     end
     
-    it 'gets the indirect cards by type name' do
-        proj = MingleServer.new("http://localhost:8080","mingleuser","secret").GetProject("apitest")
-        proj.get_cards_of_type("Iteration").count.should == 11
-    end
-    
     it 'gets a view' do
         sprints = @project.get_view "Sprint List"
         sprints.count.should == 25

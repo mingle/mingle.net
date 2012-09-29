@@ -8,17 +8,6 @@ describe 'mingle server' do
         @password.ToCharArray.each {|c| @securePassword.AppendChar(c)}
     end
     
-    it 'gets the list of projects' do
-        @mingle = MingleServer.new("http://localhost:9123","mingleuser", @securePassword)
-        list_projects
-        @mingle = MingleServer.new("http://localhost:9123","mingleuser", @password)
-        list_projects
-    end
-    
-    it 'gets the project identifier' do
-        MingleServer.new("http://localhost:9123","mingleuser",@securePassword).get_project_list().values[0].should == "nathan"
-    end
-    
     it 'gets the response' do
         @mingle = MingleServer.new("http://localhost:9123","mingleuser", @password)
         response = @mingle.Get("test", "/cards.xml")
@@ -72,8 +61,4 @@ describe 'mingle server' do
         m.FullyQualifiedMingleUrl("test", "/foo").should == "http://localhost:9123/api/v2/projects/test/foo"
     end
 
-    def list_projects
-        @mingle.get_project_list().count.should == 2
-    end
-    
 end

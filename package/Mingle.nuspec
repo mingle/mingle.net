@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>MingleNET</id>
+    <version>1.5</version>
+    <title>.NET client libraries for Mingle</title>
+    <authors>Mark D. Richter</authors>
+    <owners>ThoughtWorks, Inc.</owners>
+    <licenseUrl>http://www.apache.org/licenses/</licenseUrl>
+    <projectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</projectUrl>
+    <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <copyright>Copyright 2012</copyright>
+    <tags>Tag1 Tag2</tags>
+  </metadata>
+</package>

@@ -60,6 +60,7 @@
   <ItemGroup>
     <Compile Include="MingleCardIntegrationTest.cs" />
     <Compile Include="MingleProjectIntegrationTest.cs" />
+    <Compile Include="MingleServerIntegrationTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
