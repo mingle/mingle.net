@@ -24,4 +24,4 @@ SetupMingleApi/SetupMingleApi
 Help/Working
 vendor/ironruby
 package/
-
+*.nupkg
