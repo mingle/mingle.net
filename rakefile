@@ -46,6 +46,8 @@ task :deploy do
 end
 
 task :publish do
-	
+    sh "nuget setApiKey " + ENV["NUGETAPIKEY"]
+	sh "nuget pack ./nuget/mingle.net.nuspec -BasePath ./package -Version " + ENV["MINGLENETVERSION"]
+	sh "nuget push "MingleNet." + ENV["MINGLENETVERSION"]
 end
 
