@@ -19,6 +19,14 @@ task :clean do
 	sh "devenv.exe #{apisln} /Clean "
 end
 
+task :bundler do
+	sh "bundle install --deployment vendor" 
+end
+
+task :vars do
+	sh "buildvars"
+end
+
 task :doc do
 	sh "msbuild.exe /p:configuration=#{cfg}  documentation.shfbproj"
 end
