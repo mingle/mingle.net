@@ -25,3 +25,5 @@ Help/Working
 vendor/ironruby
 package/
 *.nupkg
+Nuget/content
+Nuget/lib
