@@ -26,20 +26,20 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>..\package\lib\net40\</OutputPath>
+    <OutputPath>..\nuget\lib\net40\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>..\package\lib\net40\ThoughtWorksMingleLib.XML</DocumentationFile>
+    <DocumentationFile>..\nuget\lib\net40\ThoughtWorksMingleLib.XML</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>..\package\lib\net40\</OutputPath>
+    <OutputPath>..\nuget\lib\net40\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>..\package\lib\net40\ThoughtWorksMingleLib.XML</DocumentationFile>
+    <DocumentationFile>..\nuget\lib\net40\ThoughtWorksMingleLib.XML</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup>
     <SignAssembly>false</SignAssembly>

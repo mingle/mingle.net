@@ -1,4 +1,4 @@
-$LOAD_PATH << File.dirname(__FILE__) + '/../build'
+$LOAD_PATH << File.dirname(__FILE__) + '/../nuget/lib/net40'
 
 require 'ThoughtWorksCoreLib.dll'
 require 'ThoughtWorksMingleLib.dll'
