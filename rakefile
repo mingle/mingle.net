@@ -1,7 +1,7 @@
 require 'rspec/core/rake_task'
 
 apisln = 'StudiosApi.sln'
-cfg = ENV["CONFIG"]
+cfg = ENV["CONFIG"] == nil ? "Release" : ENV["CONFIG"]
 
 task :build => [:clean, :compile, :spec, :installer]
 

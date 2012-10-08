@@ -14,6 +14,7 @@
 // limitations under the License.
 //
 
+using System;
 using System.Xml.Linq;
 
 namespace ThoughtWorksMingleLib
@@ -42,6 +43,7 @@ namespace ThoughtWorksMingleLib
         {
             get
             {
+                if (Xml == null) return null;
                 bool hasNil;
                 bool.TryParse(XAttributeString("nil"), out hasNil);
                 return hasNil ? null : Xml.Value;
