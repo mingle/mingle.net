@@ -74,7 +74,7 @@ namespace ThoughtWorksMingleLib
         /// </summary>
         public string AuthorName
         {
-            get { return Xml.Element("author").Element("name").Value; }
+            get { return Xml.Element("{http://www.w3.org/2005/Atom}author").Element("{http://www.w3.org/2005/Atom}name").Value; }
         }
 
         /// <summary>
@@ -82,7 +82,7 @@ namespace ThoughtWorksMingleLib
         /// </summary>
         public string AuthorUri
         {
-            get { return Xml.Element("author").Element("uri").Value; }
+            get { return Xml.Element("{http://www.w3.org/2005/Atom}author").Element("{http://www.w3.org/2005/Atom}uri").Value; }
 
         }
         /// <summary>

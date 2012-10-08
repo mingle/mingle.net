@@ -11,7 +11,7 @@
     <title>Task #79 45: Write tests changed</title>
     <updated>2011-09-20T21:15:40Z</updated>
     <author>
-      <name>Mark Richter</name>
+      <name>users name</name>
       <uri>http://frodo:8080/api/v2/users/1.xml</uri>
     </author>
     <link href="http://frodo:8080/api/v2/projects/test/cards/79.xml" rel="http://www.thoughtworks-studios.com/ns/mingle#event-source" type="application/vnd.mingle+xml" title="Task #79"/>
@@ -32,7 +32,7 @@
     <title>Task #79 45: Write tests changed</title>
     <updated>2011-09-20T21:10:12Z</updated>
     <author>
-      <name>Mark Richter</name>
+      <name>users name</name>
       <uri>http://frodo:8080/api/v2/users/1.xml</uri>
     </author>
     <link href="http://frodo:8080/api/v2/projects/test/cards/79.xml" rel="http://www.thoughtworks-studios.com/ns/mingle#event-source" type="application/vnd.mingle+xml" title="Task #79"/>
@@ -61,7 +61,7 @@
     <title>Property definition changed</title>
     <updated>2011-09-20T19:12:41Z</updated>
     <author>
-      <name>Mark Richter</name>
+      <name>users name</name>
       <uri>http://frodo:8080/api/v2/users/1.xml</uri>
     </author>
     <link href="http://frodo:8080/api/v2/projects/test/property_definitions/377.xml" rel="http://www.thoughtworks-studios.com/ns/mingle#event-source" type="application/vnd.mingle+xml"/>
@@ -83,7 +83,7 @@
     <title>Page How to use this template created</title>
     <updated>2011-08-12T17:59:41Z</updated>
     <author>
-      <name>Mark Richter</name>
+      <name>users name</name>
       <uri>http://frodo:8080/api/v2/users/1.xml</uri>
     </author>
     <link href="http://frodo:8080/api/v2/projects/test/wiki/How_to_use_this_template.xml" rel="http://www.thoughtworks-studios.com/ns/mingle#event-source" type="application/vnd.mingle+xml" title="How to use this template"/>
@@ -111,7 +111,7 @@
     <title>Sprint #4 Sprint 2 created</title>
     <updated>2011-08-12T17:59:41Z</updated>
     <author>
-      <name>Mark Richter</name>
+      <name>users name</name>
       <uri>http://frodo:8080/api/v2/users/1.xml</uri>
     </author>
     <link href="http://frodo:8080/api/v2/projects/test/cards/4.xml" rel="http://www.thoughtworks-studios.com/ns/mingle#event-source" type="application/vnd.mingle+xml" title="Sprint #4"/>
@@ -183,7 +183,7 @@
     <title>Sprint #3 Sprint 1 created</title>
     <updated>2011-08-12T17:59:41Z</updated>
     <author>
-      <name>Mark Richter</name>
+      <name>users name</name>
       <uri>http://frodo:8080/api/v2/users/1.xml</uri>
     </author>
     <link href="http://frodo:8080/api/v2/projects/test/cards/3.xml" rel="http://www.thoughtworks-studios.com/ns/mingle#event-source" type="application/vnd.mingle+xml" title="Sprint #3"/>
@@ -255,7 +255,7 @@
     <title>Page Overview Page created</title>
     <updated>2011-08-12T17:59:41Z</updated>
     <author>
-      <name>Mark Richter</name>
+      <name>users name</name>
       <uri>http://frodo:8080/api/v2/users/1.xml</uri>
     </author>
     <link href="http://frodo:8080/api/v2/projects/test/wiki/Overview_Page.xml" rel="http://www.thoughtworks-studios.com/ns/mingle#event-source" type="application/vnd.mingle+xml" title="Overview Page"/>
@@ -283,7 +283,7 @@
     <title>Feature #12 Social Network created</title>
     <updated>2011-08-12T17:59:41Z</updated>
     <author>
-      <name>Mark Richter</name>
+      <name>users name</name>
       <uri>http://frodo:8080/api/v2/users/1.xml</uri>
     </author>
     <link href="http://frodo:8080/api/v2/projects/test/cards/12.xml" rel="http://www.thoughtworks-studios.com/ns/mingle#event-source" type="application/vnd.mingle+xml" title="Feature #12"/>
@@ -342,7 +342,7 @@
     <title>Epic Story #15 Maintain my personal network created</title>
     <updated>2011-08-12T17:59:41Z</updated>
     <author>
-      <name>Mark Richter</name>
+      <name>users name</name>
       <uri>http://frodo:8080/api/v2/users/1.xml</uri>
     </author>
     <link href="http://frodo:8080/api/v2/projects/test/cards/15.xml" rel="http://www.thoughtworks-studios.com/ns/mingle#event-source" type="application/vnd.mingle+xml" title="Epic Story #15"/>
@@ -387,7 +387,7 @@
     <title>Story #58 Create Website Profile created</title>
     <updated>2011-08-12T17:59:41Z</updated>
     <author>
-      <name>Mark Richter</name>
+      <name>users name</name>
       <uri>http://frodo:8080/api/v2/users/1.xml</uri>
     </author>
     <link href="http://frodo:8080/api/v2/projects/test/cards/58.xml" rel="http://www.thoughtworks-studios.com/ns/mingle#event-source" type="application/vnd.mingle+xml" title="Story #58"/>
@@ -595,7 +595,7 @@
     <title>Task #78 45: Add Logic created</title>
     <updated>2011-08-12T17:59:41Z</updated>
     <author>
-      <name>Mark Richter</name>
+      <name>users name</name>
       <uri>http://frodo:8080/api/v2/users/1.xml</uri>
     </author>
     <link href="http://frodo:8080/api/v2/projects/test/cards/78.xml" rel="http://www.thoughtworks-studios.com/ns/mingle#event-source" type="application/vnd.mingle+xml" title="Task #78"/>
@@ -692,7 +692,7 @@
     <title>Task #75 46: Add Logic created</title>
     <updated>2011-08-12T17:59:41Z</updated>
     <author>
-      <name>Mark Richter</name>
+      <name>users name</name>
       <uri>http://frodo:8080/api/v2/users/1.xml</uri>
     </author>
     <link href="http://frodo:8080/api/v2/projects/test/cards/75.xml" rel="http://www.thoughtworks-studios.com/ns/mingle#event-source" type="application/vnd.mingle+xml" title="Task #75"/>
@@ -789,7 +789,7 @@
     <title>Task #68 54: Create UI created</title>
     <updated>2011-08-12T17:59:41Z</updated>
     <author>
-      <name>Mark Richter</name>
+      <name>users name</name>
       <uri>http://frodo:8080/api/v2/users/1.xml</uri>
     </author>
     <link href="http://frodo:8080/api/v2/projects/test/cards/68.xml" rel="http://www.thoughtworks-studios.com/ns/mingle#event-source" type="application/vnd.mingle+xml" title="Task #68"/>

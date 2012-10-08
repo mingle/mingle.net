@@ -2,10 +2,6 @@ require 'rspec/core/rake_task'
 
 apisln = 'StudiosApi.sln'
 cfg = ENV["CONFIG"]
-dotnet = ENV["DOTNETPATH"]
-vspath = ENV["VSPATH"]
-tfsTestContainer = './TfsSynchronizer/build/tests/TestSynchronizer.dll'
-tfsTestSettings = './TfsSynchronizer/Local.testsettings'
 
 task :build => [:clean, :compile, :spec, :installer]
 
@@ -23,10 +19,6 @@ task :bundler do
 	sh "bundle install --deployment vendor" 
 end
 
-task :vars do
-	sh "buildvars"
-end
-
 task :doc do
 	sh "msbuild.exe /p:configuration=#{cfg}  documentation.shfbproj"
 end
@@ -39,23 +31,8 @@ RSpec::Core::RakeTask.new(:spec) do |t|
   t.skip_bundler = true
 end
 
-task :install do
-	clean '.bundle'
-	mkdir 'vendor' unless File.exists? 'vendor'
-	sh 'bundle install --path vendor'
-end
-
 def clean path
 	rm_r path if File.exists? path
 end
 
-task :deploy do
-	sh "deploy.bat"
-end
-
-task :publish do
-    sh "nuget setApiKey " + ENV["NUGETAPIKEY"]
-	sh "nuget pack ./nuget/mingle.net.nuspec -BasePath ./package -Version " + ENV["MINGLENETVERSION"]
-	sh "nuget push MingleNet." + ENV["MINGLENETVERSION"]
-end
 

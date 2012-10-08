@@ -38,6 +38,14 @@ describe 'mingle_events_feed' do
         expected = System::Convert.ToDateTime(System::String.new("2011-09-20T21:15:40Z"))
         actual = target.updated
         actual.should == expected
-    end        
+    end
+	
+	it 'should get the AuthorName' do
+		target = MingleEventsFeed.new(xml).entries[0].author_name.should == "users name"
+	end        
+
+	it 'should get the AuthorUri' do
+		target = MingleEventsFeed.new(xml).entries[0].author_uri.should == "http://frodo:8080/api/v2/users/1.xml"
+	end        
 
 end
