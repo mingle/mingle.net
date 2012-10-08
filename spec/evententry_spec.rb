@@ -28,13 +28,4 @@ describe 'mingle_events_entry_content' do
         actual.new_value.value.should == "1"
     end    
     
-    it 'should get the author name' do
-        target = MingleEventsFeedEntry.new(System::Xml::Linq::XElement.load(File.dirname(__FILE__) + "/data/FakeMingleEventsEntry.xml"))
-        expected = "Mark Richter"
-        actual = target.author_name
-        actual.should == expected
-    end
-    
-    it 'should get the author uri' do
-    end    
 end
