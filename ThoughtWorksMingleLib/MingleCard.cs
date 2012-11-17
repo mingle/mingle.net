@@ -32,7 +32,6 @@ namespace ThoughtWorksMingleLib
     {
         private readonly IMingleProject _project;
         private readonly SortedList<string,MingleTransition> _transitions = new SortedList<string, MingleTransition>();
-        private readonly SortedList<string,MinglePropertyDefinition> _properties = new SortedList<string, MinglePropertyDefinition>();
 
         #region Mingle Card Attributes
 
@@ -260,14 +259,18 @@ namespace ThoughtWorksMingleLib
         }
 
         /// <summary>
-        /// A list of transitions for this card
+        /// A list of transitions executable for this card
         /// </summary>
+        /// <remarks>
+        /// URL: /api/v2/projects/project_identifier/cards/card_number/transitions.xml
+        /// </remarks>
         public SortedList<string, MingleTransition> Transitions
         // TODO Should join with transition definitions
         {
             get
             {
                 _transitions.Clear();
+                // XElement.Load(_project.Mingle.Get(_project.ProjectId, string.Format("/cards/{0}/transitions.xml", Number))).Elements().ToList().ForEach(e => _transitions.Add((e.Name.ToString()), new MingleTransition(e.ToString(), _project)));
                 foreach (var t in from MingleTransition t in _project.Transitions.Values where Type == t.CardTypeName select t)
                 {
                     _transitions.Add(t.Name, t);

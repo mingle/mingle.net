@@ -32,7 +32,7 @@ namespace ThoughtWorksMingleLib
         /// <summary>
         /// MingleProject associated with this object
         /// </summary>
-        public MingleProject Project { get; private set; }
+        public IMingleProject Project { get; private set; }
 
         /// <summary>
         /// Returns an XElement backing this object
@@ -42,7 +42,7 @@ namespace ThoughtWorksMingleLib
         /// <summary>
         /// Constructs a new Transition
         /// </summary>
-        public MingleTransition(string transitionXml, MingleProject project)
+        public MingleTransition(string transitionXml, IMingleProject project)
         {
             RawData = XElement.Parse(transitionXml);
             Project = project;
