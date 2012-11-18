@@ -93,7 +93,7 @@ describe 'card tests' do
     end
     
     it "should count the Transitions" do
-        @thecard.transitions.count.should == 2
+        @thecard.transitions.count.should == 11
     end
     
     it "should count the Postdata" do

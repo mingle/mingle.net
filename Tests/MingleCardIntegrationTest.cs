@@ -1,4 +1,5 @@
-﻿using ThoughtWorksMingleLib;
+﻿using System;
+using ThoughtWorksMingleLib;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Tests
@@ -15,7 +16,14 @@ namespace Tests
 
 
         private TestContext testContextInstance;
-        private const string MINGLEHOST = "http://localhost:8080";
+        public static string MingleHost
+        {
+            get
+            {
+                var mingleHost = Environment.GetEnvironmentVariable("MINGLETARGET");
+                return string.IsNullOrEmpty(mingleHost) ? @"http://localhost:8080" : mingleHost;
+            }
+        }
         private const string MINGLEUSER = "mingleuser";
         private const string MINGLEPASSWORD = "secret";
         private static MingleServer _mingle;
@@ -45,7 +53,7 @@ namespace Tests
         [ClassInitialize()]
         public static void MyClassInitialize(TestContext testContext)
         {
-            _mingle = new MingleServer(MINGLEHOST, MINGLEUSER, MINGLEPASSWORD);
+            _mingle = new MingleServer(MingleHost, MINGLEUSER, MINGLEPASSWORD);
             _project = _mingle.GetProject("apitest");
         }
         //
@@ -149,6 +157,16 @@ namespace Tests
                 return;
             }
             
+        }
+
+        [TestMethod]
+        public void TestCardTransitions()
+        {
+            var project = _mingle.GetProject("test");
+            var card = project.GetCard(91);
+            var actual = card.Transitions.Count;
+            const int expected = 4;
+            Assert.AreEqual(expected, actual);
         }
     }
 }

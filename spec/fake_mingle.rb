@@ -34,7 +34,7 @@ get '/api/v2/projects/test/transitions.xml' do
     fake_transitions
 end
 
-get '/api/v2/projects/test/cards/122/transitions.xml' do
+get '/api/v2/projects/test/cards/79/transitions.xml' do
     fake_transitions
 end
 

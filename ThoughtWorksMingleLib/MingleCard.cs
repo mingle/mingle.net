@@ -265,17 +265,14 @@ namespace ThoughtWorksMingleLib
         /// URL: /api/v2/projects/project_identifier/cards/card_number/transitions.xml
         /// </remarks>
         public SortedList<string, MingleTransition> Transitions
-        // TODO Should join with transition definitions
         {
             get
             {
                 _transitions.Clear();
-                // XElement.Load(_project.Mingle.Get(_project.ProjectId, string.Format("/cards/{0}/transitions.xml", Number))).Elements().ToList().ForEach(e => _transitions.Add((e.Name.ToString()), new MingleTransition(e.ToString(), _project)));
-                foreach (var t in from MingleTransition t in _project.Transitions.Values where Type == t.CardTypeName select t)
-                {
-                    _transitions.Add(t.Name, t);
-                }
-
+                var s = _project.Mingle.Get(_project.ProjectId, string.Format("/cards/{0}/transitions.xml", Number));
+                XElement.Parse(_project.Mingle.Get(_project.ProjectId, string.Format("/cards/{0}/transitions.xml", Number)))
+                    .Elements("transition").ToList().
+                        ForEach(e => _transitions.Add((e.Element("name").ToString()), new MingleTransition(e.ToString(), _project)));
                 return _transitions;
             }
         }
