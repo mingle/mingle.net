@@ -158,6 +158,6 @@ namespace ThoughtWorksMingleLib
         /// Sends a murmur to Mingle
         /// </summary>
         /// <param name="murmur"></param>
-        void SendMurmur(string murmur);
+        MingleMurmur SendMurmur(string murmur);
     }
 }

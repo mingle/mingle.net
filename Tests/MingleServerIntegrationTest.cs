@@ -70,6 +70,7 @@ namespace Tests
         ///A test for GetProjectList
         ///</summary>
         [TestMethod()]
+        [TestCategory("Unit")]
         public void GetProjectListIntegrationTest()
         {
             var hostUrl = Environment.GetEnvironmentVariable("MINGLETARGET"); 

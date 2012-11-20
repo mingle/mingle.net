@@ -27,9 +27,8 @@ describe 'project' do
     it 'posts a murmur' do
         now = System::DateTime.now
         proj = MingleServer.new(ENV['MINGLETARGET'], "mingleuser", "secret").GetProject("apitest")
-        count = proj.get_murmurs.count
-        proj.send_murmur("I was murmured at " + now.to_string)
-        proj.get_murmurs.count.should == count + 1
+		body = now.to_string
+        proj.send_murmur(body).body.should == body
     end
     
     it 'updates the value of a property with a multi-worded name' do
@@ -68,5 +67,15 @@ describe 'project' do
         @mingle = MingleServer.new(ENV['MINGLETARGET'],"mingleuser", "secret")
         @mingle.get_project_list().count.should == 2
     end
+
+	it 'updates the card name' do
+		card = MingleServer.new(ENV['MINGLETARGET'],"mingleuser", "secret").get_project("test").get_card(126)
+		card.add_card_attribute_filter_to_post_data("name", "xxx")
+		card.update
+		card.name.should == "xxx"
+		card.add_card_attribute_filter_to_post_data("name", "ready to test")
+		card.update
+		card.name.should == "ready to test"
+	end
     
 end

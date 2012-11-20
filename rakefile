@@ -3,16 +3,31 @@ require 'rspec/core/rake_task'
 apisln = 'StudiosApi.sln'
 cfg = ENV["CONFIG"] == nil ? "Release" : ENV["CONFIG"]
 
-task :build => [:clean, :compile, :spec, :installer]
+task :build => [:clean, :compile, :run_unit_tests, :run_integration_tests]
+
+task :quickbuild => [:clean, :compile, :run_unit_tests, :installer]
 
 task :compile do
 	puts "Building '#{apisln}' using '#{cfg}' configuration."
 	sh "msbuild.exe /t:Rebuild /p:configuration=#{cfg} #{apisln}" 
 end
+	
+task :run_integration_tests do
+	puts "\r\nBEGIN INTEGRATION TESTS\r\n"
+	sh "rspec spec/spec_helper.rb spec/fake_mingle.rb spec/integration_spec.rb"
+	puts "\r\nEND INTEGRATION TESTS\r\n"
+end
+
+task :run_unit_tests do
+	puts "\r\nBEGIN UNIT TESTS\r\n"
+	sh "rspec spec/spec_helper.rb spec/fake_mingle.rb spec/card_spec.rb spec/cardtype_spec.rb spec/eventcategory_spec.rb spec/evententry_spec.rb spec/eventfeed_spec.rb spec/eventlink_spec.rb spec/eventvalue_spec.rb spec/favorites_spec.rb spec/filter_spec.rb spec/mingle_results_set_spec.rb spec/mqlresults_spec.rb spec/project_member_spec.rb spec/project_spec.rb spec/properties_spec.rb spec/server_spec.rb spec/transition_spec.rb"
+	puts "\r\nEND UNIT TESTS\r\n"
+end
 
 task :clean do
 	clean 'build'
-	sh "devenv.exe #{apisln} /Clean "
+	clean 'Nuget/lib/net40'
+	sh "msbuild /target:Clean #{apisln} "
 end
 
 task :bundler do
@@ -21,10 +36,6 @@ end
 
 task :doc do
 	sh "msbuild.exe /p:configuration=#{cfg}  documentation.shfbproj"
-end
-
-task :installer do
-	sh "devenv ApiSetup/ApiSetup.vdproj /Rebuild #{cfg} /Log StudiosApiSetupLog.txt"
 end
 
 RSpec::Core::RakeTask.new(:spec) do |t|

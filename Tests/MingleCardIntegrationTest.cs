@@ -21,7 +21,7 @@ namespace Tests
             get
             {
                 var mingleHost = Environment.GetEnvironmentVariable("MINGLETARGET");
-                return string.IsNullOrEmpty(mingleHost) ? @"http://localhost:8080" : mingleHost;
+                return string.IsNullOrEmpty(mingleHost) ? @"http://127.0.0.1:8080" : mingleHost;
             }
         }
         private const string MINGLEUSER = "mingleuser";
@@ -82,6 +82,7 @@ namespace Tests
         ///A scenario test for Update
         ///</summary>
         [TestMethod()]
+        [TestCategory("Unit")]
         public void CreateIntegrationTest()
         {
             var card = _project.GetCard(4);
@@ -95,6 +96,7 @@ namespace Tests
         }
 
         [TestMethod]
+        [TestCategory("Unit")]
         public void CardPropertyIntegrationTest()
         {
             var card = _project.GetCard(120);
@@ -113,6 +115,7 @@ namespace Tests
         }
 
         [TestMethod]
+        [TestCategory("Unit")]
         public void TestSetCardProperty()
         {
             var card = _project.GetCard(120);
@@ -136,6 +139,7 @@ namespace Tests
         }
          
         [TestMethod]
+        [TestCategory("Unit")]
         public void TestSetCardPropertyWithTwoWordName()
         {
             var card = _project.GetCard(120);
@@ -160,6 +164,7 @@ namespace Tests
         }
 
         [TestMethod]
+        [TestCategory("Unit")]
         public void TestCardTransitions()
         {
             var project = _mingle.GetProject("test");
@@ -167,6 +172,18 @@ namespace Tests
             var actual = card.Transitions.Count;
             const int expected = 4;
             Assert.AreEqual(expected, actual);
+        }
+
+        [TestMethod]
+        [TestCategory("Unit")]
+        public void TestCardUpdateName()
+        {
+            var card = _mingle.GetProject("test").GetCard(126);
+            card.AddCardAttributeFilterToPostData("name", "xxx");
+            card.Update();
+            Assert.AreEqual("xxx", _mingle.GetProject("test").GetCard(126).Name);
+            card.AddCardAttributeFilterToPostData("name", "ready to test");
+            Assert.AreEqual("xxx", _mingle.GetProject("ready to test").GetCard(126).Name);
         }
     }
 }

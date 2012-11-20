@@ -1,4 +1,5 @@
-﻿using ThoughtWorksMingleLib;
+﻿using System.Linq;
+using ThoughtWorksMingleLib;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 
@@ -54,6 +55,7 @@ namespace Tests
         ///A test for GetView
         ///</summary>
         [TestMethod()]
+        [TestCategory("Unit")]
         public void GetViewIntegrationTest()
         {
             var target = new MingleServer("http://localhost:8080", "mingleuser", "secret").GetProject("apitest"); 
@@ -62,6 +64,7 @@ namespace Tests
         }
 
         [TestMethod()]
+        [TestCategory("Unit")]
         public void GetProjectList()
         {
             const string host = @"http://localhost:8080";
@@ -73,6 +76,18 @@ namespace Tests
             var duration = (DateTime.Now - depart).TotalSeconds;
             Console.WriteLine(string.Format("Time spent in GetProjectList: {0} seconds.", duration));
             Assert.AreEqual(2,list.Count);
+        }
+
+        [TestMethod]
+        [TestCategory("Unit")]
+        public void TestPostMurmur()
+        {
+            const string host = @"http://localhost:8080";
+            const string user = "mingleuser";
+            const string pw = "secret";
+            var project = new MingleServer(host, user, pw).GetProject("apitest");
+            var ticks = DateTime.Now.Ticks;
+            Assert.AreEqual(ticks.ToString(),project.SendMurmur(ticks.ToString()).Body);
         }
     }
 }

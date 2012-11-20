@@ -450,10 +450,6 @@ namespace ThoughtWorksMingleLib
             var url = string.Format("/murmurs.xml");
 
             return (from m in XElement.Parse(Mingle.Get(ProjectId, url)).Elements("murmur").ToList()
-                    //where null != m.Element("author")
-                    //where null != m.Element("author").Element("name")
-                    //where null != m.Element("created_at")
-                    //where null != m.Element("body")
                     select new MingleMurmur(m)).ToList();
 
         }
@@ -462,9 +458,10 @@ namespace ThoughtWorksMingleLib
         /// Sends a murmur to Mingle
         /// </summary>
         /// <param name="murmur"></param>
-        public void SendMurmur(string murmur)
+        public MingleMurmur SendMurmur(string murmur)
         {
-            Mingle.Post(ProjectId, "/murmurs.xml", new Collection<string> { string.Format(CultureInfo.InvariantCulture, "murmur[body]={0}", murmur) });
+            var response = Mingle.Post(ProjectId, "/murmurs.xml", new Collection<string> { string.Format(CultureInfo.InvariantCulture, "murmur[body]={0}", murmur) });
+            return new MingleMurmur(XElement.Parse(response.Body));
         }
 
         /// <summary>
