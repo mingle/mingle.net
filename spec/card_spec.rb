@@ -1,7 +1,7 @@
 require File.dirname(__FILE__)+'/spec_helper'
 require 'fake_mingle'
 
-describe 'card tests' do
+describe 'card' do
     before(:all) do
         run_fake_mingle
     end
@@ -58,11 +58,11 @@ describe 'card tests' do
     end
 
     it "should get CreatedOn" do
-        @thecard.created_on.to_string.should == "8/12/2011 10:59:41"
+        @thecard.created_on.to_string.starts_with("8/12/2011 10:59:41").should == true
     end
  
     it "should get ModifiedOn" do
-        @thecard.modified_on.to_string.should == "8/12/2011 10:59:41"
+        @thecard.modified_on.to_string.starts_with("8/12/2011 10:59:41").should == true
     end
     
     it "should get ModifiedByLogin" do
