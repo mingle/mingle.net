@@ -270,9 +270,11 @@ namespace ThoughtWorksMingleLib
             {
                 _transitions.Clear();
                 var s = _project.Mingle.Get(_project.ProjectId, string.Format("/cards/{0}/transitions.xml", Number));
+                TraceLog.WriteLine(new StackFrame().GetMethod().Name, s);
                 XElement.Parse(_project.Mingle.Get(_project.ProjectId, string.Format("/cards/{0}/transitions.xml", Number)))
                     .Elements("transition").ToList().
                         ForEach(e => _transitions.Add((e.Element("name").ToString()), new MingleTransition(e.ToString(), _project)));
+                TraceLog.WriteLine(new StackFrame().GetMethod().Name, string.Format("Found {0} transitions.", _transitions.Count));
                 return _transitions;
             }
         }
