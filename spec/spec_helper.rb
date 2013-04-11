@@ -46,3 +46,7 @@ def IN_PROGRESS
         rescue Spec::Expectations::ExpectationNotMetError
     end
 end
+
+def apitest
+	'apitest'
+end

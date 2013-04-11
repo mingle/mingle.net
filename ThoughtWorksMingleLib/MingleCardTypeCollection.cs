@@ -1,5 +1,5 @@
 ﻿//
-// Copyright 2012 ThoughtWorks, Inc.
+// Copyright 2012-2013 ThoughtWorks, Inc.
 //
 // Licensed under the Apache License, Version 2.0 (the "License"); 
 // you may not use this file except in compliance with the License. 
@@ -26,6 +26,7 @@ namespace ThoughtWorksMingleLib
     /// <summary>
     /// Collection of Card Types listing the various types of cards available in the project.
     /// </summary>
+    [System.Serializable]
     public class MingleCardTypeCollection : Collection<MingleCardType>, IMingleXmlObjectCollection
     {
         /// <summary>

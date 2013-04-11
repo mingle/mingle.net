@@ -1,5 +1,5 @@
 ﻿//
-// Copyright 2012 ThoughtWorks, Inc.
+// Copyright 2012-2013 ThoughtWorks, Inc.
 //
 // Licensed under the Apache License, Version 2.0 (the "License"); 
 // you may not use this file except in compliance with the License. 
@@ -20,6 +20,7 @@ namespace ThoughtWorksMingleLib
     /// Filter is a class that exposes properties and methods to provide filter and query
     /// clauses suitable for POST data and queries. 
     /// </summary>
+    [System.Serializable]
     public class MingleFilter
     {
         /// <summary>

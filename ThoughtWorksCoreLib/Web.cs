@@ -101,9 +101,12 @@ namespace ThoughtWorksCoreLib
             _authenticate(request);
             try
             {
-                TraceLog.WriteLine(new StackFrame().GetMethod().Name, request.RequestUri.PathAndQuery);
+                var begin = DateTime.Now.Ticks;
                 using (var response = (HttpWebResponse)request.GetResponse())
                 {
+                    var span = new TimeSpan(DateTime.Now.Ticks - begin);
+                    TraceLog.WriteLine(new StackFrame().GetMethod().Name, request.RequestUri.PathAndQuery);
+                    TraceLog.WriteLine(new StackFrame().GetMethod().Name, "\t\tWeb server round trip elapsed time time was " + span.TotalMilliseconds + " millicesonds");
                     var body = new StreamReader(response.GetResponseStream()).ReadToEnd();
                     return new Response(response.Headers, body);
                 }

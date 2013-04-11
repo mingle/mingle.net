@@ -1,7 +1,7 @@
 require File.dirname(__FILE__)+'/spec_helper'
 require 'fake_mingle'
 
-describe 'project member tests' do
+describe 'project_member' do
 
     before do
         securePassword = System::Security::SecureString.new

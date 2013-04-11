@@ -1,5 +1,5 @@
 ﻿//
-// Copyright 2012 ThoughtWorks, Inc.
+// Copyright 2012-2013 ThoughtWorks, Inc.
 //
 // Licensed under the Apache License, Version 2.0 (the "License"); 
 // you may not use this file except in compliance with the License. 
@@ -18,7 +18,10 @@ using System;
 using System.Collections.ObjectModel;
 using System.Diagnostics;
 using System.Globalization;
+using System.Xml;
 using System.Xml.Linq;
+using System.Xml.Schema;
+using System.Xml.Serialization;
 using ThoughtWorksCoreLib;
 
 namespace ThoughtWorksMingleLib
@@ -26,6 +29,7 @@ namespace ThoughtWorksMingleLib
     ///<summary>
     /// Set of Mingle cards
     ///</summary>
+    [Serializable]
     public class MingleCardCollection : ObservableCollection<MingleCard>, IMingleXmlObjectCollection
     {
         /// <summary>
@@ -88,10 +92,22 @@ namespace ThoughtWorksMingleLib
         {
             try
             {
+                var more = true;
                 TraceLog.WriteLine(new StackFrame().GetMethod().Name, "Loading the ResponseStream");
                 Clear();
-                var response = Project.Mingle.Get(ProjectId, "/cards.xml", filters);
-                FillTheCardCollection(response);
+                var page = 0;
+                filters.Add("");
+                while (more)
+                {
+                    page++;
+                    filters[filters.Count - 1] = "page=" + page.ToString();
+                    var begin = DateTime.Now.Ticks;
+                    var response = Project.Mingle.Get(ProjectId, "/cards.xml", filters);
+                    var end = DateTime.Now.Ticks;
+                    var span = new TimeSpan(end - begin);
+                    TraceLog.WriteLine(new StackFrame().GetMethod().Name, "Parsing page " + page.ToString() + "took " + span.TotalMilliseconds + " milliseconds including Web server round trip for " + response.Length + " characters of data.");
+                    more = FillTheCardCollection(response);
+                }
             }
             catch (Exception ex)
             {
@@ -103,14 +119,19 @@ namespace ThoughtWorksMingleLib
 
         }
 
-        private void FillTheCardCollection(string response)
+        private bool FillTheCardCollection(string response)
         {
+            var count = 0;
             foreach (var e in XElement.Parse(response).Elements("card"))
             {
                 Add(new MingleCard(e.ToString(), Project));
+                count++;
             }
+
+            return count < 25 ? false : true;
         }
 
         #endregion
+
     }
 }

@@ -1,5 +1,5 @@
 ﻿//
-// Copyright 2012 ThoughtWorks, Inc.
+// Copyright 2012-2013 ThoughtWorks, Inc.
 //
 // Licensed under the Apache License, Version 2.0 (the "License"); 
 // you may not use this file except in compliance with the License. 
@@ -19,6 +19,7 @@ using System.Runtime.Serialization;
 
 namespace ThoughtWorksMingleLib
 {
+    [System.Serializable]
     class MingleUnauthorizedException : Exception
     {
         /// <summary>

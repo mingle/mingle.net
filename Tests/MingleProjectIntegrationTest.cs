@@ -2,6 +2,8 @@
 using ThoughtWorksMingleLib;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
+using System.Collections.Generic;
+using System.Collections.ObjectModel;
 
 namespace Tests
 {
@@ -88,6 +90,32 @@ namespace Tests
             var project = new MingleServer(host, user, pw).GetProject("apitest");
             var ticks = DateTime.Now.Ticks;
             Assert.AreEqual(ticks.ToString(),project.SendMurmur(ticks.ToString()).Body);
+        }
+
+        [TestMethod]
+        [TestCategory("Unit")]
+        public void TestGetCards()
+        {
+            const string host = @"http://localhost:8080";
+            const string user = "mingleuser";
+            const string pw = "secret";
+            var project = new MingleServer(host, user, pw).GetProject("apitest");
+            Assert.AreEqual(88, project.GetCards().Count);
+            Assert.AreEqual(36, project.GetCards(new Collection<string>{"[filters[]=[Type][Is][Story]"}).Count);
+        }
+
+        [TestMethod]
+        [TestCategory("Integration")]
+        public void TestTypeInFilter()
+        {
+            const string host = @"http://localhost:8080";
+            const string user = "mingleuser";
+            const string pw = "secret";
+            var filters = new Collection<string> { new MingleFilter("Type", "Is", "Main Business Requirement").FilterFormatString };
+            filters.Add( new MingleFilter("Type", "Is", "Business Use Case").FilterFormatString );
+            filters.Add( new MingleFilter("Type", "Is", "Planning Card").FilterFormatString );
+            var project = new MingleServer(host, user, pw).GetProject("bss_portfolio_sandbox");
+            Assert.AreEqual(314, project.GetCards(filters).Count);
         }
     }
 }

@@ -1,5 +1,5 @@
 ﻿//
-// Copyright 2012 ThoughtWorks, Inc.
+// Copyright 2012-2013 ThoughtWorks, Inc.
 //
 // Licensed under the Apache License, Version 2.0 (the "License"); 
 // you may not use this file except in compliance with the License. 
@@ -27,6 +27,7 @@ namespace ThoughtWorksMingleLib
     /// A card also has a variable colleciton of properties as determined
     /// by the card type. MingleCardProperty model each or these properties.
     /// </remarks>
+    [System.Serializable]
     public class MingleCardProperty
     {
         /// <summary>
