@@ -7,7 +7,7 @@ describe 'transition tests' do
         # Make a MingleTransitionSet object
         securePassword = System::Security::SecureString.new
         password = System::String.new("secret")
-        @tset = MingleTransitionCollection.new(MingleServer.new(ENV['MINGLETARGET'],"mingleuser",password).GetProject(apitest));
+        @tset = MingleTransitionCollection.new(MingleServer.new(ENV['MINGLETESTTARGET'],"mingleuser",password).GetProject(apitest));
         @tset.Parse();
 
     end
@@ -22,16 +22,15 @@ describe 'transition tests' do
     end
     
     it 'should get the transition id' do
-        @tset["Add to Current Iteration"].Id.should == 95
+        (@tset["Add to Current Iteration"].Id > 0).should == true
     end
     
     it 'should get the url string' do
-        @tset["Add to Current Iteration"].Url.should == "http://localhost:8080/api/v2/projects/apitest/transition_executions/95.xml"
+        @tset["Add to Current Iteration"].Url.contains("/api/v2/projects/apitest/transition_executions/").should == true
     end
     
     it 'should get the require comment property' do
         @tset["Add to Current Iteration"].RequireComment.should == false
-        @tset["Close Defect"].RequireComment.should == true
     end
     
     it 'should get the required user input property' do

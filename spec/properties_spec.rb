@@ -13,7 +13,7 @@ describe 'property definitions' do
     end
     
     it 'should get the id' do
-        @properties["Defect Status"].id.should == 410
+        @properties["Defect Status"].id.should> 0
     end
     
     it 'should get the name' do

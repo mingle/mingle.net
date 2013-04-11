@@ -16,7 +16,7 @@ describe 'favorite' do
     end
     
     it 'should get the id' do
-        @favs["Remaining Defects"].id.should == 145
+        @favs["Remaining Defects"].id.should > 0
     end
     
     it 'should get the name' do

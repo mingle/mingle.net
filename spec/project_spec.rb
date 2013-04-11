@@ -4,10 +4,8 @@ require 'fake_mingle'
 describe 'mingle_project' do
 
     before do
-        securePassword = System::Security::SecureString.new
         password = System::String.new("secret")
-        password.ToCharArray.each {|c| securePassword.AppendChar(c)}
-        @project = MingleServer.new("http://localhost:8080","mingleuser",securePassword).GetProject(apitest)
+        @project = MingleServer.new(ENV['MINGLETESTTARGET'],"mingleuser",password).GetProject(apitest)
     end
     
     it 'gets cards' do

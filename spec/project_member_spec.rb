@@ -18,7 +18,7 @@ describe 'project_member' do
     end
     
     it 'should get the user_id' do
-        @userset["mingleuser"].user_id.should == 114
+        @userset["mingleuser"].user_id.should > 0
     end
     
     it 'should get the user name' do
