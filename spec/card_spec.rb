@@ -20,7 +20,7 @@ describe 'card' do
     end
  
     it "should get CardTypeUrl" do
-        @thecard.card_type_url.should == "http://localhost:8080/api/v2/projects/apitest/card_types/73.xml"
+        @thecard.card_type_url.contains("/api/v2/projects/apitest/card_types").should == true
     end
     
     it "should get Number" do
@@ -36,7 +36,7 @@ describe 'card' do
     end
     
     it "should get ProjectUrl" do
-        @thecard.project_url.should == "http://localhost:8080/api/v2/projects/apitest.xml"
+        @thecard.project_url.contains("/api/v2/projects/apitest.xml").should == true
     end
  
     it "should get Version" do
@@ -60,14 +60,14 @@ describe 'card' do
     end
     
     it "should get ModifiedByUrl" do
-        @thecard.modified_by_url.should == "http://localhost:8080/api/v2/users/114.xml"
+        @thecard.modified_by_url.contains("/api/v2/users").should == true
     end
     it "should get CreatedByLogin" do
         @thecard.created_by_login.should == "mingleuser"
     end
     
     it "should get CreatedByUrl" do
-        @thecard.created_by_url.should == "http://localhost:8080/api/v2/users/114.xml"
+        @thecard.created_by_url.contains("/api/v2/users").should == true
     end
     
     it "should get ModifiedByName" do
@@ -91,7 +91,7 @@ describe 'card' do
     end
     
     it 'gets the rendered description' do
-        System::String.new(@thecard.rendered_description).starts_with(System::String.new("http://localhost:8080/api/v2/projects/apitest/render?content_provider")).should == true
+        System::String.new(@thecard.rendered_description).contains(System::String.new("/api/v2/projects/apitest/render?content_provider")).should == true
     end
     
 
