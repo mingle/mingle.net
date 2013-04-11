@@ -5,16 +5,15 @@ describe 'property definitions' do
     before do
         securePassword = System::Security::SecureString.new
         password = System::String.new("secret")
-        password.ToCharArray.each {|c| securePassword.AppendChar(c)}
-        @properties = MingleServer.new("http://localhost:9123","mingleuser",securePassword).GetProject("test").GetProperties()
+        @properties = MingleServer.new(ENV['MINGLETESTTARGET'],"mingleuser",password).GetProject(apitest).GetProperties()
     end
     
     it 'should count the properties' do
-        @properties.count.should == 40
+        @properties.count.should == 57
     end
     
     it 'should get the id' do
-        @properties["Defect Status"].id.should == 256
+        @properties["Defect Status"].id.should == 410
     end
     
     it 'should get the name' do
@@ -22,7 +21,7 @@ describe 'property definitions' do
     end
     
     it 'should get the description' do
-        @properties["Owner"].description.should == "Individual assigned to a work item"
+        @properties["Owner"].description.should == "Individual signed up to work on a card"
     end
     
     it 'should get the data_type' do
@@ -35,29 +34,29 @@ describe 'property definitions' do
     
     it 'should get the hidden' do
         @properties["Owner"].hidden.should == false
-        @properties["Sprint Added to Scope"].hidden.should == true
+        @properties["Accepted On"].hidden.should == true
     end
     
     it 'should get the restricted' do
-        @properties["Sprint Added to Scope"].restricted.should == false
-        @properties["Status"].restricted.should == true
+        @properties["Build completed"].restricted.should == false
+        @properties["Closed"].restricted.should == true
     end
     
     it 'should get the is_transition_only' do
-        @properties["Status"].is_transition_only.should == true
+        @properties["Accepted in Iteration"].is_transition_only.should == true
         @properties["Story"].is_transition_only.should == false
     end
     
     it 'should get the project_name' do
-        @properties["Story"].project_name.should == "test"
+        @properties["Story"].project_name.should == "apitest"
     end
     
     it 'should get the project_id' do
-        @properties["Story"].project_id.should == "test"
+        @properties["Story"].project_id.should == "apitest"
     end
     
     it 'should get the column_name' do
-        @properties["Story"].column_name.should == "cp_planning___story_card_id"
+        @properties["Story"].column_name.should == "cp_story_card_id"
     end
     
     it 'should get the position' do
@@ -69,7 +68,7 @@ describe 'property definitions' do
     end
     
     it 'should get the card_types' do
-        @properties["Story"].card_types.count.should == 2
+        @properties["Story"].card_types.count.should == 1
     end
     
     it 'should get the card_url' do
@@ -81,27 +80,27 @@ describe 'property definitions' do
     end
     
     it 'should get the is_set_valued' do
-        @properties["Task"].is_set_valued.should == true
-        @properties["Date Accepted"].is_set_valued.should == false
+        @properties["Risk Status"].is_set_valued.should == true
+        @properties["Action Due By"].is_set_valued.should == false
     end
     
     it 'should get the is_formula' do
-        @properties["Days Open"].is_formula.should == true
+        @properties["Actual Effort"].is_formula.should == true
         @properties["Defect Status"].is_formula.should == false
     end
     
     it 'should get the is_card_valued' do
-        @properties["Depend on"].is_card_valued.should == true
+        @properties["Accepted in Iteration"].is_card_valued.should == true
         @properties["End Date"].is_card_valued.should == false
     end
     
     it 'should get the is_team_valued' do
         @properties["Owner"].is_team_valued.should == true
-        @properties["Depend on"].is_team_valued.should == false
+        @properties["Risk Status"].is_team_valued.should == false
     end
     
     it 'should count the property values' do
-        @properties["Defect Status"].property_value_details.count.should == 3
+        @properties["Defect Status"].property_value_details.count.should == 5
     end
     
 

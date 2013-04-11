@@ -7,52 +7,51 @@ describe 'transition tests' do
         # Make a MingleTransitionSet object
         securePassword = System::Security::SecureString.new
         password = System::String.new("secret")
-        password.ToCharArray.each {|c| securePassword.AppendChar(c)}
-        @tset = MingleTransitionCollection.new(MingleServer.new("http://localhost:9123","mingleuser",securePassword).GetProject("test"));
+        @tset = MingleTransitionCollection.new(MingleServer.new(ENV['MINGLETARGET'],"mingleuser",password).GetProject(apitest));
         @tset.Parse();
 
     end
 
     # test property value from different cards
     it 'should count the transitions' do
-        @tset.Count.should == 11;
+        @tset.Count.should == 19;
     end
     
     it 'should get the card type property' do
-        @tset["Complete Testing"].CardTypeName.should == "Story";  
+        @tset["Add to Current Iteration"].CardTypeName.should == "Story";  
     end
     
     it 'should get the transition id' do
-        @tset["Complete Testing"].Id.should == 82
+        @tset["Add to Current Iteration"].Id.should == 95
     end
     
     it 'should get the url string' do
-        @tset["Complete Testing"].Url.should == "http://localhost:8080/api/v2/projects/test/transition_executions/82.xml"
+        @tset["Add to Current Iteration"].Url.should == "http://localhost:8080/api/v2/projects/apitest/transition_executions/95.xml"
     end
     
     it 'should get the require comment property' do
-        @tset["Complete Testing"].RequireComment.should == false
-        @tset["Complete Fix"].RequireComment.should == true
+        @tset["Add to Current Iteration"].RequireComment.should == false
+        @tset["Close Defect"].RequireComment.should == true
     end
     
     it 'should get the required user input property' do
-        @tset["Start Task"].RequiredUserInput.count.should == 1 
+        @tset["Close Defect"].RequiredUserInput.count.should == 1 
     end
     
     it 'should get the if card has properties property' do
-        @tset["Start Task"].IfCardHasProperties.count.should == 1 
+        @tset["Close Defect"].IfCardHasProperties.count.should == 1 
     end
     
     it 'should get the will set card properties property' do
-        @tset["Start Fix"].WillSetCardProperties.count.should == 2 
+        @tset["Close Defect"].WillSetCardProperties.count.should == 2 
     end
     
-    it 'should update a transition on a card' do
-        mingle = MingleServer.new("http://localhost:9123","mingleuser","secret")
-        data = System::Collections::ObjectModel::Collection[System::String].new
-        data.Add("transition_execution[card]=74")
-        response = mingle.Post("test","/transition_executions/87.xml",data)
-        xdoc = System::Xml::Linq::XElement.parse(response.body)
-        xdoc.element(System::String.new("error")).value.should == "Finish Task is not applicable to Card #74."
-    end
+#    it 'should update a transition on a card' do
+#        mingle = MingleServer.new(ENV['MINGLETESTTARGET'],"mingleuser","secret")
+#        data = System::Collections::ObjectModel::Collection[System::String].new
+#        data.Add("transition_execution[card]=93")
+#        response = mingle.Post("apitest","/transition_executions/93.xml",data)
+#        xdoc = System::Xml::Linq::XElement.parse(response.body)
+#        xdoc.element(System::String.new("error")).value.should == "Finish Task is not applicable to Card #74."
+#    end
 end

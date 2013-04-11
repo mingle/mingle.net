@@ -6,12 +6,11 @@ describe 'project_member' do
     before do
         securePassword = System::Security::SecureString.new
         password = System::String.new("secret")
-        password.ToCharArray.each {|c| securePassword.AppendChar(c)}
-        @userset = MingleProjectMemberCollection.new(MingleServer.new("http://localhost:9123","mingleuser",securePassword).GetProject("test")).Parse()
+        @userset = MingleProjectMemberCollection.new(MingleServer.new(ENV['MINGLETESTTARGET'],"mingleuser",password).GetProject(apitest)).Parse()
     end
     
     it 'should count the members' do
-        @userset.count.should == 2;
+        @userset.count.should == 4;
     end
     
     it 'should get the admin property' do
@@ -19,7 +18,7 @@ describe 'project_member' do
     end
     
     it 'should get the user_id' do
-        @userset["mingleuser"].user_id.should == 30
+        @userset["mingleuser"].user_id.should == 114
     end
     
     it 'should get the user name' do
